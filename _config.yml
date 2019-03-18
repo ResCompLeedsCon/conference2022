@@ -11,8 +11,8 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 # Site Settings
 title: "ResBaz Auckland 2019"
-email: "devfest@gdg.org.ua"
-description: "GDG DevFest is a set of events all around the world"
+email: "eresearch-support@list.auckland.ac.nz"
+description: "The Research Bazaar is a worldwide festival promoting the digital literacy emerging at the center of modern research."
 baseurl: "/resbaz"
 url: "https://hganavak.github.io"
 permalink: "/blog/:title"
@@ -21,15 +21,15 @@ googleAnalyticsSiteUrl: "gdg-x.github.io"
 siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
 
 # Organizer Info
-organizerName: "GDG Lviv"
-organizerAlternateName: "Google Developer Group Lviv"
-organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
-organizerEmail: "lviv@gdg.org.ua"
+organizerName: "CeR"
+organizerAlternateName: "Centre for eResearch"
+organizerDescription: "The Centre for eResearch is centrally funded by the University to deliver the following Services to help researchers address challenging computational problems."
+organizerEmail: "eresearch-support@list.auckland.ac.nz"
 organizerLogo: "/img/seo/organizer-logo.png"
-organizerLink: "http://lviv.gdg.org.ua/"
+organizerLink: "https://www.eresearch.auckland.ac.nz"
 
 # Head
-metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
+metaKeywords: "event, resbaz, research, bazaar, resbas, rezbaz, uoa, auckland, cer, eresearch"
 twitterAccount: "@DevFest"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
@@ -90,7 +90,7 @@ rockstarSpeakersButtonText: "See all speakers"
 
 # Location Block
 locationBlockTitle: "Location"
-eventLocationName: "Conference Hall"
+eventLocationName: "University of Auckland"
 eventLocationLink: "http://cabinet.kinopalace.lviv.ua/showtimes/"
 eventStreetAddress: "22 Teatral'na St"
 eventAddressLocality: "Lviv"
