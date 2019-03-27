@@ -47,17 +47,16 @@ navigationLinks:
  - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/team/", text: "Team"}
- - {permalink: "/logistics/", text: "Logistics"}
 bottomNavigationLinks:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+ - {link: "mailto:eresearch-support.list.auckland.ac.nz", text: "Contact us"}
 rightNavigationButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+ - {link: "mailto:eresearch-support.list.auckland.ac.nz", text: "Contact us"}
 
 # Hero Block
 heroImage: "hero.jpg"
 heroTitle: "ResBaz : <typeout>"
 eventDate: "July 10-12"
-typeoutTextValues: '"Auckland  ", "2019  "'
+typeoutTextValues: '"Auckland", "2019"'
 typeoutFallback: "2019"
 heroButtons:
  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
@@ -183,12 +182,11 @@ footerBlocks:
  -
   title: "Links"
   links:
-   - {link: "http://gdg.org.ua", text: "GDG.org.ua"}
-   - {link: "https://developers.google.com", text: "Google Developers"}
+   - {link: "https://eresearch.auckland.ac.nz", text: "Centre for eResearch"}
  -
   title: "Contacts"
   links:
-   - {link: "mailto:lviv@gdg.org.ua", text: "lviv@gdg.org.ua"}
+   - {link: "mailto:eresearch-support@list.auckland.ac.nz", text: "eresearch-support@list.auckland.ac.nz"}
  -
   title: "FAQ"
   links:
