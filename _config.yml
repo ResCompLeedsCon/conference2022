@@ -36,7 +36,7 @@ socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Documents
-c4pUrl: "https://bit.ly/dfua-c4p"
+c4pUrl: "mailto:eresearch-support.list.auckland.ac.nz"
 c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 
 
@@ -59,8 +59,7 @@ eventDate: "July 10-12"
 typeoutTextValues: '"Auckland", "2019"'
 typeoutFallback: "2019"
 heroButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
- - {permalink: "/#tickets", text: "Buy tickets"}
+ - {link: "", text: "Register here"}
 
 # About Block
 aboutTitle: "About ResBaz Auckland"
@@ -90,34 +89,34 @@ rockstarSpeakersButtonText: "See all speakers"
 
 # Location Block
 locationBlockTitle: "Location"
-eventLocationName: "University of Auckland"
-eventLocationLink: "http://cabinet.kinopalace.lviv.ua/showtimes/"
-eventStreetAddress: "22 Teatral'na St"
-eventAddressLocality: "Lviv"
-eventAddressLocalityRegion: "Lvivska"
+eventLocationName: "University of Auckland Clocktower"
+eventLocationLink: "https://www.auckland.ac.nz/en/on-campus/our-campuses/landmarks-facilities/the-clocktower.html"
+eventStreetAddress: "Princes Street"
+eventAddressLocality: "Auckland"
+eventAddressLocalityRegion: "Auckland"
 eventPostalCode: "79000"
-eventAddressCountry: "Ukraine"
-eventStartTime: "2014-10-25T10:00"
+eventAddressCountry: "New Zealand"
+eventStartTime: "2019-07-10T09:00"
 eventDoorTime: "09:00"
-eventEndTime: "2014-10-25T20:00"
-eventPlaceCoordinates: "49.843237, 24.028751"
-mapCenterCoordinates: "49.842537, 24.025701"
-mapMobileCenterCoordinates: "49.841620, 24.029411"
+eventEndTime: "2019-07-12T17:00"
+eventPlaceCoordinates: "-36.850223, 174.76922"
+mapCenterCoordinates: "-36.850223, 174.76922"
+mapMobileCenterCoordinates: "-36.850223, 174.76922"
 
 # Venue Block
-venueBlockTitle: "Venue"
+venueBlockTitle: "Past Events"
 venueBigImage: "venue_0.jpg"
 venueSmallImage1: "venue_1.jpg"
 venueSmallImage2: "venue_2.jpg"
 venueSmallImage3: "venue_3.jpg"
-venueTitle: "Kinopalace Cinema"
-venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
+venueTitle: "University of Auckland Clocktower"
+venueFeatures: ["Recently refurbished lecture rooms", "Free catering provided daily", "Bean bags and areas for socializing!"]
 
 # Tweets Feed Block
 tweetsFeedImage: "auckland.jpg"
 tweetsFeedTitle: "What's Up?"
-twitterHashTag: "resbaz"
-twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
+twitterHashTag: "ResBaz"
+twitterFeed: "https://twitter.com/search?q=%23ResBaz&src=typd"
 
 # Partners Block
 organizersTitle: "Organizers"
