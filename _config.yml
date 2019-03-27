@@ -66,10 +66,12 @@ heroButtons:
 
 # About Block
 aboutTitle: "About ResBaz Auckland"
-aboutBlock:
- - {title: "Conference", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
- - {title: "Workshops", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
- - {title: "Hackathon", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
+aboutSubtitle: "Conference"
+aboutText: "<p>The Research Bazaar is a worldwide festival promoting the digital literacy emerging at the center of modern research. Throughout 2019, events will be held at a number of university campuses around the globe.</p>
+
+<p>Hosted by the University of Auckland, the 2019 Auckland Research Bazaar is a (free-of-charge) 3-day intensive conference where researchers come together to up-skill in ‘next generation digital research tools and skills’. In the spirit of a marketplace or bazaar, ResBaz is a highly participatory event where researchers from many different disciplines can learn, share knowledge and skills, and have fun!</p>
+
+<p>Who should attend? Researchers at ALL levels from ALL disciplines. PhD and research Masters students are especially encouraged to apply. Research technologists who support researchers to do their job should also come along! Sessions at ResBaz this year are intended to offer a brief practical introduction to a broad selection of topics and tools related to digital research practice relevant across the disciplines. ResBaz 2019 will be followed by software carpentry workshops on 12 and 13 July.</p>"
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
@@ -116,7 +118,7 @@ venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio syste
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: "What's Up?"
-twitterHashTag: "devfest"
+twitterHashTag: "resbaz"
 twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
 
 # Partners Block
