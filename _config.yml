@@ -46,7 +46,6 @@ navigationLinks:
  - {permalink: "/blog/", text: "Blog"}
  - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/speakers/", text: "Speakers"}
- - {permalink: "/team/", text: "Team"}
 bottomNavigationLinks:
  - {link: "mailto:eresearch-support.list.auckland.ac.nz", text: "Contact us"}
 rightNavigationButtons:
