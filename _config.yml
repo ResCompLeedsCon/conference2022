@@ -30,7 +30,7 @@ organizerLink: "https://www.eresearch.auckland.ac.nz"
 
 # Head
 metaKeywords: "event, resbaz, research, bazaar, resbas, rezbaz, uoa, auckland, cer, eresearch"
-twitterAccount: "@DevFest"
+twitterAccount: "@eResearchUoA"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
@@ -120,7 +120,7 @@ twitterFeed: "https://twitter.com/search?q=%23ResBaz&src=typd"
 # Partners Block
 organizersTitle: "Organizers"
 partnersTitle: "Partners"
-partnersC4sponsorsButton: "Become a sponsor"
+partnersC4sponsorsButton: "Register Here"
 
 # Subscribe Block
 subscribeImage: "subscribe.jpg"
@@ -172,7 +172,7 @@ ticketsOffers:
 
 # Footer
 socialLinks:
- - {link: "https://twitter.com/aucklanduni?lang=en", icon: "twitter"}
+ - {link: "https://twitter.com/eResearchUoA?lang=en", icon: "twitter"}
  - {link: "https://eresearch.auckland.ac.nz", icon: "site"}
  - {link: "mailto:eresearch-support@list.auckland.ac.nz", icon: "email"}
 footerBlocks:
