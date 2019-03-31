@@ -44,8 +44,8 @@ c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 navigationLinks:
  - {permalink: "/", text: "Home"}
  - {permalink: "/blog/", text: "Blog"}
- - {permalink: "/schedule/", text: "Schedule"}
- - {permalink: "/speakers/", text: "Speakers"}
+#  - {permalink: "/schedule/", text: "Schedule"}
+#  - {permalink: "/speakers/", text: "Speakers"}
 bottomNavigationLinks:
  - {link: "mailto:eresearch-support.list.auckland.ac.nz", text: "Contact us"}
 rightNavigationButtons:

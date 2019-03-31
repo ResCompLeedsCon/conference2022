@@ -1,14 +1,20 @@
 .logo {
     background-image: url($logos-sprite);
     background-repeat: no-repeat;
+    background-size: contain;
+
+    /* All commented out as no longer using multiple SVGs for the logo */
     &.logo-dark {
-    	background-position: 0 -1px;
+        // background-position: 0 -1px;
+        // background-size: 100% 100%;
+        // width: 100%;
+        // height: auto;
     }
     &.logo-gray {
-    	background-position: 0 -63px;
+    	// background-position: 0 -63px;
 	}
 	&.logo-light {
-	    background-position: 0 -127px;
+	    // background-position: 0 -127px;
 	}
 }
 .icon {
