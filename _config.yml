@@ -104,12 +104,12 @@ mapMobileCenterCoordinates: "-36.850223, 174.76922"
 
 # Venue Block
 venueBlockTitle: "Past Events"
-venueBigImage: "venue_0.jpg"
-venueSmallImage1: "venue_1.jpg"
-venueSmallImage2: "venue_2.jpg"
-venueSmallImage3: "venue_3.jpg"
-venueTitle: "University of Auckland Clocktower"
-venueFeatures: ["Recently refurbished lecture rooms", "Free catering provided daily", "Bean bags and areas for socializing!"]
+venueBigImage: "cam_beanbags.jpg"
+venueSmallImage2: "publishing_tabletop.jpg"
+venueSmallImage1: "sam_on_the_wall.jpg"
+venueSmallImage3: "speaker_beanbags.jpg"
+venueTitle: "ResBaz 2019 @ the Clocktower!"
+venueFeatures: ["Recently refurbished lecture rooms.", "Free catering provided daily.", "Bean bags and areas for socializing!"]
 
 # Tweets Feed Block
 tweetsFeedImage: "auckland.jpg"
