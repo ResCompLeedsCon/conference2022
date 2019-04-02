@@ -74,8 +74,8 @@ statisticBlockImage: "statistic.jpg"
 statisticBlock:
  - {count: "100", specialCharacter: "+", info: "attendees", detail: "open to all departments"}
  - {count: "50", specialCharacter: "+", info: "hours", detail: "of research inspired talks"}
- - {count: "30", specialCharacter: "+", info: "speakers", detail: "from UoA and beyond"}
- - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "...and food provided"}
+ - {count: "25", specialCharacter: "+", info: "speakers", detail: "from UoA and beyond"}
+ - {count: "4", specialCharacter: "", info: "parallel streams", detail: "...and food provided"}
 
 # Latest News Block
 latestNewsTitle: "Latest news"
