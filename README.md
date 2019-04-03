@@ -109,7 +109,7 @@ aboutText: "<p>The Research Bazaar is a worldwide festival promoting the digital
 - 
 ```
 * **Note 1: A session id of `404` is used to specify that there is nothing on in this timeslot**.
-* **Note 2: There are two items in `_data/sessions.yml` which are used to specify lunch/coffee breaks, by default these have the IDs `503` and `307` respectively.
+* **Note 2: There are two items in `_data/sessions.yml` which are used to specify lunch/coffee breaks, by default these have the IDs `503` and `307` respectively.**
 * The example above shows a single day with 4 'tracks/streams'. In the timeslot from `11-11:45` there would be no talks for `Stream 1-3`, and the item with the ID `001` specified in `_data/sessions.yml` would appear in `Stream 4`.
 
 
