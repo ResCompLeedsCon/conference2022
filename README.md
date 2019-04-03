@@ -1,4 +1,121 @@
-# Project Zeppelin / GDG DevFest 2014 site template
+# ResBaz Auckland Template
+* Based on: Project Zeppelin / GDG DevFest 2014 site template
+
+## Instructions for ResBaz Site Editors
+
+### Blog Posts
+* All blog posts are located in the `_posts/` folder.
+* New blog posts are created simply by creating a new file in this folder and following the naming convention `YYYY-MM-DD-title-here.markdown`
+* All blog posts should begin with the following code snippet:
+
+```
+---
+layout: post
+title:  "Post title goes here!"
+date:   2019-03-25 12:38:00
+isStaticPost: false
+---
+Actual post content goes here. Note the date above should match the filename.
+```
+
+### Home page sections
+* To **enable/disable** a content block on the homepage, simply add/delete on of the lines in the `index.html` file located in the root folder. E.g. to disable the 'Rockstar Speakers' block simply remove the line:
+
+```
+ {% include rockstar-speakers.html %}
+```
+
+* To **edit** the content of one of these sections find the corresponding section in the `_config.yml` file located in the root folder. E.g. to edit the 'About' block, edit the section:
+
+```
+# About Block
+aboutTitle: "About ResBaz Auckland"
+aboutSubtitle: "Conference"
+aboutText: "<p>The Research Bazaar is a worldwide festival promoting the digital literacy emerging at the center of modern research. Throughout 2019, events will be held at a number of university campuses around the globe.</p>
+```
+* Note that when developing locally Jekyll needs to be restarted before any changes to `_config.yml` are visible.
+
+### Sessions Page
+* To **add/edit** the content that appears on either the 'Sessions' page, simply modify the file `_data/sessions.yml`.
+* Note that this data is also used in other pages, e.g. the 'Schedule' page, and changes to content that already appears in the 'Schedule' page will also be reflected there. However for an item to appear in the schedule, it has to be referenced in the `_data/schedule.yml` file.
+* Regardless of whether an item in `_data/sessions.yml` has been referenced in `_data/schedule.yml`, it will still appear in the 'Schedule' page.
+* Insert new items in the following format:
+
+```
+-
+  id: 007
+  title: "Crash course in Pen Testing"
+  description: "Learn the basics of pen testing. Martinis provided."
+  subtype: workshop
+  speakers: [4, 5, 6]
+  complexity: "Beginner" 
+  presentation: "https://link-to-any-resources.com/resource.pdf"
+```
+* Note that the `complexity`, `presentation`, and `subtype` fields are all optional.
+* The `speakers` field references the ID of speakers, listed in the `_data/speakers.yml` file.
+
+### Speakers Page
+* To add/modify speakers, simply modify the file `_data/speakers.yml`.
+* These appear in the format:
+
+```
+- 
+  id: 4
+  name: "Sam"
+  surname: "Kavanagh"
+  company: "Centre for eResearch"
+  title: "eResearch Engagement Specialist"
+  bio: "Sam is a member of the Centre for eResearch's engagement team and is teaching the LaTeX workshop."
+  thumbnailUrl: "sam_kavanagh.jpg"
+  rockstar: true
+  ribbon:
+    - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
+  social: 
+    - {name: "github", link: "https://github.com/Hganavak"}
+```
+* Note the `rockstar` field determines whether a speaker appears in the `Rockstar Speakers` block on the homepage
+* The `thumbnailURL`, `ribbon`, and `social` fields are all optional
+
+### Schedule Page
+* To make updates the schedule, simply modify the file `_data/schedule.yml`.
+* Days are each specified separately, and can have their own start/end times, timeslots, and streams.
+* These appear in the following format:
+
+```
+- 
+  date: "2019-07-10"
+  dateReadable: "July 10"
+  tracks: 
+    - {title: "Stream 1", color: "#90be4e"}
+    - {title: "Stream 2", color: "#03a9f4"}
+    - {title: "Stream 3", color: "#e91e63"}
+    - {title: "Stream 4", color: "#FF00FF"}
+  timeslots:
+    - {
+    	startTime: "10:00",
+    	endTime: "10:45",
+    	sessionIds: [002, 404, 002, 001]
+    }
+    - {
+        startTime: "11:00",
+        endTime: "11:45",
+        sessionIds: [404, 404, 404, 001]
+    }
+    - {
+    	startTime: "12:00",
+    	endTime: "11:45",
+    	sessionIds: [307]
+    }
+- 
+```
+* **Note 1: A session id of `404` is used to specify that there is nothing on in this timeslot**.
+* **Note 2: There are two items in `_data/sessions.yml` which are used to specify lunch/coffee breaks, by default these have the IDs `503` and `307` respectively.
+* The example above shows a single day with 4 'tracks/streams'. In the timeslot from `11-11:45` there would be no talks for `Stream 1-3`, and the item with the ID `001` specified in `_data/sessions.yml` would appear in `Stream 4`.
+
+
+---
+
+## Zeppelin Template Instructions Follow
 
 ### About
 Project Zeppelin allows you to setup awesome GDG DevFest site in 5 minutes.
