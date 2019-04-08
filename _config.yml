@@ -11,7 +11,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 # Site Settings
 title: "ResBaz Auckland 2019"
-email: "eresearch-support@list.auckland.ac.nz"
+email: "researchdata@auckland.ac.nz"
 description: "The Research Bazaar is a worldwide festival promoting the digital literacy emerging at the center of modern research."
 baseurl: "/resbaz"
 url: "http://uoa-eresearch.github.io"
@@ -24,7 +24,7 @@ siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
 organizerName: "CeR"
 organizerAlternateName: "Centre for eResearch"
 organizerDescription: "The Centre for eResearch is centrally funded by the University to deliver the following Services to help researchers address challenging computational problems."
-organizerEmail: "eresearch-support@list.auckland.ac.nz"
+organizerEmail: "researchdata@auckland.ac.nz"
 organizerLogo: "/img/seo/organizer-logo.png"
 organizerLink: "https://www.eresearch.auckland.ac.nz"
 
@@ -36,7 +36,7 @@ socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Documents
-c4pUrl: "mailto:eresearch-support.list.auckland.ac.nz"
+c4pUrl: "mailto:researchdata@auckland.ac.nz"
 c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 
 
@@ -48,9 +48,9 @@ navigationLinks:
  - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/sessions/", text: "Sessions"}
 bottomNavigationLinks:
- - {link: "mailto:eresearch-support.list.auckland.ac.nz", text: "Contact us"}
+ - {link: "mailto:researchdata@auckland.ac.nz", text: "Contact us"}
 rightNavigationButtons:
- - {link: "mailto:eresearch-support.list.auckland.ac.nz", text: "Contact us"}
+ - {link: "mailto:researchdata@auckland.ac.nz", text: "Contact us"}
 
 # Hero Block
 heroImage: "hero.jpg"
@@ -175,7 +175,7 @@ ticketsOffers:
 socialLinks:
  - {link: "https://twitter.com/eResearchUoA?lang=en", icon: "twitter"}
  - {link: "https://eresearch.auckland.ac.nz", icon: "site"}
- - {link: "mailto:eresearch-support@list.auckland.ac.nz", icon: "email"}
+ - {link: "mailto:researchdata@auckland.ac.nz", icon: "email"}
 footerBlocks:
  -
   title: "Links"
@@ -184,7 +184,7 @@ footerBlocks:
  -
   title: "Contacts"
   links:
-   - {link: "mailto:eresearch-support@list.auckland.ac.nz", text: "eresearch-support@list.auckland.ac.nz"}
+   - {link: "mailto:researchdata@auckland.ac.nz", text: "researchdata@auckland.ac.nz"}
  -
   title: "FAQ"
   links:

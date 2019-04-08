@@ -15,6 +15,6 @@ If someone is bothering you, please tell ResBaz Organizers immediately and they 
 
 ###### Contacts:
 
-- The Centre for eResearch: [email](mailto:eresearch-support.list.auckland.ac.nz)
+- The Centre for eResearch: [email](mailto:researchdata@auckland.ac.nz)
 
 <img class="img-responsive feature-image" src="{{ site.baseurl }}/img/posts/cod.jpg" style="display:none">
