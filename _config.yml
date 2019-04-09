@@ -11,10 +11,10 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 # Site Settings
 title: "ResBaz Auckland 2019"
-email: "eresearch-support@list.auckland.ac.nz"
+email: "researchdata@auckland.ac.nz"
 description: "The Research Bazaar is a worldwide festival promoting the digital literacy emerging at the center of modern research."
 baseurl: "/resbaz"
-url: "https://resbaz.auckland.ac.nz"
+url: "http://uoa-eresearch.github.io"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: "UA-43643469-5"
 googleAnalyticsSiteUrl: "gdg-x.github.io"
@@ -24,7 +24,7 @@ siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
 organizerName: "CeR"
 organizerAlternateName: "Centre for eResearch"
 organizerDescription: "The Centre for eResearch is centrally funded by the University to deliver the following Services to help researchers address challenging computational problems."
-organizerEmail: "eresearch-support@list.auckland.ac.nz"
+organizerEmail: "researchdata@auckland.ac.nz"
 organizerLogo: "/img/seo/organizer-logo.png"
 organizerLink: "https://www.eresearch.auckland.ac.nz"
 
@@ -36,7 +36,7 @@ socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Documents
-c4pUrl: "mailto:eresearch-support.list.auckland.ac.nz"
+c4pUrl: "mailto:researchdata@auckland.ac.nz"
 c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 
 
@@ -44,12 +44,13 @@ c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 navigationLinks:
  - {permalink: "/", text: "Home"}
  - {permalink: "/blog/", text: "Blog"}
-#  - {permalink: "/schedule/", text: "Schedule"}
+ - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/speakers/", text: "Speakers"}
+ - {permalink: "/sessions/", text: "Sessions"}
 bottomNavigationLinks:
- - {link: "mailto:eresearch-support.list.auckland.ac.nz", text: "Contact us"}
+ - {link: "mailto:researchdata@auckland.ac.nz", text: "Contact us"}
 rightNavigationButtons:
- - {link: "mailto:eresearch-support.list.auckland.ac.nz", text: "Contact us"}
+ - {link: "mailto:researchdata@auckland.ac.nz", text: "Contact us"}
 
 # Hero Block
 heroImage: "hero.jpg"
@@ -58,7 +59,7 @@ eventDate: "July 10-12"
 typeoutTextValues: '"Auckland", "2019"'
 typeoutFallback: "2019"
 heroButtons:
- - {link: "", text: "Register here"}
+ - {link: "", text: "Apply"}
 
 # About Block
 aboutTitle: "About ResBaz Auckland"
@@ -72,10 +73,10 @@ aboutText: "<p>The Research Bazaar is a worldwide festival promoting the digital
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "100", specialCharacter: "+", info: "attendees", detail: "open to all departments"}
- - {count: "50", specialCharacter: "+", info: "hours", detail: "of research inspired talks"}
- - {count: "30", specialCharacter: "+", info: "speakers", detail: "from UoA and beyond"}
- - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "...and food provided"}
+ - {count: "100", specialCharacter: "+", info: "attendees", detail: ""}
+ - {count: "50", specialCharacter: "+", info: "hours", detail: ""}
+ - {count: "25", specialCharacter: "+", info: "speakers", detail: ""}
+ - {count: "4", specialCharacter: "", info: "parallel streams", detail: ""}
 
 # Latest News Block
 latestNewsTitle: "Latest news"
@@ -83,7 +84,7 @@ latestNewsTitle: "Latest news"
 # Rockstar Speakers Block
 rockstarSpeakersImage: "rockstar-speakers.jpg"
 rockstarSpeakersCount: 4
-rockstarSpeakersTitle: "Rockstar speakers"
+rockstarSpeakersTitle: "Keynote speakers"
 rockstarSpeakersButtonText: "See all speakers"
 
 # Location Block
@@ -120,7 +121,7 @@ twitterFeed: "https://twitter.com/search?q=%23ResBaz&src=typd"
 # Partners Block
 organizersTitle: "Organizers"
 partnersTitle: "Partners"
-partnersC4sponsorsButton: "Register Here"
+partnersC4sponsorsButton: "Apply"
 
 # Subscribe Block
 subscribeImage: "subscribe.jpg"
@@ -174,7 +175,7 @@ ticketsOffers:
 socialLinks:
  - {link: "https://twitter.com/eResearchUoA?lang=en", icon: "twitter"}
  - {link: "https://eresearch.auckland.ac.nz", icon: "site"}
- - {link: "mailto:eresearch-support@list.auckland.ac.nz", icon: "email"}
+ - {link: "mailto:researchdata@auckland.ac.nz", icon: "email"}
 footerBlocks:
  -
   title: "Links"
@@ -183,7 +184,7 @@ footerBlocks:
  -
   title: "Contacts"
   links:
-   - {link: "mailto:eresearch-support@list.auckland.ac.nz", text: "eresearch-support@list.auckland.ac.nz"}
+   - {link: "mailto:researchdata@auckland.ac.nz", text: "researchdata@auckland.ac.nz"}
  -
   title: "FAQ"
   links:
@@ -191,7 +192,7 @@ footerBlocks:
 
 # Blog
 blogTitle: "Latest news"
-blogCommentsEnabled: true
+blogCommentsEnabled: false
 discusShortName: "devfestua"
 
 # Speakers List Block
