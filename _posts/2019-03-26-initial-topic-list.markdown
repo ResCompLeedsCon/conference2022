@@ -18,4 +18,4 @@ If you belong to one of those groups you are cordially invited to submit a talk 
 * Nested Jenkins servers, and why you need them
 
 #### Any questions? 
-Email organizers at [eresearch-support@list.auckland.ac.nz](mailto:eresearch-support@list.auckland.ac.nz)
+Email organizers at [researchdata@auckland.ac.nz](mailto:research-data@auckland.ac.nz)
