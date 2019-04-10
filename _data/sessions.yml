@@ -24,3 +24,13 @@
   speakers: [4, 5, 6]
   complexity: "Beginner" 
   presentation: "https://tofu.dev/workshops/latex"
+-
+  id: 003
+  title: "Version control and collaboration tools - Intro to Git and GitHub"
+  description: "This session will offer a brief and practical introduction to <a href=\"https://git-scm.com/\">Git</a> and <a href=\"https://github.com/\">GitHub</a> for complete beginners. Learn how you can use Git to manage and keep track of different versions of all your important files and documents that change through time in your projects. GitHub is one of the worlds leading online collaboration platforms for working on projects that use Git. Whether you write code or not, Git and GitHub are incredibly powerful tools that should be part of any researchers digital toolkit. Come and see what it's all about!"
+  speakers: [3]
+-
+  id: 004
+  title: "RDM-Sharing, publishing and archiving"
+  description: "The University of Auckland Code of Conduct for Research states \"Researchers should share data and findings openly and as promptly as possible\", a practice increasingly required by research funders and publishers. Come along to this workshop to learn about how you can disseminate your research findings; increase your research impact through data publication; learn about services available to you at the University to achieve this."
+  speakers: [7]
