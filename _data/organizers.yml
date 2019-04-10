@@ -7,4 +7,5 @@
   elements: 
     - {name: "New Zealand eScience Infrastructure", description: "New Zealand eScience Infrastructure (NeSI)", link: "https://www.nesi.org.nz/"}
     - {name: "Scool of Graduate Studies", description: "School of Graduate Studies", link: "https://www.auckland.ac.nz/en/students/academic-information/postgraduate-students/school-of-graduate-studies.html"}
+    - {name: "Libraries and Learning Services", description: "Libraries and Learning Services", link: "https://www.library.auckland.ac.nz"}
     - {name: "The University of Auckland", description: "University of Auckland", link: "https://www.auckland.ac.nz"}
