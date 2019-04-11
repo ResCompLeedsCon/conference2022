@@ -23,7 +23,7 @@
 -
   id: 002
   title: "Crash course in LaTeX using Overleaf"
-  description: "Learn the basics of LaTeX and Overleaf in this workshop.<br> - We will create a template for both articles and a thesis using the UoA-thesis LaTeX template."
+  description: "Learn the basics of LaTeX and Overleaf in this workshop. We will create a template that you can use for both articles and a thesis (using the UoA-thesis LaTeX template)."
   subtype: workshop
   speakers: [4, 5, 6]
   complexity: "Beginner" 
