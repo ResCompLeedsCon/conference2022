@@ -1,4 +1,28 @@
 - 
+  id: 0
+  name: "To Be"
+  surname: "Announced"
+  title: "Keystory Speaker"
+  bio: "Keystory Speaker"
+  thumbnailUrl: "to_be_announced1.png"
+  rockstar: true
+- 
+  id: 1
+  name: "To Be"
+  surname: "Announced"
+  title: "Keystory Speaker"
+  bio: "Keystory Speaker"
+  thumbnailUrl: "to_be_announced2.png"
+  rockstar: true
+- 
+  id: 2
+  name: "To Be"
+  surname: "Announced"
+  title: "Keystory Speaker"
+  bio: "Keystory Speaker"
+  thumbnailUrl: "to_be_announced3.png"
+  rockstar: true
+- 
   id: 3
   name: "Cameron"
   surname: "McLean"
@@ -6,7 +30,7 @@
   title: "eResearch Engagement Lead"
   bio: "Cam is the team lead of the Centre for eResearch's engagement team."
   thumbnailUrl: "cameron_mclean.png"
-  rockstar: true
+  rockstar: false
   ribbon:
     - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
   social: 
@@ -19,7 +43,7 @@
   title: "eResearch Engagement Specialist"
   bio: "Sam is a member of the Centre for eResearch's engagement team and is teaching the LaTeX workshop."
   thumbnailUrl: "sam_kavanagh.jpg"
-  rockstar: true
+  rockstar: false
   ribbon:
     - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
   social: 
@@ -45,7 +69,7 @@
   title: "eResearch Engagement Specialist"
   bio: "Dharani is a member of the Centre for eResearch's engagement team."
   thumbnailUrl: "dharani_sontam.png"
-  rockstar: true
+  rockstar: false
   ribbon:
     - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
   social: 
@@ -58,6 +82,90 @@
   title: "Senior eResearch Engagement Specialist"
   bio: "Laura is a senior member of the Centre for eResearch's engagement team."
   thumbnailUrl: "laura_armstrong.jpeg"
-  rockstar: true
+  rockstar: false 
   ribbon:
     - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
+- 
+  id: 8
+  name: "Sean"
+  surname: "Matheny"
+  company: "Centre for eResearch"
+  title: "Senior eResearch Platform & Services Engineer"
+  bio: "Sean is a senior member of the Centre for eResearch's Platform & Services team."
+  thumbnailUrl: "sean_matheny.png"
+  rockstar: false 
+  ribbon:
+    - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
+- 
+  id: 9
+  name: "Jason"
+  surname: "He"
+  company: "Centre for eResearch"
+  title: "Senior eResearch Platform & Services Engineer"
+  bio: "Jason is a senior member of the Centre for eResearch's Platform & Services team."
+  thumbnailUrl: "jason_he.png"
+  rockstar: false 
+  ribbon:
+    - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
+- 
+  id: 10
+  name: "Martin"
+  surname: "Feller"
+  company: "Centre for eResearch"
+  title: "eResearch Platform & Services Lead"
+  bio: "Martin is the team lead of the Centre for eResearch's Platform & Services team."
+  thumbnailUrl: "martin_feller.png"
+  rockstar: false 
+  ribbon:
+    - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
+- 
+  id: 11
+  name: "Martin"
+  surname: "Moore"
+  company: "AUT"
+  thumbnailUrl: "to_be_announced1.png"
+  rockstar: false 
+  ribbon:
+    - {abbr: "AUT", title: "Auckland University of Technology", url: "https://www.aut.ac.nz/"}
+- 
+  id: 12
+  name: "Yvette"
+  surname: "Wharton"
+  company: "Centre for eResearch"
+  title: "eResearch Solutions Lead"
+  bio: "Yvette is the team lead of the Centre for eResearch's Solutions team."
+  thumbnailUrl: "yvette_wharton.jpg"
+  rockstar: false 
+  ribbon:
+    - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
+- 
+  id: 13
+  name: "Tayaza"
+  surname: "Fadason"
+  company: "Liggins Institute"
+  title: "Doctoral Candidate"
+  bio: "Tayaza is a doctoral candidate in the Liggins Institute."
+  thumbnailUrl: "to_be_announced1.png"
+  rockstar: false 
+  ribbon:
+    - {abbr: "Liggins", title: "Liggins Institute", url: "https://www.auckland.ac.nz/en/liggins.html"}
+-
+  id: 14
+  name: "Anita"
+  surname: "Kean"
+  company: "New  Zealand eScience Infrastructure"
+  title: "Application Support Analyst"
+  thumbnailUrl: "to_be_announced3.png"
+  rockstar: false 
+  ribbon:
+    - {abbr: "NeSI", title: "New Zealand eScience Infrastructure", url: "https://www.nesi.org.nz"}
+-
+  id: 15
+  name: "Melanie"
+  surname: "Johnson"
+  company: "Libraries and Learning Services"
+  title: "Copyright Officer"
+  thumbnailUrl: "to_be_announced2.png"
+  rockstar: false 
+  ribbon:
+    - {abbr: "LLS", title: "Libraries and Learning Services", url: "https://library.auckland.ac.nz"}
