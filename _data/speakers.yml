@@ -118,3 +118,12 @@
   rockstar: false 
   ribbon:
     - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
+- 
+  id: 11
+  name: "Martin"
+  surname: "Moore"
+  company: "AUT"
+  thumbnailUrl: "to_be_announced1.png"
+  rockstar: false 
+  ribbon:
+    - {abbr: "AUT", title: "Auckland University of Technology", url: "https://www.aut.ac.nz/"}

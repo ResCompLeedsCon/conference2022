@@ -42,3 +42,8 @@
   title: "NeCTAR Research Cloud"
   description: "Do your computations take too long on your laptop? Do you want to offload long-running simulations to a different computer? Are there computations you cannot run on your desktop because you don't have enough memory or compute power? Would you be interested in easily reproducing existing data compute workflows for your use, or easily creating your own? You’re invited to attend a workshop for researchers wanting a practical introduction into using the NeCTAR Research Cloud! We’ll provide an introduction to using NeCTAR, all the basic tools you need to know to run your first cloud computer and demonstrate how you can use NeCTAR to help achieve your research and data analysis objectives."
   speakers: [8, 9, 10]
+-
+  id: 006
+  title: "Grabbing the limelight – Communicating your research in the media"
+  description: "Sharing your research with the media is a great way to broaden its reach and raise your profile as a researcher, but what makes one story front-page material while others never get picked up to begin with? This session offers practical tips and techniques for communicating your research to the media and wider public – from crafting your story to taking advantage of the modern media landscape to maximise the chances of your story getting picked up."
+  speakers: [11]
