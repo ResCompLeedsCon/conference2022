@@ -63,3 +63,13 @@
   title: "What tools should I use in my bioinformatics research?"
   description: "Is your research in a bioinformatics-related field? Are you wondering if ResBaz is any good for you? Or do you want to know what sessions are suitable for your research? This session highlights how tools like python, SQL, R and GitHub were used to answer a research question. It is meant to give a quick overview of the skills taught at ResBaz so you know exactly what sessions are most suitable for your needs."
   speakers: [13]
+-
+  id: 010
+  title: "Busting the Supercomputing Jargon"
+  description: "Core? CPU? SSH? WTF? This is a fun, interactive activity where we will explore what terminology YOU think makes High Performance Computing (HPC) so darn difficult to understand. You might be learning about HPC for the first time or want to know more about specific tools you are using for your research (Bash, parallel computing, machine learning, etc…) Either way, this session is for you! All knowledge levels and all disciplines are welcome to attend."
+  speakers: []
+-
+  id: 011
+  title: "Linux - An introduction to the command line"
+  description: "This introductory session covers topics such as the linux file system, basic navigation, file permissions and access, configuration files and simple automation."
+  speakers: [14]

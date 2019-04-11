@@ -149,3 +149,13 @@
   rockstar: false 
   ribbon:
     - {abbr: "Liggins", title: "Liggins Institute", url: "https://www.auckland.ac.nz/en/liggins.html"}
+-
+  id: 14
+  name: "Anita"
+  surname: "Kean"
+  company: "New  Zealand eScience Infrastructure"
+  title: "Application Support Analyst"
+  thumbnailUrl: "to_be_announced3.png"
+  rockstar: false 
+  ribbon:
+    - {abbr: "NeSI", title: "New Zealand eScience Infrastructure", url: "https://www.nesi.org.nz"}
