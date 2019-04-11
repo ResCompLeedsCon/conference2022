@@ -138,3 +138,14 @@
   rockstar: false 
   ribbon:
     - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
+- 
+  id: 13
+  name: "Tayaza"
+  surname: "Fadason"
+  company: "Liggins Institute"
+  title: "Doctoral Candidate"
+  bio: "Tayaza is a doctoral candidate in the Liggins Institute."
+  thumbnailUrl: "to_be_announced1.png"
+  rockstar: false 
+  ribbon:
+    - {abbr: "Liggins", title: "Liggins Institute", url: "https://www.auckland.ac.nz/en/liggins.html"}
