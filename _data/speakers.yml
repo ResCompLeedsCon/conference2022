@@ -85,3 +85,36 @@
   rockstar: false 
   ribbon:
     - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
+- 
+  id: 8
+  name: "Sean"
+  surname: "Matheny"
+  company: "Centre for eResearch"
+  title: "Senior eResearch Platform & Services Engineer"
+  bio: "Sean is a senior member of the Centre for eResearch's Platform & Services team."
+  thumbnailUrl: "sean_matheny.png"
+  rockstar: false 
+  ribbon:
+    - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
+- 
+  id: 9
+  name: "Jason"
+  surname: "He"
+  company: "Centre for eResearch"
+  title: "Senior eResearch Platform & Services Engineer"
+  bio: "Jason is a senior member of the Centre for eResearch's Platform & Services team."
+  thumbnailUrl: "jason_he.png"
+  rockstar: false 
+  ribbon:
+    - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
+- 
+  id: 10
+  name: "Martin"
+  surname: "Feller"
+  company: "Centre for eResearch"
+  title: "eResearch Platform & Services Lead"
+  bio: "Martin is the team lead of the Centre for eResearch's Platform & Services team."
+  thumbnailUrl: "martin_feller.png"
+  rockstar: false 
+  ribbon:
+    - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}

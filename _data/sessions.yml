@@ -1,3 +1,6 @@
+- id: 000
+  title: "Keystory presentation"
+  speakers: [0, 1, 2]
 -
   id: 307
   title: "Coffee Break"
@@ -34,3 +37,8 @@
   title: "RDM-Sharing, publishing and archiving"
   description: "The University of Auckland Code of Conduct for Research states \"Researchers should share data and findings openly and as promptly as possible\", a practice increasingly required by research funders and publishers. Come along to this workshop to learn about how you can disseminate your research findings; increase your research impact through data publication; learn about services available to you at the University to achieve this."
   speakers: [7]
+-
+  id: 005
+  title: "NeCTAR Research Cloud"
+  description: "Do your computations take too long on your laptop? Do you want to offload long-running simulations to a different computer? Are there computations you cannot run on your desktop because you don't have enough memory or compute power? Would you be interested in easily reproducing existing data compute workflows for your use, or easily creating your own? You’re invited to attend a workshop for researchers wanting a practical introduction into using the NeCTAR Research Cloud! We’ll provide an introduction to using NeCTAR, all the basic tools you need to know to run your first cloud computer and demonstrate how you can use NeCTAR to help achieve your research and data analysis objectives."
+  speakers: [8, 9, 10]
