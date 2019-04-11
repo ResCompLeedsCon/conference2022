@@ -159,3 +159,13 @@
   rockstar: false 
   ribbon:
     - {abbr: "NeSI", title: "New Zealand eScience Infrastructure", url: "https://www.nesi.org.nz"}
+-
+  id: 15
+  name: "Melanie"
+  surname: "Johnson"
+  company: "Libraries and Learning Services"
+  title: "Copyright Officer"
+  thumbnailUrl: "to_be_announced2.png"
+  rockstar: false 
+  ribbon:
+    - {abbr: "LLS", title: "Libraries and Learning Services", url: "https://library.auckland.ac.nz"}

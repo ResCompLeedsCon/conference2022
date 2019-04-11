@@ -70,6 +70,11 @@
   speakers: []
 -
   id: 011
-  title: "Linux - An introduction to the command line"
-  description: "This introductory session covers topics such as the linux file system, basic navigation, file permissions and access, configuration files and simple automation."
+  title: "Linux - an introduction to the command line"
+  description: "this introductory session covers topics such as the linux file system, basic navigation, file permissions and access, configuration files and simple automation."
   speakers: [14]
+-
+  id: 012
+  title: "Publishing and Copyright"
+  description: "Everything you need to know about licences and research objects. Find out what you should know about copyright before you publish your work, and how to maintain rights over your work. Learn how to hack a copyright contract in a hands on practical session."
+  speakers: [15]
