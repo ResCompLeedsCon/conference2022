@@ -53,3 +53,8 @@
   title: "Data Management Planning"
   description: "A data management plan (DMP) is a document that describes what research data will be collected - how it will be organised, documented, stored; along with publication and preservation plans. If you want to create a DMP but do not know where to start or what to include, come along to this workshop where we go through the various aspects of the University's DMP, offer best practice examples and section-by-section advice for creating your initial DMP."
   speakers: [6, 7]
+-
+  id: 008
+  title: "Tidy data and introduction to OpenRefine"
+  description: "Good data organisation is the foundation of any research project. We often organise data in spreadsheets in ways that we as humans want to work with it, but computers require data be organised in particular ways. In order to use tools that make computation more efficient such as programming languages like R or Python, we need to structure our data the way that computers need it. Since this is where most research projects start, this is where we want to start too!<p>Preparing data for analysis is an important part of the research workflow. Some of this involves data cleaning, where errors in the data are identifed and corrected or formatting made consistent. OpenRefine is a powerful free and open source tool for working with messy data: cleaning it and transforming it from one format into another. This lesson will teach you to use OpenRefine to effectively clean and format data and automatically track any changes that you make. Many people comment that this tool saves them literally months of work trying to make these edits by hand."
+  speakers: [12]

@@ -127,3 +127,14 @@
   rockstar: false 
   ribbon:
     - {abbr: "AUT", title: "Auckland University of Technology", url: "https://www.aut.ac.nz/"}
+- 
+  id: 12
+  name: "Yvette"
+  surname: "Wharton"
+  company: "Centre for eResearch"
+  title: "eResearch Solutions Lead"
+  bio: "Yvette is the team lead of the Centre for eResearch's Solutions team."
+  thumbnailUrl: "yvette_wharton.jpg"
+  rockstar: false 
+  ribbon:
+    - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
