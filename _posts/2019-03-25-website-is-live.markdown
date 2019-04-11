@@ -3,6 +3,7 @@ layout: post
 title:  "Website is live!"
 date:   2019-03-25 12:38:00
 isStaticPost: false
+image: auckland.jpg
 ---
 
 Yay! The website for ResBaz Auckland 2019 is now live.
