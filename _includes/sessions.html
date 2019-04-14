@@ -1,19 +1,17 @@
 <!-- Begin Schedule Section -->
 <section id="schedule" class="schedule">
     <div class="content-wrapper">
-        <h3>Check back regularly for updates</h3>
-        <br />
-        <div class="col-sm-8 col-sm-offset-2">
-            <div>
-                {% for session in site.data.sessions %}
-                    {% if session.id != 307 and session.id != 503 %} <!-- Ignore coffee/lunch break sessions -->
-                    <h5>{{ session.title }}</h5>
-                    <p>{{ session.description }}</p>
-                    <br /><hr />
-                    {% endif %}
-                {% endfor %}
-            </div>
+        <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 10 }'>
+            {% for session in site.data.sessions %}
+                {% if session.id != 307 and session.id != 503 and session.id != 000 %} 
+                    <div class="grid-item">
+                        <h5>{{ session.title  }}</h5>
+                        <hr />
+                        <span class="text-body">{{ session.description }}</span>
+                    </div>
+                {% endif %}
+            {% endfor %}
         </div>
     </div>
 </section>
-<!-- End Sessions Section -->
+<!-- End Schedule Section -->
