@@ -1,0 +1,50 @@
+// Common .grid values
+.grid {
+    margin: auto auto;
+}
+
+// Common .grid-item values
+.grid-item {
+    border: 1px solid #000;
+    border-radius: 5px;
+    position: relative;
+    padding: 30px;
+    margin: 5px;
+    background-color: white;
+}
+
+// Resets text style in case anyone uses <p> in sessions.yml
+.grid-item .text-body, p {
+    font-size: 13px !important;
+    line-height: inherit;
+}
+
+// Small devices: 1 column
+@media(max-width: 650px) {
+    .grid {
+        width: 100% !important;
+    }
+    .grid-item {
+        width: 97% !important;
+    }
+}
+
+// Medium devices: 2 columns 
+@media(min-width: 650px) {
+    .grid {
+        width: 90% !important;
+    }
+    .grid-item {
+        width: 47% !important;
+    }
+}
+
+// Large devices: 3 columns
+@media(min-width: 1199.98px) {
+    .grid {
+        width: 75% !important;
+    }
+    .grid-item {
+        width: 30% !important;
+    }
+}
