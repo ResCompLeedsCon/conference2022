@@ -60,7 +60,7 @@ eventDate: "July 10-12"
 typeoutTextValues: '"Auckland", "2019"'
 typeoutFallback: "2019"
 heroButtons:
- - {link: "", text: "Apply"}
+ - {link: "https://docs.google.com/forms/d/e/1FAIpQLSciGV3lkelvW95Kyzh712VwPV_y7-oIIHKa9Q4YoM4_hgotpQ/viewform", text: "Want to apply?"}
 
 # About Block
 aboutTitle: "About ResBaz Auckland"
@@ -122,7 +122,8 @@ twitterFeed: "https://twitter.com/search?q=%23ResBaz&src=typd"
 # Partners Block
 organizersTitle: "Organizers"
 partnersTitle: "Partners"
-partnersC4sponsorsButton: "Apply"
+partnersC4sponsorsButton: "Want to apply?"
+partnersLink: "https://docs.google.com/forms/d/e/1FAIpQLSciGV3lkelvW95Kyzh712VwPV_y7-oIIHKa9Q4YoM4_hgotpQ/viewform"
 
 # Subscribe Block
 subscribeImage: "subscribe.jpg"
