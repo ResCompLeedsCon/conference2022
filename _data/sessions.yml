@@ -1,3 +1,7 @@
+- id: 000
+  title: "Keystory Presentations"
+  description: "Details to be announced."
+  speakers: [0, 1, 2]
 -
   id: 307
   title: "Coffee Break"
@@ -12,15 +16,67 @@
 -
   id: 001
   title: "Research Data Management: Sharing, Publishing & Archiving"
-  description: "The University of Auckland Code of Conduct for Research states 'Researchers should share data and findings openly and as promptly as possible', a practice increasingly required by research funders and publishers.<p>Come along to this workshop to learn about how you can disseminate your research findings; increase your research impact through data publication; learn about services available to you at the University to achieve this."
+  description: "The University of Auckland Code of Conduct for Research states \"Researchers should share data and findings openly and as promptly as possible\", a practice increasingly required by research funders and publishers. Come along to this workshop to learn about how you can disseminate your research findings; increase your research impact through data publication; learn about services available to you at the University to achieve this."
   subtype: workshop
-  speakers: [3, 6, 7]
+  speakers: [7]
   complexity: "Beginner"
 -
   id: 002
   title: "Crash course in LaTeX using Overleaf"
-  description: "Learn the basics of LaTeX and Overleaf in this workshop.<br> - We will create a template for both articles and a thesis using the UoA-thesis LaTeX template."
+  description: "Learn the basics of LaTeX and Overleaf in this workshop. We will create a template that you can use for both articles and a thesis (using the UoA-thesis LaTeX template)."
   subtype: workshop
   speakers: [4, 5, 6]
   complexity: "Beginner" 
   presentation: "https://tofu.dev/workshops/latex"
+-
+  id: 003
+  title: "Version control and collaboration tools - Intro to Git and GitHub"
+  description: "This session will offer a brief and practical introduction to <a href=\"https://git-scm.com/\">Git</a> and <a href=\"https://github.com/\">GitHub</a> for complete beginners. Learn how you can use Git to manage and keep track of different versions of all your important files and documents that change through time in your projects. GitHub is one of the worlds leading online collaboration platforms for working on projects that use Git. Whether you write code or not, Git and GitHub are incredibly powerful tools that should be part of any researchers digital toolkit. Come and see what it's all about!"
+  speakers: [3]
+-
+  id: 004
+  title: "Research Data Management: Planning Organising and Storing"
+  description: "Research data: that which is created, collected or observed in the course of producing original research, regardless of format. This introductory workshop is aimed at researchers, particularly those embarking on their research career or starting a new research project. Attendees will develop strategies for capturing and organising research data, sharing and reusing data, and have an opportunity to draft a Data Management Plan (DMP).You will be introduced to data management concepts, best practices, services and useful tools to support you managing and sharing your research data."
+  speakers: [6, 7]
+-
+  id: 005
+  title: "NeCTAR Research Cloud"
+  description: "Do your computations take too long on your laptop? Do you want to offload long-running simulations to a different computer? Are there computations you cannot run on your desktop because you don't have enough memory or compute power? Would you be interested in easily reproducing existing data compute workflows for your use, or easily creating your own? You’re invited to attend a workshop for researchers wanting a practical introduction into using the NeCTAR Research Cloud! We’ll provide an introduction to using NeCTAR, all the basic tools you need to know to run your first cloud computer and demonstrate how you can use NeCTAR to help achieve your research and data analysis objectives."
+  speakers: [8, 9, 10]
+-
+  id: 006
+  title: "Grabbing the limelight – Communicating your research in the media"
+  description: "Sharing your research with the media is a great way to broaden its reach and raise your profile as a researcher, but what makes one story front-page material while others never get picked up to begin with? This session offers practical tips and techniques for communicating your research to the media and wider public – from crafting your story to taking advantage of the modern media landscape to maximise the chances of your story getting picked up."
+  speakers: [11]
+-
+  id: 007
+  title: "Data Management Planning"
+  description: "A data management plan (DMP) is a document that describes what research data will be collected - how it will be organised, documented, stored; along with publication and preservation plans. If you want to create a DMP but do not know where to start or what to include, come along to this workshop where we go through the various aspects of the University's DMP, offer best practice examples and section-by-section advice for creating your initial DMP."
+  speakers: [6, 7]
+-
+  id: 008
+  title: "Tidy data and introduction to OpenRefine"
+  description: "Good data organisation is the foundation of any research project. We often organise data in spreadsheets in ways that we as humans want to work with it, but computers require data be organised in particular ways. In order to use tools that make computation more efficient such as programming languages like R or Python, we need to structure our data the way that computers need it. Since this is where most research projects start, this is where we want to start too!<br /><br /> 
+
+  Preparing data for analysis is an important part of the research workflow. Some of this involves data cleaning, where errors in the data are identifed and corrected or formatting made consistent. OpenRefine is a powerful free and open source tool for working with messy data: cleaning it and transforming it from one format into another. This lesson will teach you to use OpenRefine to effectively clean and format data and automatically track any changes that you make. Many people comment that this tool saves them literally months of work trying to make these edits by hand."
+  speakers: [12]
+-
+  id: 009
+  title: "What tools should I use in my bioinformatics research?"
+  description: "Is your research in a bioinformatics-related field? Are you wondering if ResBaz is any good for you? Or do you want to know what sessions are suitable for your research? This session highlights how tools like python, SQL, R and GitHub were used to answer a research question. It is meant to give a quick overview of the skills taught at ResBaz so you know exactly what sessions are most suitable for your needs."
+  speakers: [13]
+-
+  id: 010
+  title: "Busting the Supercomputing Jargon"
+  description: "Core? CPU? SSH? WTF? This is a fun, interactive activity where we will explore what terminology YOU think makes High Performance Computing (HPC) so darn difficult to understand. You might be learning about HPC for the first time or want to know more about specific tools you are using for your research (Bash, parallel computing, machine learning, etc…) Either way, this session is for you! All knowledge levels and all disciplines are welcome to attend."
+  speakers: []
+-
+  id: 011
+  title: "Linux - an introduction to the command line"
+  description: "This introductory session covers topics such as the linux file system, basic navigation, file permissions and access, configuration files and simple automation."
+  speakers: [14]
+-
+  id: 012
+  title: "Publishing and Copyright"
+  description: "Everything you need to know about licences and research objects. Find out what you should know about copyright before you publish your work, and how to maintain rights over your work. Learn how to hack a copyright contract in a hands on practical session."
+  speakers: [15]
