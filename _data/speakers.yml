@@ -169,3 +169,13 @@
   rockstar: false 
   ribbon:
     - {abbr: "LLS", title: "Libraries and Learning Services", url: "https://library.auckland.ac.nz"}
+-
+  id: 16
+  name: "Megan"
+  surname: "Guidry"
+  company: "New Zealand eScience Infrastructure"
+  title: "Awesome person extrodinaire"
+  thumbnailUrl: "to_be_announced2.png"
+  rockstar: false 
+  ribbon:
+    - {abbr: "NeSI", title: "New Zealand eScience Infrastructure", url: "https://www.nesi.org.nz"}
