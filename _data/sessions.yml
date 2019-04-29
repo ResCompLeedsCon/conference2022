@@ -45,9 +45,9 @@
   speakers: [8, 9, 10]
 -
   id: 006
-  title: "Grabbing the limelight – Communicating your research in the media"
+  title: "Research Impact & Grabbing the limelight – Communicating your research in the media"
   description: "Sharing your research with the media is a great way to broaden its reach and raise your profile as a researcher, but what makes one story front-page material while others never get picked up to begin with? This session offers practical tips and techniques for communicating your research to the media and wider public – from crafting your story to taking advantage of the modern media landscape to maximise the chances of your story getting picked up."
-  speakers: [11]
+  speakers: [22, 11]
 -
   id: 007
   title: "Data Management Planning"
@@ -69,7 +69,7 @@
   id: 010
   title: "Busting the Supercomputing Jargon"
   description: "Core? CPU? SSH? WTF? This is a fun, interactive activity where we will explore what terminology YOU think makes High Performance Computing (HPC) so darn difficult to understand. You might be learning about HPC for the first time or want to know more about specific tools you are using for your research (Bash, parallel computing, machine learning, etc…) Either way, this session is for you! All knowledge levels and all disciplines are welcome to attend."
-  speakers: []
+  speakers: [16]
 -
   id: 011
   title: "Linux - an introduction to the command line"
@@ -80,3 +80,34 @@
   title: "Publishing and Copyright"
   description: "Everything you need to know about licences and research objects. Find out what you should know about copyright before you publish your work, and how to maintain rights over your work. Learn how to hack a copyright contract in a hands on practical session."
   speakers: [15]
+-
+  id: 013
+  title: "Research Profiles: working hard or hard work?"
+  description: "What will people find when they Google you? Learn about different research profiles available and start creating your professional online identity. Use researcher IDs (e.g. ORCiD) to claim and link your publications."
+  speakers: [19]
+-
+  id: 014
+  title: "Publishing: Getting more people to read your research"
+  description: "Learn how to choose the right journal and avoid predatory publishers. Consider using preprints to get your ideas out early and explore techniques to get more people to read your research."
+  speakers: [18, 17]
+-
+  id: 015
+  title: "Tips and tricks: staying uptodate with the literature"
+  description: "Discover tips and tricks for staying up-to-date with the literature in your discipline, including: setting up database alerts, using advanced searching techniques, following twitter communities, setting up RSS feeds, and finding grey literature and patents."
+  speakers: [18]
+-
+  id: 016
+  title: "Qualitative data analysis (NVivo)"
+  description: 
+  speakers: [12, 24]
+-
+  id: 017
+  title: "[R programming language]"
+  description: 
+  speakers: [25]
+-
+  id: 018
+  title: "[Applying data science in healthcare]"
+  description: 
+  speakers: [26]
+

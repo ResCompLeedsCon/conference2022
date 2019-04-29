@@ -81,7 +81,7 @@
   company: "Centre for eResearch"
   title: "Senior eResearch Engagement Specialist"
   bio: "Laura is a senior member of the Centre for eResearch's engagement team."
-  thumbnailUrl: "laura_armstrong.jpeg"
+  thumbnailUrl: "laura_armstrong.jpg"
   rockstar: false 
   ribbon:
     - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
@@ -165,7 +165,7 @@
   surname: "Johnson"
   company: "Libraries and Learning Services"
   title: "Copyright Officer"
-  thumbnailUrl: "to_be_announced2.png"
+  thumbnailUrl: "to_be_announced3.png"
   rockstar: false 
   ribbon:
     - {abbr: "LLS", title: "Libraries and Learning Services", url: "https://library.auckland.ac.nz"}
@@ -174,8 +174,108 @@
   name: "Megan"
   surname: "Guidry"
   company: "New Zealand eScience Infrastructure"
-  title: "Awesome person extrodinaire"
+  title: "Research Communities Advisor"
   thumbnailUrl: "to_be_announced2.png"
   rockstar: false 
   ribbon:
     - {abbr: "NeSI", title: "New Zealand eScience Infrastructure", url: "https://www.nesi.org.nz"}
+-
+  id: 17
+  name: "Liz"
+  surname: "Sowden"
+  company: "Libraries and Learning Services"
+  title: "Research Skills Advisor "
+  thumbnailUrl: "Liz_Sowden.jpg"
+  rockstar: false 
+  ribbon:
+    - {abbr: "LLS", title: Libraries and Learning Services", url: "https://library.auckland.ac.nz"}
+-
+  id: 18
+  name: "Jo"
+  surname: "Simons"
+  company: "Libraries and Learning Services"
+  title: "Research Services Team Leader"
+  thumbnailUrl: "Jo_Simons.jpg"
+  rockstar: false 
+  ribbon:
+    - {abbr: "LLS", title: Libraries and Learning Services", url: "https://library.auckland.ac.nz"}
+-
+  id: 19
+  name: "Emma"
+  surname: "Richardson"
+  company: "Libraries and Learning Services"
+  title: "Research Services Team Leader"
+  thumbnailUrl: "Emma_Richardson.png"
+  rockstar: false 
+  ribbon:
+    - {abbr: "LLS", title: Libraries and Learning Services", url: "https://library.auckland.ac.nz"}
+-
+  id: 20
+  name: "Bianca"
+  surname: "Haux"
+  company: "Centre for eResearch"
+  title: "eResearch Solutions Specialist"
+  thumbnailUrl: "to_be_announced3.png"
+  rockstar: false 
+  ribbon:
+   - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
+-
+  id: 21
+  name: "Tamsin"
+  surname: "Robb"
+  company: "Faculty of Medical and Health Sciences"
+  title: "Doctorate Candidate"
+  thumbnailUrl: "to_be_announced3.png"
+  rockstar: false 
+  ribbon:
+   - {abbr: "FMHS", title: "Faculty of Medical and Health Sciences", url: "https://fmhs.auckland.ac.nz"}
+-
+  id: 22
+  name: "Faith"
+  surname: "Welch"
+  company: "Office of Research Strategy and Integrity"
+  title: "Impact Manager"
+  thumbnailUrl: "to_be_announced3.png"
+  rockstar: false 
+  ribbon:
+   - {abbr: "ORSI", title: "Office of Research Strategy and Integrity", url: "https://www.auckland.ac.nz"}
+-
+  id: 23
+  name: "Nick"
+  surname: "Young"
+  company: "Centre for eResearch"
+  title: "eResearch Senior Solutions Specialist"
+  thumbnailUrl: "to_be_announced1.png"
+  rockstar: false 
+  ribbon:
+   - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
+-
+  id: 24
+  name: "Jens"
+  surname: "Brinkmann"
+  company: "Faculty of Engineering"
+  title: "Doctoral Candidate"
+  thumbnailUrl: "to_be_announced1.png"
+  rockstar: false 
+  ribbon:
+   - {abbr: "Engineering", title: "Faculty of Engineering", url: "https://eng.auckland.ac.nz"}
+-
+  id: 25
+  name: "Victoria"
+  surname: "King"
+  company: "Faculty of Medical and Health Sciences"
+  title: "Doctoral Candidate"
+  thumbnailUrl: "to_be_announced2.png"
+  rockstar: false 
+  ribbon:
+    - {abbr: "FMHS", title: "Faculty of Medical and Health Sciences", url: "https://fmhs.auckland.ac.nz"}
+-
+  id: 26
+  name: "Manesh"
+  surname: "Kukreja"
+  company: "Auckland District Health Board"
+  title: "Full Stack Data Scientist | Trainer"
+  thumbnailUrl: "to_be_announced1.png"
+  rockstar: false 
+  ribbon:
+    - {abbr: "ADHB", title: "Auckland District Health Board", url: "https://adhb.health.nz"}
