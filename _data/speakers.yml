@@ -145,7 +145,7 @@
   company: "Liggins Institute"
   title: "Doctoral Candidate"
   bio: "Tayaza is a doctoral candidate in the Liggins Institute."
-  thumbnailUrl: "to_be_announced1.png"
+  thumbnailUrl: "tayaza_fadason.jpeg"
   rockstar: false 
   ribbon:
     - {abbr: "Liggins", title: "Liggins Institute", url: "https://www.auckland.ac.nz/en/liggins.html"}
@@ -265,13 +265,13 @@
   surname: "King"
   company: "Faculty of Medical and Health Sciences"
   title: "Doctoral Candidate"
-  thumbnailUrl: "to_be_announced2.png"
+  thumbnailUrl: "Victoria_King.jpeg"
   rockstar: false 
   ribbon:
     - {abbr: "FMHS", title: "Faculty of Medical and Health Sciences", url: "https://fmhs.auckland.ac.nz"}
 -
   id: 26
-  name: "Manesh"
+  name: "Manish"
   surname: "Kukreja"
   company: "Auckland District Health Board"
   title: "Full Stack Data Scientist | Trainer"
@@ -279,3 +279,33 @@
   rockstar: false 
   ribbon:
     - {abbr: "ADHB", title: "Auckland District Health Board", url: "https://adhb.health.nz"}
+-
+  id: 27
+  name: "Aimee"
+  surname: "van der Reis"
+  company: "Faculty of Science"
+  title: "Doctoral Candidate"
+  thumbnailUrl: "to_be_announced2.png"
+  rockstar: false 
+  ribbon:
+    - {abbr: "FOS", title: "Faculty of Science", url: "https://science.auckland.ac.nz"}
+-
+  id: 28
+  name: "Joe"
+  surname: "Rouse"
+  company: "Uniservices"
+  title: "Commercialisation Manager"
+  thumbnailUrl: "to_be_announced1.png"
+  rockstar: false 
+  ribbon:
+    - {abbr: "Uniservices", title: "Uniservices", url: "https://uniservices.co.nz"}
+-
+  id: 29
+  name: "Nicola"
+  surname: "Johnstone"
+  company: "Uniservices"
+  title: "Head of Intellectual Property Legal"
+  thumbnailUrl: "to_be_announced3.png"
+  rockstar: false 
+  ribbon:
+    - {abbr: "Uniservices", title: "Uniservices", url: "https://uniservices.co.nz"}

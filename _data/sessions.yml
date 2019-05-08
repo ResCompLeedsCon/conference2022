@@ -23,7 +23,7 @@
 -
   id: 002
   title: "Crash course in LaTeX using Overleaf"
-  description: "Learn the basics of LaTeX and Overleaf in this workshop. We will create a template that you can use for both articles and a thesis (using the UoA-thesis LaTeX template)."
+  description: "This is a 'Bring your own device' session. Learn the basics of LaTeX and Overleaf in this workshop. We will create a template that you can use for both articles and a thesis (using the UoA-thesis LaTeX template)."
   subtype: workshop
   speakers: [4, 5, 6]
   complexity: "Beginner" 
@@ -41,7 +41,7 @@
 -
   id: 005
   title: "NeCTAR Research Cloud"
-  description: "Do your computations take too long on your laptop? Do you want to offload long-running simulations to a different computer? Are there computations you cannot run on your desktop because you don't have enough memory or compute power? Would you be interested in easily reproducing existing data compute workflows for your use, or easily creating your own? You’re invited to attend a workshop for researchers wanting a practical introduction into using the NeCTAR Research Cloud! We’ll provide an introduction to using NeCTAR, all the basic tools you need to know to run your first cloud computer and demonstrate how you can use NeCTAR to help achieve your research and data analysis objectives."
+  description: "This is a 'Bring your own device' session. Do your computations take too long on your laptop? Do you want to offload long-running simulations to a different computer? Are there computations you cannot run on your desktop because you don't have enough memory or compute power? Would you be interested in easily reproducing existing data compute workflows for your use, or easily creating your own? You’re invited to attend a workshop for researchers wanting a practical introduction into using the NeCTAR Research Cloud! We’ll provide an introduction to using NeCTAR, all the basic tools you need to know to run your first cloud computer and demonstrate how you can use NeCTAR to help achieve your research and data analysis objectives."
   speakers: [8, 9, 10]
 -
   id: 006
@@ -56,7 +56,7 @@
 -
   id: 008
   title: "Tidy data and introduction to OpenRefine"
-  description: "Good data organisation is the foundation of any research project. We often organise data in spreadsheets in ways that we as humans want to work with it, but computers require data be organised in particular ways. In order to use tools that make computation more efficient such as programming languages like R or Python, we need to structure our data the way that computers need it. Since this is where most research projects start, this is where we want to start too!<br /><br /> 
+  description: "This is a 'Bring your own device' session. Good data organisation is the foundation of any research project. We often organise data in spreadsheets in ways that we as humans want to work with it, but computers require data be organised in particular ways. In order to use tools that make computation more efficient such as programming languages like R or Python, we need to structure our data the way that computers need it. Since this is where most research projects start, this is where we want to start too!<br /><br /> 
 
   Preparing data for analysis is an important part of the research workflow. Some of this involves data cleaning, where errors in the data are identifed and corrected or formatting made consistent. OpenRefine is a powerful free and open source tool for working with messy data: cleaning it and transforming it from one format into another. This lesson will teach you to use OpenRefine to effectively clean and format data and automatically track any changes that you make. Many people comment that this tool saves them literally months of work trying to make these edits by hand."
   speakers: [12]
@@ -73,7 +73,7 @@
 -
   id: 011
   title: "Linux - an introduction to the command line"
-  description: "This introductory session covers topics such as the linux file system, basic navigation, file permissions and access, configuration files and simple automation."
+  description: "This is a 'Bring your own device' session. This introductory session covers topics such as the linux file system, basic navigation, file permissions and access, configuration files and simple automation."
   speakers: [14]
 -
   id: 012
@@ -102,12 +102,33 @@
   speakers: [12, 24]
 -
   id: 017
-  title: "[R programming language]"
-  description: 
+  title: "Introduction to R programming language"
+  description: "This is a 'Bring your own device' session. This two-part workshop is an introduction to R for data analysis for complete beginners. The sessions are relatively informal, example oriented, and hands-on. The first half will cover the basics (no experience is assumed) and get us comfortable with R and its capabilities, which will prepare us for the second half where we will explore dataset manipulation."
   speakers: [25]
 -
   id: 018
   title: "[Applying data science in healthcare]"
   description: 
   speakers: [26]
+-
+  id: 019
+  title: "Introduction to DNA metabarcoding"
+  description: "What should I know before embarking on a research project in DNA metabarcoding? Come along and find out what should be considered in the design of a DNA metabarcoding research project and what to expect during the wet lab stages through to the analyses of the next-generation sequencing data."
+  speakers: [27]
+-
+  id: 020
+  title: "[Machine learning introduction]"
+  description: "This is a 'Bring your own device' session."
+  speakers: [27]
+-
+  id: 021
+  title: "[social media]"
+  description: 
+  speakers: [19]
+-
+  id: 022
+  title: "Commercialisation"
+  description: 
+  speakers: [28, 29]
+  
 
