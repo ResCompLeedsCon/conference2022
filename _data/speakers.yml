@@ -1,10 +1,11 @@
 - 
   id: 0
-  name: "To Be"
-  surname: "Announced"
-  title: "Keystory Speaker"
-  bio: "Keystory Speaker"
-  thumbnailUrl: "to_be_announced1.png"
+  name: "Kate"
+  surname: "Hannah"
+  company: "Te Punaha Matatini"
+  title: "Research Operations Manager"
+  bio: "Kate Hannah has a Master of Arts (2004) from Waikato University in 19th Century American Literary Culture. Her principal research area is the historiography of the history of science, with a focus on the cultures and subcultures of science, gender in science history, and narrative and complexity. She holds dual roles at Te Pūnaha Matatini, a New Zealand Centre of Research Excellence for complex systems and networks – executive manager and associate investigator; she is a research fellow in the Department of Physics at the University of Auckland, course convener of Science Scholars 101, and a Te Pūnaha Matatini-funded PhD candidate in the Science and Society Group at Victoria University Wellington, investigating novel hybrid methodologies for the historiography of science. Basically, she’s a historian in a Physics department."
+  thumbnailUrl: "Kate_Hannah.jpg"   
   rockstar: true
 - 
   id: 1
@@ -16,14 +17,61 @@
   rockstar: true
 - 
   id: 2
-  name: "To Be"
+  name: "To be"
   surname: "Announced"
   title: "Keystory Speaker"
   bio: "Keystory Speaker"
   thumbnailUrl: "to_be_announced3.png"
   rockstar: true
-- 
+-
   id: 3
+  name: "Manish"
+  surname: "Kukreja"
+  company: "Auckland District Health Board"
+  title: "Full Stack Data Scientist | Trainer"
+  bio: "Manish is a data scientist but more broadly is a solution seeker. He is passionate about teaching, (machine) learning and mentoring. His experience spans across multiple domains including consulting, telecom, fire protection, education and now in healthcare. He enjoys a blend of technical and leadership roles, most recently at Auckland DHB, GreyAtom and University of Auckland. His diverse background includes computer science/engineering, statistics and education, each of which he brings to his daily work in data science."
+  thumbnailUrl: "manish_kukreja.jpg"
+  rockstar: true 
+  ribbon:
+    - {abbr: "ADHB", title: "Auckland District Health Board", url: "https://adhb.health.nz"}
+-
+  id: 4
+  name: "Tamsin"
+  surname: "Robb"
+  company: "Faculty of Medical and Health Sciences"
+  title: "Doctorate Candidate"
+  thumbnailUrl: "to_be_announced3.png"
+  rockstar: true
+  ribbon:
+   - {abbr: "FMHS", title: "Faculty of Medical and Health Sciences", url: "https://fmhs.auckland.ac.nz"}
+-
+  id: 5
+  name: "Bianca"
+  surname: "Haux"
+  company: "Centre for eResearch"
+  title: "eResearch Solutions Specialist"
+  thumbnailUrl: "to_be_announced3.png"
+  rockstar: true 
+  ribbon:
+   - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
+-
+  id: 6
+  name: "To Be"
+  surname: "Announced"
+  title: "Keystory Speaker"
+  bio: "Keystory Speaker"
+  thumbnailUrl: "to_be_announced2.png"
+  rockstar: true
+-
+  id: 7
+  name: "To Be"
+  surname: "Announced"
+  title: "Keystory Speaker"
+  bio: "Keystory Speaker"
+  thumbnailUrl: "to_be_announced2.png"
+  rockstar: true
+-
+  id: 10
   name: "Cameron"
   surname: "McLean"
   company: "Centre for eResearch"
@@ -36,7 +84,7 @@
   social: 
     - {name: "github", link: "https://github.com/cameronmclean"}
 - 
-  id: 4
+  id: 11
   name: "Sam"
   surname: "Kavanagh"
   company: "Centre for eResearch"
@@ -49,7 +97,7 @@
   social: 
     - {name: "github", link: "https://github.com/Hganavak"}
 - 
-  id: 5
+  id: 12
   name: "Noel"
   surname: "Zeng"
   company: "Centre for eResearch"
@@ -62,7 +110,7 @@
   social: 
     - {name: "github", link: "https://github.com/uoa-noel"}
 - 
-  id: 6
+  id: 13
   name: "Dharani"
   surname: "Sontam"
   company: "Centre for eResearch"
@@ -75,7 +123,7 @@
   social: 
     - {name: "github", link: "https://github.com/dharanisontam"}
 - 
-  id: 7
+  id: 14
   name: "Laura"
   surname: "Armstrong"
   company: "Centre for eResearch"
@@ -86,7 +134,7 @@
   ribbon:
     - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
 - 
-  id: 8
+  id: 15
   name: "Sean"
   surname: "Matheny"
   company: "Centre for eResearch"
@@ -97,7 +145,7 @@
   ribbon:
     - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
 - 
-  id: 9
+  id: 16
   name: "Jason"
   surname: "He"
   company: "Centre for eResearch"
@@ -108,7 +156,7 @@
   ribbon:
     - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
 - 
-  id: 10
+  id: 17
   name: "Martin"
   surname: "Feller"
   company: "Centre for eResearch"
@@ -119,7 +167,7 @@
   ribbon:
     - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
 - 
-  id: 11
+  id: 18
   name: "Martin"
   surname: "Moore"
   company: "AUT"
@@ -128,7 +176,7 @@
   ribbon:
     - {abbr: "AUT", title: "Auckland University of Technology", url: "https://www.aut.ac.nz/"}
 - 
-  id: 12
+  id: 19
   name: "Yvette"
   surname: "Wharton"
   company: "Centre for eResearch"
@@ -139,7 +187,7 @@
   ribbon:
     - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
 - 
-  id: 13
+  id: 20
   name: "Tayaza"
   surname: "Fadason"
   company: "Liggins Institute"
@@ -150,7 +198,7 @@
   ribbon:
     - {abbr: "Liggins", title: "Liggins Institute", url: "https://www.auckland.ac.nz/en/liggins.html"}
 -
-  id: 14
+  id: 21
   name: "Anita"
   surname: "Kean"
   company: "New  Zealand eScience Infrastructure"
@@ -160,7 +208,7 @@
   ribbon:
     - {abbr: "NeSI", title: "New Zealand eScience Infrastructure", url: "https://www.nesi.org.nz"}
 -
-  id: 15
+  id: 22
   name: "Melanie"
   surname: "Johnson"
   company: "Libraries and Learning Services"
@@ -170,7 +218,7 @@
   ribbon:
     - {abbr: "LLS", title: "Libraries and Learning Services", url: "https://library.auckland.ac.nz"}
 -
-  id: 16
+  id: 23
   name: "Megan"
   surname: "Guidry"
   company: "New Zealand eScience Infrastructure"
@@ -180,7 +228,7 @@
   ribbon:
     - {abbr: "NeSI", title: "New Zealand eScience Infrastructure", url: "https://www.nesi.org.nz"}
 -
-  id: 17
+  id: 24
   name: "Liz"
   surname: "Sowden"
   company: "Libraries and Learning Services"
@@ -190,7 +238,7 @@
   ribbon:
     - {abbr: "LLS", title: Libraries and Learning Services", url: "https://library.auckland.ac.nz"}
 -
-  id: 18
+  id: 25
   name: "Jo"
   surname: "Simons"
   company: "Libraries and Learning Services"
@@ -200,7 +248,7 @@
   ribbon:
     - {abbr: "LLS", title: Libraries and Learning Services", url: "https://library.auckland.ac.nz"}
 -
-  id: 19
+  id: 26
   name: "Emma"
   surname: "Richardson"
   company: "Libraries and Learning Services"
@@ -210,7 +258,7 @@
   ribbon:
     - {abbr: "LLS", title: Libraries and Learning Services", url: "https://library.auckland.ac.nz"}
 -
-  id: 20
+  id: 27
   name: "Bianca"
   surname: "Haux"
   company: "Centre for eResearch"
@@ -220,7 +268,7 @@
   ribbon:
    - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
 -
-  id: 21
+  id: 28
   name: "Tamsin"
   surname: "Robb"
   company: "Faculty of Medical and Health Sciences"
@@ -230,7 +278,7 @@
   ribbon:
    - {abbr: "FMHS", title: "Faculty of Medical and Health Sciences", url: "https://fmhs.auckland.ac.nz"}
 -
-  id: 22
+  id: 29
   name: "Faith"
   surname: "Welch"
   company: "Office of Research Strategy and Integrity"
@@ -240,7 +288,7 @@
   ribbon:
    - {abbr: "ORSI", title: "Office of Research Strategy and Integrity", url: "https://www.auckland.ac.nz"}
 -
-  id: 23
+  id: 30
   name: "Nick"
   surname: "Young"
   company: "Centre for eResearch"
@@ -250,7 +298,7 @@
   ribbon:
    - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
 -
-  id: 24
+  id: 31
   name: "Jens"
   surname: "Brinkmann"
   company: "Faculty of Engineering"
@@ -260,7 +308,7 @@
   ribbon:
    - {abbr: "Engineering", title: "Faculty of Engineering", url: "https://eng.auckland.ac.nz"}
 -
-  id: 25
+  id: 32
   name: "Victoria"
   surname: "King"
   company: "Faculty of Medical and Health Sciences"
@@ -270,17 +318,17 @@
   ribbon:
     - {abbr: "FMHS", title: "Faculty of Medical and Health Sciences", url: "https://fmhs.auckland.ac.nz"}
 -
-  id: 26
+  id: 33
   name: "Manish"
   surname: "Kukreja"
   company: "Auckland District Health Board"
   title: "Full Stack Data Scientist | Trainer"
-  thumbnailUrl: "to_be_announced1.png"
+  thumbnailUrl: "manish_kukreja.jpg"
   rockstar: false 
   ribbon:
     - {abbr: "ADHB", title: "Auckland District Health Board", url: "https://adhb.health.nz"}
 -
-  id: 27
+  id: 34
   name: "Aimee"
   surname: "van der Reis"
   company: "Faculty of Science"
@@ -290,7 +338,7 @@
   ribbon:
     - {abbr: "FOS", title: "Faculty of Science", url: "https://science.auckland.ac.nz"}
 -
-  id: 28
+  id: 35
   name: "Joe"
   surname: "Rouse"
   company: "Uniservices"
@@ -300,7 +348,7 @@
   ribbon:
     - {abbr: "Uniservices", title: "Uniservices", url: "https://uniservices.co.nz"}
 -
-  id: 29
+  id: 36
   name: "Nicola"
   surname: "Johnstone"
   company: "Uniservices"
@@ -309,3 +357,44 @@
   rockstar: false 
   ribbon:
     - {abbr: "Uniservices", title: "Uniservices", url: "https://uniservices.co.nz"}
+-
+  id: 37
+  name: "Sebastian"
+  surname: "Schmeier"
+  company: "School of Natural and Computational Sciences, Massey University"
+  title: "Senior Lecturer in Bioinformatics/Genomics"
+  thumbnailUrl: "sebastian_schmeier.png"
+  rockstar: false 
+  ribbon:
+    - {abbr: "Massey University", title: "Massey University", url: "http://www.massey.ac.nz/massey/explore/departments/institute-natural-mathematical-sciences/institute-natural-mathematical-sciences_home.cfm"}
+-
+  id: 38
+  name: "Ryan"
+  surname: "Huynh"
+  company: "Centre for eResearch"
+  title: "eResearch Solutions Analyst"
+  thumbnailUrl: "to_be_announced1.png"
+  rockstar: false 
+  ribbon:
+    - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
+-
+  id: 39
+  name: "Warrick"
+  surname: "Corfe-Tan"
+  company: "Centre for eResearch"
+  title: "eResearch Solutions Analyst"
+  thumbnailUrl: "to_be_announced1.png"
+  rockstar: false 
+  ribbon:
+    - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
+-
+  id: 40
+  name: "Mohamed"
+  surname: "Alansari"
+  company: "Faculty of Education and Social Work"
+  title: "Research Fellow"
+  thumbnailUrl: "to_be_announced1.png"
+  rockstar: false 
+  ribbon:
+    - {abbr: "CeR", title: "Centre for eResearch", url: "http://www.education.auckland.ac.nz/en/about/research.html"}
+ -   

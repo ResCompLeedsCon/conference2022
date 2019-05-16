@@ -5,13 +5,13 @@
 -
   id: 307
   title: "Coffee Break"
-  place: "Hall"
+  place: "Level 1 Foyer"
   service: true
   description: "The best time to talk with speakers and attendees"
 -
   id: 503
   title: "Lunch Break"
-  place: "Dining room"
+  place: "Level 1 Foyer"
   service: true
 -
   id: 001
@@ -32,16 +32,21 @@
   id: 003
   title: "Version control and collaboration tools - Intro to Git and GitHub"
   description: "This session will offer a brief and practical introduction to <a href=\"https://git-scm.com/\">Git</a> and <a href=\"https://github.com/\">GitHub</a> for complete beginners. Learn how you can use Git to manage and keep track of different versions of all your important files and documents that change through time in your projects. GitHub is one of the worlds leading online collaboration platforms for working on projects that use Git. Whether you write code or not, Git and GitHub are incredibly powerful tools that should be part of any researchers digital toolkit. Come and see what it's all about!"
+  subtype: workshop
   speakers: [3]
+  complexity: "Beginner" 
 -
   id: 004
   title: "Research Data Management: Planning Organising and Storing"
   description: "Research data: that which is created, collected or observed in the course of producing original research, regardless of format. This introductory workshop is aimed at researchers, particularly those embarking on their research career or starting a new research project. Attendees will develop strategies for capturing and organising research data, sharing and reusing data, and have an opportunity to draft a Data Management Plan (DMP).You will be introduced to data management concepts, best practices, services and useful tools to support you managing and sharing your research data."
+  subtype: workshop
   speakers: [6, 7]
+  complexity: "Beginner" 
 -
   id: 005
   title: "NeCTAR Research Cloud"
   description: "This is a 'Bring your own device' session. Do your computations take too long on your laptop? Do you want to offload long-running simulations to a different computer? Are there computations you cannot run on your desktop because you don't have enough memory or compute power? Would you be interested in easily reproducing existing data compute workflows for your use, or easily creating your own? You’re invited to attend a workshop for researchers wanting a practical introduction into using the NeCTAR Research Cloud! We’ll provide an introduction to using NeCTAR, all the basic tools you need to know to run your first cloud computer and demonstrate how you can use NeCTAR to help achieve your research and data analysis objectives."
+  subtype: workshop
   speakers: [8, 9, 10]
 -
   id: 006
@@ -59,7 +64,9 @@
   description: "This is a 'Bring your own device' session. Good data organisation is the foundation of any research project. We often organise data in spreadsheets in ways that we as humans want to work with it, but computers require data be organised in particular ways. In order to use tools that make computation more efficient such as programming languages like R or Python, we need to structure our data the way that computers need it. Since this is where most research projects start, this is where we want to start too!<br /><br /> 
 
   Preparing data for analysis is an important part of the research workflow. Some of this involves data cleaning, where errors in the data are identifed and corrected or formatting made consistent. OpenRefine is a powerful free and open source tool for working with messy data: cleaning it and transforming it from one format into another. This lesson will teach you to use OpenRefine to effectively clean and format data and automatically track any changes that you make. Many people comment that this tool saves them literally months of work trying to make these edits by hand."
+  subtype: workshop
   speakers: [12]
+  complexity: "Beginner" 
 -
   id: 009
   title: "What tools should I use in my bioinformatics research?"
@@ -69,12 +76,16 @@
   id: 010
   title: "Busting the Supercomputing Jargon"
   description: "Core? CPU? SSH? WTF? This is a fun, interactive activity where we will explore what terminology YOU think makes High Performance Computing (HPC) so darn difficult to understand. You might be learning about HPC for the first time or want to know more about specific tools you are using for your research (Bash, parallel computing, machine learning, etc…) Either way, this session is for you! All knowledge levels and all disciplines are welcome to attend."
+  subtype: workshop
   speakers: [16]
+  complexity: "Beginner" 
 -
   id: 011
   title: "Linux - an introduction to the command line"
   description: "This is a 'Bring your own device' session. This introductory session covers topics such as the linux file system, basic navigation, file permissions and access, configuration files and simple automation."
+  subtype: workshop
   speakers: [14]
+  complexity: "Beginner" 
 -
   id: 012
   title: "Publishing and Copyright"
@@ -83,7 +94,7 @@
 -
   id: 013
   title: "Research Profiles: working hard or hard work?"
-  description: "What will people find when they Google you? Learn about different research profiles available and start creating your professional online identity. Use researcher IDs (e.g. ORCiD) to claim and link your publications."
+  description: "This is a 'Bring your own device' session. What will people find when they Google you? Learn about different research profiles available and start creating your professional online identity. Use researcher IDs (e.g. ORCiD) to claim and link your publications."
   speakers: [19]
 -
   id: 014
@@ -93,12 +104,12 @@
 -
   id: 015
   title: "Tips and tricks: staying uptodate with the literature"
-  description: "Discover tips and tricks for staying up-to-date with the literature in your discipline, including: setting up database alerts, using advanced searching techniques, following twitter communities, setting up RSS feeds, and finding grey literature and patents."
+  description: "This is a 'Bring your own device' session. Discover tips and tricks for staying up-to-date with the literature in your discipline, including: setting up database alerts, using advanced searching techniques, following twitter communities, setting up RSS feeds, and finding grey literature and patents."
   speakers: [18]
 -
   id: 016
   title: "Qualitative data analysis (NVivo)"
-  description: 
+  description: "This is a 'Bring your own device' session."
   speakers: [12, 24]
 -
   id: 017
@@ -107,8 +118,8 @@
   speakers: [25]
 -
   id: 018
-  title: "[Applying data science in healthcare]"
-  description: 
+  title: "Accessing APIs using R"
+  description: "Open data on the internet is often made available, through Web service Application Programming Interfaces or APIs, by governments and other organisations. This workshop, will help you gain hands-on experience in requesting data from these different Web service APIs using R. Specifically, we will look into fetching weather and events data for Auckland region."
   speakers: [26]
 -
   id: 019
@@ -122,7 +133,7 @@
   speakers: [27]
 -
   id: 021
-  title: "[social media]"
+  title: "Tweet it!"
   description: 
   speakers: [19]
 -
@@ -130,5 +141,10 @@
   title: "Commercialisation"
   description: 
   speakers: [28, 29]
+-
+  id: 016
+  title: "Qualitative data analysis (NVivo)"
+  description: "This is a 'Bring your own device' session."
+  speakers: [12, 24]
   
 
