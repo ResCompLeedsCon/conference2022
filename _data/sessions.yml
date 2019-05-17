@@ -2,7 +2,7 @@
   id: 000
   title: "Keystory Presentations"
   description: "Details to be announced."
-  speakers: [0, 1, 2]
+  speakers: [0, 1, 2, 3, 4, 5, 6, 7, 8]
 -
   id: 307
   title: "Coffee Break"
@@ -163,5 +163,4 @@
   description: "In this session, attendees will be introduced to some tools that are helpful in doing reproducible computational research. The example chosen are from the genomics/bioinformatics field but are, for the most parts, transferable to other disciplines. I will give some examples from my research where reproducibility plays role and why you might want to work in a reproducible manner."
   speakers: [37]
   complexity: "Beginner"
--
 
