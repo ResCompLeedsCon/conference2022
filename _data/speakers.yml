@@ -40,7 +40,7 @@
   surname: "Robb"
   company: "Faculty of Medical and Health Sciences"
   title: "Doctorate Candidate"
-  thumbnailUrl: "to_be_announced3.png"
+  thumbnailUrl: "tamsin_robb_key.jpg"
   rockstar: true
   ribbon:
    - {abbr: "FMHS", title: "Faculty of Medical and Health Sciences", url: "https://fmhs.auckland.ac.nz"}
@@ -50,7 +50,7 @@
   surname: "Haux"
   company: "Centre for eResearch"
   title: "eResearch Solutions Specialist"
-  thumbnailUrl: "to_be_announced3.png"
+  thumbnailUrl: "bianca_haux_key.jpeg"
   rockstar: true 
   ribbon:
    - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
@@ -223,7 +223,7 @@
   surname: "Guidry"
   company: "New Zealand eScience Infrastructure"
   title: "Research Communities Advisor"
-  thumbnailUrl: "to_be_announced2.png"
+  thumbnailUrl: "megan_guidry.jpg"
   rockstar: false 
   ribbon:
     - {abbr: "NeSI", title: "New Zealand eScience Infrastructure", url: "https://www.nesi.org.nz"}
@@ -263,7 +263,7 @@
   surname: "Haux"
   company: "Centre for eResearch"
   title: "eResearch Solutions Specialist"
-  thumbnailUrl: "to_be_announced3.png"
+  thumbnailUrl: "bianca_haux_key.jpeg"
   rockstar: false 
   ribbon:
    - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
@@ -273,7 +273,7 @@
   surname: "Robb"
   company: "Faculty of Medical and Health Sciences"
   title: "Doctorate Candidate"
-  thumbnailUrl: "to_be_announced3.png"
+  thumbnailUrl: "tamsin_robb_key.jpg"
   rockstar: false 
   ribbon:
    - {abbr: "FMHS", title: "Faculty of Medical and Health Sciences", url: "https://fmhs.auckland.ac.nz"}
@@ -303,7 +303,7 @@
   surname: "Brinkmann"
   company: "Faculty of Engineering"
   title: "Doctoral Candidate"
-  thumbnailUrl: "to_be_announced1.png"
+  thumbnailUrl: "jens_brinkmann.png"
   rockstar: false 
   ribbon:
    - {abbr: "Engineering", title: "Faculty of Engineering", url: "https://eng.auckland.ac.nz"}
@@ -353,7 +353,7 @@
   surname: "Johnstone"
   company: "Uniservices"
   title: "Head of Intellectual Property Legal"
-  thumbnailUrl: "to_be_announced3.png"
+  thumbnailUrl: "nicola_johnstone.jpg"
   rockstar: false 
   ribbon:
     - {abbr: "Uniservices", title: "Uniservices", url: "https://uniservices.co.nz"}
@@ -373,7 +373,7 @@
   surname: "Huynh"
   company: "Centre for eResearch"
   title: "eResearch Solutions Analyst"
-  thumbnailUrl: "to_be_announced1.png"
+  thumbnailUrl: "ryan_huynh.jpg"
   rockstar: false 
   ribbon:
     - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
@@ -393,8 +393,7 @@
   surname: "Alansari"
   company: "Faculty of Education and Social Work"
   title: "Research Fellow"
-  thumbnailUrl: "to_be_announced1.png"
+  thumbnailUrl: "mohamed_alansari.jpg"
   rockstar: false 
   ribbon:
-    - {abbr: "CeR", title: "Centre for eResearch", url: "http://www.education.auckland.ac.nz/en/about/research.html"}
- -   
+    - {abbr: "CeR", title: "Faculty of Education and Social Work", url: "http://www.education.auckland.ac.nz/en/about/research.html"}

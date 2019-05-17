@@ -1,4 +1,5 @@
-- id: 000
+- 
+  id: 000
   title: "Keystory Presentations"
   description: "Details to be announced."
   speakers: [0, 1, 2]
@@ -48,16 +49,18 @@
   description: "This is a 'Bring your own device' session. Do your computations take too long on your laptop? Do you want to offload long-running simulations to a different computer? Are there computations you cannot run on your desktop because you don't have enough memory or compute power? Would you be interested in easily reproducing existing data compute workflows for your use, or easily creating your own? You’re invited to attend a workshop for researchers wanting a practical introduction into using the NeCTAR Research Cloud! We’ll provide an introduction to using NeCTAR, all the basic tools you need to know to run your first cloud computer and demonstrate how you can use NeCTAR to help achieve your research and data analysis objectives."
   subtype: workshop
   speakers: [15, 16, 17]
+  complexity: "TBC" 
 -
   id: 006
   title: "Research Impact & Grabbing the limelight – Communicating your research in the media"
   description: "Sharing your research with the media is a great way to broaden its reach and raise your profile as a researcher, but what makes one story front-page material while others never get picked up to begin with? This session offers practical tips and techniques for communicating your research to the media and wider public – from crafting your story to taking advantage of the modern media landscape to maximise the chances of your story getting picked up."
   speakers: [29, 18]
 -
-  id: 007
+  id: 007                                     
   title: "Data Management Planning"
   description: "A data management plan (DMP) is a document that describes what research data will be collected - how it will be organised, documented, stored; along with publication and preservation plans. If you want to create a DMP but do not know where to start or what to include, come along to this workshop where we go through the various aspects of the University's DMP, offer best practice examples and section-by-section advice for creating your initial DMP."
   speakers: [13, 14]
+  complexity: "TBC" 
 -
   id: 008
   title: "Tidy data and introduction to OpenRefine"
@@ -72,6 +75,7 @@
   title: "What tools should I use in my bioinformatics research?"
   description: "Is your research in a bioinformatics-related field? Are you wondering if ResBaz is any good for you? Or do you want to know what sessions are suitable for your research? This session highlights how tools like python, SQL, R and GitHub were used to answer a research question. It is meant to give a quick overview of the skills taught at ResBaz so you know exactly what sessions are most suitable for your needs."
   speakers: [20]
+  complexity: "Beginner" 
 -
   id: 010
   title: "Busting the Supercomputing Jargon"
@@ -111,46 +115,53 @@
   title: "Qualitative data analysis (NVivo)"
   description: "This is a 'Bring your own device' session."
   speakers: [18, 31]
+  complexity: "Beginner" 
 -
   id: 017
   title: "Introduction to R programming language"
   description: "This is a 'Bring your own device' session. This two-part workshop is an introduction to R for data analysis for complete beginners. The sessions are relatively informal, example oriented, and hands-on. The first half will cover the basics (no experience is assumed) and get us comfortable with R and its capabilities, which will prepare us for the second half where we will explore dataset manipulation."
   speakers: [32]
+  complexity: "Beginner" 
 -
   id: 018
   title: "Accessing APIs using R"
   description: "Open data on the internet is often made available, through Web service Application Programming Interfaces or APIs, by governments and other organisations. This workshop, will help you gain hands-on experience in requesting data from these different Web service APIs using R. Specifically, we will look into fetching weather and events data for Auckland region."
   speakers: [33]
+  complexity: "Intermediate" 
 -
   id: 019
   title: "Introduction to DNA metabarcoding"
   description: "What should I know before embarking on a research project in DNA metabarcoding? Come along and find out what should be considered in the design of a DNA metabarcoding research project and what to expect during the wet lab stages through to the analyses of the next-generation sequencing data."
   speakers: [34]
+  complexity: "Beginner" 
 -
   id: 020
-  title: "Machine learning introduction"
-  description: "This is a 'Bring your own device' session."
+  title: "Introduction to deep learning"
+  description: "This is a 'Bring your own device' session. Academics can use machine learning, specifically deep learning, to more swiftly advance knowledge in their respective fields. This session will offer a brief introduction to deep learning for people with a basic knowledge of Python and Jupyter Notebook. It teaches you how to use Keras - a powerful, easy-to-use Python library - for developing and evaluating basic neural networks in a few short lines of code. We will go through three different case studies and demonstrate how neural networks can be a solution to these problems."
   speakers: [38, 39]
+  complexity: "Basic knowledge of Python and Jupyter Notebook required."
 -
   id: 021
   title: "Tweet it! And find out who else did."
-  description: "Social media and Altmetrics for researchers. Learn how to publicise your research using social media and gain greater visibility of your research both within and outside your field of expertise. Find out how your work is being cited or tweeted with citation databases and Altmetrics."
+  description: "This is a 'Bring your own device' session. Social media and Altmetrics for researchers. Learn how to publicise your research using social media and gain greater visibility of your research both within and outside your field of expertise. Find out how your work is being cited or tweeted with citation databases and Altmetrics."
   speakers: [26]
+  complexity: "Beginner"
 -
   id: 022
-  title: "Commercialisation"
-  description: 
+  title: "Research commercialisation and intellectual property"
+  description: "This session will cover the following topics: What is intellectual property, types of intellectual property, services and facilities available to researchers who are thinking of patenting/commercialising their research, things to keep in mind when working in projects that have a commercial focus (for instance, don’t make the knowledge public, publishing and data sensitivity issues) real-life case studies and a question and answer session with the attendees."
   speakers: [35, 36]
 -   
   id: 023
   title: "Introduction to survey design: guidelines and common practices"
   description:  "In this workshop, Mohamed will introduce some of the fundamental ideas and guidelines to consider when undertaking survey research. This workshop is ideal for students considering large-scale surveys, and covers general concepts, quality measurement checks, and practices in this field."
   speakers: [40]
+  complexity: "Beginner"
 -
   id: 024
   title: "Towards reproducible computational biology"
-  description: "In this session, attendees will be introduced to some tools that are helpful in doing reproducible computational research. The example chosen are from the genomics/bioinformatics field but are, for the most parts, transferable to other disciplines. I will give some examples from my research where reproducibility plays role and why you might want to work in a reproducible manner. On the practical side, we will first have a look at the package manager Conda and how it can be used to create encapsulated tool and software environments that can be re-created on demand. Second, we will use the workflow management Snakemake (https://snakemake.readthedocs.io/en/stable/) to create a small example reproducible workflow for analysing some next-generation sequencing data. If time allows, we will discuss how containerisation of software for example using Docker (https://www.docker.com/) can be used to develop operating system independent reproducible workflows."
+  description: "In this session, attendees will be introduced to some tools that are helpful in doing reproducible computational research. The example chosen are from the genomics/bioinformatics field but are, for the most parts, transferable to other disciplines. I will give some examples from my research where reproducibility plays role and why you might want to work in a reproducible manner."
   speakers: [37]
+  complexity: "Beginner"
 -
-
 
