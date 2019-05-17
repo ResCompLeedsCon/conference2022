@@ -1,6 +1,6 @@
 - 
   id: 000
-  title: "Keystory Presentations"
+  title: "Keystory Presentation"
   description: "Details to be announced."
   speakers: [0, 1, 2, 3, 4, 5, 6, 7, 8]
 -
@@ -107,7 +107,7 @@
   speakers: [24, 25]
 -
   id: 015
-  title: "Tips and tricks: staying uptodate with the literature"
+  title: "Staying uptodate with the literature: tips and tricks"
   description: "This is a 'Bring your own device' session. Discover tips and tricks for staying up-to-date with the literature in your discipline, including: setting up database alerts, using advanced searching techniques, following twitter communities, setting up RSS feeds, and finding grey literature and patents."
   speakers: [25]
 -
