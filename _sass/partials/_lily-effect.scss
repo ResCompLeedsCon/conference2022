@@ -42,13 +42,14 @@
         width: 100%;
         height: 100%;
         transition: $base-transition;
-        background-position: -30px;
-        -webkit-background-size: 115%;
-        background-size: 115%;
+        background-repeat: no-repeat;
+        background-position: 0px;
+        -webkit-background-size: 100%;
+        background-size: 100%;
         @media (max-width: 767px) {
             background-position: center left;
             -webkit-background-size: 105%;        
-            background-size: 105%;        
+            background-size: 100%;        
         }
     }
     figcaption {
@@ -101,7 +102,7 @@
         background: rgba(0, 0, 0, 0);
     }
     .lily-head {
-        height: 200px;
+        height: 300px;
     }
     .lily-bottom {
         clear: both;
