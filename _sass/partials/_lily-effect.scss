@@ -87,11 +87,11 @@
         }
         .position {
             margin: 0;
-            font-size: 11px;
+            font-size: 12px;
             transition: $base-transition;
             letter-spacing: 1px;
             color: rgba(255, 255, 255, .9);
-            transform: translateY(20px);
+            transform: translateY(80px);
             @media (max-width: 767px) {
                 transform: translateY(-30px);
             }
