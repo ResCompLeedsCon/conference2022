@@ -13,7 +13,7 @@
   surname: "Announced"
   title: "Keystory Speaker"
   bio: "Keystory Speaker"
-  thumbnailUrl: "to_be_announced2.png"
+  thumbnailUrl: "to_be_announced1.png"
   rockstar: true
 - 
   id: 2
@@ -293,7 +293,7 @@
   surname: "Young"
   company: "Centre for eResearch"
   title: "eResearch Senior Solutions Specialist"
-  thumbnailUrl: "to_be_announced1.png"
+  thumbnailUrl: "nick-young.jpg"
   rockstar: false 
   ribbon:
    - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
@@ -383,7 +383,7 @@
   surname: "Corfe-Tan"
   company: "Centre for eResearch"
   title: "eResearch Solutions Analyst"
-  thumbnailUrl: "to_be_announced1.png"
+  thumbnailUrl: "warrick_corfe_tan.jpg"
   rockstar: false 
   ribbon:
     - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}

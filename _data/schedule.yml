@@ -2,71 +2,168 @@
   date: "2019-07-10"
   dateReadable: "July 10"
   tracks: 
-    - {title: "Stream 1", color: "#90be4e"}
-    - {title: "Stream 2", color: "#03a9f4"}
-    - {title: "Stream 3", color: "#e91e63"}
-    - {title: "Stream 4", color: "#FF00FF"}
+    - {title: "Room 10", color: "#90be4e"}
+    - {title: "Room 30", color: "#e91e63"}
+    - {title: "Room 110", color: "#e91e63"}
+    - {title: "Room 130", color: "#FF00FF"}
   timeslots:
     - {
-    	startTime: "10:00",
-    	endTime: "10:45",
-    	sessionIds: [002, 404, 002, 001]
+    	startTime: "09:00",
+    	sessionIds: [301]
     }
     - {
-        startTime: "11:00",
-        endTime: "11:45",
-        sessionIds: [404, 404, 404, 001]
+    	startTime: "09:30",
+    	sessionIds: [307]
+    }
+    - {
+    	startTime: "10:00",
+    	sessionIds: [302]
+    }
+    - {
+    	startTime: "10:10",
+    	sessionIds: [303]
+    }
+    - {
+    	startTime: "10:30",
+      endTime: "11:00",
+    	sessionIds: [100, 101]
+    }
+    - {
+    	startTime: "11:00",
+    	endTime: "12:00",
+    	sessionIds: [023, 404, 025, 009]
     }
     - {
     	startTime: "12:00",
-    	endTime: "11:45",
-    	sessionIds: [307]
+    	endTime: "13:00",
+    	sessionIds: [503]
+    }
+    - {
+    	startTime: "13:00",
+    	endTime: "13:30",
+    	sessionIds: [102]
+    }
+    - {
+      startTime: "13:30",
+      endTime: "14:30",
+      sessionIds: [404, 404, 006, 019]
+    }
+    - {
+      startTime: "14:30",
+      endTime: "15:30",
+      sessionIds: [404, 404, 014, 404]
+    }
+    - {
+    	startTime: "15:30",
+    	endTime: "16:00",
+    	sessionIds: [308]
     }
 - 
   date: "2019-07-11"
   dateReadable: "July 11"
   tracks: 
-    - {title: "Stream 1", color: "#90be4e"}
-    - {title: "Stream 2", color: "#03a9f4"}
-    - {title: "Stream 3", color: "#e91e63"}
-    - {title: "Stream 4", color: "#FF00FF"}
+    - {title: "Room 10", color: "#90be4e"}
+    - {title: "Room 30", color: "#e91e63"}
+    - {title: "Room 110", color: "#e91e63"}
+    - {title: "Room 130", color: "#FF00FF"}
   timeslots:
     - {
-    	startTime: "10:00",
-    	endTime: "10:45",
-    	sessionIds: [002, 001, 404, 404]
+    	startTime: "09:00",
+    	sessionIds: [103]
     }
     - {
-        startTime: "11:00",
-        endTime: "11:45",
-        sessionIds: [003, 404, 004]
+    	startTime: "09:30",
+    	sessionIds: [307]
+    }
+    - {
+    	startTime: "10:00",
+    	endTime: "11:00",
+    	sessionIds: [023, 404, 025, 009]
+    }
+    - {
+    	startTime: "11:00",
+    	endTime: "12:00",
+    	sessionIds: [023, 404, 025, 009]
     }
     - {
     	startTime: "12:00",
-    	endTime: "11:45",
-    	sessionIds: [307]
+    	endTime: "13:00",
+    	sessionIds: [503]
+    }
+    - {
+    	startTime: "13:00",
+    	endTime: "13:30",
+    	sessionIds: [104]
+    }
+    - {
+      startTime: "13:30",
+      endTime: "14:30",
+      sessionIds: [404, 404, 006, 019]
+    }
+    - {
+      startTime: "14:30",
+      endTime: "15:30",
+      sessionIds: [404, 404, 014, 404]
+    }
+    - {
+    	startTime: "15:30",
+    	endTime: "16:00",
+    	sessionIds: [308]
+    }
+    - {
+    	startTime: "16:00",
+    	endTime: "17:00",
+    	sessionIds: [023, 404, 025, 009]
     }
 - 
   date: "2019-07-12"
   dateReadable: "July 12"
   tracks: 
-    - {title: "Stream 1", color: "#90be4e"}
-    - {title: "Stream 2", color: "#03a9f4"}
-    - {title: "Stream 3", color: "#e91e63"}
-    - {title: "Stream 4", color: "#FF00FF"}
+   date: "2019-07-11"
+  dateReadable: "July 11"
+  tracks: 
+    - {title: "Room 10", color: "#90be4e"}
+    - {title: "Room 30", color: "#e91e63"}
+    - {title: "Room 110", color: "#e91e63"}
+    - {title: "Room 130", color: "#FF00FF"}
   timeslots:
     - {
-    	startTime: "10:00",
-    	endTime: "10:45",
-    	sessionIds: [002, 404, 404, 404]
+    	startTime: "09:00",
+    	sessionIds: [105]
     }
     - {
-        startTime: "11:00",
-        endTime: "11:45",
-        sessionIds: [003, 404, 004]
+    	startTime: "09:30",
+    	sessionIds: [307]
+    }
+    - {
+    	startTime: "10:00",
+    	endTime: "11:00",
+    	sessionIds: [023, 404, 025, 009]
+    }
+    - {
+    	startTime: "11:00",
+    	endTime: "12:00",
+    	sessionIds: [023, 404, 025, 009]
     }
     - {
     	startTime: "12:00",
-    	endTime: "11:45",
-    	sessionIds: [307]
+    	endTime: "13:00",
+    	sessionIds: [503]
     }
+    - {
+    	startTime: "13:00",
+    	endTime: "13:30",
+    	sessionIds: [106]
+    }
+    - {
+      startTime: "13:30",
+      endTime: "14:30",
+      sessionIds: [404, 404, 006, 019]
+    }
+    - {
+      startTime: "14:30",
+      endTime: "15:00",
+      sessionIds: [304]
+    }
+    -
+    
