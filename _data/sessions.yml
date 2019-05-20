@@ -13,7 +13,7 @@
 -
   id: 103
   title: "Keystory Presentation"
-  description: "Details to be announced."
+  description: "Applying data science to health care"
   speakers: [3]
   hidden: true
 -
@@ -47,14 +47,21 @@
   hidden: true
 - 
   id: 303
-  title: "Special session"
+  title: "Special session 1"
   place: "Level 1 Foyer"
   hidden: true
   speakers: [10, 19]
 - 
   id: 304
-  title: "Special session"
+  title: "Special session 2"
   place: "Level 1 Foyer"
+  service: true
+  hidden: true
+  speakers: [10, 19]
+- 
+  id: 305
+  title: "Special session 3"
+  place: "Level 0 Foyer"
   service: true
   hidden: true
   speakers: [10, 19]
@@ -74,10 +81,15 @@
   description: "The best time to talk with speakers and attendees"
 -
   id: 309
-  title: "Drinks, Old Government House"
+  title: "Social event, Old Government House"
   service: true
   hidden: true
   description: "The best time to talk with speakers and attendees"
+-
+  id: 310
+  title: "No session"
+  service: true
+  hidden: true
 -
   id: 503
   title: "Lunch Break"
@@ -190,7 +202,7 @@
   id: 017
   title: "Introduction to R programming language"
   description: "This is a 'Bring your own device' session. This two-part workshop is an introduction to R for data analysis for complete beginners. The sessions are relatively informal, example oriented, and hands-on. The first half will cover the basics (no experience is assumed) and get us comfortable with R and its capabilities, which will prepare us for the second half where we will explore dataset manipulation."
-  speakers: [32]
+  speakers: [32, 41]
   complexity: "Beginner" 
 -
   id: 018
@@ -240,3 +252,24 @@
   subtype: workshop
   speakers: [10]
   complexity: "Beginner" 
+-
+  id: 026
+  title: "Unity workshop and Visualisation Suite tour"
+  description: "Details to be announced."
+  subtype: workshop
+  speakers: [27, 30]
+  complexity: "Beginner" 
+-
+  id: 027
+  title: "Hacky Hour - Questions"
+  description: "Details to be announced."
+  subtype: workshop
+  speakers: [10]
+  complexity: "All welcome" 
+-
+  id: 028
+  title: "Research Compute Facilities"
+  description: "Details to be announced."
+  subtype: workshop
+  speakers: [17, 15, 42]
+  complexity: "Beginners" 

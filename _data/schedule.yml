@@ -31,7 +31,7 @@
     - {
     	startTime: "11:00",
     	endTime: "12:00",
-    	sessionIds: [023, 404, 025, 009]
+    	sessionIds: [023, 028, 025, 009]
     }
     - {
     	startTime: "12:00",
@@ -46,12 +46,12 @@
     - {
       startTime: "13:30",
       endTime: "14:30",
-      sessionIds: [404, 404, 006, 019]
+      sessionIds: [016, 012, 006, 019]
     }
     - {
       startTime: "14:30",
       endTime: "15:30",
-      sessionIds: [404, 404, 014, 404]
+      sessionIds: [404, 012, 014, 022]
     }
     - {
     	startTime: "15:30",
@@ -78,12 +78,12 @@
     - {
     	startTime: "10:00",
     	endTime: "11:00",
-    	sessionIds: [023, 404, 025, 009]
+    	sessionIds: [001, 310, 017, 005]
     }
     - {
     	startTime: "11:00",
     	endTime: "12:00",
-    	sessionIds: [023, 404, 025, 009]
+    	sessionIds: [004, 310, 017, 005]
     }
     - {
     	startTime: "12:00",
@@ -98,12 +98,12 @@
     - {
       startTime: "13:30",
       endTime: "14:30",
-      sessionIds: [404, 404, 006, 019]
+      sessionIds: [026, 027, 002, 020]
     }
     - {
       startTime: "14:30",
       endTime: "15:30",
-      sessionIds: [404, 404, 014, 404]
+      sessionIds: [026, 404, 002, 020]
     }
     - {
     	startTime: "15:30",
@@ -113,14 +113,11 @@
     - {
     	startTime: "16:00",
     	endTime: "17:00",
-    	sessionIds: [023, 404, 025, 009]
+    	sessionIds: [304, 310, 002, 020]
     }
 - 
   date: "2019-07-12"
   dateReadable: "July 12"
-  tracks: 
-   date: "2019-07-11"
-  dateReadable: "July 11"
   tracks: 
     - {title: "Room 10", color: "#90be4e"}
     - {title: "Room 30", color: "#e91e63"}
@@ -138,12 +135,12 @@
     - {
     	startTime: "10:00",
     	endTime: "11:00",
-    	sessionIds: [023, 404, 025, 009]
+    	sessionIds: [001, 011, 024, 015]
     }
     - {
     	startTime: "11:00",
     	endTime: "12:00",
-    	sessionIds: [023, 404, 025, 009]
+    	sessionIds: [004, 018, 003, 013]
     }
     - {
     	startTime: "12:00",
@@ -158,12 +155,12 @@
     - {
       startTime: "13:30",
       endTime: "14:30",
-      sessionIds: [404, 404, 006, 019]
+      sessionIds: [007, 010, 008, 021]
     }
     - {
       startTime: "14:30",
       endTime: "15:00",
-      sessionIds: [304]
+      sessionIds: [305]
     }
     -
     

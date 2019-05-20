@@ -397,3 +397,23 @@
   rockstar: false 
   ribbon:
     - {abbr: "CeR", title: "Faculty of Education and Social Work", url: "http://www.education.auckland.ac.nz/en/about/research.html"}
+-
+  id: 41
+  name: "Evgeniia"
+  surname: "Golovina"
+  company: "Liggins Institute"
+  title: "Doctoral Candidate"
+  thumbnailUrl: "evgeniia_golovina.jpg"
+  rockstar: false 
+  ribbon:
+    - {abbr: "Liggins", title: "Liggins Institute", url: "http://https://www.auckland.ac.nz/en/liggins.html"}
+-
+  id: 42
+  name: "Anthony"
+  surname: "Shaw"
+  company: "New Zealand eScience Infrastructure"
+  title: "Application Support Analyst"
+  thumbnailUrl: "to_be_announced1.png"
+  rockstar: false 
+  ribbon:
+    - {abbr: "NeSI", title: "New Zealand eScience Infrastructure", url: "https://www.nesi.org.nz"}
