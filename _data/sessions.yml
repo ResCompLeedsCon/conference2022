@@ -1,7 +1,7 @@
 - 
   id: 100
-  title: "Keystory Presentation "
-  description: "Kindness In Science"
+  title: "Keystory - Kindness In Science  "
+  description: 
   speakers: [0, 1]
   hidden: true
 - 
@@ -12,14 +12,16 @@
   hidden: true
 -
   id: 103
-  title: "Keystory Presentation"
-  description: "Applying data science to health care"
+  title: "Keystory - Applying data science to health care"
+  description: "Can we predict how many emergency admissions would occur in the next hour? Or is it possible to provide better care by automating cumbersome but essential clinical tasks? Discover how data science can help shape the 'health and care', in an industry which has data locked into many disparate systems. In this talk, we will touch upon 'the data and digital skills' required to overcome some of the challenges in realising the real value of healthcare data."
   speakers: [3]
   hidden: true
 -
   id: 104
-  title: "Keystory Presentation"
-  description: "Details to be announced."
+  title: "Keystory - Make Friends with Other Disciplines: Building novel collaborations to drive novel research"
+  description: "Come and hear how to escape from cookie cutter research, through our tale of novel collaboration bringing together an unlikely team of architects, medical doctors, data scientists and visualisation specialists working to change the way we study cancer. 
+  Spoiler alert: This team worked to bring together complex cancer data, spanning time and space, in Augmented Reality to creat a tool to explore and discuss the evolution of cancer in a whole new realm.
+  This keynote aims to inspire collaboration and ambition across faculties and across disciplines to make the most of your precious data and the resources available to you at the University."
   speakers: [4, 5]
   hidden: true
 -
@@ -202,7 +204,7 @@
   id: 017
   title: "Introduction to R programming language"
   description: "This is a 'Bring your own device' session. This two-part workshop is an introduction to R for data analysis for complete beginners. The sessions are relatively informal, example oriented, and hands-on. The first half will cover the basics (no experience is assumed) and get us comfortable with R and its capabilities, which will prepare us for the second half where we will explore dataset manipulation."
-  speakers: [32, 41]
+  speakers: [32, 41, 20]
   complexity: "Beginner" 
 -
   id: 018
@@ -257,7 +259,7 @@
   title: "Unity workshop and Visualisation Suite tour"
   description: "Details to be announced."
   subtype: workshop
-  speakers: [27, 30]
+  speakers: [30]
   complexity: "Beginner" 
 -
   id: 027
@@ -272,4 +274,11 @@
   description: "Details to be announced."
   subtype: workshop
   speakers: [17, 15, 42]
+  complexity: "Beginners" 
+-
+  id: 030
+  title: "Create and Maker Space – Interactive Tour"
+  description: "Come and enjoy an interactive tour of the Create and Maker Space situated in UoA’s Innovation Hub – Unleash Space. Unleash Space Technician Sean Kelly and his Creative Technologists will be on hand to provide demonstrations of the free technology available to all UoA staff and students. From 3D printers to electronics to sewing machines we have a diverse suite of technology to support making, learning and innovative activity."
+  subtype: workshop
+  speakers: [43]
   complexity: "Beginners" 

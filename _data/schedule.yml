@@ -98,12 +98,12 @@
     - {
       startTime: "13:30",
       endTime: "14:30",
-      sessionIds: [026, 027, 002, 020]
+      sessionIds: [026, 030, 002, 020]
     }
     - {
       startTime: "14:30",
       endTime: "15:30",
-      sessionIds: [026, 404, 002, 020]
+      sessionIds: [026, 030, 002, 020]
     }
     - {
     	startTime: "15:30",
