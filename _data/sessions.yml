@@ -256,8 +256,8 @@
   complexity: "Beginner" 
 -
   id: 026
-  title: "Unity workshop and Visualisation Suite tour"
-  description: "Details to be announced."
+  title: "AR/VR development with Unity and tour of CeR Visualisation suite"
+  description: "Unity is a freely available game engine - a platform designed for the primary purpose of video game development. At the Centre for eResearch, we use Unity to develop research visualisation applications for our various AR (Augmented Reality)/VR (Virtual Reality) platforms. In this session, we'll give a crash course on how to use Unity, and how to develop applications for AR headsets such as the Microsoft Hololens, and VR headsets such as the Samsung Gear VR."
   subtype: workshop
   speakers: [30]
   complexity: "Beginner" 
@@ -271,7 +271,7 @@
 -
   id: 028
   title: "Research Compute Facilities"
-  description: "Details to be announced."
+  description: "Do your computations take too long on your laptop or desktop computer? Do you want to offload long-running simulations to a different computer? Are there computations you cannot run on your desktop because you don't have enough memory or compute power? In this workshop we give an overview of the options you have. We will cover the computer clusters of the New Zealand eScience Infrastructure (NeSI), the Research Virtual Machine Farm, and the Nectar Research Cloud, and which of the 3 systems is best suited for various use-cases."
   subtype: workshop
   speakers: [17, 15, 42]
   complexity: "Beginners" 
