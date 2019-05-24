@@ -305,16 +305,6 @@
   ribbon:
     - {abbr: "FMHS", title: "Faculty of Medical and Health Sciences", url: "https://fmhs.auckland.ac.nz"}
 -
-  id: 33
-  name: "Manish"
-  surname: "Kukreja"
-  company: "Auckland District Health Board"
-  title: "Full Stack Data Scientist | Trainer"
-  thumbnailUrl: "manish_kukreja.jpg"
-  rockstar: false 
-  ribbon:
-    - {abbr: "ADHB", title: "Auckland District Health Board", url: "https://adhb.health.nz"}
--
   id: 34
   name: "Aimee"
   surname: "van der Reis"

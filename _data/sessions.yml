@@ -144,9 +144,10 @@
 -
   id: 007                                     
   title: "Data Management Planning"
-  description: "A data management plan (DMP) is a document that describes what research data will be collected - how it will be organised, documented, stored; along with publication and preservation plans. If you want to create a DMP but do not know where to start or what to include, come along to this workshop where we go through the various aspects of the University's DMP, offer best practice examples and section-by-section advice for creating your initial DMP."
+  description: "This is a 'Bring your own device' session. A data management plan (DMP) is a document that describes what research data will be collected - how it will be organised, documented, stored; along with publication and preservation plans. If you want to create a DMP but do not know where to start or what to include, come along to this workshop where we go through the various aspects of the University's DMP, offer best practice examples and section-by-section advice for creating your initial DMP.<br /><br />
+  Session is particularly suited to provisional year doctoral candidates or researchers in the early stages of their research project."
   speakers: [13, 14]
-  complexity: "TBC" 
+  complexity: "Attendance to earlier Research Data Mamgement workshop is recommended." 
 -
   id: 008
   title: "Tidy data and introduction to OpenRefine"
@@ -214,7 +215,7 @@
   id: 018
   title: "Accessing APIs using R"
   description: "Open data on the internet is often made available, through Web service Application Programming Interfaces or APIs, by governments and other organisations. This workshop, will help you gain hands-on experience in requesting data from these different Web service APIs using R. Specifically, we will look into fetching weather and events data for Auckland region."
-  speakers: [33]
+  speakers: [3]
   complexity: "Intermediate" 
 -
   id: 019
