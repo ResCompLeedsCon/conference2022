@@ -19,10 +19,11 @@
   id: 2
   name: "Jennifer"
   surname: "Lees-Marshment"
-  title: "Keystory Speaker"
   bio: "Jennifer Lees-Marshment is an Associate Professor in political science at The University of Auckland in New Zealand. Author/editor of 13 books, Jennifer is a world expert in political marketing with additional research interests in public input, leadership, and governance. Her most recent work The Ministry of Public Input (Palgrave 2015) won the IAP2 Australasia Research Award. Jennifer was academic advisor to TVNZ’s Vote Compass in the 2014 and 2017 New Zealand elections and Kiwimeter in 2015 and Chair of the Magna Carta 800 committee for NZ in 2015. See <a href=\"http://www.lees-marshment.org\">www.lees-marshment.org</a> for further details or email j.lees-marshment@auckland.ac.nz." 
   thumbnailUrl: "jennifer-lees-marshment.jpg"
-  rockstar: true <
+  rockstar: true
+  ribbon:
+    - {abbr: "Arts", title: "School of Social Sciences, Faculty of Arts", url: "https://www.auckland.ac.nz/en/arts/about-the-faculty/school-of-social-sciences.html"}
 -
   id: 3
   name: "Manish"
