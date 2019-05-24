@@ -6,8 +6,8 @@
   hidden: true
 - 
   id: 102
-  title: "Keystory Presentation"
-  description: "Details to be announced."
+  title: "Research Impact: making a difference as an academic advisor to an online engagement tool"
+  description: "Dr Jennifer Lees-Marshment will discuss the value of research impact and her experience as Academic Advisor to TVNZ’s online engagement tools Vote Compass (2017 and 2014) and Kiwimeter (2015). Her talk will showcase the value of engaging in research impact, but also discuss the challenges and pressures that stepping outside the ivory tower of academia can generate. Jennifer is Associate Professor in Politics and was academic lead on University of Auckland’s Impact Working Group and is a member of the Convening Group for the University COI in Impact."
   speakers: [2]
   hidden: true
 -
@@ -89,7 +89,7 @@
   description: "The best time to talk with speakers and attendees"
 -
   id: 310
-  title: "No session"
+  title: "To be confirmed"
   service: true
   hidden: true
 -
@@ -108,7 +108,7 @@
 -
   id: 002
   title: "Crash course in LaTeX using Overleaf"
-  description: "This is a 'Bring your own device' session. Learn the basics of LaTeX and Overleaf in this workshop. We will create a template that you can use for both articles and a thesis (using the UoA-thesis LaTeX template)."
+  description: "This is a 'Bring your own device' session. Learn the basics of LaTeX and Overleaf in this workshop. We will create a template that you can use for both articles and a thesis."
   subtype: workshop
   speakers: [11, 12, 13]
   complexity: "Beginner" 
@@ -178,8 +178,10 @@
   complexity: "Beginner" 
 -
   id: 012
-  title: "Publishing and Copyright"
-  description: "Everything you need to know about licences and research objects. Find out what you should know about copyright before you publish your work, and how to maintain rights over your work. Learn how to hack a copyright contract in a hands on practical session."
+  title: "Copyright the Card Game"
+  description: "The first of two games sessions – come and have some fun and find out about copyright and publishing.<br /><br /> 
+
+  We'll find out about copyright basics in a fun way and discover what works and uses are protected by copyright, how licences work, and what the copyright exceptions are that enable you to make use of protected works.  As with all games there is an element of risk – so then we find out how to evaluate the risks where your use might not be covered  by a licence or an exception.Everything you need to know about licences and research objects. Find out what you should know about copyright before you publish your work, and how to maintain rights over your work. Learn how to hack a copyright contract in a hands on practical session."
   speakers: [22]
 -
   id: 013
@@ -284,3 +286,10 @@
   subtype: workshop
   speakers: [43]
   complexity: "Beginners" 
+-
+  id: 031
+  title: "The Publishing Trap"
+  description: "The Publishing Trap is a board game that allows players to explore the impact of scholarly communication choices and players discuss the role of open access in research by following the lives of four researchers – from doctoral research to their academic legacies.<br /><br /> 
+
+  Played in teams, the Publishing Trap is aimed at early career researchers and academics, as well as anyone who has a vested interest in understanding how access to information works and how the whole scholarly communication system in higher education operates. The game is designed to encourage you to make informed choices when signing publishing contracts and submitting work to the institutional repository."
+  speakers: [22]
