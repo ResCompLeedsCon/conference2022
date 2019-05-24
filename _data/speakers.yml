@@ -7,6 +7,8 @@
   bio: "Kate Hannah has a Master of Arts (2004) from Waikato University in 19th Century American Literary Culture. Her principal research area is the historiography of the history of science, with a focus on the cultures and subcultures of science, gender in science history, and narrative and complexity. She holds dual roles at Te Pūnaha Matatini, a New Zealand Centre of Research Excellence for complex systems and networks – executive manager and associate investigator; she is a research fellow in the Department of Physics at the University of Auckland, course convener of Science Scholars 101, and a Te Pūnaha Matatini-funded PhD candidate in the Science and Society Group at Victoria University Wellington, investigating novel hybrid methodologies for the historiography of science. Basically, she’s a historian in a Physics department."
   thumbnailUrl: "Kate_Hannah.jpg"   
   rockstar: true
+  ribbon:
+    - {abbr: "TPM", title: "Te Pūnaha Matatini", url: "https://www.tepunahamatatini.ac.nz"}
 - 
   id: 1
   name: "To Be"
@@ -19,6 +21,8 @@
   id: 2
   name: "Jennifer"
   surname: "Lees-Marshment"
+  company: "Faculty of Arts"
+  title: "Associate Professor"
   bio: "Jennifer Lees-Marshment is an Associate Professor in political science at The University of Auckland in New Zealand. Author/editor of 13 books, Jennifer is a world expert in political marketing with additional research interests in public input, leadership, and governance. Her most recent work The Ministry of Public Input (Palgrave 2015) won the IAP2 Australasia Research Award. Jennifer was academic advisor to TVNZ’s Vote Compass in the 2014 and 2017 New Zealand elections and Kiwimeter in 2015 and Chair of the Magna Carta 800 committee for NZ in 2015. See <a href=\"http://www.lees-marshment.org\">www.lees-marshment.org</a> for further details or email j.lees-marshment@auckland.ac.nz." 
   thumbnailUrl: "jennifer-lees-marshment.jpg"
   rockstar: true
