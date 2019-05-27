@@ -271,7 +271,7 @@
   company: "Faculty of Science"
   title: "Dean of Science"
   thumbnailUrl: "to_be_announced1.png"
-  rockstar: true 
+  rockstar: false 
   ribbon:
     - {abbr: "FOS", title: "Faculty of Science", url: "https://www.auckland.ac.nz/en/science.html"}
 -
