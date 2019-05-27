@@ -19,10 +19,9 @@
   rockstar: true
 - 
   id: 2
-  name: "Jennifer"
+  name: "Associate Professor Jennifer"
   surname: "Lees-Marshment"
   company: "Faculty of Arts"
-  title: "Associate Professor"
   bio: "Jennifer Lees-Marshment is an Associate Professor in political science at The University of Auckland in New Zealand. Author/editor of 13 books, Jennifer is a world expert in political marketing with additional research interests in public input, leadership, and governance. Her most recent work The Ministry of Public Input (Palgrave 2015) won the IAP2 Australasia Research Award. Jennifer was academic advisor to TVNZ’s Vote Compass in the 2014 and 2017 New Zealand elections and Kiwimeter in 2015 and Chair of the Magna Carta 800 committee for NZ in 2015. See <a href=\"http://www.lees-marshment.org\">www.lees-marshment.org</a> for further details or email j.lees-marshment@auckland.ac.nz." 
   thumbnailUrl: "jennifer-lees-marshment.jpg"
   rockstar: true
@@ -71,12 +70,13 @@
   rockstar: true
 -
   id: 7
-  name: "To Be"
-  surname: "Announced"
-  title: "Keystory Speaker"
-  bio: "Keystory Speaker"
+  name: "Daniel"
+  surname: "Patrick"
+  title: "Executive Director"
   thumbnailUrl: "to_be_announced1.png"
   rockstar: true
+  ribbon:
+    - {abbr: "NPM", title: "Ngā Pae o te Māramatanga", url: "http://www.maramatanga.co.nz"}
 -
   id: 10
   name: "Cameron"
@@ -243,7 +243,7 @@
   thumbnailUrl: "Liz_Sowden.jpg"
   rockstar: false 
   ribbon:
-    - {abbr: "LLS", title: Libraries and Learning Services", url: "https://library.auckland.ac.nz"}
+    - {abbr: "LLS", title: "Libraries and Learning Services", url: "https://library.auckland.ac.nz"}
 -
   id: 25
   name: "Jo"
@@ -253,7 +253,7 @@
   thumbnailUrl: "Jo_Simons.jpg"
   rockstar: false 
   ribbon:
-    - {abbr: "LLS", title: Libraries and Learning Services", url: "https://library.auckland.ac.nz"}
+    - {abbr: "LLS", title: "Libraries and Learning Services", url: "https://library.auckland.ac.nz"}
 -
   id: 26
   name: "Emma"
@@ -263,7 +263,26 @@
   thumbnailUrl: "Emma_Richardson.png"
   rockstar: false 
   ribbon:
-    - {abbr: "LLS", title: Libraries and Learning Services", url: "https://library.auckland.ac.nz"}
+    - {abbr: "LLS", title: "Libraries and Learning Services", url: "https://library.auckland.ac.nz"}
+-
+  id: 27
+  name: " Professor John"
+  surname: "Hosking"
+  company: "Faculty of Science"
+  title: "Dean of Science"
+  thumbnailUrl: "to_be_announced1.png"
+  rockstar: true 
+  ribbon:
+    - {abbr: "FOS", title: "Faculty of Science", url: "https://www.auckland.ac.nz/en/science.html"}
+-
+  id: 28
+  name: "Bevan"
+  surname: "Shortridge"
+  company: "Libraries and Learning Services"
+  thumbnailUrl: "to_be_announced1.png"
+  rockstar: false 
+  ribbon:
+    - {abbr: "LLS", title: "Libraries and Learning Services", url: "https://library.auckland.ac.nz"}
 -
   id: 29
   name: "Faith"
@@ -404,3 +423,14 @@
   rockstar: false 
   ribbon:
     - {abbr: "Unleash Space", title: "Unleash Space, Centre for Innovation and Entrepreneurship", url: "https://www.unleashspace.ac.nz"}
+-
+  id: 44
+  name: "Wallace"
+  surname: "Chase"
+  company: "REANNZ"
+  title: "Technical Engagement Manager"
+  bio: "As Technical Engagement Manager Wallace assists the membership to utilise the full potentional of REANNZ. To this end Wallace leverages his 15 years of experience in higher education IT operations and supporting research."
+  thumbnailUrl: "to_be_announced1.png"
+  rockstar: false
+  ribbon:
+    - {abbr: "REANNZ", title: "REANNZ", url: "https://reannz.co.nz/"}

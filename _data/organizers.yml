@@ -13,3 +13,4 @@
   elements: 
     - {name: "Faculty of Science", description: "Faculty of Science", link: "https://www.auckland.ac.nz/en/science.html"}
     - {name: "Digital Services", description: "Digital Services", link: "https://www.staff.auckland.ac.nz/en/central-services/digital-services.html"}
+    - {name: "REANNZ", description: "REANNZ", link: "https://reannz.co.nz"}
