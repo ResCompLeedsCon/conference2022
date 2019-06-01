@@ -265,16 +265,6 @@
   ribbon:
     - {abbr: "LLS", title: "Libraries and Learning Services", url: "https://library.auckland.ac.nz"}
 -
-  id: 27
-  name: " Professor John"
-  surname: "Hosking"
-  company: "Faculty of Science"
-  title: "Dean of Science"
-  thumbnailUrl: "to_be_announced1.png"
-  rockstar: false 
-  ribbon:
-    - {abbr: "FOS", title: "Faculty of Science", url: "https://www.auckland.ac.nz/en/science.html"}
--
   id: 28
   name: "Bevan"
   surname: "Shortridge"

@@ -46,7 +46,7 @@
   id: 302
   title: "Welcome"
   place: "Level 1 Foyer"
-  speakers: [27]
+  speakers: 
   hidden: true
 - 
   id: 303
