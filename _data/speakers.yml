@@ -11,12 +11,14 @@
     - {abbr: "TPM", title: "Te Pūnaha Matatini", url: "https://www.tepunahamatatini.ac.nz"}
 - 
   id: 1
-  name: "To Be"
-  surname: "Announced"
-  title: "Keystory Speaker"
-  bio: "Keystory Speaker"
-  thumbnailUrl: "to_be_announced1.png"
+  name: "Professor Shaun"
+  surname: "Hendy"
+  company: "Te Punaha Matatini"
+  bio: "Shaun Hendy is the Director of Te Pūnaha Matatini, a New Zealand Centre of Research Excellence, and a Professor of Physics at the University of Auckland."
+  thumbnailUrl: "Shaun-Hendy.jpg"
   rockstar: true
+  ribbon:
+    - {abbr: "TPM", title: "Te Pūnaha Matatini", url: "https://www.tepunahamatatini.ac.nz"}
 - 
   id: 2
   name: "Associate Professor Jennifer"

@@ -68,6 +68,13 @@
   service: true
   hidden: true
   speakers: [10, 19]
+- 
+  id: 306
+  title: "Special session 2"
+  place: "Level 0 Foyer"
+  service: true
+  hidden: true
+  speakers: [10, 14]
 -
   id: 307
   title: "Morning tea/coffee"
@@ -302,3 +309,18 @@
   subtype: workshop
   speakers: [44, 19]
   complexity: "Beginner" 
+-
+  id: 033
+  title: "Less is more: creating infographics"
+  description: "To be announced." 
+  subtype: workshop
+  speakers: [19]
+  complexity: "Beginner" 
+-
+  id: 034
+  title: "Learn how to collaborate with Dropbox"
+  description: "To be announced." 
+  subtype: workshop
+  speakers: [19]
+  complexity: "Beginner" 
+ 
