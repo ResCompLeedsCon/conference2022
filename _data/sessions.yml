@@ -46,7 +46,7 @@
   id: 302
   title: "Welcome"
   place: "Level 1 Foyer"
-  speakers: 
+  speakers: [8]
   hidden: true
 - 
   id: 303
@@ -314,13 +314,19 @@
   title: "Less is more: creating infographics"
   description: "To be announced." 
   subtype: workshop
-  speakers: [19]
+  speakers: [19, 46]
   complexity: "Beginner" 
 -
   id: 034
   title: "Learn how to collaborate with Dropbox"
   description: "To be announced." 
   subtype: workshop
-  speakers: [19]
+  speakers: [19, 47]
   complexity: "Beginner" 
- 
+-
+  id: 035
+  title: "Network analysis"
+  description: "To be announced." 
+  subtype: workshop
+  speakers: [45]
+  complexity: "Beginner" 

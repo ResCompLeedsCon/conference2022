@@ -70,7 +70,6 @@
     - {title: "2", color: "#e91e63"}
     - {title: "2", color: "#e91e63"}
     - {title: "4", color: "#FF00FF"}
-    - {title: "5", color: "#90be4e"}
   timeslots:
     - {
     	startTime: "09:00",
@@ -90,7 +89,7 @@
     - {
     	startTime: "11:00",
     	endTime: "12:00",
-    	sessionIds: [004, 404, 017, 005]
+    	sessionIds: [004, 035, 017, 005]
     }
     - {
     	startTime: "12:00",
