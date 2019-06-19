@@ -326,7 +326,10 @@
 -
   id: 035
   title: "Network analysis"
-  description: "To be announced." 
+  description: "Social Network Analysis has a long history spanning multiple academic disciplines, so in this short session we won’t try to be comprehensive. Instead, participants will be exposed to some of key sociologically based network theories and their associated network measures. These basic insights can then be used as a starting point for further research. During this session we’ll also touch on some tools that exist to make cleaning, loading and analyzing network data easier than ever before.<br /><br />
+  
+  More information about the session and resources for those wishing to follow along will be available here: 
+http://jgmackay.com/resbaz/" 
   subtype: workshop
   speakers: [45]
   complexity: "Beginner" 

@@ -441,10 +441,10 @@
   id: 45
   name: "Jon"
   surname: "MacKay"
-  company: 
+  company: "Business School"
   title: "Lecturer"
-  bio: 
-  thumbnailUrl: "to_be_announced1.png"
+  bio: "Jon MacKay is a lecturer in Business Analytics at the Graduate School of Management within the Business School at the University of Auckland. Dr. MacKay received his PhD in Management Sciences from the University of Waterloo in Canada. He has used network analysis in various projects. These include: examining how ownership networks within corporate boards is associated with performance; how corporate boards of successful companies within a German-speaking ethnic enclave in Canada were disconnected from those of the Anglo-Canadian elites at the turn of the last century; and the implications that ideological networks have for effective the leadership of political parties."
+  thumbnailUrl: "jon-mackay.jpg"
   rockstar: false
   ribbon:
     - {abbr: "Business", title: "Business School", url: "https://www.auckland.ac.nz/en/business.html"}
