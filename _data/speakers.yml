@@ -278,6 +278,17 @@
   ribbon:
     - {abbr: "LLS", title: "Libraries and Learning Services", url: "https://library.auckland.ac.nz"}
 -
+  id: 27
+  name: "Chris"
+  surname: "Seal"
+  company: "Centre for eResearch"
+  title: "Senior eResearch Solutions Specialist"
+  bio: "Seanis a senior member of the Centre for eResearch's solutions team."
+  thumbnailUrl: "to_be_announced1.png"
+  rockstar: false 
+  ribbon:
+    - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
+-
   id: 28
   name: "Bevan"
   surname: "Shortridge"
