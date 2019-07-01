@@ -48,6 +48,7 @@ navigationLinks:
  - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/sessions/", text: "Sessions"}
+ - {permalink: "/cod/", text: "Code of Conduct"}
 bottomNavigationLinks:
  - {link: "mailto:researchdata@auckland.ac.nz", text: "Contact us"}
 rightNavigationButtons:
