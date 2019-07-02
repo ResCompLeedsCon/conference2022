@@ -83,13 +83,22 @@
     - {abbr: "NPM", title: "Ngā Pae o te Māramatanga", url: "http://www.maramatanga.co.nz"}
 -
   id: 8
-  name: "Professor Stuart"
-  surname: "McCutcheon"
+  name: "To Be"
+  surname: "Announced"
   title: "Vice-Chancellor"
   thumbnailUrl: "to_be_announced1.png"
   rockstar: false
   ribbon:
     - {abbr: "UoA", title: "University of Auckland", url: "https://www.auckland.ac.nz/en.html"}
+-
+  id: 9
+  name: "Daniel"
+  surname: "Hikuroa"
+  title: "Executive Director"
+  thumbnailUrl: "to_be_announced1.png"
+  rockstar: true
+  ribbon:
+    - {abbr: "TPM", title: "Te Pūnaha Matatini", url: "https://www.tepunahamatatini.ac.nz"}
 -
   id: 10
   name: "Cameron"
@@ -221,19 +230,19 @@
   id: 21
   name: "Anita"
   surname: "Kean"
-  company: "New  Zealand eScience Infrastructure"
-  title: "Application Support Analyst"
+  company: "Centre for eResearch"
+  title: "eResearch Solutions Analyst"
   thumbnailUrl: "anita-kean.jpg"
   rockstar: false 
   ribbon:
-    - {abbr: "NeSI", title: "New Zealand eScience Infrastructure", url: "https://www.nesi.org.nz"}
+    - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
 -
   id: 22
   name: "Melanie"
   surname: "Johnson"
   company: "Libraries and Learning Services"
   title: "Copyright Officer"
-  thumbnailUrl: "to_be_announced3.png"
+  thumbnailUrl: "melanie_johnson.png"
   rockstar: false 
   ribbon:
     - {abbr: "LLS", title: "Libraries and Learning Services", url: "https://library.auckland.ac.nz"}
@@ -406,7 +415,7 @@
   thumbnailUrl: "mohamed_alansari.jpg"
   rockstar: false 
   ribbon:
-    - {abbr: "CeR", title: "Faculty of Education and Social Work", url: "http://www.education.auckland.ac.nz/en/about/research.html"}
+    - {abbr: "Education", title: "Faculty of Education and Social Work", url: "http://www.education.auckland.ac.nz/en/about/research.html"}
 -
   id: 41
   name: "Evgeniia"
@@ -461,8 +470,8 @@
     - {abbr: "Business", title: "Business School", url: "https://www.auckland.ac.nz/en/business.html"}
 -
   id: 46
-  name: "To be"
-  surname: "Announced"
+  name: "Vivian"
+  surname: "Ward"
   company: 
   title: 
   bio: 
@@ -471,12 +480,22 @@
   ribbon:
 -
   id: 47
-  name: "To be"
-  surname: "Announced"
-  company: 
+  name: "Hamish"
+  surname: "Osborne"
+  company: "Dropbox"
   title: 
   bio: 
   thumbnailUrl: "to_be_announced1.png"
   rockstar: false
   ribbon:
-  
+-
+  id: 48
+  name: "Sina"
+  surname: "Masoud-Ansari"
+  company: "Centre for eResearch"
+  title: "Senior eResearch Engagement Specialist"
+  bio: "Sina is a senior member of the Centre for eResearch's engagement team."
+  thumbnailUrl: "to_be_announced1.png"
+  rockstar: false 
+  ribbon:
+    - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
