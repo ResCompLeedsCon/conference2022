@@ -85,7 +85,7 @@
   id: 8
   name: "To Be"
   surname: "Announced"
-  title: "Vice-Chancellor"
+  title: 
   thumbnailUrl: "to_be_announced1.png"
   rockstar: false
   ribbon:
@@ -94,7 +94,8 @@
   id: 9
   name: "Daniel"
   surname: "Hikuroa"
-  title: "Executive Director"
+  title: "Senior Lecturer"
+  bio: "Dr Daniel Hikuroa is Co-Deputy Director Public Engagement, Te Pūnaha Matatini, and a Prinicipal Investigator within Ngā Pae o te Māramatanga and Te Pūnaha Matatini"
   thumbnailUrl: "to_be_announced1.png"
   rockstar: true
   ribbon:
@@ -499,3 +500,13 @@
   rockstar: false 
   ribbon:
     - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
+-
+  id: 49
+  name: "Sandy"
+  surname: "Lin"
+  company: "Libraries and Learning Services"
+  title: "Research Services Advisor"
+  thumbnailUrl: "melanie_johnson.png"
+  rockstar: false 
+  ribbon:
+    - {abbr: "LLS", title: "Libraries and Learning Services", url: "https://library.auckland.ac.nz"}
