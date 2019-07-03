@@ -232,7 +232,7 @@
   id: 021
   title: "Tweet it! And find out who else did. (Rm:130)"
   description: "This is a 'Bring your own device' session. Social media and Altmetrics for researchers. Learn how to publicise your research using social media and gain greater visibility of your research both within and outside your field of expertise. Find out how your work is being cited or tweeted with citation databases and Altmetrics."
-  speakers: [26]
+  speakers: [26, 51, 52]
   complexity: "Beginner"
 -
   id: 022
@@ -328,6 +328,6 @@
   title: "Working with social media data? (Rm:G10)"
   description: "Social media data can enable insightful research into areas like social behaviour and current events. How do you get started? And what are your experiences with the technical knowledge and costs required for collecting, cleaning and analysing social media datasets? This session brings together researchers already using social media datasets in their research, as well as those who are interested, to share tools, tips and experiences."
   subtype: workshop
-  speakers: [12, 14, 48]
+  speakers: [12, 14, 48, 50]
   complexity: "All welcome" 
 

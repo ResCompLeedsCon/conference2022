@@ -510,3 +510,33 @@
   rockstar: false 
   ribbon:
     - {abbr: "LLS", title: "Libraries and Learning Services", url: "https://library.auckland.ac.nz"}
+-
+  id: 50
+  name: "Michael"
+  surname: "Martin"
+  company: "School of Environment"
+  title: Lecturer
+  bio: 
+  thumbnailUrl: "to_be_announced1.png"
+  rockstar: false
+  ribbon:
+    - {abbr: "FOS", title: "Faculty of Science", url: "https://science.auckland.ac.nz"}
+-
+  id: 51
+  name: "Joshua"
+  surname: "Emmitt"
+  company: "Faculty of Arts"
+  thumbnailUrl: "to_be_announced1.png"
+  rockstar: true
+  ribbon:
+    - {abbr: "Arts", title: "School of Social Sciences, Faculty of Arts", url: "https://www.auckland.ac.nz/en/arts/about-the-faculty/school-of-social-sciences.html"}
+-
+  id: 52
+  name: "Patrick"
+  surname: "Thomsen"
+  company: "Faculty of Arts"
+  title: Te Tomokanga Fellow
+  thumbnailUrl: "to_be_announced1.png"
+  rockstar: false
+  ribbon:
+    - {abbr: "Arts", title: "School of Social Sciences, Faculty of Arts", url: "https://www.auckland.ac.nz/en/arts/about-the-faculty/school-of-social-sciences.html"}
