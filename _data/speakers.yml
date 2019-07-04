@@ -83,15 +83,6 @@
     - {abbr: "NPM", title: "Ngā Pae o te Māramatanga", url: "http://www.maramatanga.co.nz"}
 -
   id: 8
-  name: "To Be"
-  surname: "Announced"
-  title: 
-  thumbnailUrl: "to_be_announced1.png"
-  rockstar: false
-  ribbon:
-    - {abbr: "UoA", title: "University of Auckland", url: "https://www.auckland.ac.nz/en.html"}
--
-  id: 9
   name: "Daniel"
   surname: "Hikuroa"
   title: "Senior Lecturer"
@@ -100,6 +91,15 @@
   rockstar: true
   ribbon:
     - {abbr: "TPM", title: "Te Pūnaha Matatini", url: "https://www.tepunahamatatini.ac.nz"}
+-
+  id: 9
+  name: "Stephen"
+  surname: "Whiteside"
+  title: "Chief Digital Officer"
+  thumbnailUrl: "to_be_announced1.png"
+  rockstar: false
+  ribbon:
+    - {abbr: "UoA", title: "University of Auckland", url: "https://www.auckland.ac.nz/en.html"}
 -
   id: 10
   name: "Cameron"

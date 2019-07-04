@@ -1,24 +1,24 @@
 - 
   id: 100
-  title: "Keystory - Kindness In Science"
+  title: "Keystory - Kindness In Science (Rm: G20)"
   description: 
-  speakers: [0, 1, 9]
+  speakers: [0, 1, 8]
   hidden: true
 - 
   id: 102
-  title: "Keystory - Research Impact: making a difference as an academic advisor to an online engagement tool"
+  title: "Keystory - Research Impact: making a difference as an academic advisor to an online engagement tool (Rm: G20)"
   description: "Dr Jennifer Lees-Marshment will discuss the value of research impact and her experience as Academic Advisor to TVNZ’s online engagement tools Vote Compass (2017 and 2014) and Kiwimeter (2015). Her talk will showcase the value of engaging in research impact, but also discuss the challenges and pressures that stepping outside the ivory tower of academia can generate. Jennifer is Associate Professor in Politics and was academic lead on University of Auckland’s Impact Working Group and is a member of the Convening Group for the University COI in Impact."
   speakers: [2]
   hidden: true
 -
   id: 103
-  title: "Keystory - Applying data science to health care"
+  title: "Keystory - Applying data science to health care (Rm: G20)"
   description: "Can we predict how many emergency admissions would occur in the next hour? Or is it possible to provide better care by automating cumbersome but essential clinical tasks? Discover how data science can help shape the 'health and care', in an industry which has data locked into many disparate systems. In this talk, we will touch upon 'the data and digital skills' required to overcome some of the challenges in realising the real value of healthcare data."
   speakers: [3]
   hidden: true
 -
   id: 104
-  title: "Keystory - Make Friends with Other Disciplines: Building novel collaborations to drive novel research"
+  title: "Keystory - Make Friends with Other Disciplines: Building novel collaborations to drive novel research (Rm: G20)"
   description: "Come and hear how to escape from cookie cutter research, through our tale of novel collaboration bringing together an unlikely team of architects, medical doctors, data scientists and visualisation specialists working to change the way we study cancer. 
   Spoiler alert: This team worked to bring together complex cancer data, spanning time and space, in Augmented Reality to creat a tool to explore and discuss the evolution of cancer in a whole new realm.
   This keynote aims to inspire collaboration and ambition across faculties and across disciplines to make the most of your precious data and the resources available to you at the University."
@@ -26,34 +26,34 @@
   hidden: true
 -
   id: 105
-  title: "Keystory Presentation"
+  title: "Keystory Presentation (Rm: G20)"
   description: "Details to be announced."
   speakers: [6]
   hidden: true
 -
   id: 106
-  title: "Keystory Presentation"
+  title: "Keystory Presentation (Rm: G20)"
   description: "Details to be announced."
   speakers: [7]
   hidden: true
 -
   id: 301
-  title: "Registration (Rm:G20)"
+  title: "Registration (Rm:120)"
   service: true
   hidden: true
 - 
   id: 302
   title: "Welcome (Rm:G20)"
-  speakers: [8]
+  speakers: [9]
   hidden: true
 - 
   id: 303
-  title: "Opening session (Rm:G20)"
+  title: "Superpowers (Rm:G20)"
   hidden: true
   speakers: [10, 19]
 - 
   id: 304
-  title: "Pizza, sponsored by REANNZ (Rm:G20)"
+  title: "Pizza, sponsored by REANNZ (Rm:120)"
   service: true
   hidden: true
   speakers: 
@@ -99,7 +99,7 @@
   service: true
 -
   id: 001
-  title: "Research Data Management: Sharing, Publishing & Archiving (Rm:G10)"
+  title: "Research Data Management (Part 1): Sharing, Publishing & Archiving (Rm:G10)"
   description: "The University of Auckland Code of Conduct for Research states \"Researchers should share data and findings openly and as promptly as possible\", a practice increasingly required by research funders and publishers. Come along to this workshop to learn about how you can disseminate your research findings; increase your research impact through data publication; learn about services available to you at the University to achieve this."
   subtype: workshop
   speakers: [14]
@@ -121,7 +121,7 @@
   complexity: "Beginner" 
 -
   id: 004
-  title: "Research Data Management: Planning Organising and Storing (Rm:G10)"
+  title: "Research Data Management (Part 2): Planning, Organising & Storing (Rm:G10)"
   description: "Research data: that which is created, collected or observed in the course of producing original research, regardless of format. This introductory workshop is aimed at researchers, particularly those embarking on their research career or starting a new research project. Attendees will develop strategies for capturing and organising research data, sharing and reusing data, and have an opportunity to draft a Data Management Plan (DMP).You will be introduced to data management concepts, best practices, services and useful tools to support you managing and sharing your research data."
   subtype: workshop
   speakers: [13, 14]
@@ -172,7 +172,11 @@
 -
   id: 011
   title: "Linux - an introduction to the command line (Rm:G30)"
-  description: "This is a 'Bring your own device' session. This introductory session covers topics such as the linux file system, basic navigation, file permissions and access, configuration files and simple automation."
+  description: "This is a 'Bring your own laptop' session.<br /><br /> 
+  There are research computing platforms running the linux operating system where no gui interface is available, and it is imperative to know how to navigate filesystems and run programs from the command-line (the shell). From the command-line you can then automate your work-processes and work much more efficiently.<br /><br /> 
+  This introduction to the bash shell will cover 1) basic navigation,  2)  customizing the shell with environment variables, and 3) running small automation scripts <br /><br /> 
+
+  Those whose laptop can boot into linux or MacOS have a bash shell already available to them. Windows users without linux should follow the <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows\">instructions</a> so that they can boot into ubuntu from a usb stick at the beginning of the session to have access to the bash shell. Alternatively, if you are running Windows10, <a href=\"https://docs.microsoft.com/en-us/windows/wsl/install-win10\">install</a> the Windows Subsystem for Linux."
   subtype: workshop
   speakers: [21]
   complexity: "Beginner" 
@@ -260,8 +264,9 @@
   complexity: "Beginner" 
 -
   id: 026
-  title: "AR/VR development with Unity and tour of CeR Visualisation suite (Rm:G10)"
-  description: "Unity is a freely available game engine - a platform designed for the primary purpose of video game development. At the Centre for eResearch, we use Unity to develop research visualisation applications for our various AR (Augmented Reality)/VR (Virtual Reality) platforms. In this session, we'll give a crash course on how to use Unity, and how to develop applications for AR headsets such as the Microsoft Hololens, and VR headsets such as the Samsung Gear VR."
+  title: "AR/VR development with Unity and tour of CeR Visualisation suite (Rm:G10 + CeR)"
+  description: "Unity is a freely available game engine - a platform designed for the primary purpose of video game development. At the Centre for eResearch, we use Unity to develop research visualisation applications for our various AR (Augmented Reality)/VR (Virtual Reality) platforms. In this session, we'll give a crash course on how to use Unity, and how to develop applications for AR headsets such as the Microsoft Hololens, and VR headsets such as the Samsung Gear VR.<br /><br /> 
+  Limited places, sign-up at Registration desk."
   subtype: workshop
   speakers: [30]
   complexity: "Beginner" 
@@ -282,7 +287,9 @@
 -
   id: 030
   title: "Create and Maker Space – Interactive Tour (Rm:G20)"
-  description: "Come and enjoy an interactive tour of the Create and Maker Space situated in UoA’s Innovation Hub – Unleash Space. Unleash Space Technician Sean Kelly and his Creative Technologists will be on hand to provide demonstrations of the free technology available to all UoA staff and students. From 3D printers to electronics to sewing machines we have a diverse suite of technology to support making, learning and innovative activity."
+  description: "Come and enjoy an interactive tour of the Create and Maker Space situated in UoA’s Innovation Hub – Unleash Space. Unleash Space Technician Sean Kelly and his Creative Technologists will be on hand to provide demonstrations of the free technology available to all UoA staff and students. From 3D printers to electronics to sewing machines we have a diverse suite of technology to support making, learning and innovative activity.<br /><br />
+  
+  Limited places, sign-up at Registration desk."
   subtype: workshop
   speakers: [43]
   complexity: "Beginners" 
