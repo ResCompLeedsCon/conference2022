@@ -171,7 +171,7 @@
   complexity: "Beginner" 
 -
   id: 011
-  title: "Linux - an introduction to the command line (Rm:G30)"
+  title: "Linux - an introduction to the command line (the shell) (Rm:G30)"
   description: "This is a 'Bring your own laptop' session.<br /><br /> 
   There are research computing platforms running the linux operating system where no gui interface is available, and it is imperative to know how to navigate filesystems and run programs from the command-line (the shell). From the command-line you can then automate your work-processes and work much more efficiently.<br /><br /> 
   This introduction to the bash shell will cover 1) basic navigation,  2)  customizing the shell with environment variables, and 3) running small automation scripts <br /><br /> 
@@ -279,7 +279,7 @@
   complexity: "All welcome" 
 -
   id: 028
-  title: "Research Compute Facilities (Rm:130)"
+  title: "Research Compute Facilities (Rm:G30)"
   description: "Do your computations take too long on your laptop or desktop computer? Do you want to offload long-running simulations to a different computer? Are there computations you cannot run on your desktop because you don't have enough memory or compute power? In this workshop we give an overview of the options you have. We will cover the computer clusters of the New Zealand eScience Infrastructure (NeSI), the Research Virtual Machine Farm, and the Nectar Research Cloud, and which of the 3 systems is best suited for various use-cases."
   subtype: workshop
   speakers: [17, 15, 42]
