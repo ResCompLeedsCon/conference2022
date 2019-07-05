@@ -32,7 +32,7 @@
   hidden: true
 -
   id: 106
-  title: "Keystory Presentation (Rm: G20)"
+  title: "Keystory - Seeing Things Differently (Rm: G20)"
   description: "Details to be announced."
   speakers: [7]
   hidden: true
@@ -71,13 +71,13 @@
   speakers: [10, 14]
 -
   id: 307
-  title: "Morning tea/coffee (Rm:120)"
+  title: "Morning break (Rm:120)"
   service: true
   hidden: true
   description: "The best time to talk with speakers and attendees"
 -
   id: 308
-  title: "Afternoon tea/coffee (Rm:120)"
+  title: "Afternoon break (Rm:120)"
   service: true
   hidden: true
   description: "The best time to talk with speakers and attendees"
@@ -99,7 +99,7 @@
   service: true
 -
   id: 001
-  title: "Research Data Management (Part 1): Sharing, Publishing & Archiving (Rm:G10)"
+  title: "Research Data Management (Part 2): Sharing, Publishing & Archiving (Rm:G10)"
   description: "The University of Auckland Code of Conduct for Research states \"Researchers should share data and findings openly and as promptly as possible\", a practice increasingly required by research funders and publishers. Come along to this workshop to learn about how you can disseminate your research findings; increase your research impact through data publication; learn about services available to you at the University to achieve this."
   subtype: workshop
   speakers: [14]
@@ -121,7 +121,7 @@
   complexity: "Beginner" 
 -
   id: 004
-  title: "Research Data Management (Part 2): Planning, Organising & Storing (Rm:G10)"
+  title: "Research Data Management (Part 1): Planning, Organising & Storing (Rm:G10)"
   description: "Research data: that which is created, collected or observed in the course of producing original research, regardless of format. This introductory workshop is aimed at researchers, particularly those embarking on their research career or starting a new research project. Attendees will develop strategies for capturing and organising research data, sharing and reusing data, and have an opportunity to draft a Data Management Plan (DMP).You will be introduced to data management concepts, best practices, services and useful tools to support you managing and sharing your research data."
   subtype: workshop
   speakers: [13, 14]

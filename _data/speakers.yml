@@ -77,7 +77,8 @@
   name: "Daniel"
   surname: "Patrick"
   title: "Executive Director"
-  thumbnailUrl: "to_be_announced1.png"
+  bio: "Daniel is the Executive Director of Ngā Pae o te Māramatanga, New Zealand’s Maori Centre of Research Excellence, and has been since 2011. He holds two degrees, a Bachelor's degree in Applied Sciences and a Master's degree in Health Sciences with honours, and while in executive and management positions often sees himself as a researcher or immersing himself in the research. He came to the Ngā Pae o te Māramatanga having co-founded and developed several research entities, including the Centre of Methods and Policy Applications in the Social Sciences (COMPASS), and prior to that the New Zealand Social Statistics Network (NZSSN), the New Zealand Social Science Data Service and Survey Research Unit. He has over 20 years research, or better said, research management experience and is a results focussed leader passionate about delivering public and social good through research and innovation."
+  thumbnailUrl: "daniel-patrick.jpg"
   rockstar: true
   ribbon:
     - {abbr: "NPM", title: "Ngā Pae o te Māramatanga", url: "http://www.maramatanga.co.nz"}
