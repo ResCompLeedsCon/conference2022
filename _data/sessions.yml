@@ -26,7 +26,7 @@
   hidden: true
 -
   id: 105
-  title: "Keystory Presentation (Rm: G20)"
+  title: "Keystory - Eclectic Research: Weaving Data (Rm: G20)"
   description: "Details to be announced."
   speakers: [6]
   hidden: true
@@ -60,15 +60,13 @@
 - 
   id: 305
   title: "Feedback and treats (Rm:G20)"
-  service: true
   hidden: true
-  speakers: [10, 19]
+  speakers: [27, 13, 14]
 - 
   id: 306
-  title: "Special session 2"
-  service: true
+  title: "Flexing your superpowers"
   hidden: true
-  speakers: [10, 14]
+  speakers: [10, 19]
 -
   id: 307
   title: "Morning break (Rm:120)"
@@ -117,7 +115,7 @@
   title: "Version control and collaboration tools - Intro to Git and GitHub (Rm:110)"
   description: "This session will offer a brief and practical introduction to <a href=\"https://git-scm.com/\">Git</a> and <a href=\"https://github.com/\">GitHub</a> for complete beginners. Learn how you can use Git to manage and keep track of different versions of all your important files and documents that change through time in your projects. GitHub is one of the worlds leading online collaboration platforms for working on projects that use Git. Whether you write code or not, Git and GitHub are incredibly powerful tools that should be part of any researchers digital toolkit. Come and see what it's all about!"
   subtype: workshop
-  speakers: [10]
+  speakers: [10, 12]
   complexity: "Beginner" 
 -
   id: 004
@@ -275,7 +273,7 @@
   title: "Hacky Hour - Questions (Rm:130)"
   description: "Details to be announced."
   subtype: workshop
-  speakers: [10]
+  speakers: [27]
   complexity: "All welcome" 
 -
   id: 028

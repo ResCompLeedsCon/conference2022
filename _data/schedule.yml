@@ -173,7 +173,12 @@
     - {
       startTime: "14:30",
       endTime: "15:00",
+      sessionIds: [306]
+    }
+    - {
+      startTime: "15:00",
+      endTime: "15:30",
       sessionIds: [305]
     }
-    -
+    
     
