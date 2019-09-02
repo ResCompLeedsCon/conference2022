@@ -11,7 +11,7 @@ future: true # Enable future posts (date > current date)
 
 
 # Site Settings
-title: "ResBaz Auckland 2019"
+title: "ResBaz Auckland"
 email: "researchdata@auckland.ac.nz"
 description: "The Research Bazaar is a worldwide festival promoting the digital literacy emerging at the center of modern research."
 baseurl: ""
@@ -57,11 +57,11 @@ rightNavigationButtons:
 # Hero Block
 heroImage: "hero.jpg"
 heroTitle: "ResBaz : <typeout>"
-eventDate: "July 10-12"
-typeoutTextValues: '"Auckland", "2019"'
-typeoutFallback: "2019"
+eventDate: ""
+typeoutTextValues: '"Auckland"'
+typeoutFallback: "Auckland"
 heroButtons:
- - {link: "", text: "Applications now closed"}
+ - {link: "", text: "Next ResBaz: Mid 2020"}
 
 # About Block
 aboutTitle: "About ResBaz Auckland"
@@ -123,7 +123,7 @@ twitterFeed: "https://twitter.com/search?q=%23ResBaz&src=typd"
 # Partners Block
 organizersTitle: "Organisers"
 partnersTitle: "Partners"
-partnersC4sponsorsButton: "Applications now closed"
+partnersC4sponsorsButton: "See you next year!"
 partnersLink: ""
 
 # Subscribe Block
