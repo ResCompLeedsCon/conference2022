@@ -1,11 +1,18 @@
 - 
-  group: "Main organizer"
+  group: "Main organiser"
   elements: 
     - {name: "Centre for eResearch", description: "The University of Auckland Centre for eResearch", link: "https://eresearch.auckland.ac.nz"}
 - 
-  group: "Co-organizers"
+  group: "Co-organisers"
   elements: 
     - {name: "New Zealand eScience Infrastructure", description: "New Zealand eScience Infrastructure (NeSI)", link: "https://www.nesi.org.nz/"}
     - {name: "School of Graduate Studies", description: "School of Graduate Studies", link: "https://www.auckland.ac.nz/en/students/academic-information/postgraduate-students/school-of-graduate-studies.html"}
     - {name: "Libraries and Learning Services", description: "Libraries and Learning Services", link: "https://www.library.auckland.ac.nz"}
-    - {name: "The University of Auckland", description: "University of Auckland", link: "https://www.auckland.ac.nz"}
+-
+  group: "Sponsors"
+  elements: 
+    - {name: "Faculty of Science", description: "Faculty of Science", link: "https://www.auckland.ac.nz/en/science.html"}
+    - {name: "Digital Services", description: "Digital Services", link: "https://www.staff.auckland.ac.nz/en/central-services/digital-services.html"}
+- 
+  elements:
+    - {name: "REANNZ", description: "REANNZ", link: "https://reannz.co.nz"}

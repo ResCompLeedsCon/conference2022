@@ -1,29 +1,108 @@
 - 
   id: 0
-  name: "To Be"
-  surname: "Announced"
-  title: "Keystory Speaker"
-  bio: "Keystory Speaker"
-  thumbnailUrl: "to_be_announced1.png"
+  name: "Kate"
+  surname: "Hannah"
+  company: "Te Punaha Matatini"
+  title: "Research Operations Manager"
+  bio: "Kate Hannah has a Master of Arts (2004) from Waikato University in 19th Century American Literary Culture. Her principal research area is the historiography of the history of science, with a focus on the cultures and subcultures of science, gender in science history, and narrative and complexity. She holds dual roles at Te Pūnaha Matatini, a New Zealand Centre of Research Excellence for complex systems and networks – executive manager and associate investigator; she is a research fellow in the Department of Physics at the University of Auckland, course convener of Science Scholars 101, and a Te Pūnaha Matatini-funded PhD candidate in the Science and Society Group at Victoria University Wellington, investigating novel hybrid methodologies for the historiography of science. Basically, she’s a historian in a Physics department."
+  thumbnailUrl: "Kate_Hannah.jpg"   
   rockstar: true
+  ribbon:
+    - {abbr: "TPM", title: "Te Pūnaha Matatini", url: "https://www.tepunahamatatini.ac.nz"}
 - 
   id: 1
-  name: "To Be"
-  surname: "Announced"
-  title: "Keystory Speaker"
-  bio: "Keystory Speaker"
-  thumbnailUrl: "to_be_announced2.png"
+  name: "Professor Shaun"
+  surname: "Hendy"
+  company: "Te Punaha Matatini"
+  bio: "Shaun Hendy is the Director of Te Pūnaha Matatini, a New Zealand Centre of Research Excellence, and a Professor of Physics at the University of Auckland."
+  thumbnailUrl: "Shaun-Hendy.jpg"
   rockstar: true
+  ribbon:
+    - {abbr: "TPM", title: "Te Pūnaha Matatini", url: "https://www.tepunahamatatini.ac.nz"}
 - 
   id: 2
-  name: "To Be"
-  surname: "Announced"
-  title: "Keystory Speaker"
-  bio: "Keystory Speaker"
-  thumbnailUrl: "to_be_announced3.png"
+  name: "Associate Professor Jennifer"
+  surname: "Lees-Marshment"
+  company: "Faculty of Arts"
+  bio: "Jennifer Lees-Marshment is an Associate Professor in political science at The University of Auckland in New Zealand. Author/editor of 13 books, Jennifer is a world expert in political marketing with additional research interests in public input, leadership, and governance. Her most recent work The Ministry of Public Input (Palgrave 2015) won the IAP2 Australasia Research Award. Jennifer was academic advisor to TVNZ’s Vote Compass in the 2014 and 2017 New Zealand elections and Kiwimeter in 2015 and Chair of the Magna Carta 800 committee for NZ in 2015. See <a href=\"http://www.lees-marshment.org\">www.lees-marshment.org</a> for further details or email j.lees-marshment@auckland.ac.nz." 
+  thumbnailUrl: "jennifer-lees-marshment.jpg"
   rockstar: true
-- 
+  ribbon:
+    - {abbr: "Arts", title: "School of Social Sciences, Faculty of Arts", url: "https://www.auckland.ac.nz/en/arts/about-the-faculty/school-of-social-sciences.html"}
+-
   id: 3
+  name: "Manish"
+  surname: "Kukreja"
+  company: "Auckland District Health Board"
+  title: "Full Stack Data Scientist | Trainer"
+  bio: "Manish is a data scientist but more broadly is a solution seeker. He is passionate about teaching, (machine) learning and mentoring. His experience spans across multiple domains including consulting, telecom, fire protection, education and now in healthcare. He enjoys a blend of technical and leadership roles, most recently at Auckland DHB, GreyAtom and University of Auckland. His diverse background includes computer science/engineering, statistics and education, each of which he brings to his daily work in data science."
+  thumbnailUrl: "manish_kukreja.jpg"
+  rockstar: true 
+  ribbon:
+    - {abbr: "ADHB", title: "Auckland District Health Board", url: "https://adhb.health.nz"}
+-
+  id: 4
+  name: "Tamsin"
+  surname: "Robb"
+  company: "Faculty of Medical and Health Sciences"
+  title: "Doctorate Candidate"
+  bio: "Tamsin is a PhD student in the Department of Molecular Medicine and Pathology, learning to become an in-the-lab and staring-at-data Mad Scientist."
+  thumbnailUrl: "tamsin_robb_key.jpg"
+  rockstar: true
+  ribbon:
+   - {abbr: "FMHS", title: "Faculty of Medical and Health Sciences", url: "https://fmhs.auckland.ac.nz"}
+-
+  id: 5
+  name: "Bianca"
+  surname: "Haux"
+  company: "Centre for eResearch"
+  title: "eResearch Solutions Specialist"
+  bio: Biance hails from the Centre for eResearch, enabling cutting-edge research across the University as a Visualisation Specialist."
+  thumbnailUrl: "bianca_haux_key.jpeg"
+  rockstar: true 
+  ribbon:
+   - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
+-
+  id: 6
+  name: "Lisa"
+  surname: "Uperesa"
+  title: "Senior Lecturer"
+  bio: "Dr. Lisa Uperesa is Senior Lecturer in Pacific Studies at the University of Auckland.  One strand of her research includes post-/colonial formations, indigenous politics, and contested sovereignties at the heart of and on the margins of U.S. empire. Another examines the place of sport in Pacific communities, with a focus on culture, political economy, and gender.  Her book manuscript Fabled Futures and Gridiron Dreams: Migration, Mobilities, and Football in American Samoa is currently under review.  Meanwhile, her new project explores the movement of haka outside of Aotearoa New Zealand through global sporting circuits, with a focus on diaspora, pan-Polynesian identity, performativity, and discussions around protocol and reciprocity.  Dr. Uperesa earned her undergraduate degree at University of California, Berkeley, her Ph.D. in Anthropology from Columbia University, and is a proud alumna of Samoana High School (American Samoa). Previous teaching appointments include University of Hawai`i-Mānoa, Columbia University, and Hofstra University.  She has served as Acting Director of the New Zealand Institute for Pacific Research and is the former Chair of the Association for Social Anthropology in Oceania.​"
+  thumbnailUrl: "lisa_uperesa.jpg"
+  rockstar: true
+  ribbon:
+   - {abbr: "Arts", title: "Pacific studies, Te Wānanga o Waipapa, Faculty of Arts", url: "https://www.auckland.ac.nz/en/arts/about-the-faculty/te-waananga-o-waipapa/pacific-studies.html"}
+-
+  id: 7
+  name: "Daniel"
+  surname: "Patrick"
+  title: "Executive Director"
+  bio: "Daniel is the Executive Director of Ngā Pae o te Māramatanga, New Zealand’s Maori Centre of Research Excellence, and has been since 2011. He holds two degrees, a Bachelor's degree in Applied Sciences and a Master's degree in Health Sciences with honours, and while in executive and management positions often sees himself as a researcher or immersing himself in the research. He came to the Ngā Pae o te Māramatanga having co-founded and developed several research entities, including the Centre of Methods and Policy Applications in the Social Sciences (COMPASS), and prior to that the New Zealand Social Statistics Network (NZSSN), the New Zealand Social Science Data Service and Survey Research Unit. He has over 20 years research, or better said, research management experience and is a results focussed leader passionate about delivering public and social good through research and innovation."
+  thumbnailUrl: "daniel-patrick.jpg"
+  rockstar: true
+  ribbon:
+    - {abbr: "NPM", title: "Ngā Pae o te Māramatanga", url: "http://www.maramatanga.co.nz"}
+-
+  id: 8
+  name: "Daniel"
+  surname: "Hikuroa"
+  title: "Senior Lecturer"
+  bio: "Dr Daniel Hikuroa is Co-Deputy Director Public Engagement, Te Pūnaha Matatini, and a Prinicipal Investigator within Ngā Pae o te Māramatanga and Te Pūnaha Matatini"
+  thumbnailUrl: "to_be_announced1.png"
+  rockstar: true
+  ribbon:
+    - {abbr: "TPM", title: "Te Pūnaha Matatini", url: "https://www.tepunahamatatini.ac.nz"}
+-
+  id: 9
+  name: "Stephen"
+  surname: "Whiteside"
+  title: "Chief Digital Officer"
+  thumbnailUrl: "to_be_announced1.png"
+  rockstar: false
+  ribbon:
+    - {abbr: "UoA", title: "University of Auckland", url: "https://www.auckland.ac.nz/en.html"}
+-
+  id: 10
   name: "Cameron"
   surname: "McLean"
   company: "Centre for eResearch"
@@ -36,7 +115,7 @@
   social: 
     - {name: "github", link: "https://github.com/cameronmclean"}
 - 
-  id: 4
+  id: 11
   name: "Sam"
   surname: "Kavanagh"
   company: "Centre for eResearch"
@@ -49,7 +128,7 @@
   social: 
     - {name: "github", link: "https://github.com/Hganavak"}
 - 
-  id: 5
+  id: 12
   name: "Noel"
   surname: "Zeng"
   company: "Centre for eResearch"
@@ -62,7 +141,7 @@
   social: 
     - {name: "github", link: "https://github.com/uoa-noel"}
 - 
-  id: 6
+  id: 13
   name: "Dharani"
   surname: "Sontam"
   company: "Centre for eResearch"
@@ -75,18 +154,18 @@
   social: 
     - {name: "github", link: "https://github.com/dharanisontam"}
 - 
-  id: 7
+  id: 14
   name: "Laura"
   surname: "Armstrong"
   company: "Centre for eResearch"
   title: "Senior eResearch Engagement Specialist"
   bio: "Laura is a senior member of the Centre for eResearch's engagement team."
-  thumbnailUrl: "laura_armstrong.jpeg"
+  thumbnailUrl: "laura_armstrong.jpg"
   rockstar: false 
   ribbon:
     - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
 - 
-  id: 8
+  id: 15
   name: "Sean"
   surname: "Matheny"
   company: "Centre for eResearch"
@@ -97,7 +176,7 @@
   ribbon:
     - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
 - 
-  id: 9
+  id: 16
   name: "Jason"
   surname: "He"
   company: "Centre for eResearch"
@@ -108,7 +187,7 @@
   ribbon:
     - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
 - 
-  id: 10
+  id: 17
   name: "Martin"
   surname: "Feller"
   company: "Centre for eResearch"
@@ -119,16 +198,16 @@
   ribbon:
     - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
 - 
-  id: 11
+  id: 18
   name: "Martin"
   surname: "Moore"
   company: "AUT"
-  thumbnailUrl: "to_be_announced1.png"
+  thumbnailUrl: "martin_moore.jpg"
   rockstar: false 
   ribbon:
     - {abbr: "AUT", title: "Auckland University of Technology", url: "https://www.aut.ac.nz/"}
 - 
-  id: 12
+  id: 19
   name: "Yvette"
   surname: "Wharton"
   company: "Centre for eResearch"
@@ -139,33 +218,326 @@
   ribbon:
     - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
 - 
-  id: 13
+  id: 20
   name: "Tayaza"
   surname: "Fadason"
   company: "Liggins Institute"
   title: "Doctoral Candidate"
   bio: "Tayaza is a doctoral candidate in the Liggins Institute."
-  thumbnailUrl: "to_be_announced1.png"
+  thumbnailUrl: "tayaza_fadason.jpeg"
   rockstar: false 
   ribbon:
     - {abbr: "Liggins", title: "Liggins Institute", url: "https://www.auckland.ac.nz/en/liggins.html"}
 -
-  id: 14
+  id: 21
   name: "Anita"
   surname: "Kean"
-  company: "New  Zealand eScience Infrastructure"
-  title: "Application Support Analyst"
-  thumbnailUrl: "to_be_announced3.png"
+  company: "Centre for eResearch"
+  title: "eResearch Solutions Analyst"
+  thumbnailUrl: "anita-kean.jpg"
   rockstar: false 
   ribbon:
-    - {abbr: "NeSI", title: "New Zealand eScience Infrastructure", url: "https://www.nesi.org.nz"}
+    - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
 -
-  id: 15
+  id: 22
   name: "Melanie"
   surname: "Johnson"
   company: "Libraries and Learning Services"
   title: "Copyright Officer"
+  thumbnailUrl: "melanie_johnson.png"
+  rockstar: false 
+  ribbon:
+    - {abbr: "LLS", title: "Libraries and Learning Services", url: "https://library.auckland.ac.nz"}
+-
+  id: 23
+  name: "Megan"
+  surname: "Guidry"
+  company: "New Zealand eScience Infrastructure"
+  title: "Research Communities Advisor"
+  thumbnailUrl: "megan_guidry.jpg"
+  rockstar: false 
+  ribbon:
+    - {abbr: "NeSI", title: "New Zealand eScience Infrastructure", url: "https://www.nesi.org.nz"}
+-
+  id: 24
+  name: "Liz"
+  surname: "Sowden"
+  company: "Libraries and Learning Services"
+  title: "Research Skills Advisor "
+  thumbnailUrl: "Liz_Sowden.jpg"
+  rockstar: false 
+  ribbon:
+    - {abbr: "LLS", title: "Libraries and Learning Services", url: "https://library.auckland.ac.nz"}
+-
+  id: 25
+  name: "Jo"
+  surname: "Simons"
+  company: "Libraries and Learning Services"
+  title: "Research Services Team Leader"
+  thumbnailUrl: "Jo_Simons.jpg"
+  rockstar: false 
+  ribbon:
+    - {abbr: "LLS", title: "Libraries and Learning Services", url: "https://library.auckland.ac.nz"}
+-
+  id: 26
+  name: "Emma"
+  surname: "Richardson"
+  company: "Libraries and Learning Services"
+  title: "Research Services Team Leader"
+  thumbnailUrl: "Emma_Richardson.png"
+  rockstar: false 
+  ribbon:
+    - {abbr: "LLS", title: "Libraries and Learning Services", url: "https://library.auckland.ac.nz"}
+-
+  id: 27
+  name: "Chris"
+  surname: "Seal"
+  company: "Centre for eResearch"
+  title: "Senior eResearch Solutions Specialist"
+  bio: "Seanis a senior member of the Centre for eResearch's solutions team."
+  thumbnailUrl: "to_be_announced1.png"
+  rockstar: false 
+  ribbon:
+    - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
+-
+  id: 28
+  name: "Bevan"
+  surname: "Shortridge"
+  company: "Libraries and Learning Services"
+  thumbnailUrl: "to_be_announced1.png"
+  rockstar: false 
+  ribbon:
+    - {abbr: "LLS", title: "Libraries and Learning Services", url: "https://library.auckland.ac.nz"}
+-
+  id: 29
+  name: "Faith"
+  surname: "Welch"
+  company: "Office of Research Strategy and Integrity"
+  title: "Research Impact Manager"
+  thumbnailUrl: "faith-welch.jpg"
+  rockstar: false 
+  ribbon:
+   - {abbr: "ORSI", title: "Office of Research Strategy and Integrity", url: "https://www.auckland.ac.nz"}
+-
+  id: 30
+  name: "Nick"
+  surname: "Young"
+  company: "Centre for eResearch"
+  title: "eResearch Senior Solutions Specialist"
+  thumbnailUrl: "nick-young.jpg"
+  rockstar: false 
+  ribbon:
+   - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
+-
+  id: 31
+  name: "Jens"
+  surname: "Brinkmann"
+  company: "Faculty of Engineering"
+  title: "Doctoral Candidate"
+  thumbnailUrl: "jens_brinkmann.png"
+  rockstar: false 
+  ribbon:
+   - {abbr: "Engineering", title: "Faculty of Engineering", url: "https://eng.auckland.ac.nz"}
+-
+  id: 32
+  name: "Victoria"
+  surname: "King"
+  company: "Faculty of Medical and Health Sciences"
+  title: "Doctoral Candidate"
+  thumbnailUrl: "Victoria_King.jpeg"
+  rockstar: false 
+  ribbon:
+    - {abbr: "FMHS", title: "Faculty of Medical and Health Sciences", url: "https://fmhs.auckland.ac.nz"}
+-
+  id: 34
+  name: "Aimee"
+  surname: "van der Reis"
+  company: "Faculty of Science"
+  title: "Doctoral Candidate"
+  thumbnailUrl: "aimee-van-der-reis.jpg"
+  rockstar: false 
+  ribbon:
+    - {abbr: "FOS", title: "Faculty of Science", url: "https://science.auckland.ac.nz"}
+-
+  id: 35
+  name: "Joe"
+  surname: "Rouse"
+  company: "Uniservices"
+  title: "Commercialisation Manager"
+  thumbnailUrl: "to_be_announced1.png"
+  rockstar: false 
+  ribbon:
+    - {abbr: "Uniservices", title: "Uniservices", url: "https://uniservices.co.nz"}
+-
+  id: 36
+  name: "Nicola"
+  surname: "Johnstone"
+  company: "Uniservices"
+  title: "Head of Intellectual Property Legal"
+  thumbnailUrl: "nicola_johnstone.jpg"
+  rockstar: false 
+  ribbon:
+    - {abbr: "Uniservices", title: "Uniservices", url: "https://uniservices.co.nz"}
+-
+  id: 37
+  name: "Sebastian"
+  surname: "Schmeier"
+  company: "School of Natural and Computational Sciences, Massey University"
+  title: "Senior Lecturer in Bioinformatics/Genomics"
+  thumbnailUrl: "sebastian_schmeier.png"
+  rockstar: false 
+  ribbon:
+    - {abbr: "Massey University", title: "Massey University", url: "http://www.massey.ac.nz/massey/explore/departments/institute-natural-mathematical-sciences/institute-natural-mathematical-sciences_home.cfm"}
+-
+  id: 38
+  name: "Ryan"
+  surname: "Huynh"
+  company: "Centre for eResearch"
+  title: "eResearch Solutions Analyst"
+  thumbnailUrl: "ryan_huynh.jpg"
+  rockstar: false 
+  ribbon:
+    - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
+-
+  id: 39
+  name: "Warrick"
+  surname: "Corfe-Tan"
+  company: "Centre for eResearch"
+  title: "eResearch Solutions Analyst"
+  thumbnailUrl: "warrick_corfe_tan.jpg"
+  rockstar: false 
+  ribbon:
+    - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
+-
+  id: 40
+  name: "Mohamed"
+  surname: "Alansari"
+  company: "Faculty of Education and Social Work"
+  title: "Research Fellow"
+  thumbnailUrl: "mohamed_alansari.jpg"
+  rockstar: false 
+  ribbon:
+    - {abbr: "Education", title: "Faculty of Education and Social Work", url: "http://www.education.auckland.ac.nz/en/about/research.html"}
+-
+  id: 41
+  name: "Evgeniia"
+  surname: "Golovina"
+  company: "Liggins Institute"
+  title: "Doctoral Candidate"
+  thumbnailUrl: "evgeniia_golovina.jpg"
+  rockstar: false 
+  ribbon:
+    - {abbr: "Liggins", title: "Liggins Institute", url: "http://https://www.auckland.ac.nz/en/liggins.html"}
+-
+  id: 42
+  name: "Anthony"
+  surname: "Shaw"
+  company: "New Zealand eScience Infrastructure"
+  title: "Application Support Analyst"
+  thumbnailUrl: "to_be_announced1.png"
+  rockstar: false 
+  ribbon:
+    - {abbr: "NeSI", title: "New Zealand eScience Infrastructure", url: "https://www.nesi.org.nz"}
+-
+  id: 43
+  name: "Sean"
+  surname: "Kelly"
+  company: "UnleashSpace"
+  title: "Technician"
+  thumbnailUrl: "sean_kelly.jpg"
+  rockstar: false 
+  ribbon:
+    - {abbr: "Unleash Space", title: "Unleash Space, Centre for Innovation and Entrepreneurship", url: "https://www.unleashspace.ac.nz"}
+-
+  id: 44
+  name: "Wallace"
+  surname: "Chase"
+  company: "REANNZ"
+  title: "Technical Engagement Manager"
+  bio: "As Technical Engagement Manager Wallace assists the membership to utilise the full potentional of REANNZ. To this end Wallace leverages his 15 years of experience in higher education IT operations and supporting research."
+  thumbnailUrl: "to_be_announced1.png"
+  rockstar: false
+  ribbon:
+    - {abbr: "REANNZ", title: "REANNZ", url: "https://reannz.co.nz/"}
+-
+  id: 45
+  name: "Jon"
+  surname: "MacKay"
+  company: "Business School"
+  title: "Lecturer"
+  bio: "Jon MacKay is a lecturer in Business Analytics at the Graduate School of Management within the Business School at the University of Auckland. Dr. MacKay received his PhD in Management Sciences from the University of Waterloo in Canada. He has used network analysis in various projects. These include: examining how ownership networks within corporate boards is associated with performance; how corporate boards of successful companies within a German-speaking ethnic enclave in Canada were disconnected from those of the Anglo-Canadian elites at the turn of the last century; and the implications that ideological networks have for effective the leadership of political parties."
+  thumbnailUrl: "jon-mackay.jpg"
+  rockstar: false
+  ribbon:
+    - {abbr: "Business", title: "Business School", url: "https://www.auckland.ac.nz/en/business.html"}
+-
+  id: 46
+  name: "Vivian"
+  surname: "Ward"
+  company: 
+  title: 
+  bio: 
+  thumbnailUrl: "to_be_announced2.png"
+  rockstar: false
+  ribbon:
+-
+  id: 47
+  name: "Hamish"
+  surname: "Osborne"
+  company: "Dropbox"
+  title: 
+  bio: 
+  thumbnailUrl: "to_be_announced1.png"
+  rockstar: false
+  ribbon:
+-
+  id: 48
+  name: "Sina"
+  surname: "Masoud-Ansari"
+  company: "Centre for eResearch"
+  title: "Senior eResearch Engagement Specialist"
+  bio: "Sina is a senior member of the Centre for eResearch's engagement team."
+  thumbnailUrl: "to_be_announced1.png"
+  rockstar: false 
+  ribbon:
+    - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
+-
+  id: 49
+  name: "Sandy"
+  surname: "Lin"
+  company: "Libraries and Learning Services"
+  title: "Research Services Advisor"
   thumbnailUrl: "to_be_announced2.png"
   rockstar: false 
   ribbon:
     - {abbr: "LLS", title: "Libraries and Learning Services", url: "https://library.auckland.ac.nz"}
+-
+  id: 50
+  name: "Michael"
+  surname: "Martin"
+  company: "School of Environment"
+  title: Lecturer
+  bio: 
+  thumbnailUrl: "to_be_announced1.png"
+  rockstar: false
+  ribbon:
+    - {abbr: "FOS", title: "Faculty of Science", url: "https://science.auckland.ac.nz"}
+-
+  id: 51
+  name: "Joshua"
+  surname: "Emmitt"
+  company: "Faculty of Arts"
+  thumbnailUrl: "to_be_announced1.png"
+  rockstar: true
+  ribbon:
+    - {abbr: "Arts", title: "School of Social Sciences, Faculty of Arts", url: "https://www.auckland.ac.nz/en/arts/about-the-faculty/school-of-social-sciences.html"}
+-
+  id: 52
+  name: "Patrick"
+  surname: "Thomsen"
+  company: "Faculty of Arts"
+  title: Te Tomokanga Fellow
+  thumbnailUrl: "to_be_announced1.png"
+  rockstar: false
+  ribbon:
+    - {abbr: "Arts", title: "School of Social Sciences, Faculty of Arts", url: "https://www.auckland.ac.nz/en/arts/about-the-faculty/school-of-social-sciences.html"}
