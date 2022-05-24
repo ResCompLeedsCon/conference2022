@@ -14,8 +14,8 @@ future: true # Enable future posts (date > current date)
 title: "ResCompLeedsCon22"
 email: "19deaf75.leeds365.onmicrosoft.com@emea.teams.ms"
 description: "The biggest conference at the University of Leeds showcasing all the incredible research computing based work at Leeds."
-baseurl: "/conference2022"
-url: "https://upgraded-garbanzo-577fdec1.github.io"
+#baseurl: "/conference2022"
+#url: "https://upgraded-garbanzo-577fdec1.github.io"
 permalink: "/blog/:title"
 
 # Organizer Info
