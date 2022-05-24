@@ -1,14 +1,8 @@
-# ResBaz Auckland Template
-* This is a conference template created by Sam Kavanagh based largely on the Project Zeppelin / GDG DevFest 2014 site template.
+# ResCompLeedsCon2022 website
 
-### Features
-* Easy to setup
-* Simple and responsive design
-* Integrated speakers and sessions management
-* SVG icons
-* SEO friendly
+This is the conference website repository for Research Computing Leeds Conference 2022.It is based on a conference template created by [Sam Kavanagh](https://github.com/Hganavak/resbaz) based largely on the Project Zeppelin / GDG DevFest 2014 site template.
 
-# Quick-start guide
+## Quick-start guide
 1. Fork this repo
 2. Clone locally
 3. Update ```_config.yml```
