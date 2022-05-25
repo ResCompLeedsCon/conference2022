@@ -109,8 +109,8 @@ venueFeatures: ["Recently refurbished lecture rooms.", "Free catering provided d
 # Tweets Feed Block
 tweetsFeedImage: "auckland.jpg"
 tweetsFeedTitle: "What's Up?"
-twitterHashTag: "ResCompLeedsCon222"
-twitterFeed: "https://twitter.com/search?q=%23ResBaz&src=typd"
+twitterHashTag: ResCompLeedsCon22
+twitterFeed: "https://twitter.com/search?q=%23ResCompLeedsCon22"
 
 # Partners Block
 organizersTitle: "Organisers"
