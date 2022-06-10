@@ -52,8 +52,8 @@ eventDate: ""
 typeoutTextValues: '""'
 typeoutFallback: ""
 heroButtons:
- - {link: "", text: "Register your place"}
- - {link: "", text: "Become a speaker"}
+ - {link: "https://ti.to/university-of-leeds-research-computing/rescompleedscon2022", text: "Register your interest"}
+ - {link: "https://forms.office.com/Pages/ResponsePage.aspx?id=qO3qvR3IzkWGPlIypTW3y7U8gIAi6LpMg7rjkJ9mZ3tUQUtTM1JCRVgxTzBEWVRSSUJBMlQ1RU1ERy4u", text: "Submit an abstract"}
 
 # About Block
 aboutTitle: "About ResCompLeedsCon2022"
