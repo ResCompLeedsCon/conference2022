@@ -98,12 +98,12 @@ mapCenterCoordinates: "53.803218691729285, -1.555721286505771"
 mapMobileCenterCoordinates: "53.803218691729285, -1.555721286505771"
 
 # Venue Block
-venueBlockTitle: "Past Events"
+venueBlockTitle: "Venue"
 venueBigImage: "cam_beanbags.jpg"
 venueSmallImage2: "publishing_tabletop.jpg"
 venueSmallImage1: "sam_on_the_wall.jpg"
 venueSmallImage3: "speaker_beanbags.jpg"
-venueTitle: "ResBaz 2019 @ the Clocktower!"
+venueTitle: "Worsley Building, University of Leeds"
 venueFeatures: ["Recently refurbished lecture rooms.", "Free catering provided daily.", "Bean bags and areas for socializing!"]
 
 # Tweets Feed Block
