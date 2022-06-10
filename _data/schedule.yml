@@ -1,75 +1,81 @@
 - 
-  date: "2019-07-10"
-  dateReadable: "July 10"
+  date: "2022-07-26"
+  dateReadable: "July 26th"
   tracks: 
     - {title: "1", color: "#90be4e"}
     - {title: "2", color: "#e91e63"}
-    - {title: "3", color: "#e91e63"}
-    - {title: "4", color: "#FF00FF"}
   timeslots:
     - {
     	startTime: "09:00",
-      endTime: "09:30",
+      endTime: "9:30",
     	sessionIds: [301]
     }
     - {
     	startTime: "09:30",
-      endTime: "09:50",
+      endTime: "10:00",
     	sessionIds: [307]
     }
     - {
-    	startTime: "09:50",
-      endTime: "10:00",
+    	startTime: "10:00",
+      endTime: "10:50",
+    	sessionIds: [100]
+    }
+    - {
+    	startTime: "10:50",
+      endTime: "11:00",
     	sessionIds: [302]
     }
     - {
-    	startTime: "10:00",
-      endTime: "10:30",
+    	startTime: "11:00",
+      endTime: "12:00",
     	sessionIds: [303]
     }
     - {
-    	startTime: "10:30",
-      endTime: "11:00",
+    	startTime: "12:00",
+      endTime: "13:00",
     	sessionIds: [100, 101]
     }
     - {
-    	startTime: "11:00",
-    	endTime: "12:00",
+    	startTime: "13:00",
+    	endTime: "13:50",
     	sessionIds: [023, 028, 025, 009]
     }
     - {
-    	startTime: "12:00",
-    	endTime: "13:00",
+    	startTime: "13:50",
+    	endTime: "14:00",
     	sessionIds: [503]
     }
     - {
-    	startTime: "13:00",
-    	endTime: "13:30",
+    	startTime: "14:00",
+    	endTime: "14:50",
     	sessionIds: [102]
     }
     - {
-      startTime: "13:30",
-      endTime: "14:30",
+      startTime: "14:50",
+      endTime: "15:00",
       sessionIds: [016, 012, 006, 019]
     }
     - {
-      startTime: "14:30",
-      endTime: "15:30",
+      startTime: "15:00",
+      endTime: "15:50",
       sessionIds: [033, 031, 014, 022]
     }
     - {
-    	startTime: "15:30",
+    	startTime: "15:50",
     	endTime: "16:00",
     	sessionIds: [308]
     }
+    - {
+    	startTime: "16:00",
+    	endTime: "16:50",
+    	sessionIds: [308]
+    }
 - 
-  date: "2019-07-11"
-  dateReadable: "July 11"
+  date: "2022-07-27"
+  dateReadable: "July 27th"
   tracks: 
     - {title: "1", color: "#90be4e"}
     - {title: "2", color: "#e91e63"}
-    - {title: "2", color: "#e91e63"}
-    - {title: "4", color: "#FF00FF"}
   timeslots:
     - {
     	startTime: "09:00",
@@ -126,59 +132,3 @@
     	endTime: "18:00",
     	sessionIds: [304]
     }
-- 
-  date: "2019-07-12"
-  dateReadable: "July 12"
-  tracks: 
-    - {title: "1", color: "#90be4e"}
-    - {title: "2", color: "#e91e63"}
-    - {title: "3", color: "#e91e63"}
-    - {title: "4", color: "#FF00FF"}
-  timeslots:
-    - {
-    	startTime: "09:00",
-      endTime: "09:30",
-    	sessionIds: [105]
-    }
-    - {
-    	startTime: "09:30",
-      endTime: "10:00",
-    	sessionIds: [307]
-    }
-    - {
-    	startTime: "10:00",
-    	endTime: "11:00",
-    	sessionIds: [004, 011, 024, 027]
-    }
-    - {
-    	startTime: "11:00",
-    	endTime: "12:00",
-    	sessionIds: [001, 018, 034, 013]
-    }
-    - {
-    	startTime: "12:00",
-    	endTime: "13:00",
-    	sessionIds: [503]
-    }
-    - {
-    	startTime: "13:00",
-    	endTime: "13:30",
-    	sessionIds: [106]
-    }
-    - {
-      startTime: "13:30",
-      endTime: "14:30",
-      sessionIds: [007, 010, 003 , 021]
-    }
-    - {
-      startTime: "14:30",
-      endTime: "15:00",
-      sessionIds: [306]
-    }
-    - {
-      startTime: "15:00",
-      endTime: "15:30",
-      sessionIds: [305]
-    }
-    
-    
