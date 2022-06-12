@@ -1,60 +1,141 @@
-- 
+# examples of inputs for team data
+# - 
+#   id: 0
+#   name: "Vitaliy"
+#   surname: "Zasadnyy"
+#   title: "Sponsors and Speakers Manager"
+#   thumbnailUrl: VitaliyZasadnyy.jpg
+#   team: true
+#   ribbon: 
+#     - {abbr: "GDG", title: "Google Developer Group"}
+#   social: 
+#     - {name: "google-plus", link: "https://google.com/+VitalikZasadnyy"}
+#     - {name: "twitter", link: "https://twitter.com/zasadnyy"}
+#     - {name: "github", link: "https://github.com/zasadnyy"}
+#     - {name: "site", link: "http://zasadnyy.com/"}
+## example for subTeam
+# - 
+#   id: 7
+#   name: "Valentyn"
+#   surname: "Shybanov"
+#   title: "Web and Cloud Program Committee"
+#   thumbnailUrl: ValentynShybanov.jpg
+#   subTeam: true
+#   social: 
+#     - {name: "google-plus", link: "https://google.com/+ValentynShybanov"}
+#     - {name: "site", link: "http://olostan.name/"}
+-
   id: 0
-  name: "Vitaliy"
-  surname: "Zasadnyy"
-  title: "Sponsors and Speakers Manager"
-  thumbnailUrl: VitaliyZasadnyy.jpg
+  name: "Alex"
+  surname: "Coleman"
+  title: "Conference Chair"
+  thumbnailUrl: 
   team: true
   ribbon: 
-    - {abbr: "GDG", title: "Google Developer Group"}
+    - {abbr: "RC", title: "Research Computing"}
   social: 
-    - {name: "google-plus", link: "https://google.com/+VitalikZasadnyy"}
-    - {name: "twitter", link: "https://twitter.com/zasadnyy"}
-    - {name: "github", link: "https://github.com/zasadnyy"}
-    - {name: "site", link: "http://zasadnyy.com/"}
-- 
+    - {name: "twitter", link: "https://twitter.com/sparrow0hawk"}
+    - {name: "github", link: "https://github.com/sparrow0hawk"}
+    - {name: "site", link: "https://arc.leeds.ac.uk"}
+-
   id: 1
-  name: "Oleh"
-  surname: "Zasadnyy"
-  title: "Designer and Web Developer"
-  thumbnailUrl: OlehZasadnyy.jpg
+  name: "Graham"
+  surname: "Blyth"
+  title: "Organising Committee Member"
+  thumbnailUrl: 
   team: true
   ribbon: 
-    - {abbr: "GDG", title: "Google Developer Group"}
+    - {abbr: "LIB", title: "Library"}
   social: 
-    - {name: "google-plus", link: "https://google.com/+OlehZasadnyy"}
-    - {name: "github", link: "https://github.com/ozasadnyy"}
-- 
+    - {name: "site", link: "https://library.leeds.ac.uk/info/14062/research_data_management/61/research_data_management_explained"}
+-
   id: 2
-  name: "Ostap"
-  surname: "Andrusiv"
-  title: "Sponsors and Speakers Manager"
-  thumbnailUrl: OstapAndrusiv.jpg
+  name: "Martin"
+  surname: "Callaghan"
+  title: "Organising Committee Member"
+  thumbnailUrl: 
   team: true
   ribbon: 
-    - {abbr: "GDG", title: "Google Developer Group"}
+    - {abbr: "SoC", title: "School of Computing"}
   social: 
-    - {name: "google-plus", link: "https://google.com/+OstapAndrusiv"}
-    - {name: "twitter", link: "https://twitter.com/p1f"}
-    - {name: "site", link: "http://andrusiv.com/"}
-- 
+    # - {name: "twitter", link: "https://twitter.com/sparrow0hawk"}
+    # - {name: "github", link: "https://github.com/sparrow0hawk"}
+    # - {name: "site", link: "https://arc.leeds.ac.uk"}
+-
+  id: 3
+  name: "Sarah"
+  surname: "Harris"
+  title: "Organising Committee Member"
+  thumbnailUrl: 
+  team: true
+  ribbon: 
+    - {abbr: "SoPA", title: "School of Physics and Astronomy"}
+  social: 
+    # - {name: "twitter", link: "https://twitter.com/sparrow0hawk"}
+    # - {name: "github", link: "https://github.com/sparrow0hawk"}
+    # - {name: "site", link: "https://arc.leeds.ac.uk"}
+-
   id: 4
-  name: "Dmytro"
-  surname: "Danylyk"
-  title: "Android Program Committee"
-  thumbnailUrl: DmytroDanylyk.jpg
-  subTeam: true
+  name: "Lucy"
+  surname: "Hobson"
+  title: "Organising Committee Member"
+  thumbnailUrl: 
+  team: true
+  ribbon: 
+    - {abbr: "IT", title: "IT Services"}
   social: 
-    - {name: "google-plus", link: "https://plus.google.com/+DmytroDanylyk"}
-    - {name: "twitter", link: "https://twitter.com/dmytrodanylyk"}
-    - {name: "github", link: "https://github.com/dmytrodanylyk"}
-- 
+    # - {name: "twitter", link: "https://twitter.com/sparrow0hawk"}
+    # - {name: "github", link: "https://github.com/sparrow0hawk"}
+    # - {name: "site", link: "https://arc.leeds.ac.uk"}
+-
+  id: 5
+  name: "Anna-Grace"
+  surname: "Linton"
+  title: "Organising Committee Member"
+  thumbnailUrl: 
+  team: true
+  ribbon: 
+    - {abbr: "SoC", title: "School of Computing"}
+  social: 
+    # - {name: "twitter", link: "https://twitter.com/sparrow0hawk"}
+    # - {name: "github", link: "https://github.com/sparrow0hawk"}
+    # - {name: "site", link: "https://arc.leeds.ac.uk"}
+-
+  id: 6
+  name: "Viktoria"
+  surname: "Spaiser"
+  title: "Organising Committee Member"
+  thumbnailUrl: 
+  team: true
+  ribbon: 
+    - {abbr: "POLIS", title: "School of Politics and International Studies"}
+  social: 
+    # - {name: "twitter", link: "https://twitter.com/sparrow0hawk"}
+    # - {name: "github", link: "https://github.com/sparrow0hawk"}
+    # - {name: "site", link: "https://arc.leeds.ac.uk"}
+-
   id: 7
-  name: "Valentyn"
-  surname: "Shybanov"
-  title: "Web and Cloud Program Committee"
-  thumbnailUrl: ValentynShybanov.jpg
-  subTeam: true
+  name: "Georgette"
+  surname: "Tanner"
+  title: "Organising Committee Member"
+  thumbnailUrl: 
+  team: true
+  ribbon: 
+    - {abbr: "SoM", title: "School of Medicine"}
   social: 
-    - {name: "google-plus", link: "https://google.com/+ValentynShybanov"}
-    - {name: "site", link: "http://olostan.name/"}
+    # - {name: "twitter", link: "https://twitter.com/sparrow0hawk"}
+    # - {name: "github", link: "https://github.com/sparrow0hawk"}
+    # - {name: "site", link: "https://arc.leeds.ac.uk"}
+-
+  id: 2
+  name: "Elton"
+  surname: "Vasconcelos"
+  title: "Organising Committee Member"
+  thumbnailUrl: 
+  team: true
+  ribbon: 
+    - {abbr: "FBS", title: "Faculty of Biological Sciences"}
+  social: 
+    # - {name: "twitter", link: "https://twitter.com/sparrow0hawk"}
+    # - {name: "github", link: "https://github.com/sparrow0hawk"}
+    # - {name: "site", link: "https://arc.leeds.ac.uk"}
