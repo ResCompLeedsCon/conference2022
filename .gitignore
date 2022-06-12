@@ -13,3 +13,6 @@ Thumbs.db
 ehthumbs.db
 #ignore Mac .DS_Store file#
 .DS_Store
+
+vendor
+.bundle
