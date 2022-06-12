@@ -1,72 +1,89 @@
 ---
 layout: post
-title: Research Bazaar Policies and Code of Conduct
+title: ResCompLeedsCon Code of Conduct
 permalink: /cod/
 isStaticPost: true
 ---
-##### Research Bazaar Policies and Code of Conduct
-*Coming to ResBaz? Please read our policies (recording, reporting and anti-harassment) and Code of Conduct. We’re really serious about making sure that everyone feels safe and has a good time at all our events!*
-
-##### Policies and Code of Conduct
-Throughout these policies, we refers to the Research Bazaar team of staff and volunteers.
-
-By accepting a place at the Research Bazaar, **you agree to be bound by these policies and Code of Conduct.**
-
 ##### Code of Conduct
-*This Code of Conduct draws inspiration from the ResBaz Melbourne [Code of Conduct](https://resbazblog.wordpress.com/code-of-conduct/).*
 
-The Research Bazaar is a learning environment where everyone is welcome. It’s a diverse community from a wide range of backgrounds and interests, academically and socially. To ensure that everyone has a safe and enjoyable experience, please bring a spirit of respect and friendly inquiry to all your social interactions at the Research Bazaar.
+We want all attendees to have an enjoyable experience at ResCompLeedsCon. All attendees - delegates, speakers, volunteers, organisers - are expected to abide by this Code of Conduct. If necessary organisers will act to enforce it.
 
-**Be friendly and polite.**
+##### The short version
+If you have a question about the code of conduct or wish to report misconduct, please email [rescompleedscon@gmail.com](rescompleedscon@gmail.com).
 
-**Be welcoming.** The Research Bazaar strives to be a community that welcomes and supports people of all backgrounds and identities. People from all stages of their careers and fields of inquiry are welcome.
+Be kind to others. Do not insult or put down others. Behave professionally. Remember that harassment and sexist, racist, or exclusionary jokes are not appropriate.
 
-**Be respectful.** Participants come from a huge range of backgrounds and experience levels. Everyone should feel comfortable to ask for the help they need to understand the discussion. Listen and support others to learn. Remember that everyone here has their own field of expertise.
+All communication should be appropriate for a professional audience including people of many different backgrounds. Sexual language and imagery are not appropriate.
 
-**Be kind to others.** Be careful and respectful in the words that you choose to use. Do not insult or put down other participants or their background.
+The Research Computing Leeds Conference Organising committee is dedicated to providing a harassment-free conference for everyone, regardless of sex, age, disability, gender reassignment, marriage and civil partnership, pregnancy and parenthood, race, religion or belief (or lack thereof), gender identity and expression, sexual orientation, technical choices, experience level or any other dimension of diversity. We do not tolerate harassment of conference participants in any form.
 
-##### Photography/video/audio recording policy
-We will be taking photographs and (potentially) videos of sessions (formal and social) at ResBaz. These images and recordings may be used to promote the conference and other activities by the Auckland Research Bazaar team.
+Thank you for helping make this a welcoming, friendly conference for all.
 
-If you do not wish to be photographed, please let the organisers know and obtain a`no photos’ sticker.
+##### Code of Conduct detailed view
 
-If someone indicates that they do not wish to be photographed, respect their wishes and delete any photographs you have taken that include them. This includes group shots and photographs where they appear in the background.
+###### Part 1: Introduction
 
-##### Reporting/blogging/social media policy
-We encourage all ResBaz attendees to join the conversation on Twitter before, during and after the conference. We also encourage attendees to discuss their experiences by blogging or writing pieces for their home institution blogs and newsletters if appropriate. We will be covering the conference by live-tweeting and blogging. Attendees are reminded that the Code of Conduct and Anti-Harassment policy extend to online interactions associated with the Research Bazaar.
+The Research Computing Leeds Conference Organisers are committed to creating a welcoming and supportive environment at our conference. All participants in the events and related communications are expected to show respect and courtesy to others.
 
-Comments made on social media may be republished with attribution (for example retweeting or embedding of Tweets in blogs). If you wish to attribute an opinion or statement to an individual in a long-form piece, please verify with that individual that they feel you have written an accurate representation of their view, especially if it concerns their research.
+The Code of Conduct should be honoured by everyone who participates in the conference and across all conference activities. This Code of Conduct applies to all spaces related to the conference including, but not limited to, workshops, email lists, and online forums such as GitHub, Slack and Twitter. Session chairs are expected to assist with the enforcement of the Code of Conduct.
 
-Please remember that the Research Bazaar is a learning environment and **don’t distract other attendees by photographing/ live tweeting excessively during training sessions.**
+The Research Computing Leeds Conference Organising committee is responsible for enforcing the Code of Conduct. They can be contacted by emailing [rescompleedscon@gmail.com](rescompleedscon@gmail.com). All reports will be reviewed by the Organising committee and will be kept confidential.
 
-##### Anti-harassment policy
-*This policy is based on the ResBaz Melbourne [Code of Conduct](https://resbazblog.wordpress.com/code-of-conduct/).*
+###### Part 2: Code of Conduct
 
-###### Summary
-The Research Bazaar is dedicated to providing a harassment-free experience for everyone at our events and in our forums. We do not tolerate harassment of attendees in any form. Attendees violating these rules may be sanctioned or expelled from the event and its forums at the discretion of the anti-harassment officers or the host.
+Behaviours that are disrespectful to our volunteers or events’ attendees, or intimidate, exclude or cause discomfort to others will not be tolerated. We do not tolerate discrimination or harassment based on characteristics that include, but are not limited to, 
 
-###### Detailed policy
-Harassment includes:
+age, disability, gender reassignment, marriage and civil partnership, pregnancy and parenthood, race, religion or belief (or lack thereof), gender identity and expression, sexual orientation, technical choices,  experience level or any other dimension of diversity.
 
-* offensive verbal comments related to gender, sexual orientation, disability, physical appearance, body size, race or ethnicity, religion, or other personal attributes or identities
-* unwelcome comments regarding a person’s lifestyle choices and practices
-* sexual images in public spaces
-* deliberate intimidation
-* stalking or following
-* threats of violence or incitements to violence against an individual
-* violating the photography and recording policy
-* sustained disruption of talks or other events
-* sustained attacks on an attendee’s research topic or project
-* inappropriate physical contact
-* unwelcome sexual attention.
-* Participants asked to stop any harassing behaviors are expected to comply immediately. Any member of the Research Bazaar staff can issue a verbal warning to a participant that their behaviour violates the conference’s anti-harassment policy. A record of complaints received and warnings issued will be maintained to enable any repeat offenders to be identified.
+The Research Computing Leeds Conference Organising committee is responsible for the enforcement of this Code of Conduct and for dealing with misconduct or violations to this policy. Conference chairs, and workshop facilitators are expected to assist with the enforcement of the Code of Conduct in their respective capacities. By participating, individuals indicate their acceptance of the procedures by which the Research Computing Leeds Conference Organising committee resolves any Code of Conduct incidents, which might include storage and processing of their personal information.
 
-If a participant engages in harassing behaviors, the anti-harassment officers may take any action they deem appropriate, including warning the offender or expulsion from the event.
+###### Part 3: Expected behaviour
 
-If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact the anti-harassment officers or your site host immediately. If you are being harassed by an anti-harassment officer or otherwise don’t feel safe reporting to them, please contact [researchdata@auckland.ac.nz](mailto:researchdata@auckland.ac.nz).
+All participants in our events and communications are expected to show respect and courtesy to others and all interactions should be professional, both online and in-person. 
 
-Anti-harassment officers will be happy to help attendees contact police or crisis services, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the event.
+The following kinds of behaviours are encouraged:
 
-We value your attendance. We expect participants to follow these rules at the Research Bazaar venue, any related social events, and online forums.
+- Show courtesy and respect towards every conference participant  
+- Be respectful of different viewpoints and experiences
+- Gracefully accept constructive criticism
+- Use welcoming and inclusive language
+- Adhere to the Code of Conduct and report incidences promptly
+- Be direct, but professional
+- Ask for consent and respect people’s boundaries
+- Be aware of the dynamics of power and privilege (be mindful of how much time and space you are taking up)
+
+###### Part 4: Unacceptable behaviour
+
+Examples of unacceptable behaviour include:
+
+- Publication of private communication without consent
+- Excessive Swearing 
+- Improper gestures
+- Use of stereotypes
+- Incitement to violence, suicide or self-harm
+- Sustained disruptions of talks, workshops events or communications
+- The display of violent images
+- Causing someone to fear for their safety through stalking, following, intimidation, or threatening
+- Unwelcome and repeated flirtations, propositions, advances, or other sexual attention – including gratuitous or off-topic sexual images or behaviour
+- Non-consensual or unwelcome physical contact
+- Sexist, racist, homophobic, transphobic, ableist, or exclusionary jokes
+- Continuing to initiate interaction with someone after being explicitly asked to stop
+- Offensive, insulting, derogatory, or degrading remarks
+- Demands for sexual favours in exchange for favourable or preferential treatment
+- Advocating for, or encouraging any of the above behaviours
+
+###### Part 5: Consequences of Unacceptable Behaviour
+
+Participants who are asked to stop any inappropriate behaviour are expected to comply immediately. This applies to any event or platform, either online or in-person. If an event participant engages in behaviour that violates this Code of Conduct, the organizers may warn the offender, ask them to leave the event or platform, or engage the committee to investigate the Code of Conduct violation and impose appropriate sanctions. 
+
+Any concerns raised will be heard in confidence, taken seriously and dealt with according to our [documented procedure for incident handling]({{ site.baseurl}}{% link incident-response-handling.md %}).
+
+#### Acknowledgments
+
+This code of conduct and policies was adapted from a number of other existing codes of conduct which we would like to acknowledge below:
+
+- [RSECon22 Code of conduct](https://rsecon2022.society-rse.org/code-of-conduct-for-rsecon22/)
+- [The PyCon 2019 Code of Conduct](https://2018.pyconuk.org/code-conduct/)
+- [The Research Bazaar Policies and Code of Conduct](https://resbazblog.wordpress.com/code-of-conduct/)
 
 <img class="img-responsive feature-image" src="{{ site.baseurl }}/img/posts/cod.jpg" style="display:none">
