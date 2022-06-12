@@ -35,14 +35,14 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
- - {permalink: "/schedule/", text: "Schedule"}
- - {permalink: "/speakers/", text: "Speakers"}
- - {permalink: "/sessions/", text: "Sessions"}
+# - {permalink: "/schedule/", text: "Schedule"}
+# - {permalink: "/speakers/", text: "Speakers"}
+# - {permalink: "/sessions/", text: "Sessions"}
  - {permalink: "/cod/", text: "Code of Conduct"}
 bottomNavigationLinks:
- - {link: "mailto:19deaf75.leeds365.onmicrosoft.com@emea.teams.ms", text: "Contact us"}
+ - {link: "mailto:rescompleedscon@gmail.com", text: "Contact us"}
 rightNavigationButtons:
- - {link: "https://it.leeds.ac.uk/it?id=sc_cat_item&sys_id=7587b2530f675f00a82247ece1050eda", text: "Send us a ticket"}
+ - {link: "mailto:rescompleedscon@gmail.com", text: "Contact us"}
 
 # Hero Block
 heroImage: "hero.jpg"
@@ -177,7 +177,7 @@ footerBlocks:
  -
   title: "Get in touch"
   links:
-   - {link: "https://it.leeds.ac.uk/it?id=sc_cat_item&sys_id=7587b2530f675f00a82247ece1050eda", text: "Send us a ticket"}
+   - {link: "mailto:rescompleedscon@gmail.com", text: "Contact us"}
  -
   title: "FAQ"
   links:
