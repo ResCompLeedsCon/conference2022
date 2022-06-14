@@ -29,7 +29,7 @@
   name: "Alex"
   surname: "Coleman"
   title: "Conference Chair"
-  thumbnailUrl: 
+  thumbnailUrl: "alexcoleman.png"
   team: true
   ribbon: 
     - {abbr: "RC", title: "Research Computing"}
