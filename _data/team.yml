@@ -42,7 +42,7 @@
   name: "Graham"
   surname: "Blyth"
   title: "Organising Committee Member"
-  thumbnailUrl: 
+  thumbnailUrl: "graham-blyth.jpg"
   team: true
   ribbon: 
     - {abbr: "LIB", title: "Library"}
