@@ -58,8 +58,8 @@
   ribbon: 
     - {abbr: "SoC", title: "School of Computing"}
   social: 
-    # - {name: "twitter", link: "https://twitter.com/sparrow0hawk"}
-    # - {name: "github", link: "https://github.com/sparrow0hawk"}
+    - {name: "twitter", link: "https://twitter.com/callaghanmt"}
+    - {name: "github", link: "https://github.com/callaghanmt"}
     # - {name: "site", link: "https://arc.leeds.ac.uk"}
 -
   id: 3
@@ -73,7 +73,7 @@
   social: 
     # - {name: "twitter", link: "https://twitter.com/sparrow0hawk"}
     # - {name: "github", link: "https://github.com/sparrow0hawk"}
-    # - {name: "site", link: "https://arc.leeds.ac.uk"}
+    - {name: "site", link: "https://astbury.leeds.ac.uk/people/dr-sarah-harris/"}
 -
   id: 4
   name: "Lucy"
@@ -99,7 +99,7 @@
   social: 
     # - {name: "twitter", link: "https://twitter.com/sparrow0hawk"}
     # - {name: "github", link: "https://github.com/sparrow0hawk"}
-    # - {name: "site", link: "https://arc.leeds.ac.uk"}
+    - {name: "site", link: "https://eps.leeds.ac.uk/computing/pgr/7681/anna-grace-linton"}
 -
   id: 6
   name: "Viktoria"
@@ -110,9 +110,9 @@
   ribbon: 
     - {abbr: "POLIS", title: "School of Politics and International Studies"}
   social: 
-    # - {name: "twitter", link: "https://twitter.com/sparrow0hawk"}
+    - {name: "twitter", link: "https://twitter.com/viktoria_sp"}
     # - {name: "github", link: "https://github.com/sparrow0hawk"}
-    # - {name: "site", link: "https://arc.leeds.ac.uk"}
+    - {name: "site", link: "https://essl.leeds.ac.uk/politics/staff/102/dr-viktoria-spaiser"}
 -
   id: 7
   name: "Georgette"
@@ -123,9 +123,9 @@
   ribbon: 
     - {abbr: "SoM", title: "School of Medicine"}
   social: 
-    # - {name: "twitter", link: "https://twitter.com/sparrow0hawk"}
+    - {name: "twitter", link: "https://twitter.com/georgettanner"}
     # - {name: "github", link: "https://github.com/sparrow0hawk"}
-    # - {name: "site", link: "https://arc.leeds.ac.uk"}
+    - {name: "site", link: "https://medicinehealth.leeds.ac.uk/medicine/staff/808/georgette-tanner"}
 -
   id: 2
   name: "Elton"
@@ -136,6 +136,6 @@
   ribbon: 
     - {abbr: "FBS", title: "Faculty of Biological Sciences"}
   social: 
-    # - {name: "twitter", link: "https://twitter.com/sparrow0hawk"}
+    - {name: "twitter", link: "https://twitter.com/eltonvasconcel8"}
     # - {name: "github", link: "https://github.com/sparrow0hawk"}
-    # - {name: "site", link: "https://arc.leeds.ac.uk"}
+    - {name: "site", link: "https://biologicalsciences.leeds.ac.uk/biological-sciences/staff/1300/dr-elton-vasconcelos"}
