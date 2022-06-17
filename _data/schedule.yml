@@ -2,133 +2,148 @@
   date: "2022-07-26"
   dateReadable: "July 26th"
   tracks: 
-    - {title: "1", color: "#90be4e"}
-    - {title: "2", color: "#e91e63"}
+    - {title: "Stream 1: Worsley 8.43X and Y", color: "#90be4e"}
+    - {title: "Stream 2: Worsley 8.49N", color: "#e91e63"}
   timeslots:
     - {
     	startTime: "09:00",
       endTime: "9:30",
-    	sessionIds: [301]
+    	sessionIds: [010]
     }
     - {
     	startTime: "09:30",
       endTime: "10:00",
-    	sessionIds: [307]
+    	sessionIds: [050]
     }
     - {
     	startTime: "10:00",
       endTime: "10:50",
-    	sessionIds: [100]
+    	sessionIds: [102]
     }
     - {
     	startTime: "10:50",
       endTime: "11:00",
-    	sessionIds: [302]
+    	sessionIds: [030, 401]
     }
     - {
     	startTime: "11:00",
       endTime: "12:00",
-    	sessionIds: [303]
+    	sessionIds: [103, 401]
     }
     - {
     	startTime: "12:00",
       endTime: "13:00",
-    	sessionIds: [100, 101]
+    	sessionIds: [040]
     }
     - {
     	startTime: "13:00",
     	endTime: "13:50",
-    	sessionIds: [023, 028, 025, 009]
+    	sessionIds: [104, 401]
     }
     - {
     	startTime: "13:50",
     	endTime: "14:00",
-    	sessionIds: [503]
+    	sessionIds: [030, 401]
     }
     - {
     	startTime: "14:00",
     	endTime: "14:50",
-    	sessionIds: [102]
+    	sessionIds: [105, 401]
     }
     - {
       startTime: "14:50",
       endTime: "15:00",
-      sessionIds: [016, 012, 006, 019]
+      sessionIds: [020]
     }
     - {
       startTime: "15:00",
       endTime: "15:50",
-      sessionIds: [033, 031, 014, 022]
+      sessionIds: [301, 401]
     }
     - {
     	startTime: "15:50",
     	endTime: "16:00",
-    	sessionIds: [308]
+    	sessionIds: [030]
     }
     - {
     	startTime: "16:00",
-    	endTime: "16:50",
-    	sessionIds: [308]
+    	endTime: "16:30",
+    	sessionIds: [104, 401]
+    }
+    - {
+    	startTime: "16:30",
+    	endTime: "17:00",
+    	sessionIds: [050]
     }
 - 
   date: "2022-07-27"
   dateReadable: "July 27th"
   tracks: 
-    - {title: "1", color: "#90be4e"}
-    - {title: "2", color: "#e91e63"}
+    - {title: "Stream 1: Worsley 8.43X and Y", color: "#90be4e"}
+    - {title: "Stream 2: Worsley 8.49N", color: "#e91e63"}
   timeslots:
     - {
     	startTime: "09:00",
-      endTime: "09:30",
-    	sessionIds: [103]
-    }
-    - {
-    	startTime: "09:30",
       endTime: "10:00",
-    	sessionIds: [307]
+    	sessionIds: [050]
     }
     - {
     	startTime: "10:00",
+    	endTime: "10:10",
+    	sessionIds: [060]
+    }
+    - {
+    	startTime: "10:10",
     	endTime: "11:00",
-    	sessionIds: [004, 008, 017, 005]
+    	sessionIds: [302,402]
     }
     - {
     	startTime: "11:00",
+    	endTime: "11:05",
+    	sessionIds: [030,402]
+    }
+    - {
+    	startTime: "11:05",
     	endTime: "12:00",
-    	sessionIds: [001, 035, 017, 005]
+    	sessionIds: [103,402]
     }
     - {
     	startTime: "12:00",
     	endTime: "13:00",
-    	sessionIds: [503]
+    	sessionIds: [040]
     }
     - {
     	startTime: "13:00",
-    	endTime: "13:30",
-    	sessionIds: [104]
+    	endTime: "13:50",
+    	sessionIds: [104, 402]
     }
     - {
-      startTime: "13:30",
+      startTime: "13:50",
+      endTime: "14:00",
+      sessionIds: [030, 402]
+    }
+    - {
+      startTime: "14:00",
       endTime: "14:30",
-      sessionIds: [026, 030, 002, 020]
+      sessionIds: [104, 402]
     }
     - {
-      startTime: "14:30",
-      endTime: "15:30",
-      sessionIds: [026, 030, 002, 020]
+    	startTime: "14:30",
+    	endTime: "15:00",
+    	sessionIds: [020]
     }
     - {
-    	startTime: "15:30",
+    	startTime: "15:00",
+    	endTime: "15:50",
+    	sessionIds: [102]
+    }
+    - {
+    	startTime: "15:50",
     	endTime: "16:00",
-    	sessionIds: [308]
+    	sessionIds: [030]
     }
     - {
     	startTime: "16:00",
-    	endTime: "17:00",
-    	sessionIds: [036, 015, 032, 020]
-    }
-    - {
-    	startTime: "17:00",
-    	endTime: "18:00",
-    	sessionIds: [304]
+    	endTime: "16:40",
+    	sessionIds: [050]
     }

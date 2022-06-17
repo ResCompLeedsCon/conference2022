@@ -1,338 +1,97 @@
+# list of sessions
+
 - 
-  id: 100
-  title: "Keystory - Kindness In Science (Rm: G20)"
+  id: 010
+  title: "Registration"
   description: 
-  speakers: [0, 1, 8]
+  speakers: []
   hidden: true
+
+- 
+  id: 020
+  title: "Break"
+  description: 
+  speakers: []
+  hidden: true
+- 
+  id: 030
+  title: "Questions and changeover"
+  description: 
+  speakers: []
+  hidden: true
+- 
+  id: 040
+  title: "Lunch"
+  description: 
+  speakers: []
+  hidden: true
+- 
+  id: 050
+  title: "Social"
+  description: "
+  A chance for refreshments and meeting other attendees."
+  speakers: []
+  hidden: true
+- 
+  id: 060
+  title: "Welcome back"
+  description: 
+  speakers: []
+  hidden: true
+
+# talk section
 - 
   id: 102
-  title: "Keystory - Research Impact: making a difference as an academic advisor to an online engagement tool (Rm: G20)"
-  description: "Dr Jennifer Lees-Marshment will discuss the value of research impact and her experience as Academic Advisor to TVNZ’s online engagement tools Vote Compass (2017 and 2014) and Kiwimeter (2015). Her talk will showcase the value of engaging in research impact, but also discuss the challenges and pressures that stepping outside the ivory tower of academia can generate. Jennifer is Associate Professor in Politics and was academic lead on University of Auckland’s Impact Working Group and is a member of the Convening Group for the University COI in Impact."
-  speakers: [2]
+  title: "Keynote"
+  description: 
+  speakers: []
   hidden: true
--
+- 
   id: 103
-  title: "Keystory - Applying data science to health care (Rm: G20)"
-  description: "Can we predict how many emergency admissions would occur in the next hour? Or is it possible to provide better care by automating cumbersome but essential clinical tasks? Discover how data science can help shape the 'health and care', in an industry which has data locked into many disparate systems. In this talk, we will touch upon 'the data and digital skills' required to overcome some of the challenges in realising the real value of healthcare data."
-  speakers: [3]
+  title: "Invited Research Portfolio talks"
+  description: 
+  speakers: []
   hidden: true
--
+- 
   id: 104
-  title: "Keystory - Make Friends with Other Disciplines: Building novel collaborations to drive novel research (Rm: G20)"
-  description: "Come and hear how to escape from cookie cutter research, through our tale of novel collaboration bringing together an unlikely team of architects, medical doctors, data scientists and visualisation specialists working to change the way we study cancer. 
-  Spoiler alert: This team worked to bring together complex cancer data, spanning time and space, in Augmented Reality to creat a tool to explore and discuss the evolution of cancer in a whole new realm.
-  This keynote aims to inspire collaboration and ambition across faculties and across disciplines to make the most of your precious data and the resources available to you at the University."
-  speakers: [4, 5]
+  title: "15min and 10min Talks"
+  description: 
+  speakers: []
   hidden: true
--
+- 
   id: 105
-  title: "Keystory - Eclectic Research: Weaving Data (Rm: G20)"
-  description: "Details to be announced."
-  speakers: [6]
+  title: "Lightning and poster presentations"
+  description: 
+  speakers: []
   hidden: true
--
-  id: 106
-  title: "Keystory - Seeing Things Differently (Rm: G20)"
-  description: "Details to be announced."
-  speakers: [7]
-  hidden: true
--
+
+# panel sessions
+- 
   id: 301
-  title: "Registration (Rm:120)"
-  service: true
+  title: "Discussion Panel: Open Research"
+  description: 
+  speakers: []
   hidden: true
 - 
   id: 302
-  title: "Welcome (Rm:G20)"
-  speakers: [9]
+  title: "Discussion Panel: Sustainability and research computing"
+  description: 
+  speakers: []
+  hidden: true
+
+  # code clinic and workshop sessions
+
+- 
+  id: 401
+  title: "Code clinic"
+  description: "
+  Bring your code problems to present and share with others. A chance to collaboratively
+  troubleshoot code issues. Prior submission will be necessary."
+  speakers: []
   hidden: true
 - 
-  id: 303
-  title: "Superpowers (Rm:G20)"
+  id: 402
+  title: "Workshop"
+  description: "TBC"
+  speakers: []
   hidden: true
-  speakers: [10, 19]
-- 
-  id: 304
-  title: "Pizza, sponsored by REANNZ (Rm:120)"
-  service: true
-  hidden: true
-  speakers: 
-- 
-  id: 305
-  title: "Feedback and treats (Rm:G20)"
-  hidden: true
-  speakers: [27, 13, 14]
-- 
-  id: 306
-  title: "Flexing your superpowers"
-  hidden: true
-  speakers: [10, 19]
--
-  id: 307
-  title: "Morning break (Rm:120)"
-  service: true
-  hidden: true
-  description: "The best time to talk with speakers and attendees"
--
-  id: 308
-  title: "Afternoon break (Rm:120)"
-  service: true
-  hidden: true
-  description: "The best time to talk with speakers and attendees"
--
-  id: 309
-  title: "Social event, Old Government House"
-  service: true
-  hidden: true
-  description: "The best time to talk with speakers and attendees"
--
-  id: 310
-  title: "To be confirmed"
-  service: true
-  hidden: true
--
-  id: 503
-  title: "Lunch Break (Rm:120)"
-  hidden: true
-  service: true
--
-  id: 001
-  title: "Research Data Management (Part 2): Sharing, Publishing & Archiving (Rm:G10)"
-  description: "The University of Auckland Code of Conduct for Research states \"Researchers should share data and findings openly and as promptly as possible\", a practice increasingly required by research funders and publishers. Come along to this workshop to learn about how you can disseminate your research findings; increase your research impact through data publication; learn about services available to you at the University to achieve this."
-  subtype: workshop
-  speakers: [14]
-  complexity: "Beginner"
--
-  id: 002
-  title: "Crash course in LaTeX using Overleaf (Rm:110)"
-  description: "This is a 'Bring your own device' session. Learn the basics of LaTeX and Overleaf in this workshop. We will create a template that you can use for both articles and a thesis."
-  subtype: workshop
-  speakers: [11, 12, 13]
-  complexity: "Beginner" 
-  presentation: "https://tofu.dev/workshops/latex"
--
-  id: 003
-  title: "Version control and collaboration tools - Intro to Git and GitHub (Rm:110)"
-  description: "This session will offer a brief and practical introduction to <a href=\"https://git-scm.com/\">Git</a> and <a href=\"https://github.com/\">GitHub</a> for complete beginners. Learn how you can use Git to manage and keep track of different versions of all your important files and documents that change through time in your projects. GitHub is one of the worlds leading online collaboration platforms for working on projects that use Git. Whether you write code or not, Git and GitHub are incredibly powerful tools that should be part of any researchers digital toolkit. Come and see what it's all about!"
-  subtype: workshop
-  speakers: [10, 12]
-  complexity: "Beginner" 
--
-  id: 004
-  title: "Research Data Management (Part 1): Planning, Organising & Storing (Rm:G10)"
-  description: "Research data: that which is created, collected or observed in the course of producing original research, regardless of format. This introductory workshop is aimed at researchers, particularly those embarking on their research career or starting a new research project. Attendees will develop strategies for capturing and organising research data, sharing and reusing data, and have an opportunity to draft a Data Management Plan (DMP).You will be introduced to data management concepts, best practices, services and useful tools to support you managing and sharing your research data."
-  subtype: workshop
-  speakers: [13, 14]
-  complexity: "Beginner" 
--
-  id: 005
-  title: "NeCTAR Research Cloud (Rm:130)"
-  description: "This is a 'Bring your own device' session. Do your computations take too long on your laptop? Do you want to offload long-running simulations to a different computer? Are there computations you cannot run on your desktop because you don't have enough memory or compute power? Would you be interested in easily reproducing existing data compute workflows for your use, or easily creating your own? You’re invited to attend a workshop for researchers wanting a practical introduction into using the NeCTAR Research Cloud! We’ll provide an introduction to using NeCTAR, all the basic tools you need to know to run your first cloud computer and demonstrate how you can use NeCTAR to help achieve your research and data analysis objectives."
-  subtype: workshop
-  speakers: [15, 16, 17]
-  complexity: "TBC" 
--
-  id: 006
-  title: "How to plan your research for real world impact & Grabbing the limelight – Communicating your research in the media (Rm:110)"
-  description: "Part 1: Economic, societal and environmental impact, or the ‘non-academic’ impact of research, is becoming an increasingly important part of the research ecosystem. It is standard practice for researchers to be asked by funders to describe the benefits of their research and how they might enable that benefit to be achieved. This session offers a high-level step-by-step guide on how to incorporate impact into your research planning.<br /><br />
-  
-  Part 2: Sharing your research with the media is a great way to broaden its reach and raise your profile as a researcher, but what makes one story front-page material while others never get picked up to begin with? This session offers practical tips and techniques for communicating your research to the media and wider public – from crafting your story to taking advantage of the modern media landscape to maximise the chances of your story getting picked up."
-  speakers: [29, 18]
--
-  id: 007                                     
-  title: "Data Management Planning (Rm:G10)"
-  description: "This is a 'Bring your own device' session. A data management plan (DMP) is a document that describes what research data will be collected - how it will be organised, documented, stored; along with publication and preservation plans. If you want to create a DMP but do not know where to start or what to include, come along to this workshop where we go through the various aspects of the University's DMP, offer best practice examples and section-by-section advice for creating your initial DMP.<br /><br />
-  Session is particularly suited to provisional year doctoral candidates or researchers in the early stages of their research project."
-  speakers: [13, 14]
-  complexity: "Attendance to earlier Research Data Mamgement workshop is recommended." 
--
-  id: 008
-  title: "Tidy data and introduction to OpenRefine (Rm:G30)"
-  description: "This is a 'Bring your own device' session. Good data organisation is the foundation of any research project. We often organise data in spreadsheets in ways that we as humans want to work with it, but computers require data be organised in particular ways. In order to use tools that make computation more efficient such as programming languages like R or Python, we need to structure our data the way that computers need it. Since this is where most research projects start, this is where we want to start too!<br /><br /> 
-
-  Preparing data for analysis is an important part of the research workflow. Some of this involves data cleaning, where errors in the data are identifed and corrected or formatting made consistent. OpenRefine is a powerful free and open source tool for working with messy data: cleaning it and transforming it from one format into another. This lesson will teach you to use OpenRefine to effectively clean and format data and automatically track any changes that you make. Many people comment that this tool saves them literally months of work trying to make these edits by hand."
-  subtype: workshop
-  speakers: [19]
-  complexity: "Beginner" 
--
-  id: 009
-  title: "What tools should I use in my bioinformatics research? (Rm:130)"
-  description: "Is your research in a bioinformatics-related field? Are you wondering if ResBaz is any good for you? Or do you want to know what sessions are suitable for your research? This session highlights how tools like python, SQL, R and GitHub were used to answer a research question. It is meant to give a quick overview of the skills taught at ResBaz so you know exactly what sessions are most suitable for your needs."
-  speakers: [20]
-  complexity: "Beginner" 
--
-  id: 010
-  title: "Busting the Supercomputing Jargon (Rm:G30)"
-  description: "Core? CPU? SSH? WTF? This is a fun, interactive activity where we will explore what terminology YOU think makes High Performance Computing (HPC) so darn difficult to understand. You might be learning about HPC for the first time or want to know more about specific tools you are using for your research (Bash, parallel computing, machine learning, etc…) Either way, this session is for you! All knowledge levels and all disciplines are welcome to attend."
-  subtype: workshop
-  speakers: [23]
-  complexity: "Beginner" 
--
-  id: 011
-  title: "Linux - an introduction to the command line (the shell) (Rm:G30)"
-  description: "This is a 'Bring your own laptop' session.<br /><br /> 
-  There are research computing platforms running the linux operating system where no gui interface is available, and it is imperative to know how to navigate filesystems and run programs from the command-line (the shell). From the command-line you can then automate your work-processes and work much more efficiently.<br /><br /> 
-  This introduction to the bash shell will cover 1) basic navigation,  2)  customizing the shell with environment variables, and 3) running small automation scripts <br /><br /> 
-
-  Those whose laptop can boot into linux or MacOS have a bash shell already available to them. Windows users without linux should follow the <a href=\"https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows\">instructions</a> so that they can boot into ubuntu from a usb stick at the beginning of the session to have access to the bash shell. Alternatively, if you are running Windows10, <a href=\"https://docs.microsoft.com/en-us/windows/wsl/install-win10\">install</a> the Windows Subsystem for Linux."
-  subtype: workshop
-  speakers: [21]
-  complexity: "Beginner" 
--
-  id: 012
-  title: "Copyright the Card Game (Rm:G30)"
-  description: "The first of two games sessions – come and have some fun and find out about copyright and publishing.<br /><br /> 
-
-  We'll find out about copyright basics in a fun way and discover what works and uses are protected by copyright, how licences work, and what the copyright exceptions are that enable you to make use of protected works.  As with all games there is an element of risk – so then we find out how to evaluate the risks where your use might not be covered  by a licence or an exception.Everything you need to know about licences and research objects. Find out what you should know about copyright before you publish your work, and how to maintain rights over your work. Learn how to hack a copyright contract in a hands on practical session."
-  speakers: [22, 28]
--
-  id: 013
-  title: "Research Profiles: working hard or hard work? (Rm:130)"
-  description: "This is a 'Bring your own device' session. What will people find when they Google you? Learn about different research profiles available and start creating your professional online identity. Use researcher IDs (e.g. ORCiD) to claim and link your publications."
-  speakers: [26, 49]
--
-  id: 014
-  title: "Publishing: Getting more people to read your research (Rm:110)"
-  description: "Learn how to choose the right journal and avoid predatory publishers. Consider using preprints to get your ideas out early and explore techniques to get more people to read your research."
-  speakers: [24, 25]
--
-  id: 015
-  title: "Staying uptodate with the literature: tips and tricks (Rm:G30)"
-  description: "This is a 'Bring your own device' session. Discover tips and tricks for staying up-to-date with the literature in your discipline, including: setting up database alerts, using advanced searching techniques, following twitter communities, setting up RSS feeds, and finding grey literature and patents."
-  speakers: [25]
--
-  id: 016
-  title: "Qualitative data analysis (NVivo) (Rm:G10)"
-  description: "This is a 'Bring your own device' session."
-  speakers: [31, 19]
-  complexity: "Beginner" 
--
-  id: 017
-  title: "Introduction to R programming language (Rm:110)"
-  description: "This is a 'Bring your own device' session. This two-part workshop is an introduction to R for data analysis for complete beginners. The sessions are relatively informal, example oriented, and hands-on. The first half will cover the basics (no experience is assumed) and get us comfortable with R and its capabilities, which will prepare us for the second half where we will explore dataset manipulation."
-  speakers: [32, 41, 20]
-  complexity: "Beginner" 
--
-  id: 018
-  title: "Accessing APIs using R (Rm:G30)"
-  description: "Open data on the internet is often made available, through Web service Application Programming Interfaces or APIs, by governments and other organisations. This workshop, will help you gain hands-on experience in requesting data from these different Web service APIs using R. Specifically, we will look into fetching weather and events data for Auckland region."
-  speakers: [3]
-  complexity: "Intermediate" 
--
-  id: 019
-  title: "Introduction to DNA metabarcoding (Rm:130)"
-  description: "What should I know before embarking on a research project in DNA metabarcoding? Come along and find out what should be considered in the design of a DNA metabarcoding research project and what to expect during the wet lab stages through to the analyses of the next-generation sequencing data."
-  speakers: [34]
-  complexity: "Beginner" 
--
-  id: 020
-  title: "Introduction to deep learning (Rm:130)"
-  description: "This is a 'Bring your own device' session. Academics can use machine learning, specifically deep learning, to more swiftly advance knowledge in their respective fields. This session will offer a brief introduction to deep learning for people with a basic knowledge of Python and Jupyter Notebook. It teaches you how to use Keras - a powerful, easy-to-use Python library - for developing and evaluating basic neural networks in a few short lines of code. We will go through three different case studies and demonstrate how neural networks can be a solution to these problems."
-  speakers: [38, 39]
-  complexity: "Basic knowledge of Python and Jupyter Notebook required."
--
-  id: 021
-  title: "Tweet it! And find out who else did. (Rm:130)"
-  description: "This is a 'Bring your own device' session. Social media and Altmetrics for researchers. Learn how to publicise your research using social media and gain greater visibility of your research both within and outside your field of expertise. Find out how your work is being cited or tweeted with citation databases and Altmetrics."
-  speakers: [26, 51, 52]
-  complexity: "Beginner"
--
-  id: 022
-  title: "Research commercialisation and intellectual property (Rm:130)"
-  description: "This session will cover the following topics: What is intellectual property, types of intellectual property, services and facilities available to researchers who are thinking of patenting/commercialising their research, things to keep in mind when working in projects that have a commercial focus (for instance, don’t make the knowledge public, publishing and data sensitivity issues) real-life case studies and a question and answer session with the attendees."
-  speakers: [35, 36]
--   
-  id: 023
-  title: "Introduction to survey design: guidelines and common practices (Rm:G10)"
-  description:  "In this workshop, Mohamed will introduce some of the fundamental ideas and guidelines to consider when undertaking survey research. This workshop is ideal for students considering large-scale surveys, and covers general concepts, quality measurement checks, and practices in this field."
-  speakers: [40]
-  complexity: "Beginner"
--
-  id: 024
-  title: "Towards reproducible computational biology (Rm:110)"
-  description: "In this session, attendees will be introduced to some tools that are helpful in doing reproducible computational research. The example chosen are from the genomics/bioinformatics field but are, for the most parts, transferable to other disciplines. I will give some examples from my research where reproducibility plays role and why you might want to work in a reproducible manner."
-  speakers: [37]
-  complexity: "Beginner"
--
-  id: 025
-  title: "Cool tools and pro-tips (Rm:110)"
-  description: "What tools do you use to get the job done? What techniques, tips, or software has been really useful in your experience? Come and share what you use for research, writing, or getting things done, and hear what others use that might be helpful for you too! In this fun and informal session we will compile a mega list of awesome tools, resources, and best practice that can be shared with everyone."
-  subtype: workshop
-  speakers: [10]
-  complexity: "Beginner" 
--
-  id: 026
-  title: "AR/VR development with Unity and tour of CeR Visualisation suite (Rm:G10 + CeR)"
-  description: "Unity is a freely available game engine - a platform designed for the primary purpose of video game development. At the Centre for eResearch, we use Unity to develop research visualisation applications for our various AR (Augmented Reality)/VR (Virtual Reality) platforms. In this session, we'll give a crash course on how to use Unity, and how to develop applications for AR headsets such as the Microsoft Hololens, and VR headsets such as the Samsung Gear VR.<br /><br /> 
-  Limited places, sign-up at Registration desk."
-  subtype: workshop
-  speakers: [30]
-  complexity: "Beginner" 
--
-  id: 027
-  title: "Hacky Hour - Questions (Rm:130)"
-  description: "Details to be announced."
-  subtype: workshop
-  speakers: [27]
-  complexity: "All welcome" 
--
-  id: 028
-  title: "Research Compute Facilities (Rm:G30)"
-  description: "Do your computations take too long on your laptop or desktop computer? Do you want to offload long-running simulations to a different computer? Are there computations you cannot run on your desktop because you don't have enough memory or compute power? In this workshop we give an overview of the options you have. We will cover the computer clusters of the New Zealand eScience Infrastructure (NeSI), the Research Virtual Machine Farm, and the Nectar Research Cloud, and which of the 3 systems is best suited for various use-cases."
-  subtype: workshop
-  speakers: [17, 15, 42]
-  complexity: "Beginners" 
--
-  id: 030
-  title: "Create and Maker Space – Interactive Tour (Rm:G20)"
-  description: "Come and enjoy an interactive tour of the Create and Maker Space situated in UoA’s Innovation Hub – Unleash Space. Unleash Space Technician Sean Kelly and his Creative Technologists will be on hand to provide demonstrations of the free technology available to all UoA staff and students. From 3D printers to electronics to sewing machines we have a diverse suite of technology to support making, learning and innovative activity.<br /><br />
-  
-  Limited places, sign-up at Registration desk."
-  subtype: workshop
-  speakers: [43]
-  complexity: "Beginners" 
--
-  id: 031
-  title: "The Publishing Trap (Rm:G30)"
-  description: "The Publishing Trap is a board game that allows players to explore the impact of scholarly communication choices and players discuss the role of open access in research by following the lives of four researchers – from doctoral research to their academic legacies.<br /><br /> 
-
-  Played in teams, the Publishing Trap is aimed at early career researchers and academics, as well as anyone who has a vested interest in understanding how access to information works and how the whole scholarly communication system in higher education operates. The game is designed to encourage you to make informed choices when signing publishing contracts and submitting work to the institutional repository."
-  speakers: [22, 28]
--
-  id: 032
-  title: "Demystifying Data Transfer (Rm:110)"
-  description: "To be announced." 
-  subtype: workshop
-  speakers: [44, 19]
-  complexity: "Beginner" 
--
-  id: 033
-  title: "Less is more: creating infographics (Rm:G10)"
-  description: "To be announced." 
-  subtype: workshop
-  speakers: [19, 46]
-  complexity: "Beginner" 
--
-  id: 034
-  title: "Learn how to collaborate with Dropbox (Rm:110)"
-  description: "To be announced." 
-  subtype: workshop
-  speakers: [19, 47]
-  complexity: "Beginner" 
--
-  id: 035
-  title: "Network analysis (Rm:G30)"
-  description: "Social Network Analysis has a long history spanning multiple academic disciplines, so in this short session we won’t try to be comprehensive. Instead, participants will be exposed to some of key sociologically based network theories and their associated network measures. These basic insights can then be used as a starting point for further research. During this session we’ll also touch on some tools that exist to make cleaning, loading and analyzing network data easier than ever before.<br /><br />
-  
-  More information about the session and resources for those wishing to follow along will be available here: http://jgmackay.com/resbaz/" 
-  subtype: workshop
-  speakers: [45]
-  complexity: "Beginner" 
--
-  id: 036
-  title: "Working with social media data? (Rm:G10)"
-  description: "Social media data can enable insightful research into areas like social behaviour and current events. How do you get started? And what are your experiences with the technical knowledge and costs required for collecting, cleaning and analysing social media datasets? This session brings together researchers already using social media datasets in their research, as well as those who are interested, to share tools, tips and experiences."
-  subtype: workshop
-  speakers: [12, 14, 48, 50]
-  complexity: "All welcome" 
-
