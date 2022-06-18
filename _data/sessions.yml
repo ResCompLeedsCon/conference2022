@@ -45,25 +45,25 @@
   title: "Keynote"
   description: 
   speakers: []
-  hidden: true
+  hidden: false
 - 
   id: 103
   title: "Invited Research Portfolio talks"
   description: 
   speakers: []
-  hidden: true
+  hidden: false
 - 
   id: 104
   title: "15min and 10min Talks"
   description: 
   speakers: []
-  hidden: true
+  hidden: false
 - 
   id: 105
   title: "Lightning and poster presentations"
   description: 
   speakers: []
-  hidden: true
+  hidden: false
 
 # panel sessions
 - 
@@ -71,13 +71,13 @@
   title: "Discussion Panel: Open Research"
   description: 
   speakers: []
-  hidden: true
+  hidden: false
 - 
   id: 302
   title: "Discussion Panel: Sustainability and research computing"
   description: 
   speakers: []
-  hidden: true
+  hidden: false
 
   # code clinic and workshop sessions
 
@@ -88,10 +88,10 @@
   Bring your code problems to present and share with others. A chance to collaboratively
   troubleshoot code issues. Prior submission will be necessary."
   speakers: []
-  hidden: true
+  hidden: false
 - 
   id: 402
   title: "Workshop"
   description: "TBC"
   speakers: []
-  hidden: true
+  hidden: false
