@@ -3,13 +3,14 @@
     <div class="content-wrapper">
         <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 10 }'>
             {% for session in site.data.sessions %}
-                {% if session.id != 301 and session.id != 503 and session.id != 000 and session.hidden != true %} 
-                    <div class="grid-item">
-                        <h5>{{ session.title  }}</h5>
-                        <hr />
-                        <span class="text-body">{{ session.description }}</span>
-                    </div>
-                {% endif %}
+            {% if session.hidden != true %}
+            <div class="grid-item">
+                <h5>{{ session.title }}</h5>
+                <hr />
+                <span class="text-body">{{ session.description }}</span>
+                <a href="{{ site.baseurl }}/schedule/#session-{{ session.id }}">Find the event in the schedule</a>
+            </div>
+            {% endif %}
             {% endfor %}
         </div>
     </div>
