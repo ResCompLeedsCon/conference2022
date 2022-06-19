@@ -1,16 +1,43 @@
+{% capture times %}
+{% for day in site.data.schedule %}
+{% for timeslot in day.timeslots %}
+{% for slot in timeslot.sessionIds %}
+{% for session in site.data.sessions %}
+{% if slot == session.id %}
+{% if session.hidden != true %}
+{{session.id}}|{{ day.dateReadable }}|{{timeslot.startTime}}|{{timeslot.endTime}}{% if forloop.last %}^{% endif %}
+{% endif %}
+{% endif %}
+{% if forloop.last %}^{% endif %}
+{% endfor %}
+{% endfor %}
+{% endfor %}
+{% endfor %}
+{% endcapture %}
+
+{% assign s_times = times | split: "^" %}
+
+
 <!-- Begin Schedule Section -->
 <section id="schedule" class="schedule">
     <div class="content-wrapper">
         <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 10 }'>
             {% for session in site.data.sessions %}
+            {% for item in s_times %}
+            {% assign split_item = item | split: "|" %}
+            {% assign s_item_0 = split_item[0] | to_integer %}
+            {% if s_item_0 == session.id %}
             {% if session.hidden != true %}
             <div class="grid-item">
                 <h5>{{ session.title }}</h5>
                 <hr />
                 <span class="text-body">{{ session.description }}</span>
+                <span class="text-body">Time: {{ split_item[1] }} {{ split_item[2] }}-{{split_item[3] }}</span>
                 <a href="{{ site.baseurl }}/schedule/#session-{{ session.id }}">Find the event in the schedule</a>
             </div>
             {% endif %}
+            {% endif %}
+            {% endfor %}
             {% endfor %}
         </div>
     </div>
