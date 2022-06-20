@@ -20,7 +20,7 @@ event_EndTimes=iter2item[3] | concat: event_EndTimes %}{% endif %}{% endfor %}{%
     <div class="content-wrapper">
         <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 10 }'>
             {% for session in site.data.sessions %}
-            {% for item in s_times %}
+            {% for item in new_times %}
             {% assign split_item = item | split: "|" %}
             {% assign s_item_0 = split_item[0] | to_integer %}
             {% if s_item_0 == session.id %}
@@ -28,8 +28,8 @@ event_EndTimes=iter2item[3] | concat: event_EndTimes %}{% endif %}{% endfor %}{%
             <div class="grid-item">
                 <h5>{{ session.title }}</h5>
                 <hr />
-                <span class="text-body">{{ session.description }}</span>
-                <span class="text-body">Time: {{ split_item[1] }} {{ split_item[2] }}-{{split_item[3] }}</span>
+                <span class="text-body">{{ session.description }}</span><br>
+                <span class="text-body">Time: {{ split_item[1] }} {{ split_item[2] }}-{{split_item[3] }}</span><br>
                 <a href="{{ site.baseurl }}/schedule/#session-{{ session.id }}">Find the event in the schedule</a>
             </div>
             {% endif %}
