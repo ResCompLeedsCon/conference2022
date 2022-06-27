@@ -131,11 +131,11 @@
   name: "Elton"
   surname: "Vasconcelos"
   title: "Organising Committee Member"
-  thumbnailUrl: 
+  thumbnailUrl: elton-vasconcelos.jpg
   team: true
   ribbon: 
     - {abbr: "FBS", title: "Faculty of Biological Sciences"}
   social: 
     - {name: "twitter", link: "https://twitter.com/eltonvasconcel8"}
     # - {name: "github", link: "https://github.com/sparrow0hawk"}
-    - {name: "site", link: "https://biologicalsciences.leeds.ac.uk/biological-sciences/staff/1300/dr-elton-vasconcelos"}
+    - {name: "site", link: "https://omics.leeds.ac.uk/bioinformatics-support/bioinformatician-team/elton-vasconcelos/"}
