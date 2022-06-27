@@ -64,7 +64,12 @@
   description: 
   speakers: []
   hidden: false
-
+- 
+  id: 106
+  title: "Closing Keynote"
+  description: 
+  speakers: []
+  hidden: false
 # panel sessions
 - 
   id: 301

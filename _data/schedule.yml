@@ -1,6 +1,6 @@
 - 
   date: "2022-07-26"
-  dateReadable: "July 26th"
+  dateReadable: "Tuesday July 26th"
   tracks: 
     - {title: "Stream 1: Worsley 8.43X and Y", color: "#90be4e"}
     - {title: "Stream 2: Worsley 8.49N", color: "#e91e63"}
@@ -77,7 +77,7 @@
     }
 - 
   date: "2022-07-27"
-  dateReadable: "July 27th"
+  dateReadable: "Wednesday July 27th"
   tracks: 
     - {title: "Stream 1: Worsley 8.43X and Y", color: "#90be4e"}
     - {title: "Stream 2: Worsley 8.49N", color: "#e91e63"}
@@ -135,7 +135,7 @@
     - {
     	startTime: "15:00",
     	endTime: "15:50",
-    	sessionIds: [102]
+    	sessionIds: [106]
     }
     - {
     	startTime: "15:50",
