@@ -92,7 +92,7 @@
   name: "Anna-Grace"
   surname: "Linton"
   title: "Organising Committee Member"
-  thumbnailUrl: 
+  thumbnailUrl: anna-grace-linton.jpeg 
   team: true
   ribbon: 
     - {abbr: "SoC", title: "School of Computing"}
