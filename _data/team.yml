@@ -105,14 +105,14 @@
   name: "Viktoria"
   surname: "Spaiser"
   title: "Organising Committee Member"
-  thumbnailUrl: 
+  thumbnailUrl: viktoria-spaiser.jpg
   team: true
   ribbon: 
     - {abbr: "POLIS", title: "School of Politics and International Studies"}
   social: 
     - {name: "twitter", link: "https://twitter.com/viktoria_sp"}
     # - {name: "github", link: "https://github.com/sparrow0hawk"}
-    - {name: "site", link: "https://essl.leeds.ac.uk/politics/staff/102/dr-viktoria-spaiser"}
+    - {name: "site", link: "https://www.viktoriaspaiser.com/"}
 -
   id: 7
   name: "Georgette"
