@@ -91,15 +91,23 @@
     - {abbr: "ABSL", title: "Astbury Biostructure Laboratory", url: "https://astbury.leeds.ac.uk/facilities/"}
 -
   id: 4
-  name: "Tamsin"
-  surname: "Robb"
-  company: "Faculty of Medical and Health Sciences"
-  title: "Doctorate Candidate"
-  bio: "Tamsin is a PhD student in the Department of Molecular Medicine and Pathology, learning to become an in-the-lab and staring-at-data Mad Scientist."
-  thumbnailUrl: "tamsin_robb_key.jpg"
-  rockstar: true
+  name: "Dr Thomas"
+  surname: "Hancock"
+  company: "Institute for Transport Studies"
+  title: "Research Fellow"
+  bio: >
+    Thomas Hancock is a Research Fellow at the Institute for Transport 
+    Studies (ITS) under the <a href="https://environment.leeds.ac.uk/transport-choice-modelling/dir-record/research-projects/1634/next-generation-activity-and-travel-behaviour-models-bringing-together-choice-modelling-data-science-and-ubiquitous-computing-nexus">NEXUS</a>
+    project. His main areas of 
+    interest are understanding the decision-making process, 
+    the integration of (econometric) choice modelling and 
+    mathematical psychology, model specification and 
+    interpretation and moral choice behaviour.
+
+  thumbnailUrl: "thomas_hancock.jpg"
+  rockstar: false
   ribbon:
-   - {abbr: "FMHS", title: "Faculty of Medical and Health Sciences", url: "https://fmhs.auckland.ac.nz"}
+   - {abbr: "ITS", title: "Profile", url: "https://environment.leeds.ac.uk/transport/staff/2634/thomas-hancock"}
 -
   id: 5
   name: "Bianca"
