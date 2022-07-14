@@ -156,6 +156,24 @@
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+-
+  id: 8
+  name: "Muyang"
+  surname: "Zhang"
+  title: "PhD Student"
+  bio: >
+    Before I came to the UK, I finished my undergraduate and master degrees 
+    in China. My primary background was economics, but I became 
+    'more statistician' after receiving another master programme 
+    training in advanced Statistics from the University of Glasgow. 
+    Currently, as a third-year PhD in the University of Leeds,  
+    I have been looking into applying Bayesian modelling to enhance 
+    medical imaging by combining various sources such as PET and MRI.
+
+  thumbnailUrl: "muyang_zhang.jpg"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
 
 
 # panel members
