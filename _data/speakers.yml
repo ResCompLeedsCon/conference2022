@@ -5,7 +5,7 @@
   company: "School of Computing"
   title: "Professor of Artificial Intelligence"
   bio: >
-    "
+    
     David's research is on artificial intelligence and particularly in 
     computer vision. He pioneered the use of three-dimensional geometric 
     models for tracking deformable structures in natural scenes and 
@@ -21,7 +21,7 @@
     Association for Pattern Recognition. He is Director of the 
     UKRI Centre for Doctoral Training in Artificial Intelligence 
     for Medical Diagnosis and Care at the University of Leeds.
-    "
+    
   thumbnailUrl: "david_hogg.jpg"   
   rockstar: true
   ribbon:
@@ -32,7 +32,7 @@
   surname: "Sharoff"
   company: "School of Languages, Cultures and Societies"
   bio: >
-    "
+    
     My research interests are related to three domains: 
     linguistics (primarily computational linguistics and corpus linguistics),
     cognitive science and communication studies.
@@ -43,7 +43,7 @@
     resources includes very large corpora for Arabic, Chinese, 
     English, French, German, Italian, Polish, Portuguese, Russian 
     and Spanish.
-    "
+    
   thumbnailUrl: "sergesharoff.jpg"
   rockstar: false
   ribbon:
