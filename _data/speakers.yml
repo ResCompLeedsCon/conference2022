@@ -199,6 +199,22 @@
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
 
+-
+  id: 10
+  name: "Dr Francesca"
+  surname: "Pontin"
+  title: "CDRC Research Data Scientist"
+  bio: >
+    Fran Pontin is a CDRC Research Data Scientist whose research 
+    interests lie in the use of consumer data to capture and better 
+    understand health behaviours and drive targeted policy change. 
+
+  thumbnailUrl: "fran_pontin.jpeg"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+
 
 # panel members
 
