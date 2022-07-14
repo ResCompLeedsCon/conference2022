@@ -141,14 +141,21 @@
    - {abbr: "SoM", title: "Profile", url: "https://medicinehealth.leeds.ac.uk/medicine/staff/3140/dr-katie-simmons"}
 -
   id: 7
-  name: "Daniel"
-  surname: "Patrick"
-  title: "Executive Director"
-  bio: "Daniel is the Executive Director of Ngā Pae o te Māramatanga, New Zealand’s Maori Centre of Research Excellence, and has been since 2011. He holds two degrees, a Bachelor's degree in Applied Sciences and a Master's degree in Health Sciences with honours, and while in executive and management positions often sees himself as a researcher or immersing himself in the research. He came to the Ngā Pae o te Māramatanga having co-founded and developed several research entities, including the Centre of Methods and Policy Applications in the Social Sciences (COMPASS), and prior to that the New Zealand Social Statistics Network (NZSSN), the New Zealand Social Science Data Service and Survey Research Unit. He has over 20 years research, or better said, research management experience and is a results focussed leader passionate about delivering public and social good through research and innovation."
-  thumbnailUrl: "daniel-patrick.jpg"
-  rockstar: true
-  ribbon:
-    - {abbr: "NPM", title: "Ngā Pae o te Māramatanga", url: "http://www.maramatanga.co.nz"}
+  name: "Dr Patricia"
+  surname: "Ternes"
+  title: "Research Software Engineer"
+  bio: >
+    Patricia is a Research Software Engineer at the University of Leeds. 
+    She has a PhD in Theoretical Physics, and her research focuses on 
+    the development of computational models that help to understand 
+    complex systems; initially focusing on phenomena such as the 
+    behaviour of fluids at nanoscales and lately modelling emergence 
+    in spatio-social systems. 
+
+  thumbnailUrl: "patricia_ternes.jpg"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
 -
   id: 8
   name: "Daniel"
