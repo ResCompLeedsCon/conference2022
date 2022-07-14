@@ -56,6 +56,15 @@
   speakers: []
   hidden: false
 - 
+  id: 111
+  title: "Invited Research Portfolio talks"
+  description: >
+    
+    To be confirmed.
+    
+  speakers: [2]
+  hidden: false
+- 
   id: 112
   title: "Using HPC to predict the spread of COVID19 misinformation"
   description: >
@@ -76,6 +85,19 @@
     for sharing misinformation genres, in particular, academic writing 
     vs personal stories."
   speakers: [1]
+  hidden: false
+- 
+  id: 113
+  title: "CryoEM pipelines or: How I Learned to Stop Worrying and Use all the Cores"
+  description: >
+    
+    As Cryo-electron microscopy (cryoEM) has been transformed over the 
+    last decade we face new bottlenecks in the filed. one of them been 
+    real time processing of the data. New software and scripts enable us 
+    to use more processing power of both CPUs and GPUs in order to deal 
+    with this bottleneck. 
+    
+  speakers: [3]
   hidden: false
 - 
   id: 104
