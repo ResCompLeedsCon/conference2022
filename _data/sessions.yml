@@ -211,6 +211,35 @@
   speakers: [7]
   hidden: false
 
+- 
+  id: 1804
+  title: "How do we determine the structural changes of a viral surface protein only 16 nm tall?"
+  description: >
+
+    Many viruses use their surface proteins to get inside a host cell and 
+    start an infection, like coronaviruses. Here, we sought to visualize
+    Bunyamwera virus (BUNV), a model for more pathogenic viruses like La 
+    Crosse virus, which can cause fatal encephalitis. As viruses are small
+    (~0.1 µm), we employed cryo-electron microscopy. By imaging the same
+    virions from multiple orientations, we could computationally 
+    reconstruct them into 3D volumes, termed tomograms. We then wanted 
+    to image the surface proteins of BUNV. To do this, we utilised the 
+    parallel-processing power of ARC to perform sub-tomogram averaging. 
+    We selected thousands of sub-volumes from multiple viruses, 
+    corresponding to the surface proteins of BUNV. These sub-volumes 
+    are iteratively aligned to one another, refining their rotations 
+    and locations at each stage until optimally aligned (an approach 
+    termed sub-tomogram averaging). This allowed us to generate a 
+    3D structure of the BUNV surface proteins, which are only ~16 nm. 
+    In addition, we used Google DeepMind's AlphaFold software to predict 
+    the exact amino acid structure of the BUNV surface proteins, 
+    which allowed us to interpret our sub-tomogram averaging. 
+    Overall, understanding the BUNV surface proteins will allow 
+    the future development of vaccines or anti-virals for related 
+    pathogenic viruses.
+  speakers: [9]
+  hidden: false
+
 # lightning talks
 
 - 

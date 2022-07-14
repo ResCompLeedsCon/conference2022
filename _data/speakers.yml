@@ -177,6 +177,28 @@
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
 
+-
+  id: 9
+  name: "Dr Samantha"
+  surname: "Hover"
+  title: "Research Fellow"
+  company: Faculty of Biological Sciences
+  bio: >
+    I am a Postdoctoral research fellow at the University of Leeds, 
+    working in the Fontana lab using cryo-electron tomography to 
+    investigate the mechanisms of influenza virus infection. 
+    I previously completed my PhD at the University of Leeds 
+    studying the role of host cell K+ channels in Bunyavirus infection. 
+    Using a range of molecular and structural biology techniques to 
+    elucidate how manipulation of endosomal K+ it detrimental to virus 
+    infection, and how K+ facilitates structural changes in Bunyavirus 
+    infection required for fusion events.
+
+  thumbnailUrl: ""
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
 
 # panel members
 
