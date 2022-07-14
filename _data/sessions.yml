@@ -44,9 +44,9 @@
   id: 102
   title: "Keynote"
   description: >
-    "
+    
     To be confirmed.
-    "
+    
   speakers: [0]
   hidden: false
 - 
@@ -68,7 +68,7 @@
   id: 112
   title: "Using HPC to predict the spread of COVID19 misinformation"
   description: >
-    "I will present our project aimed to improve understanding of 
+    I will present our project aimed to improve understanding of 
     COVID-19 misinformation chains in social media using AI tracing 
     tools.  We used our HPC cluster (1) to collect a corpus of about 
     2 million COVID-related messages and corresponding user profiles 
@@ -83,7 +83,7 @@
     readers age and their right-wing political orientation. 
     Another association we observed concerns different preferences 
     for sharing misinformation genres, in particular, academic writing 
-    vs personal stories."
+    vs personal stories.
   speakers: [1]
   hidden: false
 - 
