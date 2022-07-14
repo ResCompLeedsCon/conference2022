@@ -182,6 +182,23 @@
   speakers: [5]
   hidden: false
 
+- 
+  id: 1802
+  title: "Using ARC HPC for virtual high-throughput ligand discovery: A journey through time 2009-2022"
+  description: >
+
+    With the exponential rise in the number of viable novel drug targets, 
+    computational methods are being increasingly applied to accelerate 
+    the drug discovery process. Virtual High Throughput Screening 
+    (vHTS) is one such established methodology to identify drug candidates 
+    from large collection of compound libraries. This talk will detail 
+    my journey into vHTS at Leeds from ARC1 where we were able to 
+    screen tens of thousands of compounds, through to present where 
+    we are screening tens of millions and hoping to go bigger. 
+
+  speakers: [6]
+  hidden: false
+
 # lightning talks
 
 - 
