@@ -1,14 +1,31 @@
 - 
   id: 0
-  name: "Kate"
-  surname: "Hannah"
-  company: "Te Punaha Matatini"
-  title: "Research Operations Manager"
-  bio: "Kate Hannah has a Master of Arts (2004) from Waikato University in 19th Century American Literary Culture. Her principal research area is the historiography of the history of science, with a focus on the cultures and subcultures of science, gender in science history, and narrative and complexity. She holds dual roles at Te Pūnaha Matatini, a New Zealand Centre of Research Excellence for complex systems and networks – executive manager and associate investigator; she is a research fellow in the Department of Physics at the University of Auckland, course convener of Science Scholars 101, and a Te Pūnaha Matatini-funded PhD candidate in the Science and Society Group at Victoria University Wellington, investigating novel hybrid methodologies for the historiography of science. Basically, she’s a historian in a Physics department."
-  thumbnailUrl: "Kate_Hannah.jpg"   
+  name: "Professor David"
+  surname: "Hogg"
+  company: "School of Computing"
+  title: "Professor of Artificial Intelligence"
+  bio: >
+    "
+    David's research is on artificial intelligence and particularly in 
+    computer vision. He pioneered the use of three-dimensional geometric 
+    models for tracking deformable structures in natural scenes and 
+    contributed to establishing statistical approaches to learning of
+    shape and motion as one of the pre-eminent paradigms in the
+    field. He has been Pro-Vice-Chancellor for Research and Innovation 
+    at the University of Leeds, visiting professor at the MIT Media Lab, 
+    chair of the EPSRC ICT Strategic Advisory Team, and chair of the 
+    Academic Advisory Group of the Worldwide Universities Network. 
+    He is a Fellow of the European Association for Artificial 
+    Intelligence (EurAI), a Distinguished Fellow of the British 
+    Machine Vision Association, and a Fellow of the International 
+    Association for Pattern Recognition. He is Director of the 
+    UKRI Centre for Doctoral Training in Artificial Intelligence 
+    for Medical Diagnosis and Care at the University of Leeds.
+    "
+  thumbnailUrl: "david_hogg.jpg"   
   rockstar: true
   ribbon:
-    - {abbr: "TPM", title: "Te Pūnaha Matatini", url: "https://www.tepunahamatatini.ac.nz"}
+    - {abbr: "SoC", title: "Profile", url: "https://eps.leeds.ac.uk/computing/staff/84/professor-david-hogg"}
 - 
   id: 1
   name: "Dr Serge"

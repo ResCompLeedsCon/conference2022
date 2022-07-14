@@ -43,8 +43,11 @@
 - 
   id: 102
   title: "Keynote"
-  description: 
-  speakers: []
+  description: >
+    "
+    To be confirmed.
+    "
+  speakers: [0]
   hidden: false
 - 
   id: 103
