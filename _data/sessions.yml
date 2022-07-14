@@ -121,13 +121,25 @@
 - 
   id: 301
   title: "Discussion Panel: Open Research"
-  description: 
+  description: |
+    
+    Computational methods have a part to play in helping to enable or even ensure that research is open – reproducibility. At the very minimum code and any other “processing” of data or information are an important research output especially alongside the raw and processed or generated data and perhaps even as a first class research output in their own right. The big advantage of computational or code based processing is that it is possible to rerun the analyses and verify the results. This is much more problematic with GUI based tools which rarely record the processing journey.
+    Could you reproduce your own research let alone that of another researcher?
+    How does this apply in the different research disciplines?
+    
   speakers: []
   hidden: false
 - 
   id: 302
   title: "Discussion Panel: Sustainability and research computing"
-  description: 
+  description: |
+    
+    Computational communities are becoming increasingly aware of the energy cost associated with high performance computing, and the associated environmental footprint. In this panel we will discuss how to ensure that our computational research is performed responsibly. We will consider factors such as:
+
+    1.  Making supercomputing “green”
+    2.  Optimising code efficiency to minimise energy consumption
+    3.  Simplifying our scientific questions to make our calculations less costly
+    
   speakers: []
   hidden: false
 
