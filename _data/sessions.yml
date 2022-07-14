@@ -53,6 +53,28 @@
   speakers: []
   hidden: false
 - 
+  id: 112
+  title: "Using HPC to predict the spread of COVID19 misinformation"
+  description: >
+    "I will present our project aimed to improve understanding of 
+    COVID-19 misinformation chains in social media using AI tracing 
+    tools.  We used our HPC cluster (1) to collect a corpus of about 
+    2 million COVID-related messages and corresponding user profiles 
+    from Facebook, Telegram and Twitter and (2) to develop AI classifiers 
+    to make predictions about the properties of the messages and the
+    profiles using Deep Learning frameworks. Our main hypothesis is 
+    that the socio-demographic profile of the audience is an important 
+    indicator for the likelihood of falling prey to misinformation, as 
+    different readers differ in how much they might be willing to share 
+    misinformation of different kinds.  We indeed found a strong positive 
+    association of the likelihood of sharing COVID-19 misinformation with
+    readers age and their right-wing political orientation. 
+    Another association we observed concerns different preferences 
+    for sharing misinformation genres, in particular, academic writing 
+    vs personal stories."
+  speakers: [1]
+  hidden: false
+- 
   id: 104
   title: "15min and 10min Talks"
   description: 
