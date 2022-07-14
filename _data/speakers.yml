@@ -110,15 +110,23 @@
    - {abbr: "ITS", title: "Profile", url: "https://environment.leeds.ac.uk/transport/staff/2634/thomas-hancock"}
 -
   id: 5
-  name: "Bianca"
-  surname: "Haux"
-  company: "Centre for eResearch"
-  title: "eResearch Solutions Specialist"
-  bio: Biance hails from the Centre for eResearch, enabling cutting-edge research across the University as a Visualisation Specialist."
-  thumbnailUrl: "bianca_haux_key.jpeg"
-  rockstar: true 
-  ribbon:
-   - {abbr: "CeR", title: "Centre for eResearch", url: "https://eresearch.auckland.ac.nz"}
+  name: "Volodymyr"
+  surname: "Chapman"
+  company: "Faculty of Biological Sciences"
+  title: PhD Student (AI in Medical Imaging)
+  bio: >
+    Training first as a biochemist in Imperial College London and the 
+    John Innes Centre, Norwich, Volodymyr pivoted to image-based deep 
+    learning in 2020. He completed a 6 month predoctoral internship in 
+    image-based encodings of sequence data with Professor Dan MacLean 
+    at The Sainsbury Laboratory, Norwich. Following this, he started a 
+    PhD with Professors David Westhead and Reuben Tooze in Leeds, 
+    using deep learning to improve patient care in follicular lymphoma. 
+    In his free time, Volodymyr enjoys brewing, growing food and eating.
+
+  thumbnailUrl: "volodymyr_chapman.jpg"
+  rockstar: false 
+
 -
   id: 6
   name: "Lisa"
