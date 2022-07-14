@@ -239,6 +239,27 @@
     pathogenic viruses.
   speakers: [9]
   hidden: false
+- 
+  id: 1805
+  title: "Big data to useful data: making use of large scale GPS data."
+  description: >
+
+    The increasing use of secondary and commercial data sources paired 
+    with the decreasing cost of GPS enabled devices has seen a huge 
+    increase in the amount of GPS data available to researchers. 
+    These data are valuable in understanding human behaviour 
+    and how the environment around us influences our health. 
+    This presentation takes you thought the method developed 
+    to clean individual level GPS data to the OpenStreetMap 
+    Network and calculate environmental exposure(s). Scalable to 
+    large-scale GPS data with global coverage this code allows 
+    reproducible comparisons of environmental exposures across 
+    a wide range of spatial contexts. Moreover, as the code is open 
+    source and sits along existing open source packages it provides 
+    a valuable tool for policy and decision makers.
+    
+  speakers: [10]
+  hidden: false
 
 # lightning talks
 
