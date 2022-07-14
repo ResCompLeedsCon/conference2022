@@ -239,3 +239,17 @@
     be estimated at least 20 times faster with the Leeds HPC. 
   speakers: [4]
   hidden: false
+
+- 
+  id: 1002
+  title: Medical image reconstruction under Bayesian modelling
+  description: >
+    Due to loss of information during the scanning process, the observed image is often blurred
+    and contains noise. As a result, the observed image is generally degraded and is not helpful for
+    clinical diagnostics. Bayesian methods have been identified to be particularly useful when there
+    is access to limited data but with a high number of unknown parameters. Hence, our research---
+    under the Bayesian hierarchical modelling structure employing multiple data sources---aims to
+    develop new reconstruction methods capable of providing more robust results with increased
+    image quality.
+  speakers: [8]
+  hidden: false
