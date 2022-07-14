@@ -144,6 +144,7 @@
   name: "Dr Patricia"
   surname: "Ternes"
   title: "Research Software Engineer"
+  company: Research Computing
   bio: >
     Patricia is a Research Software Engineer at the University of Leeds. 
     She has a PhD in Theoretical Physics, and her research focuses on 
@@ -161,6 +162,7 @@
   name: "Muyang"
   surname: "Zhang"
   title: "PhD Student"
+  company: School of Mathematics
   bio: >
     Before I came to the UK, I finished my undergraduate and master degrees 
     in China. My primary background was economics, but I became 
