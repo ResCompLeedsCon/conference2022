@@ -11,14 +11,26 @@
     - {abbr: "TPM", title: "Te Pūnaha Matatini", url: "https://www.tepunahamatatini.ac.nz"}
 - 
   id: 1
-  name: "Professor Shaun"
-  surname: "Hendy"
-  company: "Te Punaha Matatini"
-  bio: "Shaun Hendy is the Director of Te Pūnaha Matatini, a New Zealand Centre of Research Excellence, and a Professor of Physics at the University of Auckland."
-  thumbnailUrl: "Shaun-Hendy.jpg"
-  rockstar: true
+  name: "Dr Serge"
+  surname: "Sharoff"
+  company: "School of Languages, Cultures and Societies"
+  bio: >
+    "
+    My research interests are related to three domains: 
+    linguistics (primarily computational linguistics and corpus linguistics),
+    cognitive science and communication studies.
+    Probably the most interesting bit in my recent research 
+    is digital curation of representative corpora automatically 
+    collected from the Web, i.e., their annotation in terms of
+    genres, domains or morphosyntactic categories. The current set of 
+    resources includes very large corpora for Arabic, Chinese, 
+    English, French, German, Italian, Polish, Portuguese, Russian 
+    and Spanish.
+    "
+  thumbnailUrl: "sergesharoff.jpg"
+  rockstar: false
   ribbon:
-    - {abbr: "TPM", title: "Te Pūnaha Matatini", url: "https://www.tepunahamatatini.ac.nz"}
+    - {abbr: "SLCS", title: "School of Languages, Cultures and Societies", url: "https://ahc.leeds.ac.uk/languages/staff/1137/dr-serge-sharoff"}
 - 
   id: 2
   name: "Associate Professor Jennifer"
