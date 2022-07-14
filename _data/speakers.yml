@@ -50,25 +50,45 @@
     - {abbr: "SLCS", title: "Profile", url: "https://ahc.leeds.ac.uk/languages/staff/1137/dr-serge-sharoff"}
 - 
   id: 2
-  name: "Associate Professor Jennifer"
-  surname: "Lees-Marshment"
-  company: "Faculty of Arts"
-  bio: "Jennifer Lees-Marshment is an Associate Professor in political science at The University of Auckland in New Zealand. Author/editor of 13 books, Jennifer is a world expert in political marketing with additional research interests in public input, leadership, and governance. Her most recent work The Ministry of Public Input (Palgrave 2015) won the IAP2 Australasia Research Award. Jennifer was academic advisor to TVNZ’s Vote Compass in the 2014 and 2017 New Zealand elections and Kiwimeter in 2015 and Chair of the Magna Carta 800 committee for NZ in 2015. See <a href=\"http://www.lees-marshment.org\">www.lees-marshment.org</a> for further details or email j.lees-marshment@auckland.ac.nz." 
-  thumbnailUrl: "jennifer-lees-marshment.jpg"
-  rockstar: true
+  name: "Dr Lucy"
+  surname: "Stead"
+  company: "School of Medicine"
+  title: Associate Professor
+  bio: >
+    
+    I am a computational cancer biologist interested in the use of
+    high-throughput sequencing to characterise brain tumour genomes 
+    and transcriptomes, and the integrated analysis of datasets to 
+    further understand the development and progression of brain cancer. 
+    My research focuses on inspecting genomic and transcriptomic 
+    heterogeneity present within brain tumours and across stages of
+    brain cancer development and progression.
+    I believe that the most biologically and clinically relevant 
+    inferences come from continual iteration of computational and 
+    wet-lab approaches, and this is the remit within my group. 
+    I am interested in investigating intratumour heterogeneity 
+    in glioblastoma (GBM); specifically, I wish to test whether 
+    treatment-resistant subclones emerge in recurrent tumours, and 
+    characterise them in clinically relevant ways in multiple patients. 
+    I am a trained computational biologist with expertise in 
+    next-generation sequencing data analysis.  
+    
+  thumbnailUrl: "lucy_stead.jpg"
+  rockstar: false
   ribbon:
-    - {abbr: "Arts", title: "School of Social Sciences, Faculty of Arts", url: "https://www.auckland.ac.nz/en/arts/about-the-faculty/school-of-social-sciences.html"}
+    - {abbr: "SoM", title: "School of Medicine", url: "https://medicinehealth.leeds.ac.uk/medicine/staff/789/dr-lucy-stead"}
 -
   id: 3
-  name: "Manish"
-  surname: "Kukreja"
-  company: "Auckland District Health Board"
-  title: "Full Stack Data Scientist | Trainer"
-  bio: "Manish is a data scientist but more broadly is a solution seeker. He is passionate about teaching, (machine) learning and mentoring. His experience spans across multiple domains including consulting, telecom, fire protection, education and now in healthcare. He enjoys a blend of technical and leadership roles, most recently at Auckland DHB, GreyAtom and University of Auckland. His diverse background includes computer science/engineering, statistics and education, each of which he brings to his daily work in data science."
-  thumbnailUrl: "manish_kukreja.jpg"
-  rockstar: true 
+  name: "Dr Yehuda"
+  surname: "Halfon"
+  company: "Astbury Biostructure Laboratory"
+  bio: |
+    "
+    "
+  thumbnailUrl: "yehuda_halfon.jpg"
+  rockstar: false 
   ribbon:
-    - {abbr: "ADHB", title: "Auckland District Health Board", url: "https://adhb.health.nz"}
+    - {abbr: "ABSL", title: "Astbury Biostructure Laboratory", url: "https://astbury.leeds.ac.uk/facilities/"}
 -
   id: 4
   name: "Tamsin"
