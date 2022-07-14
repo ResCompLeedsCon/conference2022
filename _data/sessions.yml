@@ -57,10 +57,18 @@
   hidden: false
 - 
   id: 111
-  title: "Invited Research Portfolio talks"
+  title: "Curing Brain Cancer - with a Computer"
   description: >
-    
-    To be confirmed.
+    Glioblastoma (GBM) is the most common and deadly form of adult brain 
+    cancer. GBM cancer cells are messed up! They have been molecularly 
+    rewired in ways that mean they grow when they shouldn't, reshape the 
+    tissue surrounding them and are currently incurable. We use large 
+    scale molecular profiling to try and understand this rewiring and 
+    how we can counteract it. This means we create vast amounts of data 
+    from noisy samples across many different molecular levels at differing 
+    resolutions (from single cell to whole tissue). We believe these data 
+    hold the information we need to cure brain cancer but we to get at 
+    it we have to first have to code the heck out of it!
     
   speakers: [2]
   hidden: false
