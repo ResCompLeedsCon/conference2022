@@ -126,7 +126,7 @@
     Computational methods have a part to play in helping to enable or even ensure that research is open – reproducibility. At the very minimum code and any other “processing” of data or information are an important research output especially alongside the raw and processed or generated data and perhaps even as a first class research output in their own right. The big advantage of computational or code based processing is that it is possible to rerun the analyses and verify the results. This is much more problematic with GUI based tools which rarely record the processing journey.
     Could you reproduce your own research let alone that of another researcher?
     How does this apply in the different research disciplines?
-    
+
   speakers: []
   hidden: false
 - 
@@ -158,4 +158,33 @@
   title: "Workshop"
   description: "TBC"
   speakers: []
+  hidden: false
+
+# lightning talks
+
+- 
+  id: 1001
+  title: "Faster estimation of choice models using HPC"
+  description: >
+    The main goals of choice models are typically to predict a set of
+    outcomes given a discrete set of choice alternatives and to 
+    forecast choices given a change in choice context. Many 
+    different economic and psychological concepts can be 
+    incorporated within a choice model, leading to frequent
+    implementation of very complex models.
+    Additionally, recent technological advances have led to the 
+    availability of a wider range of data for behavioural
+    modelling. In particular, physiological data (eye-tracking, EEG, etc)
+    and large-scale revealed preference data (e.g. travel card or 
+    supermarket clubcard data) have meant that we have have more 
+    complex and larger choice datasets.
+    The combination of complex models for complex datasets requires 
+    significant computational power, far beyond what can be computed
+    in a reasonable time for standard desktops, 
+    which may take weeks or months to compute estimates for the 
+    model parameters that best explain the full set of choice observations.
+    In this presentation, we demonstrate examples of how the Apollo 
+    package in R allows us to run models on multiple cores, which can 
+    be estimated at least 20 times faster with the Leeds HPC. 
+  speakers: [4]
   hidden: false
