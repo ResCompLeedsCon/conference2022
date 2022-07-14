@@ -53,7 +53,7 @@ typeoutTextValues: '""'
 typeoutFallback: ""
 heroButtons:
  - {link: "https://ti.to/university-of-leeds-research-computing/rescompleedscon2022", text: "Register"}
- - {link: "https://forms.office.com/Pages/ResponsePage.aspx?id=qO3qvR3IzkWGPlIypTW3y7U8gIAi6LpMg7rjkJ9mZ3tUQUtTM1JCRVgxTzBEWVRSSUJBMlQ1RU1ERy4u", text: "Submit an abstract"}
+ - {link: "/schedule/", text: "View schedule"}
 
 # About Block
 aboutTitle: "About ResCompLeedsCon2022"
