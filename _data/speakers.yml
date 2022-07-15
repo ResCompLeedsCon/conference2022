@@ -232,6 +232,761 @@
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
 
+-
+  id: 12
+  name: "Rose"
+  surname: "Collet"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+
+-
+  id: 13
+  name: "Dhananjay"
+  surname: "Jade"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 14
+  name: "Oliver"
+  surname: "Hills"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 15
+  name: "Zheng"
+  surname: "Wang"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 16
+  name: "Maria"
+  surname: "Taccari"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 17
+  name: "Chunhui"
+  surname: "Li"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 18
+  name: "Christopher"
+  surname: "Wareing"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 19
+  name: "Benjamin"
+  surname: "Hanson"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 20
+  name: "Shatha"
+  surname: "Altammami"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 21
+  name: "Connor"
+  surname: "Clayton"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 22
+  name: "Behnaz"
+  surname: "Elhaminia"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 23
+  name: "Suparna"
+  surname: "Mitra"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 24
+  name: "David"
+  surname: "Santos-Carballal"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 25
+  name: "Andrew"
+  surname: "Burnett"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 26
+  name: "Megan"
+  surname: "Wood"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 27
+  name: "Soodeh"
+  surname: "Kalaie"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 28
+  name: "Yehuda"
+  surname: "Halfon"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 29
+  name: "Rhiannon"
+  surname: "Morris"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 30
+  name: "Gregory"
+  surname: "Cooke"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 31
+  name: "Peyman"
+  surname: "Babakhani"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 32
+  name: "Konstantinos"
+  surname: "Biris"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 33
+  name: "Fangjun"
+  surname: "Li"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 34
+  name: "Albatool"
+  surname: "Alamri"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 35
+  name: "Abdullah"
+  surname: "Alsaleh"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 36
+  name: "Ibtisam"
+  surname: "Alshammari"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 37
+  name: "Eric"
+  surname: "Atwell"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 38
+  name: "Saud"
+  surname: "Althabiti"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 39
+  name: "Alaa"
+  surname: "Alsaqer"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 40
+  name: "Moneerh"
+  surname: "Aleedy"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 41
+  name: "Menwa"
+  surname: "Alshammeri"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 42
+  name: "Sanaa"
+  surname: "Alowaidi"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 43
+  name: "Yang"
+  surname: "Lu"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 44
+  name: "Alistair"
+  surname: "Curd"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 45
+  name: "Xingyu"
+  surname: "Wang"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 46
+  name: "Tamora"
+  surname: "James"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 47
+  name: "Stephen"
+  surname: "Stackhouse"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 48
+  name: "Dustin"
+  surname: "Foley"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 49
+  name: "Amber"
+  surname: "Emmett"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 50
+  name: "Indumini"
+  surname: "Ranatunga"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 51
+  name: "Ryan"
+  surname: "Cocking"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 52
+  name: "Christopher"
+  surname: "Field"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 53
+  name: "Jai"
+  surname: "Gomathi Veerakumar"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 54
+  name: "Nouran"
+  surname: "Khallaf"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 55
+  name: "Helen"
+  surname: "Burns"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 56
+  name: "Amani"
+  surname: "Al Onayzan"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 57
+  name: "Mohammed"
+  surname: "Alghamdi"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 58
+  name: "Sofya"
+  surname: "Titarenko"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 59
+  name: "Xuan"
+  surname: "Chu"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 60
+  name: "Adam"
+  surname: "Keeley"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 61
+  name: "Brian"
+  surname: "Ramogayana"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 62
+  name: "Christopher"
+  surname: "Rushton"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 63
+  name: "James"
+  surname: "Hulse"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 64
+  name: "Nesma"
+  surname: "ElShishtawy"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 65
+  name: "Wajiha"
+  surname: "Rehman"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 66
+  name: "Shairah"
+  surname: "Abdul Razak"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 67
+  name: "Eric"
+  surname: "Muriithi"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 68
+  name: "Kristina"
+  surname: "Bratkova"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+-
+  id: 69
+  name: "Dody"
+  surname: "Dharma"
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
 
 # panel members
 
