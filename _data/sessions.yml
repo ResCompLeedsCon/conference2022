@@ -203,24 +203,37 @@
   id: 1803
   title: "Day 2 10 minute talks session 4"
   sessions:
-    - talkTitle: talk 1
+    - talkTitle: Digital twins of breast tumours for predicting neoadjuvant chemotherapy outcome
       startTime: 1500
       endTime: 1510
-      speaker: Speaker 1
+      speaker: Rose Collet
       description: |
-        Abstract 1 
-    - talkTitle: talk 1
+        Breast cancer is the most common cancer in women across the globe and a major cause of death. Neoadjuvant chemotherapy (NACT) 
+        is the standard of care for patients with locally advanced breast cancer, delivered to shrink the tumour before proceeding to
+         surgery. However, only 39% of patients achieve pathological complete response and up to 12% experience no response at all. As
+          such, there is a clear need to accurately identify non-responsive tumours as early as possible, enabling clinicians to 
+          discontinue the unsuccessful NACT and proceed with alternative treatment.
+
+        For this purpose, we propose using digital twins: virtual replicates of a patient's tumour cellularity, 
+        which can be evolved in time to predict evolution under a NACT regimen. Initial tumour cellularity is 
+        estimated from diffusion-weighted magnetic resonance imaging (MRI), and used to calibrate biophysically 
+        relevant mathematical models of tumour growth. This calibration comes with an extremely large computational 
+        expense, in particular for the coupling of the surrounding tissue stiffness to tumour cell diffusion. As a 
+        first step to remedying this, we have rewritten this mechanical coupling using a finite element solver, 
+        and compared code performances on synthetic datasets and MRI data from patients. 
+
+    - talkTitle: Outcome Prediction in Pelvic Radiotherapy Using Deep Multiple Instance Learning and Cascaded Attentions.
       startTime: 1510
       endTime: 1520
-      speaker: Speaker 1
+      speaker: Behnaz Elhaminia
       description: |
-        Abstract 1 
-    - talkTitle: talk 1
+        Radiotherapy is currently used for more than 50% of patients with various cancers. Using ionising radiation to eliminate cancerous tissue as the basis of radiotherapy can also damage normal tissues around the tumour, which leads to malfunction in those organs – called toxicity. The occurrence and severity of this toxicity vary from patient to patient and it is still not well understood which factors increase the risk of toxicity. Although deep neural networks can perform challenging tasks with high accuracy, their complexity and not being able to explain their outcome hinder their application in real-world radiotherapy tasks. In our work, we propose a novel convolutional model to predict the toxicity for patients with pelvic cancers. Our novelty is twofold; firstly, we propose to employ multiple instance learning to investigate large data including 3D CT scans and 3D dose treatment plans with lower complexity. Secondly, we apply the attention mechanism to provide visual explanation for the network's behaviour. The Quantitative and qualitative performance analysis demonstrate that our framework can offer clinically convincing tools for radiotherapy toxicity prediction. The development of investigating both image and patient numerical data with a deep network will be a very important research direction for our future work.
+    - talkTitle: Integrating next generation sequencing datasets to model gene regulation during cellular differentiation
       startTime: 1520
       endTime: 1530
-      speaker: Speaker 1
+      speaker: Amber Emmett
       description: |
-        Abstract 1 
+        All cells in the human body have same genetic blueprint yet have diverged to produce different proteins and perform distinct functions. This cellular diversity is achieved through regulation of gene expression, ensuring each cell switches on the right genes at the right time. As cells differentiate, non-coding regions of the genome – cis-regulatory elements – exercise tight control over gene expression through the activity of DNA-bound transcription factors. Using statistics and machine learning, we can identify transcription factor-bound cis-regulatory elements and their target genes from large, noisy next-generation sequencing datasets. Here we present an integrative ‘omics approach to identify and prioritise gene-specific cis-Regulatory Elements Across Differentiation (cisREAD). We show how sequencing datasets can be processed using high-performance computing to generate inputs to our software and demonstrate usage of the cisREAD R package.
     - talkTitle: I learned a programming language... now what?
       startTime: 1530
       endTime: 1540
@@ -238,15 +251,18 @@
         even imagine how to solve them. In this talk I will present some ideas 
         to help to reduce the gap between learning a programming language and 
         being able to use it to solve problems.
-    - talkTitle: talk 1
-      startTime: 1500
-      endTime: 1510
-      speaker: Speaker 1
+    - talkTitle: "Understanding Colorectal Cancer patients' microbiome using shotgun metagenomics: a big cohort study: COLO-COHORT"
+      startTime: 1540
+      endTime: 1550
+      speaker: Suparna Mitra
       description: |
-        Abstract 1 
+        16000 people die of colorectal cancer (CRC) in the UK each year. More than half of CRC cases could be prevented by addressing modifiable lifestyle factors, identification of earlier stage neoplasia and targeted interventions, including chemoprevention and, crucially, polypectomy. COLO-COHORT will perform microbiome analyses on 4000 individuals undergoing colonoscopy because of symptoms or for surveillance. We will collect phenotypic information, undertake faecal immunochemical testing for occult bleeding, and obtain relevant blood investigations. It is being considered to do shotgun metagenomics. Which is a big computational challenge which include sequence assembly, alignment and annotation. After obtaining taxonomic and functional data, information will be correlated with phenotypic and the neoplasia profile at colonoscopy to identify factors which best predict disease risk. We will compare diversity and structure of the faecal microbiome in patients with and without neoplasia and correlate with dietary and/or lifestyle patterns. This project will  give valuable information on the role of the microbiome in patients with adenomas or cancer. 
+
+        My talk will be a presentation of this research story, the pipeline planning and what problems I have faced so far. Further I will be providing few results related to healthy volunteer pilot study of this project.
+
 
     
-  speakers: [7]
+  speakers: [12, 22, 49, 7,23]
   hidden: false
 
 - 
