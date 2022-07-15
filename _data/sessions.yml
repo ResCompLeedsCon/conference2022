@@ -201,13 +201,51 @@
 
 - 
   id: 1803
-  title: "I learned a programming language... now what?"
-  description: >
+  title: "Day 2 10 minute talks session 4"
+  sessions:
+    - talkTitle: talk 1
+      startTime: 1500
+      endTime: 1510
+      speaker: Speaker 1
+      description: |
+        Abstract 1 
+    - talkTitle: talk 1
+      startTime: 1510
+      endTime: 1520
+      speaker: Speaker 1
+      description: |
+        Abstract 1 
+    - talkTitle: talk 1
+      startTime: 1520
+      endTime: 1530
+      speaker: Speaker 1
+      description: |
+        Abstract 1 
+    - talkTitle: I learned a programming language... now what?
+      startTime: 1530
+      endTime: 1540
+      speaker: Patricia Ternes
+      description: |
+        Coding is no longer just a software developer activity. 
+        Codes have been used for the most diverse activities across different areas. 
+        In this context, people with the most diverse backgrounds have sought to learn 
+        some programming language, but like any human language, there is a huge gap between 
+        learning language syntax and actually engaging in a conversation about a random topic with a native speaker.<br>
 
-    Coding is no longer just a software developer activity. Codes have been used for the most diverse activities across different areas. In this context, people with the most diverse backgrounds have sought to learn some programming language, but like any human language, there is a huge gap between learning language syntax and actually engaging in a conversation about a random topic with a native speaker.
+        This is the scenario people are facing with coding. 
+        We learn syntax, we practice with very simplified problems, 
+        but when we are faced with real problems in our field, we cannot 
+        even imagine how to solve them. In this talk I will present some ideas 
+        to help to reduce the gap between learning a programming language and 
+        being able to use it to solve problems.
+    - talkTitle: talk 1
+      startTime: 1500
+      endTime: 1510
+      speaker: Speaker 1
+      description: |
+        Abstract 1 
 
-    This is the scenario people are facing with coding. We learn syntax, we practice with very simplified problems, but when we are faced with real problems in our field, we cannot even imagine how to solve them. In this talk I will present some ideas to help to reduce the gap between learning a programming language and being able to use it to solve problems.
-
+    
   speakers: [7]
   hidden: false
 
