@@ -214,6 +214,23 @@
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
 
+-
+  id: 11
+  name: "Michal"
+  surname: "Zulcinski"
+  title: "PhD Student"
+  company: Faculty of Health and Medicine
+  bio: >
+    Michal is a third-year PhD student at the Faculty of Health and Medicine, based in LICAMM and LIDA. 
+    He holds a BSc degree in Biotechnology and MSc degree in Bioinformatics. Prior to starting in Leeds, 
+    he worked as a bioinformatics data analyst at François Jacob Institute of Biology in Paris, France. 
+    His PhD research project aims at using genetic and transcriptomic data to elucidate the pathogenesis of 
+    Giant Cell Arteritis to identify new candidate genes or pathways for therapeutic targeting. 
+
+  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
 
 
 # panel members
