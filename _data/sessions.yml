@@ -261,6 +261,52 @@
   speakers: [10]
   hidden: false
 
+- 
+  id: 1806
+  title: "Transcriptome analysis of temporal artery biopsies to identify novel pathogenic pathways based on inflammatory patterns in Giant Cell Arteritis"
+  description: >
+
+    Giant cell arteritis (GCA) is the most common form of vasculitis and can lead to serious complications, 
+    such as permanent visual loss, if undiagnosed and untreated in a timely manner. The aim of my 
+    PhD project is to use transcriptomic data to gain better understanding of the molecular and 
+    genetic mechanisms underlying GCA and to identify candidate genes and pathways amenable to therapeutic targeting. 
+    The data cohort comprises eighty patients diagnosed with GCA and includes RNA-seq data generated from temporal 
+    artery biopsies, a range of clinical variables, and histological images reflecting different phenotypes relevant 
+    to the pathology of GCA. The gene expression data was processed using an in-house developed pipeline of software 
+    implemented on the HPC. A series of downstream analyses was performed to assess the influence of clinical variables 
+    (e.g., sex, age, duration of steroids exposure) and to examine the association of transcript levels with histological
+     and clinical phenotypes. The results showed that patients' sex is likely to has confounding effect and needs to be
+      accounted for in the analysis. Statistical testing revealed lists of genes (statistically significant after multiple
+       testing correction) associated with certain histological features. These results are currently being further 
+       investigated using pathway analysis approaches.
+    
+  speakers: [11]
+  hidden: false
+- 
+  id: 1807
+  title: "Deconvolution of bulk transcriptomic data reveals immune cell landscape of inflammatory infiltrates in giant cell arteritis"
+  description: >
+
+    The cellular landscape of many rare diseases remains enigmatic, due to limitations of data availability. 
+    Yet the knowledge of cellular composition is crucial to understand molecular events and cellular players 
+    driving the conditions. Recent advances in computational deconvolution methods have made it possible to 
+    infer cell type proportions from bulk RNA-seq datasets, that are more prevalent and cost-effective than 
+    single-cell RNA-seq datasets. We performed deconvolution of bulk RNA-seq dataset (n=88) generated from 
+    temporal artery biopsies of patients with Giant Cell Arteritis (GCA), using a single-cell RNA-seq dataset 
+    (n=9,) as a reference (also generated in GCA patients). The main objective of the study was to uncover 
+    cell type proportions in biopsy samples and shed light on cell-type-specific associations with clinical 
+    and histological phenotypes in GCA. Several deconvolution software packages were used, and the obtained 
+    cell type proportions were compared to determine methods reliability and its suitability for vascular 
+    tissue data. Overall, the findings reveal a previously unreported landscape of cell population abundance 
+    levels in GCA biopsies and provide novel insights into cell-type-specific expression profiles of both, 
+    transcripts already known to be involved in GCA pathogenesis, as well as novel molecular signatures that 
+    might have potential for therapeutic targeting. 
+    
+  speakers: [11]
+  hidden: false
+
+
+
 # lightning talks
 
 - 
