@@ -12,22 +12,34 @@
 							<div class="close-mask" data-dismiss="modal"></div>
 						</div>
 						<h4>{{ session.title }}</h4>
-						{% if session.language != null %}
-						<span class="theme-metadata"><span class="caption">Language: </span>{{ session.language }}</span>
-						{% endif %}
-						{% if session.complexity != null %}
-						<span class="theme-metadata"><span class="caption">Complexity: </span>{{ session.complexity }}</span>
-						{% endif %}
-						{% if session.video %}
-						<div class="theme-video embed-responsive embed-responsive-16by9">
-						    <iframe class="embed-responsive-item" src="{{ session.video }}"></iframe>
-						</div>
-						{% endif %}
+						{% if session.sessions %}
+						{% for talk in session.sessions %}
+
+							<h5>{{talk.talkTitle}}</h5>
+							<strong>Talk time:</strong> {{talk.startTime}}-{{talk.endTime}}<br>
+							<strong>Presenter:</strong> {{talk.speaker}}
+							
+							{% if talk.language != null %}
+							<span class="theme-metadata"><span class="caption">Language: </span>{{ talk.language }}</span>
+							{% endif %}
+							{% if talk.complexity != null %}
+							<span class="theme-metadata"><span class="caption">Complexity: </span>{{ talk.complexity }}</span>
+							{% endif %}
+							{% if talk.video %}
+							<div class="theme-video embed-responsive embed-responsive-16by9">
+								<iframe class="embed-responsive-item" src="{{ talk.video }}"></iframe>
+							</div>
+							{% endif %}
+							<p class="theme-description">{{ talk.description }}</p>
+							{% if talk.presentation %}
+							<a class="theme-presentation" href="{{ talk.presentation }}" title="Presentation" target="_blank">View materials</a>
+							{% endif %}
+							<hr>
+						{% endfor %}
+						{% else %} 
+						
 						<p class="theme-description">{{ session.description }}</p>
-						{% if session.presentation %}
-						<a class="theme-presentation" href="{{ session.presentation }}" title="Presentation" target="_blank">View materials</a>
 						{% endif %}
-						<hr>
 						<div class="people-details">
 							{% for speaker in site.data.speakers %}
 								{% for session_speaker in session.speakers %}

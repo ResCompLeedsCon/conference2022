@@ -25,12 +25,23 @@ event_EndTimes=iter2item[3] | concat: event_EndTimes %}{% endif %}{% endfor %}{%
             {% assign s_item_0 = split_item[0] | to_integer %}
             {% if s_item_0 == session.id %}
             {% if session.hidden != true %}
+
             <div class="grid-item">
                 <h5>{{ session.title }}</h5>
+                <span class="text-body">Session time: {{ split_item[1] }} {{ split_item[2] }}-{{split_item[3] }}</span><br>
+                <a href="{{ site.baseurl }}/schedule/#session-{{ session.id }}">Find the session in the schedule</a><br><br>
+                {% if session.sessions %}
+                {% for talk in session.sessions %}
+                <h5>{{talk.talkTitle}}</h5>
+                <strong>Talk time:</strong> {{talk.startTime}}-{{talk.endTime}} <br>
+                <strong>Presenter:</strong> {{talk.speaker}} <br>
+                
+                <span class="text-body">{{ talk.description }}</span><br>
                 <hr />
+                {% endfor %}
+                {% else %}
                 <span class="text-body">{{ session.description }}</span><br>
-                <span class="text-body">Time: {{ split_item[1] }} {{ split_item[2] }}-{{split_item[3] }}</span><br>
-                <a href="{{ site.baseurl }}/schedule/#session-{{ session.id }}">Find the event in the schedule</a>
+                {% endif %}
             </div>
             {% endif %}
             {% endif %}
