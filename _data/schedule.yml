@@ -23,7 +23,7 @@
     - {
     	startTime: "10:50",
       endTime: "11:00",
-    	sessionIds: [030, 401]
+    	sessionIds: [030]
     }
     - {
     	startTime: "11:00",
@@ -38,32 +38,7 @@
     - {
     	startTime: "13:00",
     	endTime: "13:50",
-    	sessionIds: [104, 401]
-    }
-    - {
-    	startTime: "13:00",
-    	endTime: "13:10",
-    	sessionIds: [1802, 401]
-    }
-    - {
-    	startTime: "13:10",
-    	endTime: "13:20",
-    	sessionIds: [104, 401]
-    }
-    - {
-    	startTime: "13:20",
-    	endTime: "13:30",
-    	sessionIds: [1806, 401]
-    }
-    - {
-    	startTime: "13:30",
-    	endTime: "13:40",
-    	sessionIds: [104, 401]
-    }
-    - {
-    	startTime: "13:40",
-    	endTime: "13:50",
-    	sessionIds: [1804, 401]
+    	sessionIds: [1801, 401]
     }
     - {
     	startTime: "13:50",

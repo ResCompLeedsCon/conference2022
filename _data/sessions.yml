@@ -173,6 +173,115 @@
 
 - 
   id: 1801
+  title: "Day 1: 10 minute talks session 1"
+  sessions:
+    - talkTitle: "Using ARC HPC for virtual high-throughput ligand discovery: A journey through time 2009-2022"
+      startTime: 1300
+      endTime: 1310
+      speaker: 6
+      description: |
+        With the exponential rise in the number of viable novel drug targets, 
+        computational methods are being increasingly applied to accelerate 
+        the drug discovery process. Virtual High Throughput Screening 
+        (vHTS) is one such established methodology to identify drug candidates 
+        from large collection of compound libraries. This talk will detail 
+        my journey into vHTS at Leeds from ARC1 where we were able to 
+        screen tens of thousands of compounds, through to present where 
+        we are screening tens of millions and hoping to go bigger. 
+    - talkTitle: "PERPL analysis: Finding structures in cells and features of diseases from incomplete point cloud data on protein positions."
+      startTime: 1310
+      endTime: 1320
+      speaker: 44
+      description: |
+        Super-resolution light microscopy can find the positions of single proteins in a 
+        cell to within an impressive 10 nm. This should be very useful for experiments 
+        on subcellular structures in health and disease, which should in turn lead to 
+        new diagnostic methods and therapies. However, many instances of the targeted 
+        proteins are often left unlocalised, so they are missing from the point patterns 
+        obtained. There is also a lack of analysis methods for these single protein 
+        position distributions. This means that the developments in data acquisition 
+        have not led to many new biological findings. I have developed a Python framework 
+        called PERPL (Patterns Extracted from Relative Distributions) which allows pattern 
+        analysis and modelling even when more than 99% of target proteins are missing 
+        from the experimental data. I am working in 2D and 3D data, with experiments on 
+        single and pairs of proteins, and on samples from DNA-origami to single cells 
+        in a dish to human tissues. I am collaborating with clinicians to explore how 
+        this approach can benefit medical areas where diagnosis is expensive and slow, 
+        and where the variability of treatment efficacy is not well understood. 
+    - talkTitle: "Transcriptome analysis of temporal artery biopsies to identify novel pathogenic pathways based on inflammatory patterns in Giant Cell Arteritis"
+      startTime: 1320
+      endTime: 1330
+      speaker: 11
+      description: 
+        Giant cell arteritis (GCA) is the most common form of vasculitis and can lead to serious complications, 
+        such as permanent visual loss, if undiagnosed and untreated in a timely manner. The aim of my 
+        PhD project is to use transcriptomic data to gain better understanding of the molecular and 
+        genetic mechanisms underlying GCA and to identify candidate genes and pathways amenable to therapeutic targeting. 
+        The data cohort comprises eighty patients diagnosed with GCA and includes RNA-seq data generated from temporal 
+        artery biopsies, a range of clinical variables, and histological images reflecting different phenotypes relevant 
+        to the pathology of GCA. The gene expression data was processed using an in-house developed pipeline of software 
+        implemented on the HPC. A series of downstream analyses was performed to assess the influence of clinical variables 
+        (e.g., sex, age, duration of steroids exposure) and to examine the association of transcript levels with histological
+        and clinical phenotypes. The results showed that patients' sex is likely to has confounding effect and needs to be
+          accounted for in the analysis. Statistical testing revealed lists of genes (statistically significant after multiple
+          testing correction) associated with certain histological features. These results are currently being further 
+          investigated using pathway analysis approaches.
+    - talkTitle: In silico screening for small molecule inhibitors of the lectin-like oxidized LDL receptor 1
+      startTime: 1330
+      endTime: 1340
+      speaker: 13
+      description: 
+        The lectin-like scavenger receptor oxidized LDL receptor 1 (LOX-1, SR-E1, OLR1) is 
+        implicated in promoting atherosclerosis. Activation of LOX-1 by oxidized LDL (oxLDL)
+        triggers signaling, production of reactive oxygen species and apoptosis. However, 
+        there is a lack of small molecule inhibitors which target LOX-1 in disease processes. 
+        To address this issue, we carried out an in silico screen of widely available small 
+        molecule libraries e.g. Maybridge and NPASS, for compounds that bind to human LOX-1. 
+        Our approach was based on assessing physicochemical properties, 2D dissimilarity 
+        score calculation, ligand-based pharmacophore modeling, molecular docking, and 
+        ADMET (Absorption, Distribution, Metabolism, Excretion and Toxicity) calculation steps. 
+        We used the four pharmacophore model where 3 models were selected based on the top 
+        pharmacophore scores, and one combined model was generated with merged and shared 
+        pharmacophore features. Using this approach, 1963 lead compounds compounds were 
+        identified, then re-screened and ADMET calculations used to remove non-druggable 
+        candidates. We selected the top scoring compounds and carried out in silico 
+        docking with LOX-1. We identified 8 molecules that display stable docking to the 
+        surface of the LOX-1 C-type lectin-like domain using molecular dynamics simulation. 
+        These lead compounds now form the basis for further in vitro and in vivo studies to 
+        assess efficacy at targeting LOX-1 functionality.
+
+    - talkTitle: "How do we determine the structural changes of a viral surface protein only 16 nm tall?"
+      startTime: 1340
+      endTime: 1350
+      speaker: 9
+      description: >
+        Many viruses use their surface proteins to get inside a host cell and 
+        start an infection, like coronaviruses. Here, we sought to visualize
+        Bunyamwera virus (BUNV), a model for more pathogenic viruses like La 
+        Crosse virus, which can cause fatal encephalitis. As viruses are small
+        (~0.1 µm), we employed cryo-electron microscopy. By imaging the same
+        virions from multiple orientations, we could computationally 
+        reconstruct them into 3D volumes, termed tomograms. We then wanted 
+        to image the surface proteins of BUNV. To do this, we utilised the 
+        parallel-processing power of ARC to perform sub-tomogram averaging. 
+        We selected thousands of sub-volumes from multiple viruses, 
+        corresponding to the surface proteins of BUNV. These sub-volumes 
+        are iteratively aligned to one another, refining their rotations 
+        and locations at each stage until optimally aligned (an approach 
+        termed sub-tomogram averaging). This allowed us to generate a 
+        3D structure of the BUNV surface proteins, which are only ~16 nm. 
+        In addition, we used Google DeepMind's AlphaFold software to predict 
+        the exact amino acid structure of the BUNV surface proteins, 
+        which allowed us to interpret our sub-tomogram averaging. 
+        Overall, understanding the BUNV surface proteins will allow 
+        the future development of vaccines or anti-virals for related 
+        pathogenic viruses.
+  speakers: [6, 44, 11,13, 9]
+  hidden: false
+
+
+- 
+  id: 1801
   title: A modular, open-source pipeline for grading of Follicular Lymphoma with rapid transfer to other tasks
   description: >
     Cytological grading of Follicular Lymphoma (FL) involves identification and quantification of cancerous cells within lymph nodes. When conducted manually, it is only feasible for clinicians to sample ten sites from hundreds available. The process therefore suffers high sampling error and high inter-observer variability. Given these limitations, the utility of clinical cytological grading has been low.
@@ -183,22 +292,6 @@
   speakers: [5]
   hidden: false
 
-- 
-  id: 1802
-  title: "Using ARC HPC for virtual high-throughput ligand discovery: A journey through time 2009-2022"
-  description: >
-
-    With the exponential rise in the number of viable novel drug targets, 
-    computational methods are being increasingly applied to accelerate 
-    the drug discovery process. Virtual High Throughput Screening 
-    (vHTS) is one such established methodology to identify drug candidates 
-    from large collection of compound libraries. This talk will detail 
-    my journey into vHTS at Leeds from ARC1 where we were able to 
-    screen tens of thousands of compounds, through to present where 
-    we are screening tens of millions and hoping to go bigger. 
-
-  speakers: [6]
-  hidden: false
 
 - 
   id: 1803
@@ -267,34 +360,6 @@
   hidden: false
 
 - 
-  id: 1804
-  title: "How do we determine the structural changes of a viral surface protein only 16 nm tall?"
-  description: >
-
-    Many viruses use their surface proteins to get inside a host cell and 
-    start an infection, like coronaviruses. Here, we sought to visualize
-    Bunyamwera virus (BUNV), a model for more pathogenic viruses like La 
-    Crosse virus, which can cause fatal encephalitis. As viruses are small
-    (~0.1 µm), we employed cryo-electron microscopy. By imaging the same
-    virions from multiple orientations, we could computationally 
-    reconstruct them into 3D volumes, termed tomograms. We then wanted 
-    to image the surface proteins of BUNV. To do this, we utilised the 
-    parallel-processing power of ARC to perform sub-tomogram averaging. 
-    We selected thousands of sub-volumes from multiple viruses, 
-    corresponding to the surface proteins of BUNV. These sub-volumes 
-    are iteratively aligned to one another, refining their rotations 
-    and locations at each stage until optimally aligned (an approach 
-    termed sub-tomogram averaging). This allowed us to generate a 
-    3D structure of the BUNV surface proteins, which are only ~16 nm. 
-    In addition, we used Google DeepMind's AlphaFold software to predict 
-    the exact amino acid structure of the BUNV surface proteins, 
-    which allowed us to interpret our sub-tomogram averaging. 
-    Overall, understanding the BUNV surface proteins will allow 
-    the future development of vaccines or anti-virals for related 
-    pathogenic viruses.
-  speakers: [9]
-  hidden: false
-- 
   id: 1805
   title: "Big data to useful data: making use of large scale GPS data."
   description: >
@@ -316,27 +381,7 @@
   speakers: [10]
   hidden: false
 
-- 
-  id: 1806
-  title: "Transcriptome analysis of temporal artery biopsies to identify novel pathogenic pathways based on inflammatory patterns in Giant Cell Arteritis"
-  description: >
 
-    Giant cell arteritis (GCA) is the most common form of vasculitis and can lead to serious complications, 
-    such as permanent visual loss, if undiagnosed and untreated in a timely manner. The aim of my 
-    PhD project is to use transcriptomic data to gain better understanding of the molecular and 
-    genetic mechanisms underlying GCA and to identify candidate genes and pathways amenable to therapeutic targeting. 
-    The data cohort comprises eighty patients diagnosed with GCA and includes RNA-seq data generated from temporal 
-    artery biopsies, a range of clinical variables, and histological images reflecting different phenotypes relevant 
-    to the pathology of GCA. The gene expression data was processed using an in-house developed pipeline of software 
-    implemented on the HPC. A series of downstream analyses was performed to assess the influence of clinical variables 
-    (e.g., sex, age, duration of steroids exposure) and to examine the association of transcript levels with histological
-     and clinical phenotypes. The results showed that patients' sex is likely to has confounding effect and needs to be
-      accounted for in the analysis. Statistical testing revealed lists of genes (statistically significant after multiple
-       testing correction) associated with certain histological features. These results are currently being further 
-       investigated using pathway analysis approaches.
-    
-  speakers: [11]
-  hidden: false
 - 
   id: 1807
   title: "Deconvolution of bulk transcriptomic data reveals immune cell landscape of inflammatory infiltrates in giant cell arteritis"
