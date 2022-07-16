@@ -17,8 +17,7 @@
 
 							<h5>{{talk.talkTitle}}</h5>
 							<strong>Talk time:</strong> {{talk.startTime}}-{{talk.endTime}}<br>
-							<strong>Presenter:</strong> {{talk.speaker}}
-							
+
 							{% if talk.language != null %}
 							<span class="theme-metadata"><span class="caption">Language: </span>{{ talk.language }}</span>
 							{% endif %}
@@ -34,7 +33,6 @@
 							{% if talk.presentation %}
 							<a class="theme-presentation" href="{{ talk.presentation }}" title="Presentation" target="_blank">View materials</a>
 							{% endif %}
-							<hr>
 							<div class="people-details">
 								{% for speaker in site.data.speakers %}
 										{% if talk.speaker == speaker.id %}
@@ -69,6 +67,7 @@
 										</div>
 										{% endif %}
 								{% endfor %}
+							<hr/>
 							</div>
 						{% endfor %}
 						{% else %} 
@@ -110,6 +109,7 @@
 									{% endif %}
 								{% endfor %}
 							{% endfor %}
+							<hr/>
 						</div>
 						{% endif %}
 					</div>
