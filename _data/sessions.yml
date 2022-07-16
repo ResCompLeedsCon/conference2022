@@ -640,31 +640,143 @@
 
 # lightning talks
 
+
 - 
-  id: 1001
-  title: "Faster estimation of choice models using HPC"
-  description: >
-    The main goals of choice models are typically to predict a set of
-    outcomes given a discrete set of choice alternatives and to 
-    forecast choices given a change in choice context. Many 
-    different economic and psychological concepts can be 
-    incorporated within a choice model, leading to frequent
-    implementation of very complex models.
-    Additionally, recent technological advances have led to the 
-    availability of a wider range of data for behavioural
-    modelling. In particular, physiological data (eye-tracking, EEG, etc)
-    and large-scale revealed preference data (e.g. travel card or 
-    supermarket clubcard data) have meant that we have have more 
-    complex and larger choice datasets.
-    The combination of complex models for complex datasets requires 
-    significant computational power, far beyond what can be computed
-    in a reasonable time for standard desktops, 
-    which may take weeks or months to compute estimates for the 
-    model parameters that best explain the full set of choice observations.
-    In this presentation, we demonstrate examples of how the Apollo 
-    package in R allows us to run models on multiple cores, which can 
-    be estimated at least 20 times faster with the Leeds HPC. 
-  speakers: [4]
+  id: 2610
+  title: "Day 1: Lightning talks and poster presentations"
+  sessions:
+    - talkTitle: Sensitivity analysis of an agent-based model using HPC
+      startTime: 1400
+      endTime: 1402
+      speaker: 17
+      description: |
+        We develop a spatially explicit agent-based model (ABM) - BESTMAP-ABM-UK that simulates Humber farmers’ decision-making process, inclusive of farmers’ social, behavioural and economic factors, on adoptions of agri-environment schemes (AES) using NetLogo. AES are government-funded voluntary programs that incentivise farmers and land managers for environmental friendly farming practices. We carry out global sensitivity analysis of the model using the Morris screening method. The Morris screening method is a computationally efficient screening technique that allows us to identify the important model input factors. Because the sensitivity analysis requires running a large number of simulations, we use a R package named nlrx and run the NetLogo model on HPC. The results reveal the rank of importance of the seventeen parameters to the model output, i.e., farm adoption rate, which is useful for prioritising our focus on the most influential parameters in the model calibration stage.
+
+    - talkTitle: Building a data pipeline to analyse symmetries in network.
+      startTime: 1402
+      endTime: 1404
+      speaker: 53
+      description: |
+        A network or graph consists of a set of vertices and a set of edges that link pairs of vertices. Networks are used in a wide range of areas, for example, to study the spread of disease through networks of social contacts. Studying such dynamics on networks accurately involves a significant amount of computation, but this can be reduced by making use of symmetries in networks, where symmetries result from vertices that can be swapped without changing the structure of the network. In my MSc project, I am investigating network symmetries using a data set that consists of all graphs up to 11 vertices, which includes more than a billion networks. In this poster, I will describe my efforts to process and analyse these data using the HPC facility at Leeds.
+    - talkTitle: Decolonizing Reading Lists for educational engagement and student success
+      startTime: 1404
+      endTime: 1406
+      speaker: 37
+      description: |
+        There is growing interest and investment in Educational Engagement and Student Success at Leeds University; eg see <a href="https://spotlight.leeds.ac.uk/strategy/">UoL Strategy 2020-2030</a>
+
+        One aspect of this is computing research on decolonizing the curriculum, by staff in Computing, Library and LITE for decolonizing reading lists. Data Analytics of taught module reading lists has shown that UK and US authors write most Engineering and Science teaching textbooks at Leeds University. If university students are told to read only textbooks by UK and US authors, does this bias their learning? AI research has shown that Machine Learning copies bias in the training data. 
+
+        One challenge of this computing research has been access to data: reading lists can be incomplete or missing, and/or inaccessible. Another challenge has been validated annotation of representative training and test data-sets: marking each reading list item with “bias labels”.
+
+        We will present further challenges, and initial results of our project on AI for decolonizing reading lists; see <a href="https://www.turing.ac.uk/events/turings-cabaret-dangerous-ideas-leeds">https://www.turing.ac.uk/events/turings-cabaret-dangerous-ideas-leeds</a>
+
+    - talkTitle: Spin transitions in ferropericlase in the lower mantle.
+      startTime: 1406
+      endTime: 1411
+      speaker: 47
+      description: |
+
+        Ferropericlase (Fe,Mg)O is the second most abundant phase in the lower mantle. It has a simple rock-salt structure, but has a rich and complex chemistry due to the unpaired d electrons of iron. Over recent years it has been shown that iron in ferropericlase should undergo a pressure-induced spin transition in the mantle, going from a high-spin state with four unpaired d-electrons to a low-spin state where all d-electrons electrons are paired. Further studies have shown that this has a significant impact on the density, bulk modulus and viscosity of the phase, with corresponding implications for interpretation of seismic observations and the dynamics of the lower mantle. To date, there are significant differences between the calculated and measured onset and breadth of the spin transition, as well as its temperature dependence. In this study we build upon previous work and go beyond the assumed ideal mixing of high- and low-spin iron. We find that the favourable enthalpy of mixing of neighbouring on-axis iron atoms leads to a broadening of the spin transition compared to previous calculations in better accord with experimental results. 
+
+    - talkTitle: Simulations of tidally locked exoplanet atmospheres in 3D
+      startTime: 1411
+      endTime: 1416
+      speaker: 30
+      description: |
+
+        Using the Whole Atmosphere Community Climate Model (WACCM), a 3D Earth System Model, I have simulated M dwarf terrestrial exoplanets that synchronously rotate around their host stars. These exoplanets are ‘tidally locked’, meaning the star is unmoving in the sky, such that the exoplanet has a warmer dayside and a colder nightside. Tidally locked exoplanets have an unusual circulation structure. Super-rotating jets form and distribute heat to the nightside, resulting in distinctive cloud patterns that depend on total irradiation and rotation speed. Consequently, the distribution of chemical species is affected. All these properties result in climate predictions that look unique when compared to any planet in our solar system. Therefore, I use the WACCM simulations to predict future observations of these exoplanets with next generation telescopes. To help with my own research and that within the exoplanet community, I have developed two open-source tools written in Python and in Jupyter Notebook. One improves the speed and flexibility of climate data analysis. The other ingests stellar spectra and scales the total irradiance to match the irradiance received by exoplanets in the NASA Exoplanet Archive. This tool speeds up the time it takes to initiate simulations for multiple exoplanets.
+   
+    - talkTitle: High-Resolution Modelling of Future Air Quality following Shared Socio-economic Pathway Emissions Changes 
+      startTime: 1416
+      endTime: 1421
+      speaker: 21
+      description: |
+
+        Air pollution is one of the world's leading causes of premature death. It is therefore important
+        to understand how future emissions changes could impact air-pollution related mortality.
+        Futures with more ambitious climate change mitigation could have air quality co-benefits
+        compared to less sustainable futures due to common sources of greenhouse gases and air
+        pollutants. Different futures can be represented with the Shared Socioeconomic Pathways
+        (SSPs), which provide narratives describing different futures and projected socioeconomic
+        and emissions data, and supersede the Representative Concentration Pathways. Current modelling of air quality following the SSPs often uses coarse-resolution global models or reduced complexity models that give
+        regional averages of air pollution related mortality, which may less accurately represent changes in
+        mortality on a smaller scale.
+
+        Using emissions projections from three SSPs representing very different approaches to
+        climate change mitigation (SSP1-2.6, SSP2-4.5 and SSP3-7.0) and a detailed, high-resolution atmospheric chemistry model (WRF-Chemv4.2) with chemical initial and boundary
+        conditions from WACCM simulations of the same scenarios, we simulate 2050 PM2.5 and O3
+        in Western Europe. This allows estimation of the future air pollution-related health
+        burden at a more regionally-refined scale than previous research.
+
+    - talkTitle: Leeds Institute of Fluid Dynamics Machine Learning for Earth Sciences Tutorial
+      startTime: 1421
+      endTime: 1426
+      speaker: 55
+      description: |
+        One of the biggest hurdles to getting started with applying machine learning to scientific research is getting a working set-up and an example of how to use a technique on real scientific data. CEMAC has teamed up with the Leeds Institute of Fluid Dynamics to create a series of Jupyter Notebooks that take you through a number of machine learning techniques applied to real Earth Science research. These are stripped down to run on laptops, or small servers with continuous integration ensuring longevity in the tutorials and where possible quick look binder links to explore the code without even having to install the given python environment. Currently, there are 4 available tutorials covering a range of topics from using Convolutional Neural Networks to identify and classify volcanic deformation to using Random Forests to determine controls on leaf temperature. Another 3 notebooks will be added this summer and we hope to continue expanding this resource in future years. 
+
+    - talkTitle: Surface stability analysis for CuWO4
+      startTime: 1426
+      endTime: 1431
+      speaker: 59
+      description: |
+        Recently, Copper tungstate (CuWO4) has attracted increasing interests because its remarkable application on water spliting. The suitable band gap (2.0-2.4 eV) for visible light harvesting, facile surface reaction kinetic, earth-abundance, and superior stability in electrolyte make CuWO4 a perfect candidate for water splitting via photoelectrochemical technology. CuWO4 crystallizes is a distorted wolframite-type structure. Both Cu2+ (3d9) and W6+ (4d10) cations are in distorted octahedral with O2- (O 2p6). Duo to the Jahn-Teller effect in Cu2+, the distortion of oxygen octahedron breaks the degenerancy of Cu 3d t2g and eg orbital. In this work, we simulate the bulk and surface for CuWO4 at the room tempurature and pressure. After calculating the surface energy, we find the most stable direction for forming the surface is (0 1 0).
+
+    - talkTitle: "Faster estimation of choice models using HPC"
+      startTime: 1431
+      endTime: 1436
+      speaker: 4
+      description: |
+        The main goals of choice models are typically to predict a set of
+        outcomes given a discrete set of choice alternatives and to 
+        forecast choices given a change in choice context. Many 
+        different economic and psychological concepts can be 
+        incorporated within a choice model, leading to frequent
+        implementation of very complex models.
+        Additionally, recent technological advances have led to the 
+        availability of a wider range of data for behavioural
+        modelling. In particular, physiological data (eye-tracking, EEG, etc)
+        and large-scale revealed preference data (e.g. travel card or 
+        supermarket clubcard data) have meant that we have have more 
+        complex and larger choice datasets.
+        The combination of complex models for complex datasets requires 
+        significant computational power, far beyond what can be computed
+        in a reasonable time for standard desktops, 
+        which may take weeks or months to compute estimates for the 
+        model parameters that best explain the full set of choice observations.
+        In this presentation, we demonstrate examples of how the Apollo 
+        package in R allows us to run models on multiple cores, which can 
+        be estimated at least 20 times faster with the Leeds HPC. 
+
+    - talkTitle: Power up your Shiny app with custom outputs
+      startTime: 1436
+      endTime: 1441
+      speaker: 47
+      description: |
+        Everybody loves a Shiny app, and what better way to manipulate and prepare data for visualisation than to use the power of R packages such as dplyr and tidyr? That’s great if you want to visualise your data in a standard output format such as a table or a plot which can be easily integrated into a Shiny app, but what if you want to display your research outputs in a non-standard format? In this presentation I’ll demonstrate a Shiny app that uses a JavaScript generated custom output format for displaying the results of a literature review, providing an interface that can be used by policy makers, analysts and the general public to filter and display relevant information at different levels of detail. 
+
+    - talkTitle: Proposing a new Online Application Architecture explored through creating a Mobile Online Multiplayer Chess Game for Android Devices using the Kotlin programming language
+      startTime: 1441
+      endTime: 1446
+      speaker: 32
+      description: |
+        This project explores the ever-evolving field of online multiplayer games for mobile phones with the aim of finding an architecture that would provide a minimum maintenance cost for its developer of mobile and desktop apps in general. For this reason, the Kotlin programming language and Google Firebase were utilised to develop a real-time multiplayer Chess Game for Android smartphone devices.
+
+        The already existing architectures were investigated to compare their pros and cons and devise a new architectural design that would be able to give us the following: High Speed on all Devices, Low Bandwidth, Low Memory Requirements, and Low Maintenance cost.
+
+        For this purpose, a simple online game consisting of just a colour-changing button was created, to make sure that the architecture was feasible. Then an online mobile Chess Game was developed to test the architecture under the more complex processes involved in such software. Finally, the architecture was tested using Unit Testing and a Real-life Experiment in the form of a Tournament with players from three different cities around the UK and Europe.
+
+        Overall the architecture proved to be a success and achieved all of its goals. This paves the way for other applications (not only games), and developers who need to cut down on the costs of Developing and Maintaining an app, especially those without a large capital (freelancers and startups).
+
+    - talkTitle: NLTK and SBERT, and their use in Parallel Sentence Alignment Using Transformers
+      startTime: 1446
+      endTime: 1451
+      speaker: 40
+      description: |
+        A parallel sentences corpus is an essential resource for many applications of Artificial Intelligence (AI) and Natural Language Processing (NLP), including chatbots, translation, and question/answering systems. By improving the quality of the parallel sentences corpus, the performance of these applications is improved. In this research, we went through two main levels of preparing the English-Arabic parallel sentences: the document and sentence levels. Each English document was aligned with its corresponding Arabic document at the document level. Then, using the NLTK tokenizing package "sent_tokenize" all the source English and targeted Arabic texts are converted into sentences with different lengths. Furthermore, four pre-trained SBERT models were applied at the sentence level to derive comparable meaningful sentences using cosine similarity. As a result, we get parallel sentences, each with a cosine similarity score. The highest average cosine similarity score is 0.76, obtained from the pre-trained model "paraphrase-multilingual-mpnet-base-v2". The preliminary results are promising and encourage further research in this area.
+
+  speakers: [17,53,37,47,30,21,55,59,4,47,32,40]
   hidden: false
 
 - 
