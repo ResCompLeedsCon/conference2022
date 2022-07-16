@@ -405,6 +405,58 @@
   speakers: [11]
   hidden: false
 
+- 
+  id: 2703
+  title: "Day 2: 10 minute talks session 3"
+  sessions:
+    - talkTitle: "Comparative analysis of WEKA and RapidMiner"
+      startTime: 1400
+      endTime: 1410
+      speaker: 39
+      description: |
+        Data Mining mainly aims to acquiring meaningful information from given data. This term covers applying suitable functional methods such as (classification, clustering, association, etc.) to get desired output and knowledge. One of the data mining sectors is text mining, which concentrates on text analysis to get meaningful information as knowledge.
+        This work shows a comparative analysis of WEKA and RapidMiner as useful Machine Learning open-source toolkits. Both tools have the capability to handle text mining tasks in easy, automatic, and professional way. So, the illustration includes the entire text mining experiments have been conducted, starting from converting dataset format, going through building classification models, and ending with presenting results. Also, the comparison explains the advantages and disadvantages of both toolkits as ML platforms and their constructions in terms of user interface, dataset format, classification methods and techniques, related extensions, the process building stage, visualization, and the results. This case presentation seeks to present how each toolkit could be used for data mining and text analytics, which could help AI learners and researchers to select a suitable toolkit to achieves their works.
+
+
+    - talkTitle: "Messagepack: Data Compression tool for your big dataset To Train Neural Network"
+      startTime: 1410
+      endTime: 1420
+      speaker: 69
+      description: |
+        One common challenge in Training Neural Network Model (especially supervised learning) is the necessity of a large dataset. In my research case, Training Neural Network for Fluid Dynamics related to vorticity propagation in 3D Domain requires hundred of thousands of simulation frames and hundreds of scenes of ground truth data which lead to hundreds of gigabytes of data. Since RAM and GPU memory is constrained, how could we deal with this large size of data? Could we compress it to reduce the memory footprint while maintaining portability?    Here the MessagePack comes. MessagePack is an efficient binary serialization format that lets you exchange data among multiple languages like JSON. However, it's faster and smaller. In my research, I implemented a pipeline to transform, read and write the data into chunks of MessagePack. The data become portable and ready to train in batch.
+
+    - talkTitle: Generative Modeling for Shapes as Graphs without Correspondences using Graph Convolution Networks and Attention
+      startTime: 1420
+      endTime: 1430
+      speaker: 27
+      description: 
+        Graphs are powerful data structures to represent surface meshes via nodes and edges, modelling vertices and their spatial connections, respectively. In recent years, generative modelling for shapes as graphs has emerged as an active research area. However, developing statistical generative models from multiple instances of graphs imposes significant challenges as the structure of the graphs may vary across the training data. 
+        To overcome this limitation, we propose an unsupervised framework to learn a probabilistic deep generative model, applicable to datasets including shape surface mesh data with no correspondences. First, a synergy of a graph convolutional and attention networks (GCN-ATT) establishes a vertex-to-vertex correspondence between the graphs in the latent space while learning an atlas mesh. Subsequently, a variational autoencoder (VAE) learns a probability density function from a set of structurally normalised graphs in the 3D space. 
+        As a result, this framework enables us to generate realistic graphs from shapes having an inconsistent number of vertices and connections. To demonstrate the versatility, we apply the method to real mesh (as grid graph) datasets obtained from cardiac magnetic resonance and liver CT images. To the best of our knowledge, this is the first work that uses such an approach for synthetic 3D organ shape generation from a population of inconsistent shape structures.
+        We show that the proposed GCN-ATT-VAE network can generate realistic synthetic graphs, as evidenced by both quantitative and qualitative results.
+
+    - talkTitle: Unravelling the chemical mechanisms of kidney stone growth
+      startTime: 1430
+      endTime: 1440
+      speaker: 29
+      description: 
+        The key chemical interactions relating to kidney stone crystallisation and aggregation are not fully understood. Kidney stones are solid clusters of small stones, composed of crystals that have precipitated from urine and built up on the luminal surface of the epithelial cell surfaces of the kidney microtubule. Mineral accounts for 97% of a kidney stone with the remaining material being organic matrix, such as proteins and amino acids.  This research uses the first principles modelling code, CASTEP on ARC3 and ARC4, to help elucidate the crystallisation phenomena and unravel the chemistry behind stone composition. To begin to understand the nucleation process, we have constructed surface models of calcium oxalate monohydrate and calcium oxalate dihydrate and modelled stone growth, simulating further calcium oxalate adsorption onto these surfaces. Next, as the interactions between urinary macromolecules and crystal surfaces at an atomic level are unexplained, we performed ab initio molecular dynamics of phosphocholine adsorption on the surfaces and have shown that the phosphocholine head groups become entrapped within the growing crystal. To investigate the interactions between growing crystal surfaces and a known inhibitor, citrate, we have further performed geometry optimisations of citrate adsorption on calcium oxalate surfaces.
+
+    - talkTitle: A modular, open-source pipeline for grading of Follicular Lymphoma with rapid transfer to other tasks
+      startTime: 1440
+      endTime: 1450
+      speaker: 5
+      description: >
+        Cytological grading of Follicular Lymphoma (FL) involves identification and quantification of
+        cancerous cells within lymph nodes. When conducted manually, it is only feasible for 
+        clinicians to sample ten sites from hundreds available. The process therefore suffers 
+        high sampling error and high inter-observer variability. Given these limitations, 
+        the utility of clinical cytological grading has been low.
+        Advances in image-based deep learning have led to creation of models with expert-like performance in cancer classification. We report the development of a deep learning pipeline for automated grading of entire tissue samples, containing millions of cells. The methods are robust to technical variability, such as differences in staining; can be executed on consumer-level computing resources and can be adapted to other disease cases within a working week.
+        Using the novel pipeline, we have conducted cell-level analysis of one of the largest FL image sets in the World. This has uncovered relationships between cytological grade and patient outcome. Through continued refinement, we aim to set the gold standard for cytological grading of large images, with clinical application.
+
+  speakers: [39,69, 27,29, 5 ]
+  hidden: false
 
 
 # lightning talks
