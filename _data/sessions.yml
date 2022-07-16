@@ -280,6 +280,91 @@
   hidden: false
 
 - 
+  id: 2602
+  title: "Day 1: 10 minute talks session 2"
+  sessions:
+    - talkTitle: Towards Arabic sentence simplification
+      startTime: 1300
+      endTime: 1310
+      speaker: 54
+      description: |
+        Text Simplification (TS) is a Natural Language Processing (NLP) task aiming to reduce the 
+        linguistic complexity of the text while maintaining its meaning and original information 
+        (Siddharthan, 2002; Camacho Collados, 2013; Saggion, 2017). Jin et al., 2021, suggest 
+        that TS is a type of Text Style Transfer (TST), where the target style of the generated 
+        text is “simple”. The importance of TS involves: (i) designing and simplifying the 
+        language curriculum for both second and first language learners; (ii) being a 
+        fundamental pre-process in NLP applications such as text retrieval, extraction,
+         summarization, categorization, and translation (Saggion, 2017). We experimented 
+         using two approaches: (i) a classification approach leading to lexical simplification 
+         pipelines which use Arabic-BERT (Safaya et al., 2020), a pre-trained contextualised 
+         model, and a model of fastText word embeddings(Grave et al., 2018); (ii) a 
+         generative approach, a Seq2Seq technique by applying a multilingual Text-to-Text 
+         Transfer Transformer mT5 (Xue et al., 2021). We developed our training corpus by 
+         aligning the original and the target simplified sentences from the internationally 
+         acclaimed Arabic novel “Saaq al-Bambuu”(Al-Sanousi, 2013; Familiar and Assaf, 2016), 
+         then evaluated the effectiveness of these methods using the BERTScore evaluation metric 
+         (Zhang et al., 2020). The simple sentences produced by the mT5 model achieved P 0.72, R 
+         0.68, and F-1 0.70 via BERTScore, while combining Arabic-BERT and fastText achieves P 
+         0.97, R 0.97, and F-1 0.97. Overall, there are advantages and limitations in the two 
+         approaches, both could benefit from adding a post-handler language generation module.
+
+    - talkTitle: Sketch Engine & Wordsmith in Cross-Lingual Stylometry Research
+      startTime: 1310
+      endTime: 1320
+      speaker: 34
+      description: |
+        Text Analysis software are used to process corpus data to present various statistical information and detailed breakdown of the data. There are different tools used to assist with this type of analysis such as Wordsmith and Sketch Engine.  
+
+        One field that utilizes such tools is STYLOMETRY which hypothesize that individuals have uniquely distinguishing characteristics in their writing style that can be measured, even between those less experienced writers (van Halteren et al., 2005).  These characteristics may include preferences for vocabularies, expressions, figures of speech, syntactic patterns, and use of punctuations, which all play a part in forming one’s style.  This field goes further to CROSS-LINGUAL STYLOMETRY which examines whether one’s style in writing remains the same when bilingual or multilingual author writes in two or more different languages.  
+
+        In this presentation, the use of Wordsmith and Sketch Engine in a Cross-Lingual Stylometry research examining the works of the bilingual writer Gibran Kahlil Gibran is discussed alongside the challenges faced.
+
+    - talkTitle: Exploring the GLIDE model for Human Action-effect Prediction
+      startTime: 1320
+      endTime: 1330
+      speaker: 33
+      description: 
+        We address the following action-effect prediction task.  Given an image depicting an initial state of the world and an action expressed in text, predict an image depicting the state of the world following the action. The prediction should have the same scene context as the input image. 
+        We explore the use of the recently proposed GLIDE model for performing this task. GLIDE is a generative neural network that can synthesize (inpaint) masked areas of an image, conditioned on a short piece of text. Our idea is to mask-out a region of the input image where the effect of the action is expected to occur. GLIDE is then used to inpaint the masked region conditioned on the required action. In this way, the resulting image has the same background context as the input image, updated to show the effect of the action. We give qualitative results from experiments using the EPIC dataset of ego-centric videos labelled with actions.
+
+    - talkTitle: "Integrating Religious Knowledge: From a Heterogeneous Format to an RDF Model"
+      startTime: 1330
+      endTime: 1340
+      speaker: 36
+      description: 
+        Linguists and religious scholars have analysed, annotated and segmented Qur'anic text 
+        using a variety of representations and formats. However, Qur'anic resources on 
+        different topics, aspects and formats can be difficult to link due to the Qur'an's complexity.
+         The segmentation and annotation of the Holy Qur'an can be represented in a variety of 
+         heterogeneous structures (e.g. CSV, JSON and XML), but there is no standardised mapping
+          formalisation for the data. Therefore, this study aimed to link morphological 
+          segmentation tags and syntactic analyses in Arabic and Buckwalter forms to 
+          Hakkoum ontology to enable further clarification of the Holy Qur'an. 
+          To achieve this, we used the RDF Mapping Language (RML) tool to 
+          automatically link Hakkoum ontology concepts to each column of the 
+          QacSegment corpus. Then, we used Protégé Editor to extract and link 
+          Arabic text by expressing specific rules. The tools used in this 
+          study allowed for the automatic mapping and linking of heterogeneous data 
+          sources into an RDF data model. In addition, the integrated ontology was 
+          evaluated using a SPARQL query on an Apache Jena Fuseki server. 
+          This experiment was conducted on all chapters, verses, words and segments of 
+          the Qur'an corpus.
+
+    - talkTitle: Deep Learning of Semantic Similarity in the Quran
+      startTime: 1340
+      endTime: 1350
+      speaker: 41
+      description: >
+        Semantic similarity detection is a crucial task in natural language comprehension. It is vital in many NLP applications such as information extraction, words sense disambiguation, text summarization, and text clustering. My work focuses on the semantic similarity in the Quran and proposes a Siamese transformer-based architecture for pairwise semantic similarity detection in the Quran. It exploits a pre-trained model, that is, AraBERT, to derive semantically meaningful sentence embeddings and achieve state-of-the-art results on the semantic similarity measures. My model benefits from the Siamese network architecture, like in SBERT, to finetune the pre-trained model with less computational burden characterizing sentence-pair regression tasks.
+
+        My research presents a verse-embedding using twin Siamese AraBERT-networks for fast and efficient semantic similarity detection in the Quran. The proposed architecture starts with pre-trained AraBERT models. Then, a Siamese setup is used to finetune the models on a semantic similarity dataset drawn from the Quran. As a result, the architecture achieved a score of 84.96% Spearman correlation representing its ability to assess whether two verses are similar. Furthermore, the model set a high-performance record of 95% F1 score on the Quranic semantic similarity dataset. Indeed, it improves the Quranic semantic similarity measures and performance over previous studies.
+
+  speakers: [54, 34, 33, 36, 41]
+  hidden: false
+
+
+- 
   id: 2704
   title: "Day 2: 10 minute talks session 4"
   sessions:
