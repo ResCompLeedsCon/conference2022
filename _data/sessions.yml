@@ -279,20 +279,6 @@
   speakers: [6, 44, 11,13, 9]
   hidden: false
 
-
-- 
-  id: 1801
-  title: A modular, open-source pipeline for grading of Follicular Lymphoma with rapid transfer to other tasks
-  description: >
-    Cytological grading of Follicular Lymphoma (FL) involves identification and quantification of cancerous cells within lymph nodes. When conducted manually, it is only feasible for clinicians to sample ten sites from hundreds available. The process therefore suffers high sampling error and high inter-observer variability. Given these limitations, the utility of clinical cytological grading has been low.
-
-    Advances in image-based deep learning have led to creation of models with expert-like performance in cancer classification. We report the development of a deep learning pipeline for automated grading of entire tissue samples, containing millions of cells. The methods are robust to technical variability, such as differences in staining; can be executed on consumer-level computing resources and can be adapted to other disease cases within a working week.
-
-    Using the novel pipeline, we have conducted cell-level analysis of one of the largest FL image sets in the World. This has uncovered relationships between cytological grade and patient outcome. Through continued refinement, we aim to set the gold standard for cytological grading of large images, with clinical application.
-  speakers: [5]
-  hidden: false
-
-
 - 
   id: 1803
   title: "Day 2: 10 minute talks session 4"
