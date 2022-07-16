@@ -110,7 +110,7 @@
   speakers: [2,1,3]
 - 
   id: 104
-  title: "15min and 10min Talks"
+  title: "10min Talks"
   description: 
   speakers: []
   hidden: false
