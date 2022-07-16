@@ -434,6 +434,65 @@
   speakers: [38, 19,11, 57, 15]
   hidden: false
 
+- 
+  id: 2604
+  title: "Day 1: 10 minute talks session 4"
+  sessions:
+    - talkTitle: "Flame instability of ammonia aerosol combustion: numerical simulations from astrophysics to industry"
+      startTime: 1600
+      endTime: 1610
+      speaker: 18
+      description: |
+        The Transport sector uses 20% of the world's energy. The heavy-duty and off-highway sector 
+        (e.g. mining, construction, shipping and aviation) represents 25% of all transport, and is
+         today almost exclusively powered by oil-derived fuels and thus contributes significantly
+          to carbon emissions. This sector has a very wide range of machinery, leading to a range of
+           different ways to decarbonise. Among those, alternative fuels, hydrogen and batteries are
+            feasible solutions for short-range applications due to the feature of low-energy density
+             (per volume). Ammonia (NH3) is likely the main fuel for the future long-range maritime 
+             and aviation sectors. Being carbon free, NH3 offers the possibility of fuelling gas
+              turbines, fuel cells and reciprocating engines without direct CO2 emissions. However,
+               for the successful application of ammonia as a fuel, one main challenge related to 
+               its combustion needs to be overcome: its low reactivity requires a high ignition 
+               energy, and leads to a narrow flammability range and low burning velocity. This 
+               complicates the stabilisation of the combustion flame and thus inevitably causes
+                unreliable ignition and unstable combustion. We study the properties of NH3 aerosol 
+                combustion and focus on the flame stability using a numerical tool developed for 
+                astrophysics, namely the adaptive mesh MG code. We will present an overview of the
+                 model, a range of numerical results and will highlight the impact of people, PGR 
+                 training and tools from astrophysics at Leeds in this industry-linked project and 
+                 previous similar projects.
+  
+    - talkTitle: Connecting Bradford with APIs for automated data linkage at a district level 
+      startTime: 1610
+      endTime: 1620
+      speaker: 26
+      description: |
+        We have created Application Programming Interfaces (APIs) within Python to automatically clean, reformat, and link routinely collected public service data. The APIs populate connected tables of data for hundreds of thousands of citizens, and ensure these tables update regularly as more data become available. Complementary visualisation dashboards help researchers understand the data available within the resulting ‘Connected Bradford’ database. Connected Bradford contains linked health, education, social care, environment, and local authority data for citizens across the whole Bradford district. The dashboards allow researchers to obtain information on participant demographics, the size of a cohort of interest etc so that researchers can determine whether it is possible to test a hypothesis prior to a formal data request. For example, our team were able to establish the availability of health records linked with Department of Education data to address a research question requiring Early Years Foundation Stage Profile (EYFSP) scores across multiple time-points. We found that Connected Bradford had sufficient data to describe the relationship between EYFSP and Key Stage 1 attainment scores as a function of Special Educational Needs (SEN) status. The findings allow teachers to identify children requiring additional help within the classroom and thereby provide timely interventions.  
+
+    - talkTitle: "Model Builds Model: Mimicking Process-based Numerical Models using Machine Learning for Earth and Environmental Modelling"
+      startTime: 1620
+      endTime: 1630
+      speaker: 31
+      description: >
+        Upscaling mechanistic-based Earth and environmental models from laboratory- and field-scale to global scales is a critically important yet hugely challenging task. One challenge is to maintain the accurate consideration of underlying processes at larger scales without inducing prohibitive computational expense. Another issue is the large number of unknown model parameters. To address these, Monte Carlo and machine learning techniques can be used to substitute process-based models such as reactive transport models in porous media. This procedure gives insight into the sensitivity of global models to unknown parameters, and the trained network (meta-model) can then be used for global domain simulations, e.g., elemental cycling in the Earth system. At the global scale, the unknown parameters can be dealt with by running the meta-model iteratively using a Monte Carlo approach, for every point of the global grid to conduct a forward prediction. The extremely large number of model runs (e.g., ~107 times) becomes possible within reasonable simulation durations (e.g., < a day) owing to the very low computational demand of the meta-model. We demonstrate the promising application of these algorithms for estimating global carbon burial efficiency in marine sediments. 
+        
+    - talkTitle: The variational and numerical modelling of water waves generated by numerical wave-tank
+      startTime: 1630
+      endTime: 1640
+      speaker: 65
+      description: 
+        Oceans are significant for human life as they are the means of international trading, food, and energy (renewable and non-renewable) resources. The exploitation of these resources is possible because of maritime engineering, which is concerned with the design of structures that can endure extreme hydrodynamic loads. Before the advent of computational advances, the study of hydrodynamic loads was done by scaled-model testing in wave basins which is an expensive and time-consuming process. However, with the increase in computational power, various sophisticated numerical models emerged to solve the intricate fluid dynamics problems. The most prominent high-fidelity models are based on Reynolds-Averaged Navier Stokes (RANS), Large-Eddy Simulations (LES), and Smoothed Particle Hydrodynamics (SPH). Although these models can accurately predict the complex non-linear wave phenomena, they are computationally expensive because ocean wave modelling requires a disparate range of scales. This project aims to develop a novel, cost-effective numerical wavetank based on the nonlinear variational potential-flow model to generate water waves and solve fluid-structure interaction problems without being computationally intensive. In addition, a novel way of implementing the model is explained which automates the process of calculating the weak formulations, subsequently reducing the time and human error in the coding process.
+    
+    - talkTitle: AI as surrogate model for groundwater prediction
+      startTime: 1640
+      endTime: 1650
+      speaker: 16
+      description: >
+        Computational modelling of subsurface flow is able to analyse and forecast the response of an aquifer system to a change of its state. Numerical methods calculate the hydraulic head by iteratively solving an implicit system of equations at each time step in the discretized time and flow domains. Despite great progress in these techniques, running the groundwater model is often prohibitively expensive, especially when the scale of the system is large. 
+        Machine learning has emerged as a promising alternative and in this study, I will present my current researcg on machine learned solutions to groundwater problems.
+  speakers: [18,26, 31,65, 16]
+  hidden: false
 
 - 
   id: 2704
