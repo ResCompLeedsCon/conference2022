@@ -363,6 +363,77 @@
   speakers: [54, 34, 33, 36, 41]
   hidden: false
 
+- 
+  id: 2603
+  title: "Day 1: 10 minute talks session 3"
+  sessions:
+    - talkTitle: Optimal Seed Generator in Biosequence Search Algorithms
+      startTime: 1400
+      endTime: 1410
+      speaker: 58
+      description: |
+        Sequencing and pattern matching stays one of major problems in bioinformatics. With the amount of data to process ever-increasing, the development of fast and efficient algorithms stays very important. Seeding is one of the techniques which efficiently speeds up the searching algorithms. However, finding optimal seeds, which maximise efficiency is still an open problem.
+        It has been acknowledged that spaced and subset seeding (non-binary) results in a more efficient search. A few seed generators, such as Iedera, Rasbhari or SpEED were suggested; however, the speed-up is achieved at the cost of reducing sensitivity.
+        We suggest a new framework (PerFSeeB) to find a set of optimal spaced (binary) seeds for a given set of parameters. It has been noticed that the optimal seeds possess a periodic structure. The found spaced seeds guarantee to locate all positions within a reference genome for a predefined number of allowed mismatches.
+        The code is written in C++, it is vectorized and optimized for a multicore workstation. A special way to store the dataset has been suggested. The operations with the dataset were also optimized.
+
+    - talkTitle: "Brains Over Brawn: Thinking About New Paradigms for Biophysical Simulations"
+      startTime: 1410
+      endTime: 1420
+      speaker: 19
+      description: |
+        <p>Climate change is a serious problem for humanity, and the high-performance computing sector has its own part to play in its alleviation[1]. Yet in addition to this challenge, the socio-economic push for hardware growth has its own scientific issues, particularly regarding the nature of the scientific method, Ockham’s Razor and the nature of understanding.
+        I will present three biophysical simulation techniques developed as part of my own research which showcase alternate, bespoke ways of thinking about the physics at work in novel biological systems. Fluctuating Finite Element Analysis (FFEA) models large, globular biological systems as continuum mechanical systems[2,3]. BioNet models hierarchical protein networks using experimentally relevant building block[4,5]. Finally, our mechano-kinetic model utilises bespoke energetic functions to modify Markov state models and couple long- and short- timescale biological processes together[6]. I will discuss why each of these techniques is justified in leaving out specific types of fine-detail, thus saving computational power, and conclude with a perspective on the responsibility of computational scientists to favour the creation of smart methods over a reliance on hardware improvements.</p>
+        <p>[1] Frost, J.M. (2017). <a href="https://jarvist.github.io/post/2017-06-18-carbon-cost-of-high-performance-computing/">https://jarvist.github.io/post/2017-06-18-carbon-cost-of-high-performance-computing/</a></p>
+        <p>[2] Solernou, A., Hanson, B.S. et al. (2018). PLoS Comp. Biol. 14(3), 1-29</p>
+        <p>[3] Hanson, B.S. et al. (2021). Methods. 185, 39-48</p>
+        <p>[4] Hanson, B.S. et al. (2019). Soft Matter. 15(43), 8778-8789</p>
+        <p>[5] Hanson, B.S. et al. (2020). Macromolecules. 53(17), 7335-7345</p>
+        <p>[6] Hanson, B.S. et al. (2022). bioRxiv. <a href="https://doi.org/10.1101/2020.11.17.386524">https://doi.org/10.1101/2020.11.17.386524</a></p>
+
+
+    - talkTitle: "Deconvolution of bulk transcriptomic data reveals immune cell landscape of inflammatory infiltrates in giant cell arteritis"
+      startTime: 1420
+      endTime: 1430
+      speaker: 11
+      description: >
+
+        The cellular landscape of many rare diseases remains enigmatic, due to limitations of data availability. 
+        Yet the knowledge of cellular composition is crucial to understand molecular events and cellular players 
+        driving the conditions. Recent advances in computational deconvolution methods have made it possible to 
+        infer cell type proportions from bulk RNA-seq datasets, that are more prevalent and cost-effective than 
+        single-cell RNA-seq datasets. We performed deconvolution of bulk RNA-seq dataset (n=88) generated from 
+        temporal artery biopsies of patients with Giant Cell Arteritis (GCA), using a single-cell RNA-seq dataset 
+        (n=9,) as a reference (also generated in GCA patients). The main objective of the study was to uncover 
+        cell type proportions in biopsy samples and shed light on cell-type-specific associations with clinical 
+        and histological phenotypes in GCA. Several deconvolution software packages were used, and the obtained 
+        cell type proportions were compared to determine methods reliability and its suitability for vascular 
+        tissue data. Overall, the findings reveal a previously unreported landscape of cell population abundance 
+        levels in GCA biopsies and provide novel insights into cell-type-specific expression profiles of both, 
+        transcripts already known to be involved in GCA pathogenesis, as well as novel molecular signatures that 
+        might have potential for therapeutic targeting. 
+        
+    - talkTitle: Video Synthesis of Talking Head 
+      startTime: 1430
+      endTime: 1440
+      speaker: 57
+      description: 
+        My talk is about synthesising talking-head videos from speech audio using AI. I will give a introduction about the task and the application of it.  I will talk about the approach we propose and the results. I will also talk about the Python packages that I use and other packages as well. 
+
+    - talkTitle: Democratising Billion-Scale Deep Learning Model Training
+      startTime: 1440
+      endTime: 1450
+      speaker: 15
+      description: >
+        Deep neural networks (DNNs) with billion-scale parameters have demonstrated impressive performance in solving a wide range of tasks, from image generation and natural language understanding to drive-less cars and bioinformatics. Unfortunately, training a billion-scale DNN is out of the reach of many data scientists and academics because it requires high-performance GPU servers that are too expensive to purchase and maintain. 
+
+        I will talk about STRONGHOLD - an open-source library developed during a collaborative project between U. Leeds and Alibaba (a major industry AI player). STRONGHOLD is integrated with the widely used PyTorch framework and requires no change to the user code.  It scales up the trainable model size on a single GPU by over 30x compared to the state-of-the-art approach without compromising the training efficiency. We showcase that STRONGHOLD supports the training of a model with 39.5B parameters on a single 32GB V100 GPU. 
+
+        By combining compute and memory efficiency with ease of use, STRONGHOLD democratises large-scale model training by making it accessible to data scientists with access to just a single GPU.
+
+  speakers: [38, 19,11, 57, 15]
+  hidden: false
+
 
 - 
   id: 2704
@@ -453,28 +524,6 @@
   hidden: false
 
 
-- 
-  id: 1807
-  title: "Deconvolution of bulk transcriptomic data reveals immune cell landscape of inflammatory infiltrates in giant cell arteritis"
-  description: >
-
-    The cellular landscape of many rare diseases remains enigmatic, due to limitations of data availability. 
-    Yet the knowledge of cellular composition is crucial to understand molecular events and cellular players 
-    driving the conditions. Recent advances in computational deconvolution methods have made it possible to 
-    infer cell type proportions from bulk RNA-seq datasets, that are more prevalent and cost-effective than 
-    single-cell RNA-seq datasets. We performed deconvolution of bulk RNA-seq dataset (n=88) generated from 
-    temporal artery biopsies of patients with Giant Cell Arteritis (GCA), using a single-cell RNA-seq dataset 
-    (n=9,) as a reference (also generated in GCA patients). The main objective of the study was to uncover 
-    cell type proportions in biopsy samples and shed light on cell-type-specific associations with clinical 
-    and histological phenotypes in GCA. Several deconvolution software packages were used, and the obtained 
-    cell type proportions were compared to determine methods reliability and its suitability for vascular 
-    tissue data. Overall, the findings reveal a previously unreported landscape of cell population abundance 
-    levels in GCA biopsies and provide novel insights into cell-type-specific expression profiles of both, 
-    transcripts already known to be involved in GCA pathogenesis, as well as novel molecular signatures that 
-    might have potential for therapeutic targeting. 
-    
-  speakers: [11]
-  hidden: false
 
 - 
   id: 2703
