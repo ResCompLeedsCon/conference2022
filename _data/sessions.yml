@@ -611,11 +611,69 @@
   speakers: [10]
   hidden: false
 
+- 
+  id: 2701
+  title: "Day 2: 10 minute talks session 1"
+  sessions:
+    - talkTitle: "OpenInfra - open access data for transport research: tools, modelling, and simulation"
+      startTime: 1400
+      endTime: 1410
+      speaker: 63
+      description: |
+        OpenInfra project is exploring the utility of OpenStreetMap (OSM) to support data-driven decision-making for local infrastructure planning and produce “transport infrastructure data packs” for local transport authorities in the England. Data on transport infrastructure is essential for planning inclusive streets, especially in the context of cycling, walking, and wheeling. 
 
+        OSM provides an extensive dataset on the existing transport infrastructure even if often lacking detailed information, such as the type of sidewalk surface. Besides the questions regarding data completeness, there are additional challenges concerning OSM data analysis. For example, inconsistent infrastructure tagging schemes sometimes result in queries returning infrastructure networks not reflective of the actual query. Moreover, bugs in the packages used to get OSM data might hinder the analysis and/or its reliability. Lack of in-depth documentation also makes it hard to understand how, for instance, cycling network is defined.  
+
+        Whilst many tutorials exist demonstrating how to add data to OSM, there is a lack of material on working with OSM data. One of the OpenInfra objectives is to address this gap. Thus, this talk will discuss OpenInfra project, the problems we have faced and our attempts to solve them in order to produce “transport infrastructure data packs”.
+
+    - talkTitle: Computer simulations of CO2 reduction over iron sulfide surfaces
+      startTime: 1410
+      endTime: 1420
+      speaker: 24
+      description: |
+        Iron sulfides have attracted wide research interest due to their catalytic properties towards the conversion of the greenhouse gas CO2 into value added chemicals and to mitigate global warming. Several iron sulfide phases have also been associated with the catalytic centres in hydrothermal vents, that are thought to have converted CO2 into the first small organic molecules according to several origin of life theories, collectively known as iron-sulfur world hypothesis. In this talk, we will discuss the development of realistic computational models to describe the surfaces of thiospinel structured materials using thermodynamic and kinetic arguments. We will show the impact of various partial oxidation degrees on the stability of the surfaces of the sulfides and to rationalise the core-shell iron sulfide-iron (hydr)oxide structure of the nanoparticles of the catalyst. We will also illustrate the effect of partial surface oxidation on the adsorption of H2O and CO2 and their catalytic conversion into a number of small organic molecules. Finally, we will present a comparison of the catalytic properties of partially oxidised irons sulfides and partially sulfurised iron oxides to explain the enhanced activity of the former material with respect to the latter.
+
+    - talkTitle: "Exploring the effect of Nb doping and ethylene carbonate adsorptions on the LiMn2O4 major surfaces: DFT+U study"
+      startTime: 1420
+      endTime: 1430
+      speaker: 61
+      description: 
+        Cationic doping plays a crucial role in stabilizing and improving the electrochemical performance of cathode materials in Li-ion batteries. In LiMn2O4 cathode material, the incorporation of dopants reduces the number of trivalent manganese (Mn3+) ions that undergo a disproportionation reaction and limits Mn2+ ion dissolution into the electrolyte upon cycling. In this work, we discuss the effect of surface Nb doping and the adsorption of the electrolyte solvent, ethylene carbonate (EC) using the density functional theory (DFT+U-D3). Upon Nb doping, the surface energies of all the Nb-doped configurations increase as compared to the pristine surfaces, indicating destabilizing effect. Interestingly, the surface stability of the (111) surface improves, resulting in an enhancement of the (111) plane on the morphologies when Nb is doped on the second surface layers. Furthermore, the EC adsorption greatly prefers to bind with the surface when placed parallel to the facets, with the highest binding energy for Nb-doped on the (011) surface second layers. On the morphologies, the (111) surface plane upon adsorption further improves. However, we observed a minimal charge transfer between the doped surfaces and the molecule, which was dominated the electronic rearrangement within the EC molecule. This finding are interesting since exposing the (111) facet promotes the formation of stable solid electrolyte interface (SEI), which significantly limits the Mn-dissolution.
+
+    - talkTitle: The bulk and surface properties of the monoclinic and orthorhombic FeNbO4
+      startTime: 1430
+      endTime: 1440
+      speaker: 45
+      description: 
+        The FeNbO4 materials has shown the potential of being used as the catalytic electrode to the hydrogen evolution/oxidation reaction.  In this study, we have employed the Density Functional Theory (DFT) to study the pristine surfaces and the related dissociation reactions of H2 and H2O respectively. The simulation results show that there are three pristine surfaces, namely (010), (110), and (111), and those three surfaces in both the monoclinic and orthorhombic FeNbO4 showed a similar configuration, even if the distribution of the cations are totally different. We have also found that the oxygen within the water molecule prefers to get coordinated with the surface cations, forming the chemisorption, while the adsorption reaction between the H2 and surface atoms is so weak that only physisorption was formed here. In addition, out of those three surfaces, the (110) shows to be the most reactive one, which refers to that the lowest energy barriers of the dissociation reaction of the H2 and H2O occur on the (110) surface.
+
+    - talkTitle: Challenging Deep Learning Models with Classical Arabic
+      startTime: 1440
+      endTime: 1442
+      speaker: 20
+      description: >
+        The use of artificial intelligence to understand human language has gone a long way, especially in English where deep learning models showed near-perfect results on several downstream tasks. However, their performance in classical Arabic texts is largely unexplored. To fill this gap, I evaluate state-of-the-art Transformer-based models on a binary classification task of identifying relatedness between the Quran and the Hadith, which are classical-Arabic religious texts with embedded meanings. Before conducting the experiment, the need for classical Arabic training and testing datasets is identified. Hence, I developed a methodology to automatically collect the training dataset of Quran-verse pairs by relying on existing Quran ontologies. Then to collect the testing dataset, I introduced an approach of automatically identifying related Quran-Hadith pairs from reputable religious websites by following rigorous heuristics. Once the datasets are created, the experiments begin by fine-tuning the models using PyTorch library, Tesla T80 GPU processors, and various hyperparameters of leaning-rate, batch size, number of epochs with early-stopping to avoid overfitting. The results show a ~20 points drop in F1 score across all the models which call for the imminent need to explore avenues for improving the quality of these models to capture the semantics in such complex texts.
+
+    - talkTitle: The NETWORKx and PANDAS tools, and their use in fake news detection
+      startTime: 1442
+      endTime: 1444
+      speaker: 38
+      description: >
+        Since the advent of social media and the exponential growth of online information, it is becoming entirely complicated to decipher the true from the false, which leads to the problem of fake news.  In this case study, we utilised various tools to automate the process of detecting misinformation.  The most distinguished and productive tools we employed are Pandas and Networkx.  The Pandas is a Python library for data manipulation and analysis typical to statistics, finance, social sciences, and many other fields.  At the same time, the Netwrokx is a Python package for creating, manipulating and studying complex networks' structure, dynamics and functions.  We would like to showcase how we utilised these tools in combination in our research, which could be of interest to other fields and case studies.
+
+    - talkTitle: Knowledge Representation for Islamic Research
+      startTime: 1444
+      endTime: 1446
+      speaker: 42
+      description: >
+        Recently ontologies have been used to improve the efficiency of different computational models such as search systems. The main aim of our research project is to utilize ontology as a source of Islamic knowledge representation avaliable for Quraan and Hadith to improve the Islamic search model. The first phase of our research is based on analyzing the coverage of Islamic topics in the Quranic ontologies focusing on the Hajj domain as a case study. For the evaluation process, we used one of the available ontologies called QuranOntology. The ontology consists of roughly 110,000 concepts with more than one million RDF triples. The Protégé tool was used to view the ontology, but the ontology's gigantic size has imposed a challenge. Therefore, the alternative solution was to use Apache Jena Fuseki platform to explore the ontology. After reconfiguring the tools, we noticed that the Protégé tool provided an excellent User Interface to browse the ontology, while Apache Jena Fuseki was more efficient for querying the ontology.
+
+  speakers: [63,24,61,45,20,38,42]
+  hidden: false
 
 - 
   id: 2703
-  title: "Day 2: 10 minute talks session 3"
+  title: "Day 2: 10 minute and poster talks session 3"
   sessions:
     - talkTitle: "Comparative analysis of WEKA and RapidMiner"
       startTime: 1400
