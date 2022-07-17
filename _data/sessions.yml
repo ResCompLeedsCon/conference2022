@@ -109,6 +109,35 @@
   hidden: false
   speakers: [2,1,3]
 - 
+  id: 112
+  title: "Day 2: Research Portfolio talks"
+  sessions:
+    - talkTitle: Calculating the Infrared and Terahertz Complex Permittivity of Crystalline Materials
+      startTime: 1100
+      endTime: 1120
+      speaker: 25
+      description: >
+        <p>The main aim of our research is to understand and interpret the vibrational spectra of a large range of molecular crystals. As such, we use a range of solid-state density functional packages including Castep, VASP, Crystal and CP2K along with additional phonon calculation tools such as Phonopy to determine the vibrational dynamics of these materials.
+        In the majority of cases these calculations determine both the phonon frequencies and Born charges which can be used to determine the IR intensity of the vibrational modes. However, comparing these to the experimental spectra, particularly at low frequencies can be non-trivial because the experimental spectra can be influenced by multiple other parameters including the nature of the sample (powder or single crystal), the particle size and shape along with the measurement geometry. 
+        As such we have developed the python post-processing tool PDielec [1] which can be used to understand and visualise phonon calculations. As well as acting as a general python parser for a number of density functional packages, this tool provides a QT-5 based GUI that allows the visualisation of structures and vibrational motion, and a number of tools to understand differences and improve correlation between calculated and experimental spectra.</p>
+        <p>[1] <a href="https://doi.org/10.5281/zenodo.5888313">https://doi.org/10.5281/zenodo.5888313</a></p>
+
+    - talkTitle: To be confirmed.
+      startTime: 1120
+      endTime: 1140
+      speaker: 70
+      description: 
+        
+
+    - talkTitle: To be confirmed.
+      startTime: 1140
+      endTime: 1200
+      speaker: 71
+      description: 
+
+  hidden: false
+  speakers: [25,70,71 ]
+- 
   id: 104
   title: "10min Talks"
   description: 
