@@ -313,16 +313,17 @@
 
 -
   id: 18
-  name: "Christopher"
+  name: "Dr Christopher"
   surname: "Wareing"
 #  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  company: School of Physics and Astronomy
+  bio: >
+    I am a computational fluid dynamicist, with expertise in hydrodynamic and magneto-hydrodynamic numerical modelling through finite difference and spectral methods. I am currently working on 3D MHD astrophysical simulations of feedback in star-forming molecular clouds with Dr Julian Pittard and Prof. Sam Falle at the University of Leeds, as well as continuing my work in engineering on CO2 pipelines in carbon capture and storage scenarios. I am also a specialist in parallel computing and modelling non-linear differential equations, teaching post-graduate Introduction to Parallel Programming courses at the University of Leeds. Previously, I have applied my expertise to late-stellar evolution objects, particularly AGB stars, planetary nebulae and pulsars.
 
-#  thumbnailUrl: "michal_zulcinski.png"
+  thumbnailUrl: "chris_wareing.jpg"
   rockstar: false
-#  ribbon:
- #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+  ribbon:
+    - {abbr: "RC", title: "Profile", url: "http://www.cjwareing.net/"}
 
 -
   id: 19
