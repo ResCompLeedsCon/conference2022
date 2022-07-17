@@ -275,13 +275,14 @@
 
 -
   id: 15
-  name: "Zheng"
-  surname: "Wang"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  name: "Xiaoyang"
+  surname: "Sun"
+  title: "PhD Student"
+  company: School of Computing
+  bio: >
+    Xiaoyang Sun is a PhD student of the Distributed Systems and Services Group at the University of Leeds. He participated in research internships in Alibaba Group Inc., working on resource management and task scheduling on the large-scale clusters, accelerating pre-trained models in the resource-limited environment. His primary research focuses on system optimization for deep learning workflows on heterogeneous resources.
 
-#  thumbnailUrl: "michal_zulcinski.png"
+  thumbnailUrl: "xiaoyang_sun.jpg"
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
