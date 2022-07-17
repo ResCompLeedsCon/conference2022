@@ -473,11 +473,12 @@
   id: 30
   name: "Gregory"
   surname: "Cooke"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: "PhD Student"
+  company: School of Physics and Astronomy
+  bio: >
+    I am a 3rd year PhD student in the Astrophysics department. I use the latest version of the Whole Atmosphere Community Climate Model (WACCM6) to simulate paleoclimates and exoplanets, predicting their chemistry, dynamics, and habitability. From these simulations, I then predict future observations with next generation telescopes. 
 
-#  thumbnailUrl: "michal_zulcinski.png"
+  thumbnailUrl: "gregory_cooke.jpg"
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
