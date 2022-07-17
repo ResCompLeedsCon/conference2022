@@ -926,11 +926,17 @@
   id: 65
   name: "Wajiha"
   surname: "Rehman"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: "PhD Student"
+  company: School of Mathematics
+  bio: >
+    Wajiha Rehman is a PhD student from the School of Mathematics. 
+    She is working as an Early-Stage Researcher (ESR) for the H2020 Marie Curie European Union 
+    European Industrial Doctorate (EID) program; Eagre/Aegir: High-seas wave-impact modelling. 
+    As an ESR, Wajiha will be working to develop a mathematical and numerical model to 
+    perform the wave-structure interaction analysis of water waves impact on a hyperelastic 
+    offshore wind-turbine mast by using Continuous Galerkin's Finite Element Method. 
 
-#  thumbnailUrl: "michal_zulcinski.png"
+  thumbnailUrl: "wajiha_rehman.jpg"
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
