@@ -590,28 +590,6 @@
   hidden: false
 
 - 
-  id: 1805
-  title: "Big data to useful data: making use of large scale GPS data."
-  description: >
-
-    The increasing use of secondary and commercial data sources paired 
-    with the decreasing cost of GPS enabled devices has seen a huge 
-    increase in the amount of GPS data available to researchers. 
-    These data are valuable in understanding human behaviour 
-    and how the environment around us influences our health. 
-    This presentation takes you thought the method developed 
-    to clean individual level GPS data to the OpenStreetMap 
-    Network and calculate environmental exposure(s). Scalable to 
-    large-scale GPS data with global coverage this code allows 
-    reproducible comparisons of environmental exposures across 
-    a wide range of spatial contexts. Moreover, as the code is open 
-    source and sits along existing open source packages it provides 
-    a valuable tool for policy and decision makers.
-    
-  speakers: [10]
-  hidden: false
-
-- 
   id: 2701
   title: "Day 2: 10 minute and poster talks session 1"
   sessions:
@@ -921,15 +899,134 @@
   hidden: false
 
 - 
-  id: 1002
-  title: Medical image reconstruction under Bayesian modelling
-  description: >
-    Due to loss of information during the scanning process, the observed image is often blurred
-    and contains noise. As a result, the observed image is generally degraded and is not helpful for
-    clinical diagnostics. Bayesian methods have been identified to be particularly useful when there
-    is access to limited data but with a high number of unknown parameters. Hence, our research---
-    under the Bayesian hierarchical modelling structure employing multiple data sources---aims to
-    develop new reconstruction methods capable of providing more robust results with increased
-    image quality.
-  speakers: [8]
+  id: 2710
+  title: "Day 2: Lightning talks and poster presentations"
+  sessions:
+    - talkTitle: Pinnipeds Comparative Genomics (so far..)
+      startTime: 1400
+      endTime: 1402
+      speaker: 66
+      description: |
+        The evolutionary history of Baikal and Caspian seals which inhabit large landlocked waterbodies in Central Asia is still ambiguous.  Having a fully resolved phylogenomic tree for pinnipeds is key to understanding patterns of speciation and identifying genes underpinning adaptions in this group. In this study, we seek to reassess the taxonomic position of the enigmatic Caspian/Baikal seal and their related sister taxa (Grey, Ringed seal). We will incorporate a Baikal seal (Pusa sibirica) genome assembly that is recently available online in a phylogenomics reconstruction with our existing assemblies for Caspian seal (Pusa capsica) and hooded seal (Cystophora cristatus), with other publicly available pinniped genomes. The P.sibirica genome will first be annotated in suitable pipelines (e.g. BRAKER which employs the tools, GeneMark -ES/ET and AUGUSTUS); then computationally infers gene candidates based on similarity of sequences in public repositories for functional annotation. To investigate their phylogenetic relationships, a set of one-to-one orthologous genes will be identified using OrthoMCL, and these datasets will be used to generate Maximum Likelihood phylogenomic trees using RaxML based on suitable sequence evolution model. Subsequently, the trees will be used as basis for selective pressure analyses. Possible pitfalls that might be encountered during these analyses will be discussed.
+
+    - talkTitle: Medical image reconstruction under Bayesian modelling
+      startTime: 1402
+      endTime: 1404
+      speaker: 8
+      description: >
+        Due to loss of information during the scanning process, the observed image is often blurred
+        and contains noise. As a result, the observed image is generally degraded and is not helpful for
+        clinical diagnostics. Bayesian methods have been identified to be particularly useful when there
+        is access to limited data but with a high number of unknown parameters. Hence, our research---
+        under the Bayesian hierarchical modelling structure employing multiple data sources---aims to
+        develop new reconstruction methods capable of providing more robust results with increased
+        image quality.
+
+    - talkTitle: Coarse-grained mesoscale rod simulations of fibrinogen under extensional flow
+      startTime: 1404
+      endTime: 1406
+      speaker: 51
+      description: |
+        The Fluctuating Finite Element Analysis (FFEA) software uses continuum mechanics to model proteins at the biological mesoscale as 3D tetrahedral meshes and 1D elastic rods that deform viscoelastically in response to thermal noise. Tetrahedra additionally experience repulsive excluded volume and attractive surface-surface interactions, neither of which are included in the rod model, but are necessary to describe protein function. Viscous drag is represented as an isotropic force acting on mesh elements due to a stationary background fluid. 
+
+        Fibrinogen (MW ~ 340 kDa) is a fibrous protein that polymerises into a fibrin network to form a crucial supportive component of blood clots. The effects of shearing flow on fibrin(ogen) are well-documented, but less is known about extensional flow, which is predicted to elongate von Willebrand Factor, another fibrous clotting factor, significantly more than shear. Extensional flow-induced aggregation of antibodies has been demonstrated at typical industrial strain rates. 
+
+        My PhD aims to improve the simulation capability of the FFEA rod model by implementing protein-protein interactions and viscous effects such as extensional flow and complex hydrodynamic interactions. FFEA simulations of fibrinogen under flow will be experimentally validated by studying its aggregation propensity in-vitro at physiological strain rates consistent with healthy and stenotic arteries.
+
+    - talkTitle: "Big data to useful data: making use of large scale GPS data."
+      startTime: 1406
+      endTime: 1411
+      speaker: 10
+      description: |
+        The increasing use of secondary and commercial data sources paired 
+        with the decreasing cost of GPS enabled devices has seen a huge 
+        increase in the amount of GPS data available to researchers. 
+        These data are valuable in understanding human behaviour 
+        and how the environment around us influences our health. 
+        This presentation takes you thought the method developed 
+        to clean individual level GPS data to the OpenStreetMap 
+        Network and calculate environmental exposure(s). Scalable to 
+        large-scale GPS data with global coverage this code allows 
+        reproducible comparisons of environmental exposures across 
+        a wide range of spatial contexts. Moreover, as the code is open 
+        source and sits along existing open source packages it provides 
+        a valuable tool for policy and decision makers.
+    
+    - talkTitle: "Shared Journeys: Aggregating GPS Data into a Shareable Product"
+      startTime: 1411
+      endTime: 1416
+      speaker: 48
+      description: |
+
+        The Consumer Data Research Centre provides researchers with access to a variety of open, safeguarded, and secure datasets. This talk will explain a sample process of using a securely held mobility dataset, hosted by an external company, to create a derived aggregated dataset that the CDRC is permitted to share with other researchers on our data store. We will discuss important considerations when working with individual-level GPS data such as time zone handling, detection of unreliable data, and preservation of anonymity. We will give an overview of the aggregation process itself and explore how different spatial and temporal resolutions can impact the derived dataset.
+
+    - talkTitle: "Edubots: Chatbots for university education and student success"
+      startTime: 1416
+      endTime: 1421
+      speaker: 37
+      description: |
+
+        <p>There is a growing interest in the use of chatbots in Universities, as they can provide efficient and timely services to students and educators; eg see <a href="https://spotlight.leeds.ac.uk/strategy/">UoL Strategy 2020-2030</a></p>
+        <p>The EDUBOTS project, funded by Erasmus+,  explored best practices and innovative uses of university chatbots. We implemented case study chatbots using platforms HUBERT for student feedback, and DIFFER for student interaction and fostering a sense of belonging. Our case studies and surveys provided feedback from students and educators regarding the possible uses of chatbots in higher education (HE). We present our key findings:</p>
+        <p>Educators and students agreed the importance of chatbots for</p>
+        <p>Responding to FAQs that relate to administration, eg admissions, IT helpdesk, Student Success service; </p>
+        <p>Conducting tests and quizzes with students to assess their conceptual understanding of a topic;</p>
+        <p>Feedback from students to the instructor for course evaluation.</p>
+        <p>Students were much keener than educators on &quot;offering personalised feedback to students on their conceptual understanding of a topic&quot; and &quot;offering tutorials to students related to courses&quot;. Social aspects were not very popular with the educators group.  On the other hand, more students wanted a chatbot that can facilitate communication with their mentors and establish study groups within their courses. </p>
+
+
+    - talkTitle: Simple Transformers Question Answering Model for Finding Answers to Questions from Qur'an
+      startTime: 1421
+      endTime: 1426
+      speaker: 35
+      description: |
+        Recently, research tend to develop question answering systems for Arabic Islamic texts, which may impose challenges due to Classical Arabic. The Qur'an Question Answering shared task competition (Malhas, 2022) is providing Qur'anic Reading Comprehension Dataset that has 1093 tuples of question-passage pairs. The passages are verses derived from the Holy Qur'an while the questions are set to be in Modern Standard Arabic. 
+
+        Simple Transformers is a library, which is based on Transformers architecture, that provides models for specific tasks such as Classification, NER and QA models. We used the Question Answering (QA) model along with three Arabic pre-trained language models, which are AraBERT (Antoun, 2020), CAMeL-BERT (Inoue, 2021), ArabicBERT (Safaya, 2020). The QA model is set to return five answers ranking from the best to worst based on their probability scores according to the task details. The official measurement is partial Reciprocal Rank (pRR) (Malhas, 2020).
+
+        Our experiments with development set shows that AraBERT V0.2 model outperformed the other Arabic pre-trained models. Therefore, AraBERT V0.2 was chosen for the test set and it performed fair results with 0.445 pRR score, 0.160 EM score and 0.418 F1 score. The team ranked 7th on the test set while the first place scored 0.586 pRR score, 0.261 EM and 0.537 F1 score (Malhas, 2022).
+
+    - talkTitle: Modelling Ambient Populations under Different Restriction Schemes
+      startTime: 1426
+      endTime: 1431
+      speaker: 50
+      description: |
+        How have cities changed during the pandemic?
+        Which changes will remain as the pandemic subsides?
+        This LIDA project addresses the above questions by building upon previous CDRC-funded work and creating an open-source spatial-temporal machine-learning model to predict overall change in footfall at specific city-centre locations. It also will consider the local urban configuration, external factors (like weather conditions) and, importantly, the heterogeneous impact of various mobility restriction measures. The model is currently being trained using pre-pandemic footfall data provided by the project's external partner Leeds City Council and different lockdown restriction conditions will be incorporated thereafter. 
+        A functional dashboard is additionally being developed to present related visual outputs i.e. graphs and maps to help policymakers easily explore different scenarios. Although based in Leeds, it is expected that the work will be generalizable to other cities and ultimately, we aspire to attract further funding to construct a nationwide footfall model, which would present as a great methodological advancement and an attractive contribution to furthering the public health and urban developments.
+        This talk will mainly be an introduction of the project, then a presentation of the work carried out so far led by a discussion of the next steps and plans.
+
+    - talkTitle: Computer Simulations of Post-Translationally Modified Microtubules
+      startTime: 1431
+      endTime: 1436
+      speaker: 52
+      description: |
+        Microtubules are hollow, cylindrical macromolecules made of a dimeric protein called tubulin. They play a vital role in many cellular functions ranging from motility, to separating DNA strands during mitosis, and acting as tracks for molecular motors. These structures are highly decorated with chemical modifications inside living cells. It is believed that these modifications form a code that both directly and indirectly regulates the structure and dynamics of microtubules, affecting many downstream factors. The difficulty in resolving structures of modified microtubules and our incomplete understanding of microtubule-associated proteins have hindered our ability to decipher this code with lab-based studies.
+
+        My project aims to develop a methodology by which modified microtubules can be studied using molecular dynamics simulations in Amber. This would provide models of modified microtubules in motion and in atomistic detail. Using these, we can begin to link patterns in structural or dynamic changes to specific modifications, predict modified microtubule behaviour inside a cell and the mechanisms that underpin these behaviours. For example, I have observed that poly-gamma-glutamate chains added to beta-tubulin tails may be able to destabilise microtubules by sequestering inter-protofilament interactions, causing tears in the structure.
+
+    - talkTitle: First Principles and Molecular Dynamics Modelling of a Mucoid Pseudomonas aeruginosa Biofilm Extracellular Matrix
+      startTime: 1436
+      endTime: 1441
+      speaker: 14
+      description: |
+        Mucoid Pseudomonas aeruginosa is a prevalent Cystic Fibrosis (CF) lung coloniser and the chronicity of such infections is definitively associated with this bacterium's ability to form an anionic, linear, acetylated alginate rich exopolysaccharide (EPS) biofilm matrix. This talk will detail how atomistic modelling, based on quantum chemical Density-Functional Theory (DFT) and classical Molecular Dynamics (MD) - performed using the CASTEP and DL_POLY4 codes respectively - has been deployed on ARC4 HPC architecture to construct the first atomistic (computer) models of the mucoid P. aeruginosa EPS to be structurally representative of the in vivo scaffold. These models have served to draw biophysical relationships between the mucoid P. aeruginosa EPS structure and bacterial virulence in the lungs of CF patients. Explicitly, these models have shed light onto the critical influence that CF sputum ions possess over biofilm matrix chronicity as well as rationalising the atomistic origins of the discontinuous, dendritic, bulk EPS architecture observed in vivo. The motion of bacterial messengers through the EPS has been accurately described using these models and, as such, these models are serving to identify structural chemistry critical to development of novel “EPS-penetrating” antimicrobials. 
+
+    - talkTitle: SketchEngine for large-scale text data collection and analysis
+      startTime: 1441
+      endTime: 1446
+      speaker: 37
+      description: |
+        SketchEngine is a tool for collection and analysis of large text data-sets, konwn as corpuses. You can upload your own text corpus if you already have one, and/or use one of the pre-existing corpuses in many languages, such as EnTenTen (10000000000 words of English texts) or ArTenTen (10000000000 words of Arabic) etc;  and/or use the SketchEngine web-crawler to harvest a corpus to your specifications. You can analyse your corpus in various ways, e.g. against a Gold Standard to highlight key words and phrases with specialist meanings and uses.  I have used SketchEngine in Computing research and teaching, for example to collect a world-wide Corpus of National Dialects. SketchEngine comes with easy-to-use graphical interface, tutorials and guides, a world-wide user community and excellent technical support. I will demonstrate a use of SketchEngine to collect a corpus of Leeds University management and administration language, and use this to uncover some of the new English developed by Leeds University management, such as "curriculum redefined" "student success", "educational engagement", "decolonizing the curriculum".         
+
+    - talkTitle: Developing an Azure Platform for Vehicle Emissions Measurements - The CARES Project
+      startTime: 1446
+      endTime: 1451
+      speaker: 62
+      description: |
+        The CARES project aims to improve the instrumentation and data science methodologies for analysing on-road vehicle emissions.  As part of this project we have developed an Azure Cosmos DB platform and web apps to interact with the data.  These apps have been shared with various stakeholders including academic, government and SME stakeholders.  We are still very much at the beginning of our journey and are far from fully realising the potential of this approach but we would like to show what we have done so far and get feedback and advice on how to move it forward.
+
+  speakers: [66,8,51,10, 48, 37, 35,50,52,14,37,62]
   hidden: false
+
