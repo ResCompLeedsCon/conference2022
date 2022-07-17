@@ -672,6 +672,60 @@
   hidden: false
 
 - 
+  id: 2702
+  title: "Day 2: 10 minute talks session 2"
+  sessions:
+    - talkTitle: Using Summative Connectors in Arab Learners Academic Writing 
+      startTime: 1300
+      endTime: 1310
+      speaker: 56
+      description: |
+        "Using discourse connectors is one of the problems learners face when writing an academic text. With the development of corpus tools, researchers are now able to investigate the actual usage of this linguistic feature. In this study, I will answer two research questions. First, how frequently advanced Arab learners of English use summative connectors following the taxonomy adopted from Quirk's et al., (1985). Second, whether Arab learners’ use of connectors differs to that of native speakers of American and British English. The data for this study are taken from three corpora: BALK, consisting of texts written by either Arab first-year university students or third-year secondary school students, and the American and British English sub-corpora of the Pearson International Corpus of Academic English (PICAE). Both quantitative and qualitative approaches were used for the analyses and a Log-Likelihood (LL) statistical test was conducted to compare the frequencies of words between corpora.
+        Quirk, R., Greenbaum, S., Leech, G. and Svartvik, J. 1985. A Comprehensive grammar of the English language. London; New York: Longman."
+
+    - talkTitle: "Optimisation models for sustainable fashion: An approach towards zero waste fashion design"
+      startTime: 1310
+      endTime: 1320
+      speaker: 64
+      description: |
+        The fashion industry's impact on the environment is a critical global problem. One of the industry's global impact is affected by the amount of waste generated in the cutting stage of fabric. The distinction between the roles of fashion designers and marker makers caused the ”design” and ”make” processes to be linear, which allowed for more waste on the cutting floor. Some designers started exploring the Zero Waste Design concept, which means designers consider the allocation of pattern pieces while designing garments. However, this approach has been criticised for not allowing designers to have aesthetic control over designs.
+
+        This research aims to transform the “design” and “make” processes from linear to circular and allow designers to have aesthetic control when designing a zero-waste or a minimal waste design. By developing an optimisation algorithm based on the overlap minimisation problem that aims to minimise the waste generated from the cutting stage of the fabric where irregular shapes need to be cut from a fabric roll, also known as the “Two Dimensional Irregular Strip Packing Problem”. Through a collaboration with a designer, we aim at integrating the designer’s design-making process with the algorithm design to inspire the designer to make adjustments to the initial design through an iterative process until a satisfactory marker with minimal to zero waste is achieved.
+
+    - talkTitle: "Make Academic Findings Shiny: Web Application Development and Best Practices for Using R Shiny to Communicate Research Results"
+      startTime: 1320
+      endTime: 1330
+      speaker: 68
+      description: 
+        Shiny and related packages provide a framework for creating web applications using R programming language. Through the use of interactive widgets, the outputs such as plots, tables or maps change based on the input from the user. Therefore, R Shiny provides a compelling way to share research findings. Despite the advantages, the extensive functionality of Shiny may serve as a hindrance when starting to use the tool. This talk is a walk-through of the dashboard that I developed for the Urban Transport Modelling for Sustainable Well-Being in Hanoi project (https://urban-analytics.github.io/UTM-Hanoi/intro.html) as a communication tool of the household survey analysis. I discuss both the code and the functionality including related packages such as `golem`, `shinydashboard`  and `DT`. Finally, useful practices (modules, deployment and app structure) and starting-point resources are shared.
+ 
+    - talkTitle: "Save your tears for the data: A touch of Docker in a Data Scientist's workflow"
+      startTime: 1330
+      endTime: 1340
+      speaker: 67
+      description: 
+        Many data science teams have become multilingual, leveraging R, Python, Julia and friends in their work. Into the bargain, different data scientists have different preferences in their coding environments and operating systems. While this diversity allows data scientists to work with the tools they are most comfortable with, it can become a pain to share the same projects on different machines with different configurations. This talk illustrates how data scientists can leverage Docker containers to create portable, reproducible and tailored development environments, which can be instantiated reliably in different environments, operating systems and hardware. Data scientists can therefore focus on what they love and do best (i.e data science) without having to worry about the hassle required to reproduce their work, deploy their analysis dashboards or even deploy their models.
+
+    - talkTitle: Leeds Analytics Secure Environment for Research (LASER) - an overview
+      startTime: 1340
+      endTime: 1350
+      speaker: 60
+      description: >
+        <p>The Leeds Analytics Secure Environment for Research (LASER) is a University of Leeds (UoL) service hosted in the Leeds Institute of Data Analytics (LIDA) on Microsoft Azure. </p>
+        <p>LASER offers the combination of meeting the highest standards of security for data analytics, ensuring ISO27001 and NHS Data Security and Protection Toolkit compliance with the flexibility to enable constant agility in design and function; alongside scalability depending on the researcher need.</p>
+        <p>LASER is the platform upon which we can build and host Virtual Research Environments (VREs). In their simplest form, a VRE is a virtualised environment consisting of virtual machines and shared storage where data flow is strictly controlled. Taking a &#39;walled garden&#39; approach, there is no access to the internet or other networks from inside a VRE.</p>
+        <p>The LASER Platform has been designed with and for researchers and includes the following capabilities:  </p>
+        <ul>
+        <li>Fully flexible and scalable to enable researchers to align spend to research requirements.</li>
+        <li>Agile and quick to provision, to support a range of research user cases.</li>
+        <li>Access to the latest tools and capabilities such as machine learning to support researchers.</li>
+        </ul>
+
+  speakers: [56,64,68,67,60]
+  hidden: false
+
+
+- 
   id: 2703
   title: "Day 2: 10 minute and poster talks session 3"
   sessions:
