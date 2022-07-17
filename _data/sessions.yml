@@ -460,7 +460,7 @@
 
         By combining compute and memory efficiency with ease of use, STRONGHOLD democratises large-scale model training by making it accessible to data scientists with access to just a single GPU.
 
-  speakers: [38, 19,11, 57, 15]
+  speakers: [58, 19,11, 57, 15]
   hidden: false
 
 - 
@@ -530,7 +530,7 @@
     - talkTitle: Digital twins of breast tumours for predicting neoadjuvant chemotherapy outcome
       startTime: 1500
       endTime: 1510
-      speaker: Rose Collet
+      speaker: 12
       description: |
         Breast cancer is the most common cancer in women across the globe and a major cause of death. Neoadjuvant chemotherapy (NACT) 
         is the standard of care for patients with locally advanced breast cancer, delivered to shrink the tumour before proceeding to
@@ -549,19 +549,19 @@
     - talkTitle: Outcome Prediction in Pelvic Radiotherapy Using Deep Multiple Instance Learning and Cascaded Attentions.
       startTime: 1510
       endTime: 1520
-      speaker: Behnaz Elhaminia
+      speaker: 22
       description: |
         Radiotherapy is currently used for more than 50% of patients with various cancers. Using ionising radiation to eliminate cancerous tissue as the basis of radiotherapy can also damage normal tissues around the tumour, which leads to malfunction in those organs – called toxicity. The occurrence and severity of this toxicity vary from patient to patient and it is still not well understood which factors increase the risk of toxicity. Although deep neural networks can perform challenging tasks with high accuracy, their complexity and not being able to explain their outcome hinder their application in real-world radiotherapy tasks. In our work, we propose a novel convolutional model to predict the toxicity for patients with pelvic cancers. Our novelty is twofold; firstly, we propose to employ multiple instance learning to investigate large data including 3D CT scans and 3D dose treatment plans with lower complexity. Secondly, we apply the attention mechanism to provide visual explanation for the network's behaviour. The Quantitative and qualitative performance analysis demonstrate that our framework can offer clinically convincing tools for radiotherapy toxicity prediction. The development of investigating both image and patient numerical data with a deep network will be a very important research direction for our future work.
     - talkTitle: Integrating next generation sequencing datasets to model gene regulation during cellular differentiation
       startTime: 1520
       endTime: 1530
-      speaker: Amber Emmett
+      speaker: 49
       description: |
         All cells in the human body have same genetic blueprint yet have diverged to produce different proteins and perform distinct functions. This cellular diversity is achieved through regulation of gene expression, ensuring each cell switches on the right genes at the right time. As cells differentiate, non-coding regions of the genome – cis-regulatory elements – exercise tight control over gene expression through the activity of DNA-bound transcription factors. Using statistics and machine learning, we can identify transcription factor-bound cis-regulatory elements and their target genes from large, noisy next-generation sequencing datasets. Here we present an integrative ‘omics approach to identify and prioritise gene-specific cis-Regulatory Elements Across Differentiation (cisREAD). We show how sequencing datasets can be processed using high-performance computing to generate inputs to our software and demonstrate usage of the cisREAD R package.
     - talkTitle: I learned a programming language... now what?
       startTime: 1530
       endTime: 1540
-      speaker: Patricia Ternes
+      speaker: 7
       description: |
         Coding is no longer just a software developer activity. 
         Codes have been used for the most diverse activities across different areas. 
@@ -578,15 +578,12 @@
     - talkTitle: "Understanding Colorectal Cancer patients' microbiome using shotgun metagenomics: a big cohort study: COLO-COHORT"
       startTime: 1540
       endTime: 1550
-      speaker: Suparna Mitra
+      speaker: 23
       description: |
         16000 people die of colorectal cancer (CRC) in the UK each year. More than half of CRC cases could be prevented by addressing modifiable lifestyle factors, identification of earlier stage neoplasia and targeted interventions, including chemoprevention and, crucially, polypectomy. COLO-COHORT will perform microbiome analyses on 4000 individuals undergoing colonoscopy because of symptoms or for surveillance. We will collect phenotypic information, undertake faecal immunochemical testing for occult bleeding, and obtain relevant blood investigations. It is being considered to do shotgun metagenomics. Which is a big computational challenge which include sequence assembly, alignment and annotation. After obtaining taxonomic and functional data, information will be correlated with phenotypic and the neoplasia profile at colonoscopy to identify factors which best predict disease risk. We will compare diversity and structure of the faecal microbiome in patients with and without neoplasia and correlate with dietary and/or lifestyle patterns. This project will  give valuable information on the role of the microbiome in patients with adenomas or cancer. 
 
         My talk will be a presentation of this research story, the pipeline planning and what problems I have faced so far. Further I will be providing few results related to healthy volunteer pilot study of this project.
-
-
-    
-  speakers: [12, 22, 49, 7,23]
+  speakers: [12, 22, 49, 7, 23]
   hidden: false
 
 - 
@@ -871,7 +868,7 @@
     - talkTitle: Power up your Shiny app with custom outputs
       startTime: 1436
       endTime: 1441
-      speaker: 47
+      speaker: 46
       description: |
         Everybody loves a Shiny app, and what better way to manipulate and prepare data for visualisation than to use the power of R packages such as dplyr and tidyr? That’s great if you want to visualise your data in a standard output format such as a table or a plot which can be easily integrated into a Shiny app, but what if you want to display your research outputs in a non-standard format? In this presentation I’ll demonstrate a Shiny app that uses a JavaScript generated custom output format for displaying the results of a literature review, providing an interface that can be used by policy makers, analysts and the general public to filter and display relevant information at different levels of detail. 
 
@@ -895,7 +892,7 @@
       description: |
         A parallel sentences corpus is an essential resource for many applications of Artificial Intelligence (AI) and Natural Language Processing (NLP), including chatbots, translation, and question/answering systems. By improving the quality of the parallel sentences corpus, the performance of these applications is improved. In this research, we went through two main levels of preparing the English-Arabic parallel sentences: the document and sentence levels. Each English document was aligned with its corresponding Arabic document at the document level. Then, using the NLTK tokenizing package "sent_tokenize" all the source English and targeted Arabic texts are converted into sentences with different lengths. Furthermore, four pre-trained SBERT models were applied at the sentence level to derive comparable meaningful sentences using cosine similarity. As a result, we get parallel sentences, each with a cosine similarity score. The highest average cosine similarity score is 0.76, obtained from the pre-trained model "paraphrase-multilingual-mpnet-base-v2". The preliminary results are promising and encourage further research in this area.
 
-  speakers: [17,53,37,47,30,21,55,59,4,47,32,40]
+  speakers: [17,53,37,47,30,21,55,59,4,46,32,40]
   hidden: false
 
 - 
