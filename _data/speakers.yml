@@ -555,9 +555,9 @@
   id: 36
   name: "Ibtisam"
   surname: "Alshammari"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: "PhD Student"
+  company: School of Computing
+  bio: 
 
 #  thumbnailUrl: "michal_zulcinski.png"
   rockstar: false
