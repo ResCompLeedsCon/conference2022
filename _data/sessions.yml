@@ -513,7 +513,7 @@
       description: 
         Oceans are significant for human life as they are the means of international trading, food, and energy (renewable and non-renewable) resources. The exploitation of these resources is possible because of maritime engineering, which is concerned with the design of structures that can endure extreme hydrodynamic loads. Before the advent of computational advances, the study of hydrodynamic loads was done by scaled-model testing in wave basins which is an expensive and time-consuming process. However, with the increase in computational power, various sophisticated numerical models emerged to solve the intricate fluid dynamics problems. The most prominent high-fidelity models are based on Reynolds-Averaged Navier Stokes (RANS), Large-Eddy Simulations (LES), and Smoothed Particle Hydrodynamics (SPH). Although these models can accurately predict the complex non-linear wave phenomena, they are computationally expensive because ocean wave modelling requires a disparate range of scales. This project aims to develop a novel, cost-effective numerical wavetank based on the nonlinear variational potential-flow model to generate water waves and solve fluid-structure interaction problems without being computationally intensive. In addition, a novel way of implementing the model is explained which automates the process of calculating the weak formulations, subsequently reducing the time and human error in the coding process.
     
-    - talkTitle: AI as surrogate model for groundwater prediction
+    - talkTitle: Learning the groundwater operator 
       startTime: 1640
       endTime: 1650
       speaker: 16
