@@ -986,6 +986,35 @@
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+-
+  id: 70
+  name: "Michelle"
+  surname: "Morris"
+  company: "School of Medicine"
+  title: Associate Professor Nutrition and Lifestyle Analytics
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+-
+  id: 71
+  name: "Professor Susan"
+  surname: "Grant-Muller"
+  company: "Institute for Transport Studies"
+  title: Chair in Technologies & Informatics
+#  title: "PhD Student"
+#  company: Faculty of Health and Medicine
+#  bio: 
+
+#  thumbnailUrl: "michal_zulcinski.png"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
 
 
 # panel members
