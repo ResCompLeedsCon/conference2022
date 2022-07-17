@@ -977,11 +977,12 @@
   id: 68
   name: "Kristina"
   surname: "Bratkova"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: "Data Scientist"
+  company: Leeds Institute of Data Analytics
+  bio: >
+    Kristina Bratkova studied BSc Mathematics and Music (2018-2021), but she recently transitioned to the world of data science and is currently working as a Data Scientist at the Leeds Institute for Data Analytics. Kristina’s research interests are urban analytics, GIS and everything R-related. She created R Shiny dashboards to communicate the findings of the transport survey analysis conducted for the Urban Transport Modelling for Sustainable Well-Being in Hanoi project—supervised by Prof Nick Malleson and Prof Lex Comber from the School of Geography.
 
-#  thumbnailUrl: "michal_zulcinski.png"
+  thumbnailUrl: "kristina_bratkova.jpg"
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
