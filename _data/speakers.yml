@@ -263,11 +263,12 @@
   id: 14
   name: "Oliver"
   surname: "Hills"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: "PhD Student"
+  company: School of Food Science & Nutrition
+  bio: >
+    I am a final year PhD student in the Computational Chemistry, Biomaterials and Interfaces Modelling group within the School of Food Science and Nutrition at the University of Leeds. I am interested in using quantum chemical and molecular dynamics simulation to study the conformational energetics, structural chemistry and physico-chemical interactions that drive virulence, pathogenicity and chronicity within mucoid P. aeruginosa biofilm infections in the lungs of Cystic Fibrosis (CF) patients. During my PhD research I have used simulation to elucidate the key geometrical principles behind cation-induced biofilm matrix stabilisation, in addition to elucidating the molecular functionality and site-directed interactions that permit the motions of cell-to-cell signals through the biofilm matrix. More recently, I have been using simulation to predict the effects that novel therapeutics have on biofilm matrix morphology.
 
-#  thumbnailUrl: "michal_zulcinski.png"
+  thumbnailUrl: "oliver_hills.jpg"
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
