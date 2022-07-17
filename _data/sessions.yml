@@ -57,59 +57,89 @@
   hidden: false
 - 
   id: 111
-  title: "Curing Brain Cancer - with a Computer"
-  description: >
-    Glioblastoma (GBM) is the most common and deadly form of adult brain 
-    cancer. GBM cancer cells are messed up! They have been molecularly 
-    rewired in ways that mean they grow when they shouldn't, reshape the 
-    tissue surrounding them and are currently incurable. We use large 
-    scale molecular profiling to try and understand this rewiring and 
-    how we can counteract it. This means we create vast amounts of data 
-    from noisy samples across many different molecular levels at differing 
-    resolutions (from single cell to whole tissue). We believe these data 
-    hold the information we need to cure brain cancer but we to get at 
-    it we have to first have to code the heck out of it!
-    
-  speakers: [2]
+  title: "Day 1: Research Portfolio talks"
+  sessions:
+    - talkTitle: Digital twins of breast tumours for predicting neoadjuvant chemotherapy outcome
+      startTime: 1100
+      endTime: 1120
+      speaker: 2
+      description: >
+        Glioblastoma (GBM) is the most common and deadly form of adult brain 
+        cancer. GBM cancer cells are messed up! They have been molecularly 
+        rewired in ways that mean they grow when they shouldn't, reshape the 
+        tissue surrounding them and are currently incurable. We use large 
+        scale molecular profiling to try and understand this rewiring and 
+        how we can counteract it. This means we create vast amounts of data 
+        from noisy samples across many different molecular levels at differing 
+        resolutions (from single cell to whole tissue). We believe these data 
+        hold the information we need to cure brain cancer but we to get at 
+        it we have to first have to code the heck out of it!
+    - talkTitle: Using HPC to predict the spread of COVID19 misinformation
+      startTime: 1120
+      endTime: 1140
+      speaker: 1
+      description: >
+        I will present our project aimed to improve understanding of 
+        COVID-19 misinformation chains in social media using AI tracing 
+        tools.  We used our HPC cluster (1) to collect a corpus of about 
+        2 million COVID-related messages and corresponding user profiles 
+        from Facebook, Telegram and Twitter and (2) to develop AI classifiers 
+        to make predictions about the properties of the messages and the
+        profiles using Deep Learning frameworks. Our main hypothesis is 
+        that the socio-demographic profile of the audience is an important 
+        indicator for the likelihood of falling prey to misinformation, as 
+        different readers differ in how much they might be willing to share 
+        misinformation of different kinds.  We indeed found a strong positive 
+        association of the likelihood of sharing COVID-19 misinformation with
+        readers age and their right-wing political orientation. 
+        Another association we observed concerns different preferences 
+        for sharing misinformation genres, in particular, academic writing 
+        vs personal stories.
+
+    - talkTitle: "CryoEM pipelines or: How I Learned to Stop Worrying and Use all the Cores"
+      startTime: 1140
+      endTime: 1200
+      speaker: 3
+      description: >
+        As Cryo-electron microscopy (cryoEM) has been transformed over the 
+        last decade we face new bottlenecks in the filed. one of them been 
+        real time processing of the data. New software and scripts enable us 
+        to use more processing power of both CPUs and GPUs in order to deal 
+        with this bottleneck. 
   hidden: false
+  speakers: [2,1,3]
 - 
   id: 112
-  title: "Using HPC to predict the spread of COVID19 misinformation"
-  description: >
-    I will present our project aimed to improve understanding of 
-    COVID-19 misinformation chains in social media using AI tracing 
-    tools.  We used our HPC cluster (1) to collect a corpus of about 
-    2 million COVID-related messages and corresponding user profiles 
-    from Facebook, Telegram and Twitter and (2) to develop AI classifiers 
-    to make predictions about the properties of the messages and the
-    profiles using Deep Learning frameworks. Our main hypothesis is 
-    that the socio-demographic profile of the audience is an important 
-    indicator for the likelihood of falling prey to misinformation, as 
-    different readers differ in how much they might be willing to share 
-    misinformation of different kinds.  We indeed found a strong positive 
-    association of the likelihood of sharing COVID-19 misinformation with
-    readers age and their right-wing political orientation. 
-    Another association we observed concerns different preferences 
-    for sharing misinformation genres, in particular, academic writing 
-    vs personal stories.
-  speakers: [1]
+  title: "Day 2: Research Portfolio talks"
+  sessions:
+    - talkTitle: Calculating the Infrared and Terahertz Complex Permittivity of Crystalline Materials
+      startTime: 1100
+      endTime: 1120
+      speaker: 25
+      description: >
+        <p>The main aim of our research is to understand and interpret the vibrational spectra of a large range of molecular crystals. As such, we use a range of solid-state density functional packages including Castep, VASP, Crystal and CP2K along with additional phonon calculation tools such as Phonopy to determine the vibrational dynamics of these materials.
+        In the majority of cases these calculations determine both the phonon frequencies and Born charges which can be used to determine the IR intensity of the vibrational modes. However, comparing these to the experimental spectra, particularly at low frequencies can be non-trivial because the experimental spectra can be influenced by multiple other parameters including the nature of the sample (powder or single crystal), the particle size and shape along with the measurement geometry. 
+        As such we have developed the python post-processing tool PDielec [1] which can be used to understand and visualise phonon calculations. As well as acting as a general python parser for a number of density functional packages, this tool provides a QT-5 based GUI that allows the visualisation of structures and vibrational motion, and a number of tools to understand differences and improve correlation between calculated and experimental spectra.</p>
+        <p>[1] <a href="https://doi.org/10.5281/zenodo.5888313">https://doi.org/10.5281/zenodo.5888313</a></p>
+
+    - talkTitle: To be confirmed.
+      startTime: 1120
+      endTime: 1140
+      speaker: 70
+      description: 
+        
+
+    - talkTitle: To be confirmed.
+      startTime: 1140
+      endTime: 1200
+      speaker: 71
+      description: 
+
   hidden: false
-- 
-  id: 113
-  title: "CryoEM pipelines or: How I Learned to Stop Worrying and Use all the Cores"
-  description: >
-    
-    As Cryo-electron microscopy (cryoEM) has been transformed over the 
-    last decade we face new bottlenecks in the filed. one of them been 
-    real time processing of the data. New software and scripts enable us 
-    to use more processing power of both CPUs and GPUs in order to deal 
-    with this bottleneck. 
-    
-  speakers: [3]
-  hidden: false
+  speakers: [25,70,71 ]
 - 
   id: 104
-  title: "15min and 10min Talks"
+  title: "10min Talks"
   description: 
   speakers: []
   hidden: false
@@ -171,135 +201,829 @@
 # 10min talks
 
 - 
-  id: 1801
-  title: A modular, open-source pipeline for grading of Follicular Lymphoma with rapid transfer to other tasks
-  description: >
-    Cytological grading of Follicular Lymphoma (FL) involves identification and quantification of cancerous cells within lymph nodes. When conducted manually, it is only feasible for clinicians to sample ten sites from hundreds available. The process therefore suffers high sampling error and high inter-observer variability. Given these limitations, the utility of clinical cytological grading has been low.
+  id: 2601
+  title: "Day 1: 10 minute talks session 1"
+  sessions:
+    - talkTitle: "Using ARC HPC for virtual high-throughput ligand discovery: A journey through time 2009-2022"
+      startTime: 1300
+      endTime: 1310
+      speaker: 6
+      description: |
+        With the exponential rise in the number of viable novel drug targets, 
+        computational methods are being increasingly applied to accelerate 
+        the drug discovery process. Virtual High Throughput Screening 
+        (vHTS) is one such established methodology to identify drug candidates 
+        from large collection of compound libraries. This talk will detail 
+        my journey into vHTS at Leeds from ARC1 where we were able to 
+        screen tens of thousands of compounds, through to present where 
+        we are screening tens of millions and hoping to go bigger. 
+    - talkTitle: "PERPL analysis: Finding structures in cells and features of diseases from incomplete point cloud data on protein positions."
+      startTime: 1310
+      endTime: 1320
+      speaker: 44
+      description: |
+        Super-resolution light microscopy can find the positions of single proteins in a 
+        cell to within an impressive 10 nm. This should be very useful for experiments 
+        on subcellular structures in health and disease, which should in turn lead to 
+        new diagnostic methods and therapies. However, many instances of the targeted 
+        proteins are often left unlocalised, so they are missing from the point patterns 
+        obtained. There is also a lack of analysis methods for these single protein 
+        position distributions. This means that the developments in data acquisition 
+        have not led to many new biological findings. I have developed a Python framework 
+        called PERPL (Patterns Extracted from Relative Distributions) which allows pattern 
+        analysis and modelling even when more than 99% of target proteins are missing 
+        from the experimental data. I am working in 2D and 3D data, with experiments on 
+        single and pairs of proteins, and on samples from DNA-origami to single cells 
+        in a dish to human tissues. I am collaborating with clinicians to explore how 
+        this approach can benefit medical areas where diagnosis is expensive and slow, 
+        and where the variability of treatment efficacy is not well understood. 
+    - talkTitle: "Transcriptome analysis of temporal artery biopsies to identify novel pathogenic pathways based on inflammatory patterns in Giant Cell Arteritis"
+      startTime: 1320
+      endTime: 1330
+      speaker: 11
+      description: 
+        Giant cell arteritis (GCA) is the most common form of vasculitis and can lead to serious complications, 
+        such as permanent visual loss, if undiagnosed and untreated in a timely manner. The aim of my 
+        PhD project is to use transcriptomic data to gain better understanding of the molecular and 
+        genetic mechanisms underlying GCA and to identify candidate genes and pathways amenable to therapeutic targeting. 
+        The data cohort comprises eighty patients diagnosed with GCA and includes RNA-seq data generated from temporal 
+        artery biopsies, a range of clinical variables, and histological images reflecting different phenotypes relevant 
+        to the pathology of GCA. The gene expression data was processed using an in-house developed pipeline of software 
+        implemented on the HPC. A series of downstream analyses was performed to assess the influence of clinical variables 
+        (e.g., sex, age, duration of steroids exposure) and to examine the association of transcript levels with histological
+        and clinical phenotypes. The results showed that patients' sex is likely to has confounding effect and needs to be
+          accounted for in the analysis. Statistical testing revealed lists of genes (statistically significant after multiple
+          testing correction) associated with certain histological features. These results are currently being further 
+          investigated using pathway analysis approaches.
+    - talkTitle: In silico screening for small molecule inhibitors of the lectin-like oxidized LDL receptor 1
+      startTime: 1330
+      endTime: 1340
+      speaker: 13
+      description: 
+        The lectin-like scavenger receptor oxidized LDL receptor 1 (LOX-1, SR-E1, OLR1) is 
+        implicated in promoting atherosclerosis. Activation of LOX-1 by oxidized LDL (oxLDL)
+        triggers signaling, production of reactive oxygen species and apoptosis. However, 
+        there is a lack of small molecule inhibitors which target LOX-1 in disease processes. 
+        To address this issue, we carried out an in silico screen of widely available small 
+        molecule libraries e.g. Maybridge and NPASS, for compounds that bind to human LOX-1. 
+        Our approach was based on assessing physicochemical properties, 2D dissimilarity 
+        score calculation, ligand-based pharmacophore modeling, molecular docking, and 
+        ADMET (Absorption, Distribution, Metabolism, Excretion and Toxicity) calculation steps. 
+        We used the four pharmacophore model where 3 models were selected based on the top 
+        pharmacophore scores, and one combined model was generated with merged and shared 
+        pharmacophore features. Using this approach, 1963 lead compounds compounds were 
+        identified, then re-screened and ADMET calculations used to remove non-druggable 
+        candidates. We selected the top scoring compounds and carried out in silico 
+        docking with LOX-1. We identified 8 molecules that display stable docking to the 
+        surface of the LOX-1 C-type lectin-like domain using molecular dynamics simulation. 
+        These lead compounds now form the basis for further in vitro and in vivo studies to 
+        assess efficacy at targeting LOX-1 functionality.
 
-    Advances in image-based deep learning have led to creation of models with expert-like performance in cancer classification. We report the development of a deep learning pipeline for automated grading of entire tissue samples, containing millions of cells. The methods are robust to technical variability, such as differences in staining; can be executed on consumer-level computing resources and can be adapted to other disease cases within a working week.
-
-    Using the novel pipeline, we have conducted cell-level analysis of one of the largest FL image sets in the World. This has uncovered relationships between cytological grade and patient outcome. Through continued refinement, we aim to set the gold standard for cytological grading of large images, with clinical application.
-  speakers: [5]
+    - talkTitle: "How do we determine the structural changes of a viral surface protein only 16 nm tall?"
+      startTime: 1340
+      endTime: 1350
+      speaker: 9
+      description: >
+        Many viruses use their surface proteins to get inside a host cell and 
+        start an infection, like coronaviruses. Here, we sought to visualize
+        Bunyamwera virus (BUNV), a model for more pathogenic viruses like La 
+        Crosse virus, which can cause fatal encephalitis. As viruses are small
+        (~0.1 µm), we employed cryo-electron microscopy. By imaging the same
+        virions from multiple orientations, we could computationally 
+        reconstruct them into 3D volumes, termed tomograms. We then wanted 
+        to image the surface proteins of BUNV. To do this, we utilised the 
+        parallel-processing power of ARC to perform sub-tomogram averaging. 
+        We selected thousands of sub-volumes from multiple viruses, 
+        corresponding to the surface proteins of BUNV. These sub-volumes 
+        are iteratively aligned to one another, refining their rotations 
+        and locations at each stage until optimally aligned (an approach 
+        termed sub-tomogram averaging). This allowed us to generate a 
+        3D structure of the BUNV surface proteins, which are only ~16 nm. 
+        In addition, we used Google DeepMind's AlphaFold software to predict 
+        the exact amino acid structure of the BUNV surface proteins, 
+        which allowed us to interpret our sub-tomogram averaging. 
+        Overall, understanding the BUNV surface proteins will allow 
+        the future development of vaccines or anti-virals for related 
+        pathogenic viruses.
+  speakers: [6, 44, 11,13, 9]
   hidden: false
 
 - 
-  id: 1802
-  title: "Using ARC HPC for virtual high-throughput ligand discovery: A journey through time 2009-2022"
-  description: >
+  id: 2602
+  title: "Day 1: 10 minute talks session 2"
+  sessions:
+    - talkTitle: Towards Arabic sentence simplification
+      startTime: 1300
+      endTime: 1310
+      speaker: 54
+      description: |
+        Text Simplification (TS) is a Natural Language Processing (NLP) task aiming to reduce the 
+        linguistic complexity of the text while maintaining its meaning and original information 
+        (Siddharthan, 2002; Camacho Collados, 2013; Saggion, 2017). Jin et al., 2021, suggest 
+        that TS is a type of Text Style Transfer (TST), where the target style of the generated 
+        text is “simple”. The importance of TS involves: (i) designing and simplifying the 
+        language curriculum for both second and first language learners; (ii) being a 
+        fundamental pre-process in NLP applications such as text retrieval, extraction,
+         summarization, categorization, and translation (Saggion, 2017). We experimented 
+         using two approaches: (i) a classification approach leading to lexical simplification 
+         pipelines which use Arabic-BERT (Safaya et al., 2020), a pre-trained contextualised 
+         model, and a model of fastText word embeddings(Grave et al., 2018); (ii) a 
+         generative approach, a Seq2Seq technique by applying a multilingual Text-to-Text 
+         Transfer Transformer mT5 (Xue et al., 2021). We developed our training corpus by 
+         aligning the original and the target simplified sentences from the internationally 
+         acclaimed Arabic novel “Saaq al-Bambuu”(Al-Sanousi, 2013; Familiar and Assaf, 2016), 
+         then evaluated the effectiveness of these methods using the BERTScore evaluation metric 
+         (Zhang et al., 2020). The simple sentences produced by the mT5 model achieved P 0.72, R 
+         0.68, and F-1 0.70 via BERTScore, while combining Arabic-BERT and fastText achieves P 
+         0.97, R 0.97, and F-1 0.97. Overall, there are advantages and limitations in the two 
+         approaches, both could benefit from adding a post-handler language generation module.
 
-    With the exponential rise in the number of viable novel drug targets, 
-    computational methods are being increasingly applied to accelerate 
-    the drug discovery process. Virtual High Throughput Screening 
-    (vHTS) is one such established methodology to identify drug candidates 
-    from large collection of compound libraries. This talk will detail 
-    my journey into vHTS at Leeds from ARC1 where we were able to 
-    screen tens of thousands of compounds, through to present where 
-    we are screening tens of millions and hoping to go bigger. 
+    - talkTitle: Sketch Engine & Wordsmith in Cross-Lingual Stylometry Research
+      startTime: 1310
+      endTime: 1320
+      speaker: 34
+      description: |
+        Text Analysis software are used to process corpus data to present various statistical information and detailed breakdown of the data. There are different tools used to assist with this type of analysis such as Wordsmith and Sketch Engine.  
 
-  speakers: [6]
+        One field that utilizes such tools is STYLOMETRY which hypothesize that individuals have uniquely distinguishing characteristics in their writing style that can be measured, even between those less experienced writers (van Halteren et al., 2005).  These characteristics may include preferences for vocabularies, expressions, figures of speech, syntactic patterns, and use of punctuations, which all play a part in forming one’s style.  This field goes further to CROSS-LINGUAL STYLOMETRY which examines whether one’s style in writing remains the same when bilingual or multilingual author writes in two or more different languages.  
+
+        In this presentation, the use of Wordsmith and Sketch Engine in a Cross-Lingual Stylometry research examining the works of the bilingual writer Gibran Kahlil Gibran is discussed alongside the challenges faced.
+
+    - talkTitle: Exploring the GLIDE model for Human Action-effect Prediction
+      startTime: 1320
+      endTime: 1330
+      speaker: 33
+      description: 
+        We address the following action-effect prediction task.  Given an image depicting an initial state of the world and an action expressed in text, predict an image depicting the state of the world following the action. The prediction should have the same scene context as the input image. 
+        We explore the use of the recently proposed GLIDE model for performing this task. GLIDE is a generative neural network that can synthesize (inpaint) masked areas of an image, conditioned on a short piece of text. Our idea is to mask-out a region of the input image where the effect of the action is expected to occur. GLIDE is then used to inpaint the masked region conditioned on the required action. In this way, the resulting image has the same background context as the input image, updated to show the effect of the action. We give qualitative results from experiments using the EPIC dataset of ego-centric videos labelled with actions.
+
+    - talkTitle: "Integrating Religious Knowledge: From a Heterogeneous Format to an RDF Model"
+      startTime: 1330
+      endTime: 1340
+      speaker: 36
+      description: 
+        Linguists and religious scholars have analysed, annotated and segmented Qur'anic text 
+        using a variety of representations and formats. However, Qur'anic resources on 
+        different topics, aspects and formats can be difficult to link due to the Qur'an's complexity.
+         The segmentation and annotation of the Holy Qur'an can be represented in a variety of 
+         heterogeneous structures (e.g. CSV, JSON and XML), but there is no standardised mapping
+          formalisation for the data. Therefore, this study aimed to link morphological 
+          segmentation tags and syntactic analyses in Arabic and Buckwalter forms to 
+          Hakkoum ontology to enable further clarification of the Holy Qur'an. 
+          To achieve this, we used the RDF Mapping Language (RML) tool to 
+          automatically link Hakkoum ontology concepts to each column of the 
+          QacSegment corpus. Then, we used Protégé Editor to extract and link 
+          Arabic text by expressing specific rules. The tools used in this 
+          study allowed for the automatic mapping and linking of heterogeneous data 
+          sources into an RDF data model. In addition, the integrated ontology was 
+          evaluated using a SPARQL query on an Apache Jena Fuseki server. 
+          This experiment was conducted on all chapters, verses, words and segments of 
+          the Qur'an corpus.
+
+    - talkTitle: Deep Learning of Semantic Similarity in the Quran
+      startTime: 1340
+      endTime: 1350
+      speaker: 41
+      description: >
+        Semantic similarity detection is a crucial task in natural language comprehension. It is vital in many NLP applications such as information extraction, words sense disambiguation, text summarization, and text clustering. My work focuses on the semantic similarity in the Quran and proposes a Siamese transformer-based architecture for pairwise semantic similarity detection in the Quran. It exploits a pre-trained model, that is, AraBERT, to derive semantically meaningful sentence embeddings and achieve state-of-the-art results on the semantic similarity measures. My model benefits from the Siamese network architecture, like in SBERT, to finetune the pre-trained model with less computational burden characterizing sentence-pair regression tasks.
+
+        My research presents a verse-embedding using twin Siamese AraBERT-networks for fast and efficient semantic similarity detection in the Quran. The proposed architecture starts with pre-trained AraBERT models. Then, a Siamese setup is used to finetune the models on a semantic similarity dataset drawn from the Quran. As a result, the architecture achieved a score of 84.96% Spearman correlation representing its ability to assess whether two verses are similar. Furthermore, the model set a high-performance record of 95% F1 score on the Quranic semantic similarity dataset. Indeed, it improves the Quranic semantic similarity measures and performance over previous studies.
+
+  speakers: [54, 34, 33, 36, 41]
   hidden: false
 
 - 
-  id: 1803
-  title: "I learned a programming language... now what?"
-  description: >
+  id: 2603
+  title: "Day 1: 10 minute talks session 3"
+  sessions:
+    - talkTitle: Optimal Seed Generator in Biosequence Search Algorithms
+      startTime: 1400
+      endTime: 1410
+      speaker: 58
+      description: |
+        Sequencing and pattern matching stays one of major problems in bioinformatics. With the amount of data to process ever-increasing, the development of fast and efficient algorithms stays very important. Seeding is one of the techniques which efficiently speeds up the searching algorithms. However, finding optimal seeds, which maximise efficiency is still an open problem.
+        It has been acknowledged that spaced and subset seeding (non-binary) results in a more efficient search. A few seed generators, such as Iedera, Rasbhari or SpEED were suggested; however, the speed-up is achieved at the cost of reducing sensitivity.
+        We suggest a new framework (PerFSeeB) to find a set of optimal spaced (binary) seeds for a given set of parameters. It has been noticed that the optimal seeds possess a periodic structure. The found spaced seeds guarantee to locate all positions within a reference genome for a predefined number of allowed mismatches.
+        The code is written in C++, it is vectorized and optimized for a multicore workstation. A special way to store the dataset has been suggested. The operations with the dataset were also optimized.
 
-    Coding is no longer just a software developer activity. Codes have been used for the most diverse activities across different areas. In this context, people with the most diverse backgrounds have sought to learn some programming language, but like any human language, there is a huge gap between learning language syntax and actually engaging in a conversation about a random topic with a native speaker.
+    - talkTitle: "Brains Over Brawn: Thinking About New Paradigms for Biophysical Simulations"
+      startTime: 1410
+      endTime: 1420
+      speaker: 19
+      description: |
+        <p>Climate change is a serious problem for humanity, and the high-performance computing sector has its own part to play in its alleviation[1]. Yet in addition to this challenge, the socio-economic push for hardware growth has its own scientific issues, particularly regarding the nature of the scientific method, Ockham’s Razor and the nature of understanding.
+        I will present three biophysical simulation techniques developed as part of my own research which showcase alternate, bespoke ways of thinking about the physics at work in novel biological systems. Fluctuating Finite Element Analysis (FFEA) models large, globular biological systems as continuum mechanical systems[2,3]. BioNet models hierarchical protein networks using experimentally relevant building block[4,5]. Finally, our mechano-kinetic model utilises bespoke energetic functions to modify Markov state models and couple long- and short- timescale biological processes together[6]. I will discuss why each of these techniques is justified in leaving out specific types of fine-detail, thus saving computational power, and conclude with a perspective on the responsibility of computational scientists to favour the creation of smart methods over a reliance on hardware improvements.</p>
+        <p>[1] Frost, J.M. (2017). <a href="https://jarvist.github.io/post/2017-06-18-carbon-cost-of-high-performance-computing/">https://jarvist.github.io/post/2017-06-18-carbon-cost-of-high-performance-computing/</a></p>
+        <p>[2] Solernou, A., Hanson, B.S. et al. (2018). PLoS Comp. Biol. 14(3), 1-29</p>
+        <p>[3] Hanson, B.S. et al. (2021). Methods. 185, 39-48</p>
+        <p>[4] Hanson, B.S. et al. (2019). Soft Matter. 15(43), 8778-8789</p>
+        <p>[5] Hanson, B.S. et al. (2020). Macromolecules. 53(17), 7335-7345</p>
+        <p>[6] Hanson, B.S. et al. (2022). bioRxiv. <a href="https://doi.org/10.1101/2020.11.17.386524">https://doi.org/10.1101/2020.11.17.386524</a></p>
 
-    This is the scenario people are facing with coding. We learn syntax, we practice with very simplified problems, but when we are faced with real problems in our field, we cannot even imagine how to solve them. In this talk I will present some ideas to help to reduce the gap between learning a programming language and being able to use it to solve problems.
 
-  speakers: [7]
+    - talkTitle: "Deconvolution of bulk transcriptomic data reveals immune cell landscape of inflammatory infiltrates in giant cell arteritis"
+      startTime: 1420
+      endTime: 1430
+      speaker: 11
+      description: >
+
+        The cellular landscape of many rare diseases remains enigmatic, due to limitations of data availability. 
+        Yet the knowledge of cellular composition is crucial to understand molecular events and cellular players 
+        driving the conditions. Recent advances in computational deconvolution methods have made it possible to 
+        infer cell type proportions from bulk RNA-seq datasets, that are more prevalent and cost-effective than 
+        single-cell RNA-seq datasets. We performed deconvolution of bulk RNA-seq dataset (n=88) generated from 
+        temporal artery biopsies of patients with Giant Cell Arteritis (GCA), using a single-cell RNA-seq dataset 
+        (n=9,) as a reference (also generated in GCA patients). The main objective of the study was to uncover 
+        cell type proportions in biopsy samples and shed light on cell-type-specific associations with clinical 
+        and histological phenotypes in GCA. Several deconvolution software packages were used, and the obtained 
+        cell type proportions were compared to determine methods reliability and its suitability for vascular 
+        tissue data. Overall, the findings reveal a previously unreported landscape of cell population abundance 
+        levels in GCA biopsies and provide novel insights into cell-type-specific expression profiles of both, 
+        transcripts already known to be involved in GCA pathogenesis, as well as novel molecular signatures that 
+        might have potential for therapeutic targeting. 
+        
+    - talkTitle: Video Synthesis of Talking Head 
+      startTime: 1430
+      endTime: 1440
+      speaker: 57
+      description: 
+        My talk is about synthesising talking-head videos from speech audio using AI. I will give a introduction about the task and the application of it.  I will talk about the approach we propose and the results. I will also talk about the Python packages that I use and other packages as well. 
+
+    - talkTitle: Democratising Billion-Scale Deep Learning Model Training
+      startTime: 1440
+      endTime: 1450
+      speaker: 15
+      description: >
+        Deep neural networks (DNNs) with billion-scale parameters have demonstrated impressive performance in solving a wide range of tasks, from image generation and natural language understanding to drive-less cars and bioinformatics. Unfortunately, training a billion-scale DNN is out of the reach of many data scientists and academics because it requires high-performance GPU servers that are too expensive to purchase and maintain. 
+
+        I will talk about STRONGHOLD - an open-source library developed during a collaborative project between U. Leeds and Alibaba (a major industry AI player). STRONGHOLD is integrated with the widely used PyTorch framework and requires no change to the user code.  It scales up the trainable model size on a single GPU by over 30x compared to the state-of-the-art approach without compromising the training efficiency. We showcase that STRONGHOLD supports the training of a model with 39.5B parameters on a single 32GB V100 GPU. 
+
+        By combining compute and memory efficiency with ease of use, STRONGHOLD democratises large-scale model training by making it accessible to data scientists with access to just a single GPU.
+
+  speakers: [58, 19,11, 57, 15]
   hidden: false
 
 - 
-  id: 1804
-  title: "How do we determine the structural changes of a viral surface protein only 16 nm tall?"
-  description: >
+  id: 2604
+  title: "Day 1: 10 minute talks session 4"
+  sessions:
+    - talkTitle: "Flame instability of ammonia aerosol combustion: numerical simulations from astrophysics to industry"
+      startTime: 1600
+      endTime: 1610
+      speaker: 18
+      description: |
+        The Transport sector uses 20% of the world's energy. The heavy-duty and off-highway sector 
+        (e.g. mining, construction, shipping and aviation) represents 25% of all transport, and is
+         today almost exclusively powered by oil-derived fuels and thus contributes significantly
+          to carbon emissions. This sector has a very wide range of machinery, leading to a range of
+           different ways to decarbonise. Among those, alternative fuels, hydrogen and batteries are
+            feasible solutions for short-range applications due to the feature of low-energy density
+             (per volume). Ammonia (NH3) is likely the main fuel for the future long-range maritime 
+             and aviation sectors. Being carbon free, NH3 offers the possibility of fuelling gas
+              turbines, fuel cells and reciprocating engines without direct CO2 emissions. However,
+               for the successful application of ammonia as a fuel, one main challenge related to 
+               its combustion needs to be overcome: its low reactivity requires a high ignition 
+               energy, and leads to a narrow flammability range and low burning velocity. This 
+               complicates the stabilisation of the combustion flame and thus inevitably causes
+                unreliable ignition and unstable combustion. We study the properties of NH3 aerosol 
+                combustion and focus on the flame stability using a numerical tool developed for 
+                astrophysics, namely the adaptive mesh MG code. We will present an overview of the
+                 model, a range of numerical results and will highlight the impact of people, PGR 
+                 training and tools from astrophysics at Leeds in this industry-linked project and 
+                 previous similar projects.
+  
+    - talkTitle: Connecting Bradford with APIs for automated data linkage at a district level 
+      startTime: 1610
+      endTime: 1620
+      speaker: 26
+      description: |
+        We have created Application Programming Interfaces (APIs) within Python to automatically clean, reformat, and link routinely collected public service data. The APIs populate connected tables of data for hundreds of thousands of citizens, and ensure these tables update regularly as more data become available. Complementary visualisation dashboards help researchers understand the data available within the resulting ‘Connected Bradford’ database. Connected Bradford contains linked health, education, social care, environment, and local authority data for citizens across the whole Bradford district. The dashboards allow researchers to obtain information on participant demographics, the size of a cohort of interest etc so that researchers can determine whether it is possible to test a hypothesis prior to a formal data request. For example, our team were able to establish the availability of health records linked with Department of Education data to address a research question requiring Early Years Foundation Stage Profile (EYFSP) scores across multiple time-points. We found that Connected Bradford had sufficient data to describe the relationship between EYFSP and Key Stage 1 attainment scores as a function of Special Educational Needs (SEN) status. The findings allow teachers to identify children requiring additional help within the classroom and thereby provide timely interventions.  
 
-    Many viruses use their surface proteins to get inside a host cell and 
-    start an infection, like coronaviruses. Here, we sought to visualize
-    Bunyamwera virus (BUNV), a model for more pathogenic viruses like La 
-    Crosse virus, which can cause fatal encephalitis. As viruses are small
-    (~0.1 µm), we employed cryo-electron microscopy. By imaging the same
-    virions from multiple orientations, we could computationally 
-    reconstruct them into 3D volumes, termed tomograms. We then wanted 
-    to image the surface proteins of BUNV. To do this, we utilised the 
-    parallel-processing power of ARC to perform sub-tomogram averaging. 
-    We selected thousands of sub-volumes from multiple viruses, 
-    corresponding to the surface proteins of BUNV. These sub-volumes 
-    are iteratively aligned to one another, refining their rotations 
-    and locations at each stage until optimally aligned (an approach 
-    termed sub-tomogram averaging). This allowed us to generate a 
-    3D structure of the BUNV surface proteins, which are only ~16 nm. 
-    In addition, we used Google DeepMind's AlphaFold software to predict 
-    the exact amino acid structure of the BUNV surface proteins, 
-    which allowed us to interpret our sub-tomogram averaging. 
-    Overall, understanding the BUNV surface proteins will allow 
-    the future development of vaccines or anti-virals for related 
-    pathogenic viruses.
-  speakers: [9]
-  hidden: false
-- 
-  id: 1805
-  title: "Big data to useful data: making use of large scale GPS data."
-  description: >
-
-    The increasing use of secondary and commercial data sources paired 
-    with the decreasing cost of GPS enabled devices has seen a huge 
-    increase in the amount of GPS data available to researchers. 
-    These data are valuable in understanding human behaviour 
-    and how the environment around us influences our health. 
-    This presentation takes you thought the method developed 
-    to clean individual level GPS data to the OpenStreetMap 
-    Network and calculate environmental exposure(s). Scalable to 
-    large-scale GPS data with global coverage this code allows 
-    reproducible comparisons of environmental exposures across 
-    a wide range of spatial contexts. Moreover, as the code is open 
-    source and sits along existing open source packages it provides 
-    a valuable tool for policy and decision makers.
+    - talkTitle: "Model Builds Model: Mimicking Process-based Numerical Models using Machine Learning for Earth and Environmental Modelling"
+      startTime: 1620
+      endTime: 1630
+      speaker: 31
+      description: >
+        Upscaling mechanistic-based Earth and environmental models from laboratory- and field-scale to global scales is a critically important yet hugely challenging task. One challenge is to maintain the accurate consideration of underlying processes at larger scales without inducing prohibitive computational expense. Another issue is the large number of unknown model parameters. To address these, Monte Carlo and machine learning techniques can be used to substitute process-based models such as reactive transport models in porous media. This procedure gives insight into the sensitivity of global models to unknown parameters, and the trained network (meta-model) can then be used for global domain simulations, e.g., elemental cycling in the Earth system. At the global scale, the unknown parameters can be dealt with by running the meta-model iteratively using a Monte Carlo approach, for every point of the global grid to conduct a forward prediction. The extremely large number of model runs (e.g., ~107 times) becomes possible within reasonable simulation durations (e.g., < a day) owing to the very low computational demand of the meta-model. We demonstrate the promising application of these algorithms for estimating global carbon burial efficiency in marine sediments. 
+        
+    - talkTitle: The variational and numerical modelling of water waves generated by numerical wave-tank
+      startTime: 1630
+      endTime: 1640
+      speaker: 65
+      description: 
+        Oceans are significant for human life as they are the means of international trading, food, and energy (renewable and non-renewable) resources. The exploitation of these resources is possible because of maritime engineering, which is concerned with the design of structures that can endure extreme hydrodynamic loads. Before the advent of computational advances, the study of hydrodynamic loads was done by scaled-model testing in wave basins which is an expensive and time-consuming process. However, with the increase in computational power, various sophisticated numerical models emerged to solve the intricate fluid dynamics problems. The most prominent high-fidelity models are based on Reynolds-Averaged Navier Stokes (RANS), Large-Eddy Simulations (LES), and Smoothed Particle Hydrodynamics (SPH). Although these models can accurately predict the complex non-linear wave phenomena, they are computationally expensive because ocean wave modelling requires a disparate range of scales. This project aims to develop a novel, cost-effective numerical wavetank based on the nonlinear variational potential-flow model to generate water waves and solve fluid-structure interaction problems without being computationally intensive. In addition, a novel way of implementing the model is explained which automates the process of calculating the weak formulations, subsequently reducing the time and human error in the coding process.
     
-  speakers: [10]
+    - talkTitle: AI as surrogate model for groundwater prediction
+      startTime: 1640
+      endTime: 1650
+      speaker: 16
+      description: >
+        Computational modelling of subsurface flow is able to analyse and forecast the response of an aquifer system to a change of its state. Numerical methods calculate the hydraulic head by iteratively solving an implicit system of equations at each time step in the discretized time and flow domains. Despite great progress in these techniques, running the groundwater model is often prohibitively expensive, especially when the scale of the system is large. 
+        Machine learning has emerged as a promising alternative and in this study, I will present my current researcg on machine learned solutions to groundwater problems.
+  speakers: [18,26, 31,65, 16]
   hidden: false
+
+- 
+  id: 2704
+  title: "Day 2: 10 minute talks session 4"
+  sessions:
+    - talkTitle: Digital twins of breast tumours for predicting neoadjuvant chemotherapy outcome
+      startTime: 1500
+      endTime: 1510
+      speaker: 12
+      description: |
+        Breast cancer is the most common cancer in women across the globe and a major cause of death. Neoadjuvant chemotherapy (NACT) 
+        is the standard of care for patients with locally advanced breast cancer, delivered to shrink the tumour before proceeding to
+         surgery. However, only 39% of patients achieve pathological complete response and up to 12% experience no response at all. As
+          such, there is a clear need to accurately identify non-responsive tumours as early as possible, enabling clinicians to 
+          discontinue the unsuccessful NACT and proceed with alternative treatment.
+
+        For this purpose, we propose using digital twins: virtual replicates of a patient's tumour cellularity, 
+        which can be evolved in time to predict evolution under a NACT regimen. Initial tumour cellularity is 
+        estimated from diffusion-weighted magnetic resonance imaging (MRI), and used to calibrate biophysically 
+        relevant mathematical models of tumour growth. This calibration comes with an extremely large computational 
+        expense, in particular for the coupling of the surrounding tissue stiffness to tumour cell diffusion. As a 
+        first step to remedying this, we have rewritten this mechanical coupling using a finite element solver, 
+        and compared code performances on synthetic datasets and MRI data from patients. 
+
+    - talkTitle: Outcome Prediction in Pelvic Radiotherapy Using Deep Multiple Instance Learning and Cascaded Attentions.
+      startTime: 1510
+      endTime: 1520
+      speaker: 22
+      description: |
+        Radiotherapy is currently used for more than 50% of patients with various cancers. Using ionising radiation to eliminate cancerous tissue as the basis of radiotherapy can also damage normal tissues around the tumour, which leads to malfunction in those organs – called toxicity. The occurrence and severity of this toxicity vary from patient to patient and it is still not well understood which factors increase the risk of toxicity. Although deep neural networks can perform challenging tasks with high accuracy, their complexity and not being able to explain their outcome hinder their application in real-world radiotherapy tasks. In our work, we propose a novel convolutional model to predict the toxicity for patients with pelvic cancers. Our novelty is twofold; firstly, we propose to employ multiple instance learning to investigate large data including 3D CT scans and 3D dose treatment plans with lower complexity. Secondly, we apply the attention mechanism to provide visual explanation for the network's behaviour. The Quantitative and qualitative performance analysis demonstrate that our framework can offer clinically convincing tools for radiotherapy toxicity prediction. The development of investigating both image and patient numerical data with a deep network will be a very important research direction for our future work.
+    - talkTitle: Integrating next generation sequencing datasets to model gene regulation during cellular differentiation
+      startTime: 1520
+      endTime: 1530
+      speaker: 49
+      description: |
+        All cells in the human body have same genetic blueprint yet have diverged to produce different proteins and perform distinct functions. This cellular diversity is achieved through regulation of gene expression, ensuring each cell switches on the right genes at the right time. As cells differentiate, non-coding regions of the genome – cis-regulatory elements – exercise tight control over gene expression through the activity of DNA-bound transcription factors. Using statistics and machine learning, we can identify transcription factor-bound cis-regulatory elements and their target genes from large, noisy next-generation sequencing datasets. Here we present an integrative ‘omics approach to identify and prioritise gene-specific cis-Regulatory Elements Across Differentiation (cisREAD). We show how sequencing datasets can be processed using high-performance computing to generate inputs to our software and demonstrate usage of the cisREAD R package.
+    - talkTitle: I learned a programming language... now what?
+      startTime: 1530
+      endTime: 1540
+      speaker: 7
+      description: |
+        Coding is no longer just a software developer activity. 
+        Codes have been used for the most diverse activities across different areas. 
+        In this context, people with the most diverse backgrounds have sought to learn 
+        some programming language, but like any human language, there is a huge gap between 
+        learning language syntax and actually engaging in a conversation about a random topic with a native speaker.<br>
+
+        This is the scenario people are facing with coding. 
+        We learn syntax, we practice with very simplified problems, 
+        but when we are faced with real problems in our field, we cannot 
+        even imagine how to solve them. In this talk I will present some ideas 
+        to help to reduce the gap between learning a programming language and 
+        being able to use it to solve problems.
+    - talkTitle: "Understanding Colorectal Cancer patients' microbiome using shotgun metagenomics: a big cohort study: COLO-COHORT"
+      startTime: 1540
+      endTime: 1550
+      speaker: 23
+      description: |
+        16000 people die of colorectal cancer (CRC) in the UK each year. More than half of CRC cases could be prevented by addressing modifiable lifestyle factors, identification of earlier stage neoplasia and targeted interventions, including chemoprevention and, crucially, polypectomy. COLO-COHORT will perform microbiome analyses on 4000 individuals undergoing colonoscopy because of symptoms or for surveillance. We will collect phenotypic information, undertake faecal immunochemical testing for occult bleeding, and obtain relevant blood investigations. It is being considered to do shotgun metagenomics. Which is a big computational challenge which include sequence assembly, alignment and annotation. After obtaining taxonomic and functional data, information will be correlated with phenotypic and the neoplasia profile at colonoscopy to identify factors which best predict disease risk. We will compare diversity and structure of the faecal microbiome in patients with and without neoplasia and correlate with dietary and/or lifestyle patterns. This project will  give valuable information on the role of the microbiome in patients with adenomas or cancer. 
+
+        My talk will be a presentation of this research story, the pipeline planning and what problems I have faced so far. Further I will be providing few results related to healthy volunteer pilot study of this project.
+  speakers: [12, 22, 49, 7, 23]
+  hidden: false
+
+- 
+  id: 2701
+  title: "Day 2: 10 minute and poster talks session 1"
+  sessions:
+    - talkTitle: "OpenInfra - open access data for transport research: tools, modelling, and simulation"
+      startTime: 1300
+      endTime: 1310
+      speaker: 63
+      description: |
+        OpenInfra project is exploring the utility of OpenStreetMap (OSM) to support data-driven decision-making for local infrastructure planning and produce “transport infrastructure data packs” for local transport authorities in the England. Data on transport infrastructure is essential for planning inclusive streets, especially in the context of cycling, walking, and wheeling. 
+
+        OSM provides an extensive dataset on the existing transport infrastructure even if often lacking detailed information, such as the type of sidewalk surface. Besides the questions regarding data completeness, there are additional challenges concerning OSM data analysis. For example, inconsistent infrastructure tagging schemes sometimes result in queries returning infrastructure networks not reflective of the actual query. Moreover, bugs in the packages used to get OSM data might hinder the analysis and/or its reliability. Lack of in-depth documentation also makes it hard to understand how, for instance, cycling network is defined.  
+
+        Whilst many tutorials exist demonstrating how to add data to OSM, there is a lack of material on working with OSM data. One of the OpenInfra objectives is to address this gap. Thus, this talk will discuss OpenInfra project, the problems we have faced and our attempts to solve them in order to produce “transport infrastructure data packs”.
+
+    - talkTitle: Computer simulations of CO2 reduction over iron sulfide surfaces
+      startTime: 1310
+      endTime: 1320
+      speaker: 24
+      description: |
+        Iron sulfides have attracted wide research interest due to their catalytic properties towards the conversion of the greenhouse gas CO2 into value added chemicals and to mitigate global warming. Several iron sulfide phases have also been associated with the catalytic centres in hydrothermal vents, that are thought to have converted CO2 into the first small organic molecules according to several origin of life theories, collectively known as iron-sulfur world hypothesis. In this talk, we will discuss the development of realistic computational models to describe the surfaces of thiospinel structured materials using thermodynamic and kinetic arguments. We will show the impact of various partial oxidation degrees on the stability of the surfaces of the sulfides and to rationalise the core-shell iron sulfide-iron (hydr)oxide structure of the nanoparticles of the catalyst. We will also illustrate the effect of partial surface oxidation on the adsorption of H2O and CO2 and their catalytic conversion into a number of small organic molecules. Finally, we will present a comparison of the catalytic properties of partially oxidised irons sulfides and partially sulfurised iron oxides to explain the enhanced activity of the former material with respect to the latter.
+
+    - talkTitle: "Exploring the effect of Nb doping and ethylene carbonate adsorptions on the LiMn2O4 major surfaces: DFT+U study"
+      startTime: 1320
+      endTime: 1330
+      speaker: 61
+      description: 
+        Cationic doping plays a crucial role in stabilizing and improving the electrochemical performance of cathode materials in Li-ion batteries. In LiMn2O4 cathode material, the incorporation of dopants reduces the number of trivalent manganese (Mn3+) ions that undergo a disproportionation reaction and limits Mn2+ ion dissolution into the electrolyte upon cycling. In this work, we discuss the effect of surface Nb doping and the adsorption of the electrolyte solvent, ethylene carbonate (EC) using the density functional theory (DFT+U-D3). Upon Nb doping, the surface energies of all the Nb-doped configurations increase as compared to the pristine surfaces, indicating destabilizing effect. Interestingly, the surface stability of the (111) surface improves, resulting in an enhancement of the (111) plane on the morphologies when Nb is doped on the second surface layers. Furthermore, the EC adsorption greatly prefers to bind with the surface when placed parallel to the facets, with the highest binding energy for Nb-doped on the (011) surface second layers. On the morphologies, the (111) surface plane upon adsorption further improves. However, we observed a minimal charge transfer between the doped surfaces and the molecule, which was dominated the electronic rearrangement within the EC molecule. This finding are interesting since exposing the (111) facet promotes the formation of stable solid electrolyte interface (SEI), which significantly limits the Mn-dissolution.
+
+    - talkTitle: The bulk and surface properties of the monoclinic and orthorhombic FeNbO4
+      startTime: 1330
+      endTime: 1340
+      speaker: 45
+      description: 
+        The FeNbO4 materials has shown the potential of being used as the catalytic electrode to the hydrogen evolution/oxidation reaction.  In this study, we have employed the Density Functional Theory (DFT) to study the pristine surfaces and the related dissociation reactions of H2 and H2O respectively. The simulation results show that there are three pristine surfaces, namely (010), (110), and (111), and those three surfaces in both the monoclinic and orthorhombic FeNbO4 showed a similar configuration, even if the distribution of the cations are totally different. We have also found that the oxygen within the water molecule prefers to get coordinated with the surface cations, forming the chemisorption, while the adsorption reaction between the H2 and surface atoms is so weak that only physisorption was formed here. In addition, out of those three surfaces, the (110) shows to be the most reactive one, which refers to that the lowest energy barriers of the dissociation reaction of the H2 and H2O occur on the (110) surface.
+
+    - talkTitle: Challenging Deep Learning Models with Classical Arabic
+      startTime: 1340
+      endTime: 1342
+      speaker: 20
+      description: >
+        The use of artificial intelligence to understand human language has gone a long way, especially in English where deep learning models showed near-perfect results on several downstream tasks. However, their performance in classical Arabic texts is largely unexplored. To fill this gap, I evaluate state-of-the-art Transformer-based models on a binary classification task of identifying relatedness between the Quran and the Hadith, which are classical-Arabic religious texts with embedded meanings. Before conducting the experiment, the need for classical Arabic training and testing datasets is identified. Hence, I developed a methodology to automatically collect the training dataset of Quran-verse pairs by relying on existing Quran ontologies. Then to collect the testing dataset, I introduced an approach of automatically identifying related Quran-Hadith pairs from reputable religious websites by following rigorous heuristics. Once the datasets are created, the experiments begin by fine-tuning the models using PyTorch library, Tesla T80 GPU processors, and various hyperparameters of leaning-rate, batch size, number of epochs with early-stopping to avoid overfitting. The results show a ~20 points drop in F1 score across all the models which call for the imminent need to explore avenues for improving the quality of these models to capture the semantics in such complex texts.
+
+    - talkTitle: The NETWORKx and PANDAS tools, and their use in fake news detection
+      startTime: 1342
+      endTime: 1344
+      speaker: 38
+      description: >
+        Since the advent of social media and the exponential growth of online information, it is becoming entirely complicated to decipher the true from the false, which leads to the problem of fake news.  In this case study, we utilised various tools to automate the process of detecting misinformation.  The most distinguished and productive tools we employed are Pandas and Networkx.  The Pandas is a Python library for data manipulation and analysis typical to statistics, finance, social sciences, and many other fields.  At the same time, the Netwrokx is a Python package for creating, manipulating and studying complex networks' structure, dynamics and functions.  We would like to showcase how we utilised these tools in combination in our research, which could be of interest to other fields and case studies.
+
+    - talkTitle: Knowledge Representation for Islamic Research
+      startTime: 1344
+      endTime: 1346
+      speaker: 42
+      description: >
+        Recently ontologies have been used to improve the efficiency of different computational models such as search systems. The main aim of our research project is to utilize ontology as a source of Islamic knowledge representation avaliable for Quraan and Hadith to improve the Islamic search model. The first phase of our research is based on analyzing the coverage of Islamic topics in the Quranic ontologies focusing on the Hajj domain as a case study. For the evaluation process, we used one of the available ontologies called QuranOntology. The ontology consists of roughly 110,000 concepts with more than one million RDF triples. The Protégé tool was used to view the ontology, but the ontology's gigantic size has imposed a challenge. Therefore, the alternative solution was to use Apache Jena Fuseki platform to explore the ontology. After reconfiguring the tools, we noticed that the Protégé tool provided an excellent User Interface to browse the ontology, while Apache Jena Fuseki was more efficient for querying the ontology.
+
+  speakers: [63,24,61,45,20,38,42]
+  hidden: false
+
+- 
+  id: 2702
+  title: "Day 2: 10 minute talks session 2"
+  sessions:
+    - talkTitle: Using Summative Connectors in Arab Learners Academic Writing 
+      startTime: 1300
+      endTime: 1310
+      speaker: 56
+      description: |
+        "Using discourse connectors is one of the problems learners face when writing an academic text. With the development of corpus tools, researchers are now able to investigate the actual usage of this linguistic feature. In this study, I will answer two research questions. First, how frequently advanced Arab learners of English use summative connectors following the taxonomy adopted from Quirk's et al., (1985). Second, whether Arab learners’ use of connectors differs to that of native speakers of American and British English. The data for this study are taken from three corpora: BALK, consisting of texts written by either Arab first-year university students or third-year secondary school students, and the American and British English sub-corpora of the Pearson International Corpus of Academic English (PICAE). Both quantitative and qualitative approaches were used for the analyses and a Log-Likelihood (LL) statistical test was conducted to compare the frequencies of words between corpora.
+        Quirk, R., Greenbaum, S., Leech, G. and Svartvik, J. 1985. A Comprehensive grammar of the English language. London; New York: Longman."
+
+    - talkTitle: "Optimisation models for sustainable fashion: An approach towards zero waste fashion design"
+      startTime: 1310
+      endTime: 1320
+      speaker: 64
+      description: |
+        The fashion industry's impact on the environment is a critical global problem. One of the industry's global impact is affected by the amount of waste generated in the cutting stage of fabric. The distinction between the roles of fashion designers and marker makers caused the ”design” and ”make” processes to be linear, which allowed for more waste on the cutting floor. Some designers started exploring the Zero Waste Design concept, which means designers consider the allocation of pattern pieces while designing garments. However, this approach has been criticised for not allowing designers to have aesthetic control over designs.
+
+        This research aims to transform the “design” and “make” processes from linear to circular and allow designers to have aesthetic control when designing a zero-waste or a minimal waste design. By developing an optimisation algorithm based on the overlap minimisation problem that aims to minimise the waste generated from the cutting stage of the fabric where irregular shapes need to be cut from a fabric roll, also known as the “Two Dimensional Irregular Strip Packing Problem”. Through a collaboration with a designer, we aim at integrating the designer’s design-making process with the algorithm design to inspire the designer to make adjustments to the initial design through an iterative process until a satisfactory marker with minimal to zero waste is achieved.
+
+    - talkTitle: "Make Academic Findings Shiny: Web Application Development and Best Practices for Using R Shiny to Communicate Research Results"
+      startTime: 1320
+      endTime: 1330
+      speaker: 68
+      description: 
+        Shiny and related packages provide a framework for creating web applications using R programming language. Through the use of interactive widgets, the outputs such as plots, tables or maps change based on the input from the user. Therefore, R Shiny provides a compelling way to share research findings. Despite the advantages, the extensive functionality of Shiny may serve as a hindrance when starting to use the tool. This talk is a walk-through of the dashboard that I developed for the Urban Transport Modelling for Sustainable Well-Being in Hanoi project (https://urban-analytics.github.io/UTM-Hanoi/intro.html) as a communication tool of the household survey analysis. I discuss both the code and the functionality including related packages such as `golem`, `shinydashboard`  and `DT`. Finally, useful practices (modules, deployment and app structure) and starting-point resources are shared.
+ 
+    - talkTitle: "Save your tears for the data: A touch of Docker in a Data Scientist's workflow"
+      startTime: 1330
+      endTime: 1340
+      speaker: 67
+      description: 
+        Many data science teams have become multilingual, leveraging R, Python, Julia and friends in their work. Into the bargain, different data scientists have different preferences in their coding environments and operating systems. While this diversity allows data scientists to work with the tools they are most comfortable with, it can become a pain to share the same projects on different machines with different configurations. This talk illustrates how data scientists can leverage Docker containers to create portable, reproducible and tailored development environments, which can be instantiated reliably in different environments, operating systems and hardware. Data scientists can therefore focus on what they love and do best (i.e data science) without having to worry about the hassle required to reproduce their work, deploy their analysis dashboards or even deploy their models.
+
+    - talkTitle: Leeds Analytics Secure Environment for Research (LASER) - an overview
+      startTime: 1340
+      endTime: 1350
+      speaker: 60
+      description: >
+        <p>The Leeds Analytics Secure Environment for Research (LASER) is a University of Leeds (UoL) service hosted in the Leeds Institute of Data Analytics (LIDA) on Microsoft Azure. </p>
+        <p>LASER offers the combination of meeting the highest standards of security for data analytics, ensuring ISO27001 and NHS Data Security and Protection Toolkit compliance with the flexibility to enable constant agility in design and function; alongside scalability depending on the researcher need.</p>
+        <p>LASER is the platform upon which we can build and host Virtual Research Environments (VREs). In their simplest form, a VRE is a virtualised environment consisting of virtual machines and shared storage where data flow is strictly controlled. Taking a &#39;walled garden&#39; approach, there is no access to the internet or other networks from inside a VRE.</p>
+        <p>The LASER Platform has been designed with and for researchers and includes the following capabilities:  </p>
+        <ul>
+        <li>Fully flexible and scalable to enable researchers to align spend to research requirements.</li>
+        <li>Agile and quick to provision, to support a range of research user cases.</li>
+        <li>Access to the latest tools and capabilities such as machine learning to support researchers.</li>
+        </ul>
+
+  speakers: [56,64,68,67,60]
+  hidden: false
+
+
+- 
+  id: 2703
+  title: "Day 2: 10 minute and poster talks session 3"
+  sessions:
+    - talkTitle: "Comparative analysis of WEKA and RapidMiner"
+      startTime: 1400
+      endTime: 1410
+      speaker: 39
+      description: |
+        Data Mining mainly aims to acquiring meaningful information from given data. This term covers applying suitable functional methods such as (classification, clustering, association, etc.) to get desired output and knowledge. One of the data mining sectors is text mining, which concentrates on text analysis to get meaningful information as knowledge.
+        This work shows a comparative analysis of WEKA and RapidMiner as useful Machine Learning open-source toolkits. Both tools have the capability to handle text mining tasks in easy, automatic, and professional way. So, the illustration includes the entire text mining experiments have been conducted, starting from converting dataset format, going through building classification models, and ending with presenting results. Also, the comparison explains the advantages and disadvantages of both toolkits as ML platforms and their constructions in terms of user interface, dataset format, classification methods and techniques, related extensions, the process building stage, visualization, and the results. This case presentation seeks to present how each toolkit could be used for data mining and text analytics, which could help AI learners and researchers to select a suitable toolkit to achieves their works.
+
+
+    - talkTitle: "Messagepack: Data Compression tool for your big dataset To Train Neural Network"
+      startTime: 1410
+      endTime: 1420
+      speaker: 69
+      description: |
+        One common challenge in Training Neural Network Model (especially supervised learning) is the necessity of a large dataset. In my research case, Training Neural Network for Fluid Dynamics related to vorticity propagation in 3D Domain requires hundred of thousands of simulation frames and hundreds of scenes of ground truth data which lead to hundreds of gigabytes of data. Since RAM and GPU memory is constrained, how could we deal with this large size of data? Could we compress it to reduce the memory footprint while maintaining portability?    Here the MessagePack comes. MessagePack is an efficient binary serialization format that lets you exchange data among multiple languages like JSON. However, it's faster and smaller. In my research, I implemented a pipeline to transform, read and write the data into chunks of MessagePack. The data become portable and ready to train in batch.
+
+    - talkTitle: Generative Modeling for Shapes as Graphs without Correspondences using Graph Convolution Networks and Attention
+      startTime: 1420
+      endTime: 1430
+      speaker: 27
+      description: 
+        Graphs are powerful data structures to represent surface meshes via nodes and edges, modelling vertices and their spatial connections, respectively. In recent years, generative modelling for shapes as graphs has emerged as an active research area. However, developing statistical generative models from multiple instances of graphs imposes significant challenges as the structure of the graphs may vary across the training data. 
+        To overcome this limitation, we propose an unsupervised framework to learn a probabilistic deep generative model, applicable to datasets including shape surface mesh data with no correspondences. First, a synergy of a graph convolutional and attention networks (GCN-ATT) establishes a vertex-to-vertex correspondence between the graphs in the latent space while learning an atlas mesh. Subsequently, a variational autoencoder (VAE) learns a probability density function from a set of structurally normalised graphs in the 3D space. 
+        As a result, this framework enables us to generate realistic graphs from shapes having an inconsistent number of vertices and connections. To demonstrate the versatility, we apply the method to real mesh (as grid graph) datasets obtained from cardiac magnetic resonance and liver CT images. To the best of our knowledge, this is the first work that uses such an approach for synthetic 3D organ shape generation from a population of inconsistent shape structures.
+        We show that the proposed GCN-ATT-VAE network can generate realistic synthetic graphs, as evidenced by both quantitative and qualitative results.
+
+    - talkTitle: Unravelling the chemical mechanisms of kidney stone growth
+      startTime: 1430
+      endTime: 1440
+      speaker: 29
+      description: 
+        The key chemical interactions relating to kidney stone crystallisation and aggregation are not fully understood. Kidney stones are solid clusters of small stones, composed of crystals that have precipitated from urine and built up on the luminal surface of the epithelial cell surfaces of the kidney microtubule. Mineral accounts for 97% of a kidney stone with the remaining material being organic matrix, such as proteins and amino acids.  This research uses the first principles modelling code, CASTEP on ARC3 and ARC4, to help elucidate the crystallisation phenomena and unravel the chemistry behind stone composition. To begin to understand the nucleation process, we have constructed surface models of calcium oxalate monohydrate and calcium oxalate dihydrate and modelled stone growth, simulating further calcium oxalate adsorption onto these surfaces. Next, as the interactions between urinary macromolecules and crystal surfaces at an atomic level are unexplained, we performed ab initio molecular dynamics of phosphocholine adsorption on the surfaces and have shown that the phosphocholine head groups become entrapped within the growing crystal. To investigate the interactions between growing crystal surfaces and a known inhibitor, citrate, we have further performed geometry optimisations of citrate adsorption on calcium oxalate surfaces.
+
+    - talkTitle: A modular, open-source pipeline for grading of Follicular Lymphoma with rapid transfer to other tasks
+      startTime: 1440
+      endTime: 1450
+      speaker: 5
+      description: >
+        Cytological grading of Follicular Lymphoma (FL) involves identification and quantification of
+        cancerous cells within lymph nodes. When conducted manually, it is only feasible for 
+        clinicians to sample ten sites from hundreds available. The process therefore suffers 
+        high sampling error and high inter-observer variability. Given these limitations, 
+        the utility of clinical cytological grading has been low.
+        Advances in image-based deep learning have led to creation of models with expert-like performance in cancer classification. We report the development of a deep learning pipeline for automated grading of entire tissue samples, containing millions of cells. The methods are robust to technical variability, such as differences in staining; can be executed on consumer-level computing resources and can be adapted to other disease cases within a working week.
+        Using the novel pipeline, we have conducted cell-level analysis of one of the largest FL image sets in the World. This has uncovered relationships between cytological grade and patient outcome. Through continued refinement, we aim to set the gold standard for cytological grading of large images, with clinical application.
+
+  speakers: [39,69, 27,29, 5 ]
+  hidden: false
+
 
 # lightning talks
 
+
 - 
-  id: 1001
-  title: "Faster estimation of choice models using HPC"
-  description: >
-    The main goals of choice models are typically to predict a set of
-    outcomes given a discrete set of choice alternatives and to 
-    forecast choices given a change in choice context. Many 
-    different economic and psychological concepts can be 
-    incorporated within a choice model, leading to frequent
-    implementation of very complex models.
-    Additionally, recent technological advances have led to the 
-    availability of a wider range of data for behavioural
-    modelling. In particular, physiological data (eye-tracking, EEG, etc)
-    and large-scale revealed preference data (e.g. travel card or 
-    supermarket clubcard data) have meant that we have have more 
-    complex and larger choice datasets.
-    The combination of complex models for complex datasets requires 
-    significant computational power, far beyond what can be computed
-    in a reasonable time for standard desktops, 
-    which may take weeks or months to compute estimates for the 
-    model parameters that best explain the full set of choice observations.
-    In this presentation, we demonstrate examples of how the Apollo 
-    package in R allows us to run models on multiple cores, which can 
-    be estimated at least 20 times faster with the Leeds HPC. 
-  speakers: [4]
+  id: 2610
+  title: "Day 1: Lightning talks and poster presentations"
+  sessions:
+    - talkTitle: Sensitivity analysis of an agent-based model using HPC
+      startTime: 1400
+      endTime: 1402
+      speaker: 17
+      description: |
+        We develop a spatially explicit agent-based model (ABM) - BESTMAP-ABM-UK that simulates Humber farmers’ decision-making process, inclusive of farmers’ social, behavioural and economic factors, on adoptions of agri-environment schemes (AES) using NetLogo. AES are government-funded voluntary programs that incentivise farmers and land managers for environmental friendly farming practices. We carry out global sensitivity analysis of the model using the Morris screening method. The Morris screening method is a computationally efficient screening technique that allows us to identify the important model input factors. Because the sensitivity analysis requires running a large number of simulations, we use a R package named nlrx and run the NetLogo model on HPC. The results reveal the rank of importance of the seventeen parameters to the model output, i.e., farm adoption rate, which is useful for prioritising our focus on the most influential parameters in the model calibration stage.
+
+    - talkTitle: Building a data pipeline to analyse symmetries in network.
+      startTime: 1402
+      endTime: 1404
+      speaker: 53
+      description: |
+        A network or graph consists of a set of vertices and a set of edges that link pairs of vertices. Networks are used in a wide range of areas, for example, to study the spread of disease through networks of social contacts. Studying such dynamics on networks accurately involves a significant amount of computation, but this can be reduced by making use of symmetries in networks, where symmetries result from vertices that can be swapped without changing the structure of the network. In my MSc project, I am investigating network symmetries using a data set that consists of all graphs up to 11 vertices, which includes more than a billion networks. In this poster, I will describe my efforts to process and analyse these data using the HPC facility at Leeds.
+    - talkTitle: Decolonizing Reading Lists for educational engagement and student success
+      startTime: 1404
+      endTime: 1406
+      speaker: 37
+      description: |
+        There is growing interest and investment in Educational Engagement and Student Success at Leeds University; eg see <a href="https://spotlight.leeds.ac.uk/strategy/">UoL Strategy 2020-2030</a>
+
+        One aspect of this is computing research on decolonizing the curriculum, by staff in Computing, Library and LITE for decolonizing reading lists. Data Analytics of taught module reading lists has shown that UK and US authors write most Engineering and Science teaching textbooks at Leeds University. If university students are told to read only textbooks by UK and US authors, does this bias their learning? AI research has shown that Machine Learning copies bias in the training data. 
+
+        One challenge of this computing research has been access to data: reading lists can be incomplete or missing, and/or inaccessible. Another challenge has been validated annotation of representative training and test data-sets: marking each reading list item with “bias labels”.
+
+        We will present further challenges, and initial results of our project on AI for decolonizing reading lists; see <a href="https://www.turing.ac.uk/events/turings-cabaret-dangerous-ideas-leeds">https://www.turing.ac.uk/events/turings-cabaret-dangerous-ideas-leeds</a>
+
+    - talkTitle: Spin transitions in ferropericlase in the lower mantle.
+      startTime: 1406
+      endTime: 1411
+      speaker: 47
+      description: |
+
+        Ferropericlase (Fe,Mg)O is the second most abundant phase in the lower mantle. It has a simple rock-salt structure, but has a rich and complex chemistry due to the unpaired d electrons of iron. Over recent years it has been shown that iron in ferropericlase should undergo a pressure-induced spin transition in the mantle, going from a high-spin state with four unpaired d-electrons to a low-spin state where all d-electrons electrons are paired. Further studies have shown that this has a significant impact on the density, bulk modulus and viscosity of the phase, with corresponding implications for interpretation of seismic observations and the dynamics of the lower mantle. To date, there are significant differences between the calculated and measured onset and breadth of the spin transition, as well as its temperature dependence. In this study we build upon previous work and go beyond the assumed ideal mixing of high- and low-spin iron. We find that the favourable enthalpy of mixing of neighbouring on-axis iron atoms leads to a broadening of the spin transition compared to previous calculations in better accord with experimental results. 
+
+    - talkTitle: Simulations of tidally locked exoplanet atmospheres in 3D
+      startTime: 1411
+      endTime: 1416
+      speaker: 30
+      description: |
+
+        Using the Whole Atmosphere Community Climate Model (WACCM), a 3D Earth System Model, I have simulated M dwarf terrestrial exoplanets that synchronously rotate around their host stars. These exoplanets are ‘tidally locked’, meaning the star is unmoving in the sky, such that the exoplanet has a warmer dayside and a colder nightside. Tidally locked exoplanets have an unusual circulation structure. Super-rotating jets form and distribute heat to the nightside, resulting in distinctive cloud patterns that depend on total irradiation and rotation speed. Consequently, the distribution of chemical species is affected. All these properties result in climate predictions that look unique when compared to any planet in our solar system. Therefore, I use the WACCM simulations to predict future observations of these exoplanets with next generation telescopes. To help with my own research and that within the exoplanet community, I have developed two open-source tools written in Python and in Jupyter Notebook. One improves the speed and flexibility of climate data analysis. The other ingests stellar spectra and scales the total irradiance to match the irradiance received by exoplanets in the NASA Exoplanet Archive. This tool speeds up the time it takes to initiate simulations for multiple exoplanets.
+   
+    - talkTitle: High-Resolution Modelling of Future Air Quality following Shared Socio-economic Pathway Emissions Changes 
+      startTime: 1416
+      endTime: 1421
+      speaker: 21
+      description: |
+
+        Air pollution is one of the world's leading causes of premature death. It is therefore important
+        to understand how future emissions changes could impact air-pollution related mortality.
+        Futures with more ambitious climate change mitigation could have air quality co-benefits
+        compared to less sustainable futures due to common sources of greenhouse gases and air
+        pollutants. Different futures can be represented with the Shared Socioeconomic Pathways
+        (SSPs), which provide narratives describing different futures and projected socioeconomic
+        and emissions data, and supersede the Representative Concentration Pathways. Current modelling of air quality following the SSPs often uses coarse-resolution global models or reduced complexity models that give
+        regional averages of air pollution related mortality, which may less accurately represent changes in
+        mortality on a smaller scale.
+
+        Using emissions projections from three SSPs representing very different approaches to
+        climate change mitigation (SSP1-2.6, SSP2-4.5 and SSP3-7.0) and a detailed, high-resolution atmospheric chemistry model (WRF-Chemv4.2) with chemical initial and boundary
+        conditions from WACCM simulations of the same scenarios, we simulate 2050 PM2.5 and O3
+        in Western Europe. This allows estimation of the future air pollution-related health
+        burden at a more regionally-refined scale than previous research.
+
+    - talkTitle: Leeds Institute of Fluid Dynamics Machine Learning for Earth Sciences Tutorial
+      startTime: 1421
+      endTime: 1426
+      speaker: 55
+      description: |
+        One of the biggest hurdles to getting started with applying machine learning to scientific research is getting a working set-up and an example of how to use a technique on real scientific data. CEMAC has teamed up with the Leeds Institute of Fluid Dynamics to create a series of Jupyter Notebooks that take you through a number of machine learning techniques applied to real Earth Science research. These are stripped down to run on laptops, or small servers with continuous integration ensuring longevity in the tutorials and where possible quick look binder links to explore the code without even having to install the given python environment. Currently, there are 4 available tutorials covering a range of topics from using Convolutional Neural Networks to identify and classify volcanic deformation to using Random Forests to determine controls on leaf temperature. Another 3 notebooks will be added this summer and we hope to continue expanding this resource in future years. 
+
+    - talkTitle: Surface stability analysis for CuWO4
+      startTime: 1426
+      endTime: 1431
+      speaker: 59
+      description: |
+        Recently, Copper tungstate (CuWO4) has attracted increasing interests because its remarkable application on water spliting. The suitable band gap (2.0-2.4 eV) for visible light harvesting, facile surface reaction kinetic, earth-abundance, and superior stability in electrolyte make CuWO4 a perfect candidate for water splitting via photoelectrochemical technology. CuWO4 crystallizes is a distorted wolframite-type structure. Both Cu2+ (3d9) and W6+ (4d10) cations are in distorted octahedral with O2- (O 2p6). Duo to the Jahn-Teller effect in Cu2+, the distortion of oxygen octahedron breaks the degenerancy of Cu 3d t2g and eg orbital. In this work, we simulate the bulk and surface for CuWO4 at the room tempurature and pressure. After calculating the surface energy, we find the most stable direction for forming the surface is (0 1 0).
+
+    - talkTitle: "Faster estimation of choice models using HPC"
+      startTime: 1431
+      endTime: 1436
+      speaker: 4
+      description: |
+        The main goals of choice models are typically to predict a set of
+        outcomes given a discrete set of choice alternatives and to 
+        forecast choices given a change in choice context. Many 
+        different economic and psychological concepts can be 
+        incorporated within a choice model, leading to frequent
+        implementation of very complex models.
+        Additionally, recent technological advances have led to the 
+        availability of a wider range of data for behavioural
+        modelling. In particular, physiological data (eye-tracking, EEG, etc)
+        and large-scale revealed preference data (e.g. travel card or 
+        supermarket clubcard data) have meant that we have have more 
+        complex and larger choice datasets.
+        The combination of complex models for complex datasets requires 
+        significant computational power, far beyond what can be computed
+        in a reasonable time for standard desktops, 
+        which may take weeks or months to compute estimates for the 
+        model parameters that best explain the full set of choice observations.
+        In this presentation, we demonstrate examples of how the Apollo 
+        package in R allows us to run models on multiple cores, which can 
+        be estimated at least 20 times faster with the Leeds HPC. 
+
+    - talkTitle: Power up your Shiny app with custom outputs
+      startTime: 1436
+      endTime: 1441
+      speaker: 46
+      description: |
+        Everybody loves a Shiny app, and what better way to manipulate and prepare data for visualisation than to use the power of R packages such as dplyr and tidyr? That’s great if you want to visualise your data in a standard output format such as a table or a plot which can be easily integrated into a Shiny app, but what if you want to display your research outputs in a non-standard format? In this presentation I’ll demonstrate a Shiny app that uses a JavaScript generated custom output format for displaying the results of a literature review, providing an interface that can be used by policy makers, analysts and the general public to filter and display relevant information at different levels of detail. 
+
+    - talkTitle: Proposing a new Online Application Architecture explored through creating a Mobile Online Multiplayer Chess Game for Android Devices using the Kotlin programming language
+      startTime: 1441
+      endTime: 1446
+      speaker: 32
+      description: |
+        This project explores the ever-evolving field of online multiplayer games for mobile phones with the aim of finding an architecture that would provide a minimum maintenance cost for its developer of mobile and desktop apps in general. For this reason, the Kotlin programming language and Google Firebase were utilised to develop a real-time multiplayer Chess Game for Android smartphone devices.
+
+        The already existing architectures were investigated to compare their pros and cons and devise a new architectural design that would be able to give us the following: High Speed on all Devices, Low Bandwidth, Low Memory Requirements, and Low Maintenance cost.
+
+        For this purpose, a simple online game consisting of just a colour-changing button was created, to make sure that the architecture was feasible. Then an online mobile Chess Game was developed to test the architecture under the more complex processes involved in such software. Finally, the architecture was tested using Unit Testing and a Real-life Experiment in the form of a Tournament with players from three different cities around the UK and Europe.
+
+        Overall the architecture proved to be a success and achieved all of its goals. This paves the way for other applications (not only games), and developers who need to cut down on the costs of Developing and Maintaining an app, especially those without a large capital (freelancers and startups).
+
+    - talkTitle: NLTK and SBERT, and their use in Parallel Sentence Alignment Using Transformers
+      startTime: 1446
+      endTime: 1451
+      speaker: 40
+      description: |
+        A parallel sentences corpus is an essential resource for many applications of Artificial Intelligence (AI) and Natural Language Processing (NLP), including chatbots, translation, and question/answering systems. By improving the quality of the parallel sentences corpus, the performance of these applications is improved. In this research, we went through two main levels of preparing the English-Arabic parallel sentences: the document and sentence levels. Each English document was aligned with its corresponding Arabic document at the document level. Then, using the NLTK tokenizing package "sent_tokenize" all the source English and targeted Arabic texts are converted into sentences with different lengths. Furthermore, four pre-trained SBERT models were applied at the sentence level to derive comparable meaningful sentences using cosine similarity. As a result, we get parallel sentences, each with a cosine similarity score. The highest average cosine similarity score is 0.76, obtained from the pre-trained model "paraphrase-multilingual-mpnet-base-v2". The preliminary results are promising and encourage further research in this area.
+
+  speakers: [17,53,37,47,30,21,55,59,4,46,32,40]
   hidden: false
 
 - 
-  id: 1002
-  title: Medical image reconstruction under Bayesian modelling
-  description: >
-    Due to loss of information during the scanning process, the observed image is often blurred
-    and contains noise. As a result, the observed image is generally degraded and is not helpful for
-    clinical diagnostics. Bayesian methods have been identified to be particularly useful when there
-    is access to limited data but with a high number of unknown parameters. Hence, our research---
-    under the Bayesian hierarchical modelling structure employing multiple data sources---aims to
-    develop new reconstruction methods capable of providing more robust results with increased
-    image quality.
-  speakers: [8]
+  id: 2710
+  title: "Day 2: Lightning talks and poster presentations"
+  sessions:
+    - talkTitle: Pinnipeds Comparative Genomics (so far..)
+      startTime: 1400
+      endTime: 1402
+      speaker: 66
+      description: |
+        The evolutionary history of Baikal and Caspian seals which inhabit large landlocked waterbodies in Central Asia is still ambiguous.  Having a fully resolved phylogenomic tree for pinnipeds is key to understanding patterns of speciation and identifying genes underpinning adaptions in this group. In this study, we seek to reassess the taxonomic position of the enigmatic Caspian/Baikal seal and their related sister taxa (Grey, Ringed seal). We will incorporate a Baikal seal (Pusa sibirica) genome assembly that is recently available online in a phylogenomics reconstruction with our existing assemblies for Caspian seal (Pusa capsica) and hooded seal (Cystophora cristatus), with other publicly available pinniped genomes. The P.sibirica genome will first be annotated in suitable pipelines (e.g. BRAKER which employs the tools, GeneMark -ES/ET and AUGUSTUS); then computationally infers gene candidates based on similarity of sequences in public repositories for functional annotation. To investigate their phylogenetic relationships, a set of one-to-one orthologous genes will be identified using OrthoMCL, and these datasets will be used to generate Maximum Likelihood phylogenomic trees using RaxML based on suitable sequence evolution model. Subsequently, the trees will be used as basis for selective pressure analyses. Possible pitfalls that might be encountered during these analyses will be discussed.
+
+    - talkTitle: Medical image reconstruction under Bayesian modelling
+      startTime: 1402
+      endTime: 1404
+      speaker: 8
+      description: >
+        Due to loss of information during the scanning process, the observed image is often blurred
+        and contains noise. As a result, the observed image is generally degraded and is not helpful for
+        clinical diagnostics. Bayesian methods have been identified to be particularly useful when there
+        is access to limited data but with a high number of unknown parameters. Hence, our research---
+        under the Bayesian hierarchical modelling structure employing multiple data sources---aims to
+        develop new reconstruction methods capable of providing more robust results with increased
+        image quality.
+
+    - talkTitle: Coarse-grained mesoscale rod simulations of fibrinogen under extensional flow
+      startTime: 1404
+      endTime: 1406
+      speaker: 51
+      description: |
+        The Fluctuating Finite Element Analysis (FFEA) software uses continuum mechanics to model proteins at the biological mesoscale as 3D tetrahedral meshes and 1D elastic rods that deform viscoelastically in response to thermal noise. Tetrahedra additionally experience repulsive excluded volume and attractive surface-surface interactions, neither of which are included in the rod model, but are necessary to describe protein function. Viscous drag is represented as an isotropic force acting on mesh elements due to a stationary background fluid. 
+
+        Fibrinogen (MW ~ 340 kDa) is a fibrous protein that polymerises into a fibrin network to form a crucial supportive component of blood clots. The effects of shearing flow on fibrin(ogen) are well-documented, but less is known about extensional flow, which is predicted to elongate von Willebrand Factor, another fibrous clotting factor, significantly more than shear. Extensional flow-induced aggregation of antibodies has been demonstrated at typical industrial strain rates. 
+
+        My PhD aims to improve the simulation capability of the FFEA rod model by implementing protein-protein interactions and viscous effects such as extensional flow and complex hydrodynamic interactions. FFEA simulations of fibrinogen under flow will be experimentally validated by studying its aggregation propensity in-vitro at physiological strain rates consistent with healthy and stenotic arteries.
+
+    - talkTitle: "Big data to useful data: making use of large scale GPS data."
+      startTime: 1406
+      endTime: 1411
+      speaker: 10
+      description: |
+        The increasing use of secondary and commercial data sources paired 
+        with the decreasing cost of GPS enabled devices has seen a huge 
+        increase in the amount of GPS data available to researchers. 
+        These data are valuable in understanding human behaviour 
+        and how the environment around us influences our health. 
+        This presentation takes you thought the method developed 
+        to clean individual level GPS data to the OpenStreetMap 
+        Network and calculate environmental exposure(s). Scalable to 
+        large-scale GPS data with global coverage this code allows 
+        reproducible comparisons of environmental exposures across 
+        a wide range of spatial contexts. Moreover, as the code is open 
+        source and sits along existing open source packages it provides 
+        a valuable tool for policy and decision makers.
+    
+    - talkTitle: "Shared Journeys: Aggregating GPS Data into a Shareable Product"
+      startTime: 1411
+      endTime: 1416
+      speaker: 48
+      description: |
+
+        The Consumer Data Research Centre provides researchers with access to a variety of open, safeguarded, and secure datasets. This talk will explain a sample process of using a securely held mobility dataset, hosted by an external company, to create a derived aggregated dataset that the CDRC is permitted to share with other researchers on our data store. We will discuss important considerations when working with individual-level GPS data such as time zone handling, detection of unreliable data, and preservation of anonymity. We will give an overview of the aggregation process itself and explore how different spatial and temporal resolutions can impact the derived dataset.
+
+    - talkTitle: "Edubots: Chatbots for university education and student success"
+      startTime: 1416
+      endTime: 1421
+      speaker: 37
+      description: |
+
+        <p>There is a growing interest in the use of chatbots in Universities, as they can provide efficient and timely services to students and educators; eg see <a href="https://spotlight.leeds.ac.uk/strategy/">UoL Strategy 2020-2030</a></p>
+        <p>The EDUBOTS project, funded by Erasmus+,  explored best practices and innovative uses of university chatbots. We implemented case study chatbots using platforms HUBERT for student feedback, and DIFFER for student interaction and fostering a sense of belonging. Our case studies and surveys provided feedback from students and educators regarding the possible uses of chatbots in higher education (HE). We present our key findings:</p>
+        <p>Educators and students agreed the importance of chatbots for</p>
+        <p>Responding to FAQs that relate to administration, eg admissions, IT helpdesk, Student Success service; </p>
+        <p>Conducting tests and quizzes with students to assess their conceptual understanding of a topic;</p>
+        <p>Feedback from students to the instructor for course evaluation.</p>
+        <p>Students were much keener than educators on &quot;offering personalised feedback to students on their conceptual understanding of a topic&quot; and &quot;offering tutorials to students related to courses&quot;. Social aspects were not very popular with the educators group.  On the other hand, more students wanted a chatbot that can facilitate communication with their mentors and establish study groups within their courses. </p>
+
+
+    - talkTitle: Simple Transformers Question Answering Model for Finding Answers to Questions from Qur'an
+      startTime: 1421
+      endTime: 1426
+      speaker: 35
+      description: |
+        Recently, research tend to develop question answering systems for Arabic Islamic texts, which may impose challenges due to Classical Arabic. The Qur'an Question Answering shared task competition (Malhas, 2022) is providing Qur'anic Reading Comprehension Dataset that has 1093 tuples of question-passage pairs. The passages are verses derived from the Holy Qur'an while the questions are set to be in Modern Standard Arabic. 
+
+        Simple Transformers is a library, which is based on Transformers architecture, that provides models for specific tasks such as Classification, NER and QA models. We used the Question Answering (QA) model along with three Arabic pre-trained language models, which are AraBERT (Antoun, 2020), CAMeL-BERT (Inoue, 2021), ArabicBERT (Safaya, 2020). The QA model is set to return five answers ranking from the best to worst based on their probability scores according to the task details. The official measurement is partial Reciprocal Rank (pRR) (Malhas, 2020).
+
+        Our experiments with development set shows that AraBERT V0.2 model outperformed the other Arabic pre-trained models. Therefore, AraBERT V0.2 was chosen for the test set and it performed fair results with 0.445 pRR score, 0.160 EM score and 0.418 F1 score. The team ranked 7th on the test set while the first place scored 0.586 pRR score, 0.261 EM and 0.537 F1 score (Malhas, 2022).
+
+    - talkTitle: Modelling Ambient Populations under Different Restriction Schemes
+      startTime: 1426
+      endTime: 1431
+      speaker: 50
+      description: |
+        How have cities changed during the pandemic?
+        Which changes will remain as the pandemic subsides?
+        This LIDA project addresses the above questions by building upon previous CDRC-funded work and creating an open-source spatial-temporal machine-learning model to predict overall change in footfall at specific city-centre locations. It also will consider the local urban configuration, external factors (like weather conditions) and, importantly, the heterogeneous impact of various mobility restriction measures. The model is currently being trained using pre-pandemic footfall data provided by the project's external partner Leeds City Council and different lockdown restriction conditions will be incorporated thereafter. 
+        A functional dashboard is additionally being developed to present related visual outputs i.e. graphs and maps to help policymakers easily explore different scenarios. Although based in Leeds, it is expected that the work will be generalizable to other cities and ultimately, we aspire to attract further funding to construct a nationwide footfall model, which would present as a great methodological advancement and an attractive contribution to furthering the public health and urban developments.
+        This talk will mainly be an introduction of the project, then a presentation of the work carried out so far led by a discussion of the next steps and plans.
+
+    - talkTitle: Computer Simulations of Post-Translationally Modified Microtubules
+      startTime: 1431
+      endTime: 1436
+      speaker: 52
+      description: |
+        Microtubules are hollow, cylindrical macromolecules made of a dimeric protein called tubulin. They play a vital role in many cellular functions ranging from motility, to separating DNA strands during mitosis, and acting as tracks for molecular motors. These structures are highly decorated with chemical modifications inside living cells. It is believed that these modifications form a code that both directly and indirectly regulates the structure and dynamics of microtubules, affecting many downstream factors. The difficulty in resolving structures of modified microtubules and our incomplete understanding of microtubule-associated proteins have hindered our ability to decipher this code with lab-based studies.
+
+        My project aims to develop a methodology by which modified microtubules can be studied using molecular dynamics simulations in Amber. This would provide models of modified microtubules in motion and in atomistic detail. Using these, we can begin to link patterns in structural or dynamic changes to specific modifications, predict modified microtubule behaviour inside a cell and the mechanisms that underpin these behaviours. For example, I have observed that poly-gamma-glutamate chains added to beta-tubulin tails may be able to destabilise microtubules by sequestering inter-protofilament interactions, causing tears in the structure.
+
+    - talkTitle: First Principles and Molecular Dynamics Modelling of a Mucoid Pseudomonas aeruginosa Biofilm Extracellular Matrix
+      startTime: 1436
+      endTime: 1441
+      speaker: 14
+      description: |
+        Mucoid Pseudomonas aeruginosa is a prevalent Cystic Fibrosis (CF) lung coloniser and the chronicity of such infections is definitively associated with this bacterium's ability to form an anionic, linear, acetylated alginate rich exopolysaccharide (EPS) biofilm matrix. This talk will detail how atomistic modelling, based on quantum chemical Density-Functional Theory (DFT) and classical Molecular Dynamics (MD) - performed using the CASTEP and DL_POLY4 codes respectively - has been deployed on ARC4 HPC architecture to construct the first atomistic (computer) models of the mucoid P. aeruginosa EPS to be structurally representative of the in vivo scaffold. These models have served to draw biophysical relationships between the mucoid P. aeruginosa EPS structure and bacterial virulence in the lungs of CF patients. Explicitly, these models have shed light onto the critical influence that CF sputum ions possess over biofilm matrix chronicity as well as rationalising the atomistic origins of the discontinuous, dendritic, bulk EPS architecture observed in vivo. The motion of bacterial messengers through the EPS has been accurately described using these models and, as such, these models are serving to identify structural chemistry critical to development of novel “EPS-penetrating” antimicrobials. 
+
+    - talkTitle: SketchEngine for large-scale text data collection and analysis
+      startTime: 1441
+      endTime: 1446
+      speaker: 37
+      description: |
+        SketchEngine is a tool for collection and analysis of large text data-sets, konwn as corpuses. You can upload your own text corpus if you already have one, and/or use one of the pre-existing corpuses in many languages, such as EnTenTen (10000000000 words of English texts) or ArTenTen (10000000000 words of Arabic) etc;  and/or use the SketchEngine web-crawler to harvest a corpus to your specifications. You can analyse your corpus in various ways, e.g. against a Gold Standard to highlight key words and phrases with specialist meanings and uses.  I have used SketchEngine in Computing research and teaching, for example to collect a world-wide Corpus of National Dialects. SketchEngine comes with easy-to-use graphical interface, tutorials and guides, a world-wide user community and excellent technical support. I will demonstrate a use of SketchEngine to collect a corpus of Leeds University management and administration language, and use this to uncover some of the new English developed by Leeds University management, such as "curriculum redefined" "student success", "educational engagement", "decolonizing the curriculum".         
+
+    - talkTitle: Developing an Azure Platform for Vehicle Emissions Measurements - The CARES Project
+      startTime: 1446
+      endTime: 1451
+      speaker: 62
+      description: |
+        The CARES project aims to improve the instrumentation and data science methodologies for analysing on-road vehicle emissions.  As part of this project we have developed an Azure Cosmos DB platform and web apps to interact with the data.  These apps have been shared with various stakeholders including academic, government and SME stakeholders.  We are still very much at the beginning of our journey and are far from fully realising the potential of this approach but we would like to show what we have done so far and get feedback and advice on how to move it forward.
+
+  speakers: [66,8,51,10, 48, 37, 35,50,52,14,37,62]
   hidden: false
+
