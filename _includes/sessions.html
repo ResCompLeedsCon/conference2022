@@ -38,6 +38,19 @@ event_EndTimes=iter2item[3] | concat: event_EndTimes %}{% endif %}{% endfor %}{%
                                         
                                         <span class="text-body">{{ talk.description }}</span><br>
                                         <hr />
+                                        <div class="people-details">
+                                            {% for speaker in site.data.speakers %}
+                                                    {% if talk.speaker == speaker.id %}
+                                                    <div class="row">
+                                                        <div class="col-md-12 col-sm-12 details">
+                                                            <p class="name">{{ speaker.name }} {{ speaker.surname }}<br/>
+                                                              {% if speaker.title %}  {{ speaker.title }},{% endif%} {{ speaker.company }}
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    {% endif %}
+                                            {% endfor %}
+                                        </div>
                                     </div>
                                 {% endfor %}
                             {% else %} 
@@ -47,6 +60,20 @@ event_EndTimes=iter2item[3] | concat: event_EndTimes %}{% endif %}{% endfor %}{%
                                     <a href="{{ site.baseurl }}/schedule/#session-{{ session.id }}">Find the session in the schedule</a><br><br>
                                     
                                     <span class="text-body">{{ session.description }}</span><br>
+                                    <hr />
+                                    <div class="people-details">
+                                        {% for speaker in site.data.speakers %}
+                                                {% if session.speakers[0] == speaker.id %}
+                                                <div class="row">
+                                                    <div class="col-md-12 col-sm-12 details">
+                                                        <p class="name">{{ speaker.name }} {{ speaker.surname }}<br/>
+                                                          {% if speaker.title %}  {{ speaker.title }},{% endif%} {{ speaker.company }}
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                {% endif %}
+                                        {% endfor %}
+                                    </div>
                                 </div>
                             {% endif %}
 
