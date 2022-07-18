@@ -336,11 +336,14 @@
   id: 19
   name: "Benjamin"
   surname: "Hanson"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: "Lecturer"
+  company: School of Physics and Astronomy
+  bio: >
+    Ben's research career has focused on the development & application of novel computational methods to biophysical systems. He has studied the molecular motor dynein by developing continuum mechanical simulation techniques, colloidal and protein-based hydrogel systems using the bespoke simulation software “BioNet”, and protein unfolding by developing multiscale mathematical methods.
+    He is currently moving his focus towards teaching and scholarship in the Physics Education Research Group at the University of Leeds, and is beginning his research into the pedagogical potential of virtual reality in higher education physics.
 
-#  thumbnailUrl: "michal_zulcinski.png"
+
+  thumbnailUrl: "benjamin_hanson.jpg"
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
