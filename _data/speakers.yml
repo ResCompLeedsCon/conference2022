@@ -640,11 +640,12 @@
   id: 41
   name: "Menwa"
   surname: "Alshammeri"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: "PhD Student"
+  company: School of Computing
+  bio: >
+    Menwa Alshammeri is a lecturer at Jouf University in Saudi Arabia. She is a Ph.D. student in the School of Computing at Leeds University. Her research investigates AI applied to text and exploits NLP methods to analyse and explore texts' underlying knowledge. She utilizes ML/ DL models with NLP techniques to examine the semantic similarity task and extract the meanings and concepts from the Quran.
 
-#  thumbnailUrl: "michal_zulcinski.png"
+  thumbnailUrl: "menwa_alshammeri.jpg"
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
