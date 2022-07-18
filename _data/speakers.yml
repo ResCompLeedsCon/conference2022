@@ -420,11 +420,12 @@
   id: 25
   name: "Andrew"
   surname: "Burnett"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: "Associate Professor"
+  company: School of Chemistry
+  bio: >
+    I completed my undergraduate studies at the University of Bradford in chemistry with forensic science in 2004, I then gained my PhD in Electronic and Electrical Engineering from the University of Leeds in 2008. I continued my work at Leeds, through several postdoctoral positions until 2011 when I moved to the Faculty of Biological Sciences in Leeds as EPSRC Posdoctoral Fellow. After completion of the Fellowship in 2015 I moved to the School of Chemistry at Leeds as a Teaching Fellow before being awarded an EPSRC Early Career Fellowship and became a University Academic Fellow in 2016. I was promoted to Associate Professor in February 2022. My Research focusses on the development of Terahertz (THz) spectral instrumentation and the understanding of THz spectral measurements for a range of materials relevant the physical and life sciences with a particular focus on crystalline materials.
 
-#  thumbnailUrl: "michal_zulcinski.png"
+  thumbnailUrl: "andrew_burnett.jpg"
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
