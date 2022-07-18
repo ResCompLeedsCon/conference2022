@@ -352,9 +352,10 @@
   id: 20
   name: "Shatha"
   surname: "Altammami"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: "PhD Student"
+  company: School of Computing
+  bio: >
+    Shatha Altammami is a lecturer in the Information Systems department at King Saud University, Saudi Arabia. She started her Ph.D. in October 2018 at the University of Leeds under the supervision of Professor Eric Atwell and Dr. Ammar Alsalka.  Her current research interest is in Arabic Natural Language Processing (NLP) and Artificial Intelligence (AI). Shatha received her MSc in Information Security and Privacy with distinction from Cardiff University and her BSc. in Information Technology with honors from King Saud University. 
 
 #  thumbnailUrl: "michal_zulcinski.png"
   rockstar: false
