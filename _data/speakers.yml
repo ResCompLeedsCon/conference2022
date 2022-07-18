@@ -326,7 +326,7 @@
   company: School of Physics and Astronomy
   bio: >
     Dr Chris Wareing is a Fluid Dynamicist with 20 years research experience of using HPC. He has worked in varied areas in academia including astrophysics, physics, mathematics, chemical engineering and mechanical engineering. He has also worked in academia in HPC support, with industry on projects regarding carbon capture and storage and next generation manufacturing. Outside academia, he has worked with industry as a Fluid Dynamics Consultant and on and off in Science Communication. Currently, he is a Research Fellow in the School of Physics and Astronomy working on the flame stability of ammonia aerosol combustion.
-    
+
   thumbnailUrl: "chris_wareing.jpg"
   rockstar: false
   ribbon:
@@ -1083,3 +1083,15 @@
     Viktoria Spaiser is an Associate Professor in Sustainability Research and Computational Social Science at the School of Politics and International Studies and currently a UKRI Future Leaders Fellow researching how we can accelerate social change in response to the climate crisis. She is a keen learner when it comes to open and transparent research, uses open research practices in her own research such as sharing code, data and preprints and explores more recently pre-registration practices.
   thumbnailUrl: viktoria-spaiser.jpg
   rockstar: false
+
+-
+  id: 103
+  name: "David"
+  surname: "Head"
+  title: "Lecturer"
+  company: School of Computing
+  bio: >
+    David has a long/old research career in using simplified models to probe complex systems, where the very process of deciding what simplifications can and cannot be made adds to the insight and understanding of the problem, whilst also reducing cluster load and generally being a good cluster citizen. Current areas of interest include fibre networks and multi-component modelling of bacterial colonies - for the latter, the greatest challenge often lies in convincing an application domain unused to modelling that the results of your simplified model still tell you something about the real world.
+  thumbnailUrl: david_head.jpg
+  rockstar: false
+
