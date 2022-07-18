@@ -1006,11 +1006,14 @@
   id: 69
   name: "Dody"
   surname: "Dharma"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: "PhD Student"
+  company: School of Computing
+  bio: >
+    Dody is a Postgraduate Researcher at Visualization and Computer Graphics Group , School of Computing , University of Leeds. Prior to that, He has been part of the Informatics Research Group at ITB, Institut Teknologi Bandung – Indonesia.
 
-#  thumbnailUrl: "michal_zulcinski.png"
+    Currently Dody is doing research on 3D realistic and interactive fluid and deformable solids simulation with  deep learning. The research focuses on building Neural Network models to accelerate fully coupled fluids-deformable solids simulation for content in realtime application(e.g., AR,VR, or Games). His research also related to analysis of vorticity conservation in neural network based fluid simulation.
+
+  thumbnailUrl: "dody_dharma.jpg"
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
