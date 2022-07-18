@@ -560,7 +560,8 @@
   surname: "Alshammari"
   title: "PhD Student"
   company: School of Computing
-  bio: 
+  bio: >
+    Ibtisam is a second-year Ph.D. student in the School of Computing at the University of Leeds. Before that, she completed a master’s degree in computer science at the University of Leeds in 2020. Her research focuses on combining Islamic studies, including the Quran and Hadith resources, into a unified knowledge base by applying AI and NLP methods.
 
 #  thumbnailUrl: "michal_zulcinski.png"
   rockstar: false
