@@ -445,11 +445,14 @@
   id: 27
   name: "Soodeh"
   surname: "Kalaie"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: "PhD Student"
+  company: School of Computing
+  bio: >
+    Soodeh is a Ph.D. student in the School of Computing at University of Leeds.  
+    In September 2019 she joined CISTIB group as a fully funded Ph.D. student co-supervised by Prof. Alejandro Frangi and Dr. Ali Gooya. Where her research mainly focuses on deep generative models for anatomical shapes.
+    Her main research interests are computational medicine, machine learning, deep learning, and their applications to irregular data, focusing mainly on graph neural networks.
 
-#  thumbnailUrl: "michal_zulcinski.png"
+  thumbnailUrl: "soodeh_kalaie.jpg"
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
