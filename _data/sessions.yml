@@ -122,7 +122,7 @@
         As such we have developed the python post-processing tool PDielec [1] which can be used to understand and visualise phonon calculations. As well as acting as a general python parser for a number of density functional packages, this tool provides a QT-5 based GUI that allows the visualisation of structures and vibrational motion, and a number of tools to understand differences and improve correlation between calculated and experimental spectra.</p>
         <p>[1] <a href="https://doi.org/10.5281/zenodo.5888313">https://doi.org/10.5281/zenodo.5888313</a></p>
 
-    - talkTitle: To be confirmed.
+    - talkTitle: Nutrition and Lifestyle Analytics @ Leeds
       startTime: 1120
       endTime: 1140
       speaker: 70

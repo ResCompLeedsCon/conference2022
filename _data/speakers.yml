@@ -1034,11 +1034,11 @@
   surname: "Morris"
   company: "School of Medicine"
   title: Associate Professor Nutrition and Lifestyle Analytics
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  company: Leeds Institute for Data Analytics
+  bio: >
+    Michelle is an Associate Professor and Turing Fellow based in the Leeds Institute for Data Analytics and Leeds Institute of Medical Research at the University of Leeds. She leads the Nutrition and Lifestyle Analytics team. Her interdisciplinary research uses novel forms of data, including supermarket transaction records, for research into lifestyle behaviours and health. She is a co-investigator at the Consumer Data Research Centre and leads the research on the IGD’s Healthy and Sustainable Diets programme.
 
-#  thumbnailUrl: "michal_zulcinski.png"
+  thumbnailUrl: "michelle_morris.jpg"
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
