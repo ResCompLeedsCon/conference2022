@@ -584,11 +584,12 @@
   id: 37
   name: "Eric"
   surname: "Atwell"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: Professor of Artificial Intelligence
+  company: School of Computing
+  bio: >
+    Eric Atwell is Professor of Artificial Intelligence for Language in the School of Computing at the University of Leeds, leading a research group of 17 PhD students and postdocs. Eric teaches Data Mining and Text Analytics at BSc and MSc levels, both online and on-campus modules. Eric is also School of Computing DPGR Director of Post Graduate Research; and Programme Leader for our fully-online MSc programme in Artificial Intelligence (AI), including the online AI student project. Eric also works 40% in Leeds Institute for Teaching Excellence, as a LITE Fellow in AI for decolonizing reading lists; and he is a Turing Fellow with the Alan Turing Institute for AI, researching AI in education.
 
-#  thumbnailUrl: "michal_zulcinski.png"
+  thumbnailUrl: "eric_atwell.jpg"
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
