@@ -379,11 +379,12 @@
   id: 22
   name: "Behnaz"
   surname: "Elhaminia"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: "PhD Student"
+  company: School of Computing
+  bio: >
+    Behnaz Elhaminia received her B.S. degree in computer engineering, in 2014, and the M.S. degree in 2018, both from Ferdowsi University of Mashhad (FUM), Mashhad, Iran. She joined the Center for Computational Imaging & Simulation Technologies in Biomedicine School of Computing research group at the University of Leeds as a PhD student in September 2019 supervised by Dr Ali Gooya and Prof. Alejandro Frangi. She has been awarded a Faculty of Engineering Doctoral Academy Scholarship for her research. She is also an honorary PhD research student at Leeds teaching hospital and a member of Cancer Research UK RADNET Leeds.
 
-#  thumbnailUrl: "michal_zulcinski.png"
+  thumbnailUrl: "behnaz_elhaminia.jpg"
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
