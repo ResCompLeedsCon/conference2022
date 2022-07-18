@@ -76,7 +76,7 @@
   thumbnailUrl: "lucy_stead.jpg"
   rockstar: false
   ribbon:
-    - {abbr: "SoM", title: "School of Medicine", url: "https://medicinehealth.leeds.ac.uk/medicine/staff/789/dr-lucy-stead"}
+    - {abbr: "SoM", title: "Profile", url: "https://medicinehealth.leeds.ac.uk/medicine/staff/789/dr-lucy-stead"}
 -
   id: 3
   name: "Dr Yehuda"
