@@ -431,11 +431,12 @@
   id: 26
   name: "Megan"
   surname: "Wood"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: Research Data Quality Analyst
+  company: Bradford Institute for Health Research
+  bio: >
+    Megan is a Research Data Quality Analyst for ActEarly and BIHR. She received her PhD from the University of Leeds in 2021 which investigated influences of children’s sensorimotor control using data from the Born in Bradford cohort. Megan currently works on several projects, including the development of the Connected Bradford linked database. She is particularly interested in using creative visualisations to help people better understand data. 
 
-#  thumbnailUrl: "michal_zulcinski.png"
+  thumbnailUrl: "megan_wood.jpg"
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
