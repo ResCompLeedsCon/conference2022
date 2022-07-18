@@ -757,11 +757,12 @@
   id: 50
   name: "Indumini"
   surname: "Ranatunga"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: Data Scientist
+  company: Leeds Institute of Data Analytics 
+  bio: >
+    Hello! I'm Indumini! Having spent two decades in the UAE and Sri Lanka, and after experiencing first-hand the positive impact that technological development can have on a country, I began to slowly develop a budding fascination with tech. Later, with the realisation that my curiosity and wanderlust could no longer be kept bounded, I decided in 2018 to set sail for the UK in search of better prospects. By the summer of 2021, I successfully graduated from the University of Leeds with a bachelor’s in Electronics and Computer Engineering. Having had my interest piqued by a glimpse of the value and variety of data science applications discovered through my final year project research, and seeing that my wish to work for a meaningful cause can be fulfilled by joining LIDA, I decided to apply for their internship programme. At the moment, I am thoroughly enjoying the programme, the proof being my excitement at the chance to meet all of you, learn about other amazing works and discuss a project that I am currently involved in (and quite passionate about) through the Research Computing Leeds Conference! When I am not reading about machine learning algorithms or sharing my data science encounters with others however, you can often find me spending my downtime listening to music and journaling away in a corner. :)
 
-#  thumbnailUrl: "michal_zulcinski.png"
+  thumbnailUrl: "indumini_ranatunga.jpg"
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
