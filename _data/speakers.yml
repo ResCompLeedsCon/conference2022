@@ -492,11 +492,12 @@
   id: 31
   name: "Peyman"
   surname: "Babakhani"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: "Research Fellow"
+  company: School of Earth and Environment
+  bio: >
+    Dr Peyman Babakhani is a Postdoctoral Research Fellow in the School of Earth and Environment at the University of Leeds. He obtained a dual PhD from the School of Engineering at the University of Liverpool (UK) and the College of Nuclear Science at National Tsing Hua University (Taiwan) in 2019. Peyman’s research crosses the areas of environmental nanotechnology, environmental modelling, environmental impact assessment, sustainability, and global biogeochemical modelling. He uses a broad range of modelling approaches individually or in combination, including mechanistic mass- and population-balance models, machine learning, stochastic models, and life cycle assessment techniques. He also devises new experimental approaches that can represent environmental problems at a laboratory scale to meet the data requirements for the validation of new models. Peyman would like to combine his knowledge and skills in the two fields of environmental nanotechnology and biogeochemistry to address today's environmental problems such as climate change and pollutants.
 
-#  thumbnailUrl: "michal_zulcinski.png"
+  thumbnailUrl: "peyman_babakhani.jpg"
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
