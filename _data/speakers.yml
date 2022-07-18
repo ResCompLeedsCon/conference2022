@@ -529,11 +529,12 @@
   id: 33
   name: "Fangjun"
   surname: "Li"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: "PhD Student"
+  company: School of Computing
+  bio: >
+    I hold BSc and master's degrees from the Shandong University. I'm now a PhD student in School of Computing, University of Leeds under Professor Anthony Cohn and David Hogg. This is the end my second year of my PhD. My research interests centre on the combination of knowledge-based reasoning, natural language processing and computer vision.
 
-#  thumbnailUrl: "michal_zulcinski.png"
+  thumbnailUrl: "fangjun_li.jpg"
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
