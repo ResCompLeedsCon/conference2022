@@ -31,26 +31,53 @@
 
             {% assign endTime = timeslot.endTime | split: ":" %}
             {% for slot in timeslot.sessionIds %}
+                {% assign track = day.tracks[forloop.index0].title %}
                 {% assign slotColWidth = 12 | divided_by: forloop.length %}
                 {% assign slotIndex = forloop.index0 %}
                 {% for session in site.data.sessions %}
                     {% if slot == session.id and session.service == null %}
-                        <h3>{{ startTime[0] }}<span>:{{ startTime[1] }}</span>-{{ endTime[0] }}<span>:{{ endTime[1] }}</span> {{ session.title }}</h3>
-                        
-                            {% for session_speaker in session.speakers %}
-                                {% for speaker in site.data.speakers %}
+                        <hr/>
+                        <h3>{{day.dateReadable}} {{ startTime[0] }}<span>:{{ startTime[1] }}</span>-{{ endTime[0] }}<span>:{{ endTime[1] }}</span> {{ session.title }}</h3>
+                        <h3>{{track}}</h3>
 
-                                    {% if session_speaker == speaker.id %}
-                                        <p>{{ speaker.name }} {{ speaker.surname }}
-                                            <span>{{ speaker.company }}</span>
-                                        </p>
-                                    {% endif %}
-                                {% endfor %}    
+                        {% if session.sessions %}
+
+                            {% for talk in session.sessions %}
+
+                                <h4>{{talk.talkTitle}}</h4>
+                                <strong>Talk time:</strong> {{talk.startTime}}-{{talk.endTime}}<br>
+
+                                <p class="theme-description"><strong>Abstract: </strong>{{ talk.description }}</p>
+                                <div class="people-details">
+                                    {% for speaker in site.data.speakers %}
+                                            {% if talk.speaker == speaker.id %}
+                                                    <p class="name"><strong>Speaker: </strong>{{ speaker.name }} {{ speaker.surname }}{% if speaker.title %},{% endif%} 
+                                                        <span class="position">{% if speaker.title %}  {{ speaker.title }},{% endif%} {{ speaker.company }}</span>
+                                                    </p>
+                                                    {%if speaker.bio %}
+                                                    <p class="about"><strong>Biography: </strong>{{ speaker.bio }}</p>
+                                                    {% endif %}
+                                            {% endif %}
+                                    {% endfor %}
+                                </div>
                             {% endfor %}
-                    {% elsif slot == session.id and session.service != null %}
-                        <h3 class="slot-title" itemprop="name">{{ session.title }}</h3>
-                        {% if session.description != null %}
-                            <p class="service-description">{{ session.description }}</p>
+                        {% else %}
+
+                        {% if session.description %}
+                        <p class="theme-description"><strong>Abstract: </strong>{{ session.description }}</p>
+                        {% endif %}
+                        <div class="people-details">
+                            {% for speaker in site.data.speakers %}
+                                    {% if session.speakers[0] == speaker.id %}
+                                            <p class="name"><strong>Speaker: </strong>{{ speaker.name }} {{ speaker.surname }}{% if speaker.title %},{% endif%} 
+                                                <span class="position">{% if speaker.title %}  {{ speaker.title }},{% endif%} {{ speaker.company }}</span>
+                                            </p>
+                                            {%if speaker.bio %}
+                                            <p class="about"><strong>Biography: </strong>{{ speaker.bio }}</p>
+                                            {% endif %}
+                                    {% endif %}
+                            {% endfor %}
+                        </div>
                         {% endif %}
                     {% endif %}
                 {% endfor %}
