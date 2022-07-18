@@ -1,5 +1,7 @@
+{% assign sortedSessions = site.data.sessions | sort: "id" %}
+
 {% capture times %}{% for day in site.data.schedule %}{% for timeslot in day.timeslots %}{% for slot in
-timeslot.sessionIds %}{% for session in site.data.sessions %}{% if slot == session.id %}{% if session.hidden != true
+timeslot.sessionIds %}{% for session in sortedSessions %}{% if slot == session.id %}{% if session.hidden != true
 %}{{session.id}}|{{ day.dateReadable }}|{{timeslot.startTime}}|{{timeslot.endTime}}{% if forloop.last %}^{% endif %}{%
 endif %}{% endif %}{% if forloop.last %}^{% endif %}{% endfor %}{% endfor %}{% endfor %}{% endfor %}{% endcapture %}
 
@@ -19,33 +21,65 @@ event_EndTimes=iter2item[3] | concat: event_EndTimes %}{% endif %}{% endfor %}{%
 <section id="schedule" class="schedule">
     <div class="content-wrapper">
         <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 10 }'>
-            {% for session in site.data.sessions %}
-            {% for item in new_times %}
-            {% assign split_item = item | split: "|" %}
-            {% assign s_item_0 = split_item[0] | to_integer %}
-            {% if s_item_0 == session.id %}
-            {% if session.hidden != true %}
+            {% for session in sortedSessions %}
+                {% for item in new_times %}
+                    {% assign split_item = item | split: "|" %}
+                    {% assign s_item_0 = split_item[0] | to_integer %}
+                    {% if s_item_0 == session.id %}
+                        {% if session.hidden != true %}
+                            {% if session.sessions %}
+                                {% for talk in session.sessions %}
+                                    <div class="grid-item">
+                                        <h5>{{talk.talkTitle}}</h5>
+                                        <span class="text-body"><strong>Session time:</strong> {{ split_item[1] }} {{ split_item[2] }}-{{split_item[3] }}</span><br>
+                                        <a href="{{ site.baseurl }}/schedule/#session-{{ session.id }}">Find the session in the schedule</a><br><br>
 
-            <div class="grid-item">
-                <h5>{{ session.title }}</h5>
-                <span class="text-body">Session time: {{ split_item[1] }} {{ split_item[2] }}-{{split_item[3] }}</span><br>
-                <a href="{{ site.baseurl }}/schedule/#session-{{ session.id }}">Find the session in the schedule</a><br><br>
-                {% if session.sessions %}
-                {% for talk in session.sessions %}
-                <h5>{{talk.talkTitle}}</h5>
-                <strong>Talk time:</strong> {{talk.startTime}}-{{talk.endTime}} <br>
-                <strong>Presenter:</strong> {{talk.speaker}} <br>
-                
-                <span class="text-body">{{ talk.description }}</span><br>
-                <hr />
+                                        <strong>Talk time:</strong> {{talk.startTime}}-{{talk.endTime}} <br>
+                                        
+                                        <span class="text-body">{{ talk.description }}</span><br>
+                                        <hr />
+                                        <div class="people-details">
+                                            {% for speaker in site.data.speakers %}
+                                                    {% if talk.speaker == speaker.id %}
+                                                    <div class="row">
+                                                        <div class="col-md-12 col-sm-12 details">
+                                                            <p class="name">{{ speaker.name }} {{ speaker.surname }}<br/>
+                                                              {% if speaker.title %}  {{ speaker.title }},{% endif%} {{ speaker.company }}
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    {% endif %}
+                                            {% endfor %}
+                                        </div>
+                                    </div>
+                                {% endfor %}
+                            {% else %} 
+                                <div class="grid-item">
+                                    <h5>{{ session.title }}</h5>
+                                    <span class="text-body"><strong>Session time:</strong> {{ split_item[1] }} {{ split_item[2] }}-{{split_item[3] }}</span><br>
+                                    <a href="{{ site.baseurl }}/schedule/#session-{{ session.id }}">Find the session in the schedule</a><br><br>
+                                    
+                                    <span class="text-body">{{ session.description }}</span><br>
+                                    <hr />
+                                    <div class="people-details">
+                                        {% for speaker in site.data.speakers %}
+                                                {% if session.speakers[0] == speaker.id %}
+                                                <div class="row">
+                                                    <div class="col-md-12 col-sm-12 details">
+                                                        <p class="name">{{ speaker.name }} {{ speaker.surname }}<br/>
+                                                          {% if speaker.title %}  {{ speaker.title }},{% endif%} {{ speaker.company }}
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                {% endif %}
+                                        {% endfor %}
+                                    </div>
+                                </div>
+                            {% endif %}
+
+                        {% endif %}
+                    {% endif %}
                 {% endfor %}
-                {% else %}
-                <span class="text-body">{{ session.description }}</span><br>
-                {% endif %}
-            </div>
-            {% endif %}
-            {% endif %}
-            {% endfor %}
             {% endfor %}
         </div>
     </div>
