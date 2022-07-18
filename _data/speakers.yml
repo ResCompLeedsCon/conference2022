@@ -828,11 +828,12 @@
   id: 56
   name: "Amani"
   surname: "Al Onayzan"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: "PhD Student"
+  company: School of Computing
+  bio: >
+    PhD candidate in Corpus Linguistics at the University of Leeds.
 
-#  thumbnailUrl: "michal_zulcinski.png"
+  thumbnailUrl: "amani_onayzan.jpg"
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
