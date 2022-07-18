@@ -515,11 +515,12 @@
   id: 32
   name: "Konstantinos"
   surname: "Biris"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: Undergraduate Student
+  company: School of Computing
+  bio: >
+    Coming from Athens, Greece, Konstantinos studied for his Bachelor of Science in Computer Science at the University of Leeds. His interests include Cloud Computing, and Complexity Theory and he is currently on his way to obtaining an MSc in Data Science and Analytics at King's College London. In the meantime, he likes to independently research ways to reduce the cost of operating applications using Cloud Services and reduce the amount of data needed for those applications to function. This way he aims at making software development more affordable to everyone, from hobbyists and start-ups to large companies and organizations.
 
-#  thumbnailUrl: "michal_zulcinski.png"
+  thumbnailUrl: "konstantinos_biris.jpg"
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
