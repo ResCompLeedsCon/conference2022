@@ -615,9 +615,10 @@
   id: 40
   name: "Moneerh"
   surname: "Aleedy"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: "PhD Student"
+  company: School of Computing
+  bio: >
+    I am Moneerh Aleedy, a split-site Ph.D. student from Riyadh, Saudi Arabia. I work as a lecturer in the Information Technology Department at Princess Nourah Bint Abdulrahman University, one of the biggest universities in Saudi Arabia. Currently, I am a Ph.D. student in the School of Computing at the University of Leeds.
 
 #  thumbnailUrl: "michal_zulcinski.png"
   rockstar: false
