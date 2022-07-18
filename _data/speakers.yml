@@ -1068,3 +1068,13 @@
 #  ribbon:
 #    - {abbr: "Arts", title: "School of Social Sciences, Faculty of Arts", url: "https://www.auckland.ac.nz/en/arts/about-the-faculty/school-of-social-sciences.html"}
 
+-
+  id: 102
+  name: "Viktoria"
+  surname: "Spaiser"
+  title: "Associate Professor"
+  company: School of Politics and International Studies
+  bio: >
+    Viktoria Spaiser is an Associate Professor in Sustainability Research and Computational Social Science at the School of Politics and International Studies and currently a UKRI Future Leaders Fellow researching how we can accelerate social change in response to the climate crisis. She is a keen learner when it comes to open and transparent research, uses open research practices in her own research such as sharing code, data and preprints and explores more recently pre-registration practices.
+  thumbnailUrl: viktoria-spaiser.jpg
+  rockstar: false
