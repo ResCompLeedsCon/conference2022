@@ -68,7 +68,8 @@
                         {% endif %}
                         <div class="people-details">
                             {% for speaker in site.data.speakers %}
-                                    {% if session.speakers[0] == speaker.id %}
+                                {% for session_speaker in session.speakers %}
+                                    {% if session_speaker == speaker.id %}
                                             <p class="name"><strong>Speaker: </strong>{{ speaker.name }} {{ speaker.surname }}{% if speaker.title %},{% endif%} 
                                                 <span class="position">{% if speaker.title %}  {{ speaker.title }},{% endif%} {{ speaker.company }}</span>
                                             </p>
@@ -76,6 +77,7 @@
                                             <p class="about"><strong>Biography: </strong>{{ speaker.bio }}</p>
                                             {% endif %}
                                     {% endif %}
+                                {% endfor %}
                             {% endfor %}
                         </div>
                         {% endif %}
