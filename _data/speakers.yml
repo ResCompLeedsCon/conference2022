@@ -366,11 +366,12 @@
   id: 21
   name: "Connor"
   surname: "Clayton"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: "PhD Student"
+  company: School of Earth and Environment
+  bio: >
+    Connor is a 2nd year PhD student in the Institute for Climate and Atmospheric Science within SEE. He has an MSc in Environmental Health, a BSc in Environmental Management and is a Chartered Environmental Health Officer. His research interests focus on the interactions between climate change, air quality and health.
 
-#  thumbnailUrl: "michal_zulcinski.png"
+  thumbnailUrl: "connor_clayton.jpg"
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
