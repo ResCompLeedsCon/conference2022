@@ -703,11 +703,12 @@
   id: 47
   name: "Stephen"
   surname: "Stackhouse"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: Associate Professor
+  company: School of Earth and Environment
+  bio: >
+    I am an Associate Professor in Solid Earth Geophysics in the School of Earth and Environment. I mainly use first-principles calculations to predict the properties of minerals at the extreme conditions of the lower mantle, such as equation of state, elastic constants, thermal conductivity and phase transitions. To study larger numbers of atoms I also perform atomic scale simulations using pair potentials and am currently trying to develop machine learning potentials.
 
-#  thumbnailUrl: "michal_zulcinski.png"
+  thumbnailUrl: "stephen_stackhouse.jpg"
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
