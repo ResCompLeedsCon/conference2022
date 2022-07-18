@@ -664,11 +664,12 @@
   id: 44
   name: "Alistair"
   surname: "Curd"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: "Research Fellow"
+  company: Faculty of Health and Medicine
+  bio: >
+    Alistair has moved from physics training, through commercial R&D on display technology and a PhD in human visual studies, to developing and supporting advanced optical microscopy technologies for nanoscale biological experiments. He is now moving into developing new analytical methods of the point cloud data generated in single-molecule localisation microscopy, to allow it to fulfil its potential for new discoveries and diagnostic methods in cell biology and medicine.
 
-#  thumbnailUrl: "michal_zulcinski.png"
+  thumbnailUrl: "alistair_curd.jpg"
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
