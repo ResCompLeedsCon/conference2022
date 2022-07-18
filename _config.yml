@@ -168,8 +168,8 @@ ticketsOffers:
 
 # Footer
 socialLinks:
- - {link: "https://twitter.com/RC_at_Leeds", icon: "twitter"}
- - {link: "https://arc.leeds.ac.uk", icon: "site"}
+ - {link: "https://twitter.com/RC_at_Leeds", icon: "twitter", alt: "Research Computing at Leeds Twitter account"}
+ - {link: "https://arc.leeds.ac.uk", icon: "site", alt: "Research Computing Leeds Website"}
 footerBlocks:
  -
   title: "Links"
