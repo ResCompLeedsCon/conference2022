@@ -31,7 +31,7 @@ event_EndTimes=iter2item[3] | concat: event_EndTimes %}{% endif %}{% endfor %}{%
                                 {% for talk in session.sessions %}
                                     <div class="grid-item">
                                         <h5>{{talk.talkTitle}}</h5>
-                                        <span class="text-body">Session time: {{ split_item[1] }} {{ split_item[2] }}-{{split_item[3] }}</span><br>
+                                        <span class="text-body"><strong>Session time:</strong> {{ split_item[1] }} {{ split_item[2] }}-{{split_item[3] }}</span><br>
                                         <a href="{{ site.baseurl }}/schedule/#session-{{ session.id }}">Find the session in the schedule</a><br><br>
 
                                         <strong>Talk time:</strong> {{talk.startTime}}-{{talk.endTime}} <br>
@@ -56,7 +56,7 @@ event_EndTimes=iter2item[3] | concat: event_EndTimes %}{% endif %}{% endfor %}{%
                             {% else %} 
                                 <div class="grid-item">
                                     <h5>{{ session.title }}</h5>
-                                    <span class="text-body">Session time: {{ split_item[1] }} {{ split_item[2] }}-{{split_item[3] }}</span><br>
+                                    <span class="text-body"><strong>Session time:</strong> {{ split_item[1] }} {{ split_item[2] }}-{{split_item[3] }}</span><br>
                                     <a href="{{ site.baseurl }}/schedule/#session-{{ session.id }}">Find the session in the schedule</a><br><br>
                                     
                                     <span class="text-body">{{ session.description }}</span><br>
