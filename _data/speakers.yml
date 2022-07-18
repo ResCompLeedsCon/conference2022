@@ -237,11 +237,12 @@
   id: 12
   name: "Rose"
   surname: "Collet"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: "PhD Student"
+  company: School of Computing
+  bio: >
+    I'm a PhD student in the Fluid Dynamics CDT and Centre for Computational Imaging and Simulation Technologies in Biomedicine (CISTIB). I am broadly interested in biomedical applications of fluid dynamics, and tumour growth modelling in particular. My PhD aims to develop models of fluid transport in tumours to characterise response to neoadjuvant chemotherapy in breast cancer patients, using a combination of medical imaging and mathematical modelling.
 
-#  thumbnailUrl: "michal_zulcinski.png"
+  thumbnailUrl: "rose_collet.jpg"
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
