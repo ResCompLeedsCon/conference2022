@@ -252,11 +252,11 @@
   id: 13
   name: "Dhananjay"
   surname: "Jade"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
+  title: "PhD Student"
+  company: School of Biomedical Sciences
 #  bio: 
 
-#  thumbnailUrl: "michal_zulcinski.png"
+  thumbnailUrl: "dhananjay_jade.png"
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
