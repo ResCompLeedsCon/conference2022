@@ -900,9 +900,10 @@
   id: 62
   name: "Christopher"
   surname: "Rushton"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: "Research Fellow"
+  company: Institute for Transport Studies
+  bio: >
+    Chris Rushton is a post-doctoral research fellow in the Institute for Transport Studies.  Chris' areas of research include air pollution and its links to transport, and the effectiveness of clean air zone policy.  Prior to working at ITS, Chris was a senior technologist at Connected Places Catapult where he developed and delivered projects related to the development of commercial solutions to air quality problems in the UK, EU and farther afield.  Chris is interested in creating research and tools to help air pollution legislators and policy makers develop interventions that deliver cleaner air for the tax payer in a fair and cost-effective manner.  Chris is just beginning his journey into new technology based research methods and is here both to inform people of the work being done in his field and also to learn how to improve his work from more experienced practitioners.
 
 #  thumbnailUrl: "michal_zulcinski.png"
   rockstar: false
