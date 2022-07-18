@@ -647,9 +647,10 @@
   id: 42
   name: "Sanaa"
   surname: "Alowaidi"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: "PhD Student"
+  company: School of Computing
+  bio: >
+    Ph.D. student, School of  Computing, University of Leeds
 
 #  thumbnailUrl: "michal_zulcinski.png"
   rockstar: false
