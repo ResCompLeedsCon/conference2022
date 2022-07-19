@@ -394,11 +394,16 @@
   id: 23
   name: "Suparna"
   surname: "Mitra"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: University Academic Fellow
+  company: School of Medicine
+  bio: >
+    Dr. Mitra has Mathematics and Statistics background (BSc & MSc) and pursued her Ph.D. in Bioinformatics from Tuebingen University, Germany. After that she was Marie Curie research fellow in UK. She has over 10 years of experience in planning, designing, conducting meta-’omics projects that comprise bacterial community (microbiota) analysis via 16S rRNA and/or whole genome shotgun sequencing of microbiota strains/species strains to enable further characterisation, including phylogeny, RNASeq etc., which has led to >30 publications. Among those most are directly related to medical research and therapeutics. She is the editor of the new upcoming “Metagenomics Data Analyses" book in the series of ‘Methods in Molecular Biology’.  
+ 
+    Applying meta-'omics concepts in different disease samples allows a more complete understanding of the aetiologies of complex diseases and it can help in developing new therapeutic strategies for targeted personalised disease. Dr. Mitra has collaborated with multiple groups within and outside University of Leeds (nationally and internationally). She is involved in medical projects like: COVID-patients’ microbiome, drug trials, drug testing using gut-models, CDI, gut microbiome, drug-induced dysbiosis, colorectal cancer, atherosclerotic plaque, early life microbiome from premature babies, weight loss surgeries, nutrition, food additives etc.; and environmental projects like soil microbiome, Mangrove community, microbial perturbation with rain-water and land slide, waste water treatment plants etc 
+ 
+    Dr Mitra is keen to contribute her knowledge and experience in metagenomics, bioinformatics and biostatistics in enhancing human life and health targeting global health challenges.  
 
-#  thumbnailUrl: "michal_zulcinski.png"
+  thumbnailUrl: "suparna_mitra.jpg"
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
