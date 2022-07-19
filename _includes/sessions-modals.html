@@ -74,8 +74,8 @@
 						
 						<p class="theme-description">{{ session.description }}</p>
 						<div class="people-details">
-							{% for speaker in site.data.speakers %}
-								{% for session_speaker in session.speakers %}
+							{% for session_speaker in session.speakers %}
+								{% for speaker in site.data.speakers %}
 									{% if session_speaker == speaker.id %}
 									<div class="row">
 										<div class="col-md-2 col-sm-2">
