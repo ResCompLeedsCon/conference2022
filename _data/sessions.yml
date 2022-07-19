@@ -165,7 +165,7 @@
     Could you reproduce your own research let alone that of another researcher?
     How does this apply in the different research disciplines?
 
-  speakers: [101,102]
+  speakers: [102,101,104]
   hidden: false
 - 
   id: 2706
@@ -178,7 +178,7 @@
     2.  Optimising code efficiency to minimise energy consumption
     3.  Simplifying our scientific questions to make our calculations less costly
     
-  speakers: [19,103]
+  speakers: [105,19,103,106]
   hidden: false
 
   # code clinic and workshop sessions
