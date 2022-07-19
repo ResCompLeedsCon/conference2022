@@ -618,11 +618,12 @@
   id: 39
   name: "Alaa"
   surname: "Alsaqer"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: "PhD Student"
+  company: School of Computing
+  bio: >
+    I am a PhD student at School of Computing, University of Leeds, and a Lecturer at College of Computer Science & Information Technology, King Faisal University.
 
-#  thumbnailUrl: "michal_zulcinski.png"
+  thumbnailUrl: "alaa_alsaqer.jpg"
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
