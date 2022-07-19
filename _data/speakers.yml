@@ -1110,3 +1110,25 @@
   thumbnailUrl: david_head.jpg
   rockstar: false
 
+-
+  id: 104
+  name: Marlène 
+  surname: Mengoni
+  title: "Associate Professor"
+  company: School of Mechanical Engineering
+#  bio: >
+#    Viktoria Spaiser is an Associate Professor in Sustainability Research and Computational Social Science at the School of Politics and International Studies and currently a UKRI Future Leaders Fellow researching how we can accelerate social change in response to the climate crisis. She is a keen learner when it comes to open and transparent research, uses open research practices in her own research such as sharing code, data and preprints and explores more recently pre-registration practices.
+#  thumbnailUrl: viktoria-spaiser.jpg
+  rockstar: false
+
+-
+  id: 105
+  name: Sarah 
+  surname: Harris
+  title: "Associate Professor"
+  company: School of Physics and Astronomy
+#  bio: >
+#    Viktoria Spaiser is an Associate Professor in Sustainability Research and Computational Social Science at the School of Politics and International Studies and currently a UKRI Future Leaders Fellow researching how we can accelerate social change in response to the climate crisis. She is a keen learner when it comes to open and transparent research, uses open research practices in her own research such as sharing code, data and preprints and explores more recently pre-registration practices.
+#  thumbnailUrl: viktoria-spaiser.jpg
+  rockstar: false
+
