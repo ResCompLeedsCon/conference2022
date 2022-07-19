@@ -713,11 +713,12 @@
   id: 46
   name: "Tamora"
   surname: "James"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: Software Development Scientist
+  company: Centre for Environmental Modelling and Computation
+  bio: >
+    Tamora worked for over a decade in web and software development before returning to academia in 2015 to complete a PhD in conservation demography at the University of Sheffield. She joined the Centre for Environmental Modelling and Computation (CEMAC) as a Software Development Scientist in July 2020 in support of the Global Challenges Research Fund African Science for Weather Information and Forecasting Techniques (GCRF African SWIFT) project. Highlights from SWIFT include working on near real-time weather data (nowcasting) provision and automated synoptic plotting for operational forecasting. More recent work includes developing web applications for visualising research results ranging from water resource management models to climate mitigation co-benefits.
 
-#  thumbnailUrl: "michal_zulcinski.png"
+  thumbnailUrl: "tamora_james.jpg"
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
