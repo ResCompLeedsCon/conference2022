@@ -860,11 +860,12 @@
   id: 57
   name: "Mohammed"
   surname: "Alghamdi"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: "PhD Student"
+  company: School of Computing
+  bio: >
+    Mohammed is currently a PhD student of Artificial Intelligence at the University of Leeds., working under Professor David Hogg and Professor Andy Bulpitt.  He has a BSc degree in Computer Engineering and an MSc in Computer Science. Before coming to Leeds, he worked as a lecturer at Taif University. His research interests focus on video and image generation. 
 
-#  thumbnailUrl: "michal_zulcinski.png"
+  thumbnailUrl: "mohammed_alghamdi.jpg"
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
