@@ -819,11 +819,12 @@
   id: 54
   name: "Nouran"
   surname: "Khallaf"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: "PhD Student"
+  company: School of Modern Languages and Cultures
+  bio: >
+    Nouran Khallaf is a PhD student at the University of Leeds. At the Center of Translation studies, funded by a scholarship from the Newton-Mosharafa Fund | British council. She researches Text Simplification methods using tools and theory from natural language processing and machine learning. Nouran. She is particularly interested in natural language processing, data mining, corpus linguistics, and software development. She is also broadly involved in several projects related to corpus collection and annotation, as well as technologies for language learning. Nouran holds an MS in computational linguistics from the University of Alexandria, and a BA in phonetics and linguistics from the same university.
 
-#  thumbnailUrl: "michal_zulcinski.png"
+  thumbnailUrl: "nouran_khallaf.jpg"
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
