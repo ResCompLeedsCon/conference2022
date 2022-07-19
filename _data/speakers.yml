@@ -564,11 +564,12 @@
   id: 35
   name: "Abdullah"
   surname: "Alsaleh"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: "PhD Student"
+  company: School of Computing
+  bio: >
+    Abdullah Alsaleh is an academic member at the Department of Information Systems at King Abdulaziz University in Jeddah, Saudi Arabia. Currently, he is a second-year PhD student at the School of Computing, supervised by Prof Eric Atwell and Dr Abdulrahman Altahhan. His research interest is in Natural Language Processing particularly in semantic similarity between religious Arabic texts using Transformers-based models.
 
-#  thumbnailUrl: "michal_zulcinski.png"
+  thumbnailUrl: "abdullah_alsaleh.jpg"
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
