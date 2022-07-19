@@ -834,11 +834,12 @@
   id: 55
   name: "Helen"
   surname: "Burns"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: Software Development Scientist 
+  company: Centre for Environmental Modelling and Computation
+  bio: >
+    Helen is a software development scientist at CEMAC (Center for Environmental Modelling And Computation. She joined CEMAC in the school of Earth and Environment in 2018 after completing her PhD at the National Oceanography. Her main areas of interest are numerical modelling and machine learning. 
 
-#  thumbnailUrl: "michal_zulcinski.png"
+  thumbnailUrl: "helen_burns.jpg"
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
