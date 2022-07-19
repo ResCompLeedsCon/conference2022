@@ -795,11 +795,12 @@
   id: 52
   name: "Christopher"
   surname: "Field"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: MRes Student
+  company: Faculty of Engineering and Physical Sciences
+  bio: >
+    Chris is a biologically-minded MRes student at the Faculty of Engineering and Physical Sciences, interested in applying molecular dynamics simulations and other in silico techniques to provide new insight into tricky biological problems.
 
-#  thumbnailUrl: "michal_zulcinski.png"
+  thumbnailUrl: "chris_field.jpg"
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
