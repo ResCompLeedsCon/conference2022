@@ -915,11 +915,12 @@
   id: 61
   name: "Brian"
   surname: "Ramogayana"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: "PhD Student"
+  company: Faculty of Engineering and Physical Sciences
+  bio: >
+    Brian Ramogayana is a Ph.D. exchange student from the University of Limpopo - material modelling centre (MMC), South Africa visiting the University of Leeds (Prof N.H. de Leeuw’s research group) for 12 months. He started his Ph.D. in 2021 at the University of Limpopo, under the supervision of Prof P.E. Ngoepe and Dr K.P. Maenetja. His research is based on the modification of cathode materials for lithium-ion batteries and their electrolyte interactions upon cycling. 
 
-#  thumbnailUrl: "michal_zulcinski.png"
+  thumbnailUrl: "brian_ramogayana.jpg"
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
