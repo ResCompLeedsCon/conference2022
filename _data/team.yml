@@ -66,7 +66,7 @@
   name: "Sarah"
   surname: "Harris"
   title: "Organising Committee Member"
-  thumbnailUrl: 
+  thumbnailUrl: sarah_harris.jpg
   team: true
   ribbon: 
     - {abbr: "SoPA", title: "School of Physics and Astronomy"}

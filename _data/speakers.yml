@@ -1130,9 +1130,9 @@
   surname: Harris
   title: "Associate Professor"
   company: School of Physics and Astronomy
-#  bio: >
-#    Viktoria Spaiser is an Associate Professor in Sustainability Research and Computational Social Science at the School of Politics and International Studies and currently a UKRI Future Leaders Fellow researching how we can accelerate social change in response to the climate crisis. She is a keen learner when it comes to open and transparent research, uses open research practices in her own research such as sharing code, data and preprints and explores more recently pre-registration practices.
-#  thumbnailUrl: viktoria-spaiser.jpg
+  bio: >
+    Sarah Anne Harris (SAH) is a Principal Investigator in the School of Physics and Astronomy and the Astbury Centre for Structural and Molecular Biology at the University of Leeds. Her research aims to understand the mechanism underlying biological processes such as molecular recognition, DNA packing and the operation of molecular motors. She uses simulations of biomolecules on the both the atomistic and mesoscales, and is part of core team developing the Fluctuating Finite Element Analysis (FFEA) software for mesoscale simulation at Leeds. She has a strong interest in High Performance Computing (HPC), and promotes its use in the biosciences through the Computational Collaborative Project for Biomolecular Simulation (CCPBioSim). 
+  thumbnailUrl: sarah_harris.jpg
   rockstar: false
 
 -
