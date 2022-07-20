@@ -650,14 +650,13 @@
   id: 2703
   title: "Day 2: 10 minute talks session 2"
   sessions:
-    - talkTitle: Using Summative Connectors in Arab Learners Academic Writing 
+    - talkTitle: Using Resultative Connectors in Arab Students' Academic Writing (A corpus Based Study)
       startTime: 1300
       endTime: 1310
       speaker: 56
       description: |
-        "Using discourse connectors is one of the problems learners face when writing an academic text. With the development of corpus tools, researchers are now able to investigate the actual usage of this linguistic feature. In this study, I will answer two research questions. First, how frequently advanced Arab learners of English use summative connectors following the taxonomy adopted from Quirk's et al., (1985). Second, whether Arab learners’ use of connectors differs to that of native speakers of American and British English. The data for this study are taken from three corpora: BALK, consisting of texts written by either Arab first-year university students or third-year secondary school students, and the American and British English sub-corpora of the Pearson International Corpus of Academic English (PICAE). Both quantitative and qualitative approaches were used for the analyses and a Log-Likelihood (LL) statistical test was conducted to compare the frequencies of words between corpora.
-        Quirk, R., Greenbaum, S., Leech, G. and Svartvik, J. 1985. A Comprehensive grammar of the English language. London; New York: Longman."
-
+        Using discourse connectors is one of the problems learners face when writing an academic text. With the development of corpus tools, researchers are now able to investigate the actual usage of this linguistic feature. In this study, I will answer two research questions. First, how frequently advanced Arab learners of English use resultative connectors. For this question, I will follow the taxonomy adopted from Quirk's et al., (1985) which consists of six connectors (so, because, as a result, hence, therefore and accordingly). Second, whether Arab learners’ use of resultative connectors differs to that of native speakers of American and British English. The data for this study are taken from three corpora: BALK, consisting of texts written by either Arab first-year university students or third-year secondary school students, and the American and British English sub-corpora of the Pearson International Corpus of Academic English (PICAE). Both quantitative and qualitative approaches were used for the analyses and a Log-Likelihood (LL) statistical test was conducted to compare the frequencies of words between corpora. The results show that there is a significant difference between the groups,. with Arab students generally overusing resultative connectors. 
+        
     - talkTitle: "Optimisation models for sustainable fashion: An approach towards zero waste fashion design"
       startTime: 1310
       endTime: 1320
