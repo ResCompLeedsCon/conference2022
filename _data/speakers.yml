@@ -1116,12 +1116,13 @@
   id: 104
   name: Marlène 
   surname: Mengoni
-  title: "Associate Professor"
+  title: Associate Professor
   company: School of Mechanical Engineering
-#  bio: >
-#    Viktoria Spaiser is an Associate Professor in Sustainability Research and Computational Social Science at the School of Politics and International Studies and currently a UKRI Future Leaders Fellow researching how we can accelerate social change in response to the climate crisis. She is a keen learner when it comes to open and transparent research, uses open research practices in her own research such as sharing code, data and preprints and explores more recently pre-registration practices.
-#  thumbnailUrl: viktoria-spaiser.jpg
+  bio: >
+    Marlène Mengoni is an associate professor in computational medical engineering, researching how we can identify patient-specific sources of variation in musculoskeletal biomechanics and how this affects the performance of interventions and repairs. She has been an adopter of open-science since her PG studies and is an advocate of open-data and its relation to better research culture.
+  thumbnailUrl: marlene_mengoni.jpg
   rockstar: false
+
 
 -
   id: 105
