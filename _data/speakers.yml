@@ -991,11 +991,13 @@
   id: 66
   name: "Shairah"
   surname: "Abdul Razak"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: Visiting Research Fellow
+  company: Faculty of Biological Sciences
+  bio: >
+    Shairah is a Senior Lecturer in Genetics Program under  
+    Faculty of Science & Technology, Universiti Kebangsaan Malaysia (UKM, The National University of Malaysia). She's also affiliated with Department of  Applied Physics under the same faculty. Her field of expertise include molecular ecology and quantitative biology, population genetics, genomics, and metagenomics. 
 
-#  thumbnailUrl: "michal_zulcinski.png"
+  thumbnailUrl: "shairah_abdul_razak.jpg"
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
