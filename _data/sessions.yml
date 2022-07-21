@@ -219,6 +219,18 @@
   speakers: [7]
   hidden: true
 
+- 
+  id: 406
+  title: "Code clinic - Conda package manager"
+  description: >
+    Setting up your software to get started with your research can often be a big stumbling block
+    for researchers. With problems like admin rights, how to install packages and libraries and their dependencies
+    causing untold headaches. In this code clinic, Nick Rhodes from the Research Computing team will 
+    introduce the conda package manager tool and show how it can be used to install the packages you need
+    and configure environments to separate dependencies within your different projects.
+  speakers: []
+  hidden: true
+
 
 # 10min talks
 
