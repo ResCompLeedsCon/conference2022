@@ -4,6 +4,7 @@
   id: 010
   title: "Registration"
   description: 
+    The registration desk will be outside 8.43X and Y, Level 8, Worsley Building.
   speakers: []
   hidden: true
 
@@ -197,6 +198,27 @@
   description: "TBC"
   speakers: []
   hidden: false
+
+
+- 
+  id: 403
+  title: "Code clinic - Docker"
+  description: >
+    Have you used Docker? Do you want to learn more about Docker? Join this code clinic session 
+    to share your experiences using Docker or learn more.
+  speakers: []
+  hidden: true
+
+- 
+  id: 404
+  title: "Code clinic - Python Challenges"
+  description: >
+    Do you ever use Python? Would you like a go at some small code challenges? Patricia Ternes from
+    the RSE team have developed some small challenges to test your python skills. Join this session 
+    to have a chat about python, have a go at the challenges and hopefully learn something new!
+  speakers: []
+  hidden: true
+
 
 # 10min talks
 
