@@ -789,11 +789,12 @@
   id: 51
   name: "Ryan"
   surname: "Cocking"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: "PhD Student"
+  company: School of Molecular and Cellular Biology
+  bio: >
+    Ryan has a background in computational physics and is currently a Wellcome Trust PhD student at the Astbury Centre for Structural Molecular Biology. His research is focussed on developing the rod model of the Fluctuating Finite Element Analysis (FFEA) protein simulation software, with the main codebase written in C++ and an accompanying tools suite written in Python. When he is not pondering variable names or chasing down bugs, he is dabbling in wet lab experiments that will hopefully validate the simulations he runs in the future.
 
-#  thumbnailUrl: "michal_zulcinski.png"
+  thumbnailUrl: ryan_cocking.jpg
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
@@ -1097,7 +1098,7 @@
     Noorhan Abbas is a Research Fellow in the School of Computing at the University of Leeds. She conducts research in artificial intelligence (AI), data mining, text analytics and data science with a special focus on the use of chatbots in
     Higher Education institutions. She also works as a Teaching Fellow in our online distance learning MSc programme
     in Artificial Intelligence.
-    
+
   thumbnailUrl: "noorhan_abbas.jpg"
   rockstar: false
 #  ribbon:
