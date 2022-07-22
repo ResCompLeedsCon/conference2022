@@ -1087,6 +1087,23 @@
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
 
+-
+  id: 72
+  name: "Noorhan"
+  surname: "Abbas"
+  company: School of Computing
+  title: Research Fellow
+  bio: >
+    Noorhan Abbas is a Research Fellow in the School of Computing at the University of Leeds. She conducts research in artificial intelligence (AI), data mining, text analytics and data science with a special focus on the use of chatbots in
+    Higher Education institutions. She also works as a Teaching Fellow in our online distance learning MSc programme
+    in Artificial Intelligence.
+    
+  thumbnailUrl: "noorhan_abbas.jpg"
+  rockstar: false
+#  ribbon:
+ #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
+
+
 
 
 # panel members

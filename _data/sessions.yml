@@ -996,7 +996,7 @@
     - talkTitle: "Edubots: Chatbots for university education and student success"
       startTime: 1416
       endTime: 1421
-      speaker: 37
+      speaker: 72
       description: |
 
         <p>There is a growing interest in the use of chatbots in Universities, as they can provide efficient and timely services to students and educators; eg see <a href="https://spotlight.leeds.ac.uk/strategy/">UoL Strategy 2020-2030</a></p>
@@ -1060,6 +1060,6 @@
       description: |
         The CARES project aims to improve the instrumentation and data science methodologies for analysing on-road vehicle emissions.  As part of this project we have developed an Azure Cosmos DB platform and web apps to interact with the data.  These apps have been shared with various stakeholders including academic, government and SME stakeholders.  We are still very much at the beginning of our journey and are far from fully realising the potential of this approach but we would like to show what we have done so far and get feedback and advice on how to move it forward.
 
-  speakers: [66,8,51,10, 48, 37, 35,50,52,14,37,62]
+  speakers: [66,8,51,10, 48, 72, 35,50,52,14,37,62]
   hidden: false
 
