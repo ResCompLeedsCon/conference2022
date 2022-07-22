@@ -152,8 +152,10 @@
   hidden: false
 - 
   id: 2708
-  title: "Closing Keynote"
+  title: "The future of ResCompLeedsCon panel"
   description: 
+    This panel session will look to wrap up the conference, inviting attendees to provide feedback
+    and help shape the future of this conference.
   speakers: []
   hidden: false
 # panel sessions
