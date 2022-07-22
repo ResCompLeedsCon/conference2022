@@ -417,11 +417,12 @@
   id: 24
   name: "David"
   surname: "Santos-Carballal"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: Senior Research Fellow
+  company: School of Chemistry
+  bio: >
+    David Santos-Carballal received his BSc in Chemistry from University of Havana, Cuba, in 2007 and completed his MRes and PhD at University College London, UK. He was a Postdoctoral Research Associate at Cardiff University and is currently a Senior Research Fellow at the School of Chemistry of the University of Leeds, where he uses density functional theory-based calculations to understand the solid state and surface chemistry of materials for catalysis and energy applications. Dr Santos-Carballal was awarded a prestigious Postdoctoral Fellowship by the DST and NRF of South Africa in 2016, to carry out research at University of Limpopo. 
 
-#  thumbnailUrl: "michal_zulcinski.png"
+  thumbnailUrl: "david_santos-carballal.jpg"
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
