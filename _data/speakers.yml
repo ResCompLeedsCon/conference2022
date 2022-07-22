@@ -309,11 +309,15 @@
   id: 17
   name: "Chunhui"
   surname: "Li"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: Research Fellow
+  company: School of Geography
+  bio: >
+    Dr Chunhui (Jenny) Li is a research fellow working on the BESTMAP project in the School of Geography at the University of Leeds. She is trained in computer science and engineering and experienced in multidisciplinary studies. Her work focuses on using agent-based
+    modelling and simulations to solve real-world problems. She has worked on agent-based modelling applications to support decision-making in business emergency management in flooding events, market strategies in financial services and smart cities in emergency
+    scenarios. Currently she is working in a team across EU on
+    developing a model suit to assess the UK and EU agricultural policies.
 
-#  thumbnailUrl: "michal_zulcinski.png"
+  thumbnailUrl: chunhui_li.jpg
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
