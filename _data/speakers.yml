@@ -970,11 +970,15 @@
   id: 64
   name: "Nesma"
   surname: "ElShishtawy"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: "PhD Student"
+  company: Faculty of Business
+  bio: >
+    I am part of a team working on a multidisciplinary project between the Business School and the School of Design that focuses on finding optimisation models for sustainable fashion, which works on different solutions to reduce the amount of waste generated during the cutting stage of fabric, additionally, we are working on the post-consumer textile waste problem and upcycling.
 
-#  thumbnailUrl: "michal_zulcinski.png"
+    The fashion industry impact on the environment is a significant global problem. One avenue for reducing the industry’s global impact is by reducing the amount of waste generated in the cutting stage of fabric. This research aims to transform the “design” and “make” processes from linear to circular and allow designers to have aesthetic control when designing a zero-waste or a minimal waste design. By developing an optimisation algorithm that aims to minimise the waste generated from the cutting stage of the fabric where irregular shapes need to be cut from a fabric roll, also known as the “Two Dimensional Irregular Strip Packing Problem”. Through a collaboration with a designer, we aim at integrating the designer’s design making process with the algorithm design to inspire the designer to make adjustments to the initial design through an iterative process until a satisfactory marker with minimal to zero waste is achieved.
+
+
+  thumbnailUrl: nesma_elshishtawy.jpg
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
