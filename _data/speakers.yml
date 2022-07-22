@@ -909,11 +909,14 @@
   id: 60
   name: "Adam"
   surname: "Keeley"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: Data Analytics Team Manager
+  company: Leeds Institute of Data Analytics
+  bio: >
+    Leeds Institute of Data Analytics (LIDA). As well as supporting the use of Leeds Analytics Secure Environment for Research (LASER) the DAT provide expertise in data handling, data wrangling, data curation and quality standards, data linkage, database set up, software development and data visualisation.
+ 
+    Before joining the University of Leeds Adam worked in data based Management Information roles in both public and private sector. Used to manipulating personally and commercially sensitive data in bulk he is familiar with issues surrounding both data management, quality and governance.
 
-#  thumbnailUrl: "michal_zulcinski.png"
+  thumbnailUrl: "adam_keeley.jpg"
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
