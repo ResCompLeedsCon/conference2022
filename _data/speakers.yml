@@ -953,11 +953,12 @@
   id: 63
   name: "James"
   surname: "Hulse"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: Data Scientist
+  company: Leeds Institute of Data Analyticss
+  bio: >
+    James Hulse is a data scientist with the LIDA data scientist development program. Having studied for an integrated masters for aerospace engineering at the University of Sheffield, completing a dissertation on event and topic detection algorithms within social media (Twitter) streams concerning data mining, textual analysis, and natural language processing. It was during this dissertation that James became fascinated by data and how it could be used to better understand and prioritise development of the world we live in. 
 
-#  thumbnailUrl: "michal_zulcinski.png"
+  thumbnailUrl: james_hulse.jpg
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
