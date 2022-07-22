@@ -868,12 +868,12 @@
       description: |
         One of the biggest hurdles to getting started with applying machine learning to scientific research is getting a working set-up and an example of how to use a technique on real scientific data. CEMAC has teamed up with the Leeds Institute of Fluid Dynamics to create a series of Jupyter Notebooks that take you through a number of machine learning techniques applied to real Earth Science research. These are stripped down to run on laptops, or small servers with continuous integration ensuring longevity in the tutorials and where possible quick look binder links to explore the code without even having to install the given python environment. Currently, there are 4 available tutorials covering a range of topics from using Convolutional Neural Networks to identify and classify volcanic deformation to using Random Forests to determine controls on leaf temperature. Another 3 notebooks will be added this summer and we hope to continue expanding this resource in future years. 
 
-    - talkTitle: Surface stability analysis for CuWO4
+    - talkTitle: Electronic structure of CuWO4
       startTime: 1426
       endTime: 1431
       speaker: 59
       description: |
-        Recently, Copper tungstate (CuWO4) has attracted increasing interests because its remarkable application on water spliting. The suitable band gap (2.0-2.4 eV) for visible light harvesting, facile surface reaction kinetic, earth-abundance, and superior stability in electrolyte make CuWO4 a perfect candidate for water splitting via photoelectrochemical technology. CuWO4 crystallizes is a distorted wolframite-type structure. Both Cu2+ (3d9) and W6+ (4d10) cations are in distorted octahedral with O2- (O 2p6). Duo to the Jahn-Teller effect in Cu2+, the distortion of oxygen octahedron breaks the degenerancy of Cu 3d t2g and eg orbital. In this work, we simulate the bulk and surface for CuWO4 at the room tempurature and pressure. After calculating the surface energy, we find the most stable direction for forming the surface is (0 1 0).
+        As the energy production diagram shifts from the fossil fuel to carbon-free, low-cost energy, using copper tungstate (CuWO4) to split the water molecules (H2O) into hydrogen (H2) and oxygen (O2) via photocatalysis has become one of the promising ways to obtain sustainable and renewable alternative. The suitable band gap (2.0-2.3 eV) for visible light harvesting, facile surface reaction kinetic, earth-abundance, and superior stability in electrolyte make CuWO4 a perfect candidate for water splitting via photocatalysis. In this work, density functional theory is applied for studying the electronic structure of CuWO4. The computational results fit the experimental data well within a 1.5% deviation.
 
     - talkTitle: "Faster estimation of choice models using HPC"
       startTime: 1431
