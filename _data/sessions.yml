@@ -130,11 +130,12 @@
       description: 
         
 
-    - talkTitle: To be confirmed.
+    - talkTitle: Use of large scale micro-data in understanding travel, activity and health exposure
       startTime: 1140
       endTime: 1200
       speaker: 71
-      description: 
+      description: >
+        A better understanding of the interfaces between travel choices and the chain of consequential impacts is needed to improve liveability in urban spaces and communities globally. In particular, interfaces between transport choices and population health consequences have risen to the fore recently, in particular the disease burdens arising from exposure to pollutants, obesity consequences from inactivity and more recently virus transmission and well-being aspects. A number of models go some way to capturing the links between travel choices and other sectoral impacts, including the ability to explore transport-health interrelations. These models have, however, been largely developed based on traditional (and mainly aggregate) travel data sources such as travel diaries, fixed based traffic counts etc. Many of the models take a ‘snapshot’ of the transport system at fixed-base locations. In this presentation, recent research will be presented that harnesses large scale pervasive technologies and high resolution location based micro-data in order to address some of the societal challenges.
 
   hidden: false
   speakers: [25,70,71 ]

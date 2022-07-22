@@ -1073,11 +1073,10 @@
   surname: "Grant-Muller"
   company: "Institute for Transport Studies"
   title: Chair in Technologies & Informatics
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  bio: >
+    Prof. Grant-Muller's research is concerned with the use of new forms of data and technologies to inform socially and environmentally sustainable transport policy. A statistician by training, her interests lie in understanding the wider impacts of mobility infrastructure and policy, such as health, energy and carbon impacts. She works with micro-level user-generated data, involving multidisciplinary and cross-sectoral teams. Her research is concerned with the distributional effects of transport and transport related policies – how  are different parts of the population and different geographies impacted by policies and strategies?  Susan is an Alan Turing Fellow, Co-Director of the Leeds Institute for Data Analytics (LIDA): Societies Community and Co-I to the CDRC.
 
-#  thumbnailUrl: "michal_zulcinski.png"
+  thumbnailUrl: "susan_grant-muller.jpg"
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
