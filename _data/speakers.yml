@@ -1015,11 +1015,16 @@
   id: 67
   name: "Eric"
   surname: "Muriithi"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: Data Scientist
+  company: Leeds Institute for Data Analytics
+  bio: 
+    Eric Wanjau is an Early Career Researcher at the Leeds Institute for Data Analytics. He holds a BSc in Electrical and Electronic Engineering (2021) and
+    his research interests span domains such as robotics, computer vision, signal processing and more recently urban analytics.
+    Under Prof Nick Malleson, he created spatial and machine learning models to address the attitudes towards a proposed motorbike ban in Hanoi and the corresponding impact on infrastructure and travel behaviours.
+    He is currently working with Prof Geoff Hall and Prof Serge Sharoff in creating clinical NLP models for extracting oncology entities in electronic health records.
+    Eric is keen on carrying out real-world relevant research for the public good.
 
-#  thumbnailUrl: "michal_zulcinski.png"
+  thumbnailUrl: eric_muriithi.jpg
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
