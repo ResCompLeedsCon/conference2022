@@ -254,7 +254,8 @@
   surname: "Jade"
   title: "PhD Student"
   company: School of Biomedical Sciences
-#  bio: 
+  bio: >
+    Dhananjay Jade completed a MTech degree in Biotechnology at SRM University, India in 2014. Then he was working as Research fellow at Jawaharlal Nehru University, India on Mycobacterium Tuberculosis after that he work as a Senior Research fellow at International Centre for Genetic Engineering and Biotechnology, New Delhi, India on Computational and experimental characterization of stage specific arginine methylation (post-translation modifications) in Plasmodium falciparum proteome. In 2020, He joined PhD at the University of Leeds, working with Dr. Michael Harrison on project "A molecular explanation for oxidized low-density lipid particles recognition by the LOX-1 scavenger receptor" Along with this he has worked on screening database for drug designing, pharmacophore modelling, Molecular docking, and Molecular Simulation. Recently, he published the SARS-CoV-2 research articles in which he was targeting ACE2 receptor, transmembrane serine protease 2 (TMPRSS2), and PL-PRO/3CL-PRO protein to treating COVID-19 infection.
 
   thumbnailUrl: "dhananjay_jade.jpg"
   rockstar: false
