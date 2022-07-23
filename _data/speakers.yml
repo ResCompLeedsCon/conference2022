@@ -886,11 +886,13 @@
   id: 58
   name: "Sofya"
   surname: "Titarenko"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: Lecturer
+  company: School of Mathematics
+  bio: >
+    My career started in Applied Mathematics (inverse and ill-posed problems with application to Computerised Tomography). I joined the University of Leeds, School of Earth and Environment, in 2011, where I spent my first years working on computational geophysics problems. In 2017, I received a great opportunity to join the School of Mathematics, working on the Data Mining project. Since that, I become interested in Data Science algorithms and their applications. I have worked as a Senior Lecturer in Mathematics at the University of Huddersfield from 2019 to 2022. I am back at the University of Leeds from 2022 as a Lecturer in Statistics.
+    All through my research career, I was interested in optimising the developed mathematical algorithms to minimise the calculation time and maximise efficiency. In particular, I was interested in optimisation for GPU-based systems (using CUDA) and multicore workstations (using openMP and vectorisation techniques). I strongly believe in the power of combining mathematical approaches and computer science methods to solve challenging big data problems.
 
-#  thumbnailUrl: "michal_zulcinski.png"
+  thumbnailUrl: sofya_titarenko.jpg
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
