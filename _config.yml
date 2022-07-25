@@ -169,6 +169,7 @@ ticketsOffers:
 # Footer
 socialLinks:
  - {link: "https://twitter.com/RC_at_Leeds", icon: "twitter", alt: "Research Computing at Leeds Twitter account"}
+ - {link: "https://www.youtube.com/channel/UCcakxuKGW8bW9Dus-9OW4Tw", icon: "youtube", alt: "ResCompLeedsCon YouTube"}
  - {link: "https://arc.leeds.ac.uk", icon: "site", alt: "Research Computing Leeds Website"}
 footerBlocks:
  -
