@@ -375,7 +375,7 @@
          0.97, R 0.97, and F-1 0.97. Overall, there are advantages and limitations in the two 
          approaches, both could benefit from adding a post-handler language generation module.
 
-    - talkTitle: Sketch Engine & Wordsmith in Cross-Lingual Stylometry Research
+    - talkTitle: Sketch Engine & Wordsmith in Cross-Lingual Stylometry Research (withdrawn)
       startTime: 1310
       endTime: 1320
       speaker: 34
@@ -458,7 +458,7 @@
         <p>[6] Hanson, B.S. et al. (2022). bioRxiv. <a href="https://doi.org/10.1101/2020.11.17.386524">https://doi.org/10.1101/2020.11.17.386524</a></p>
 
 
-    - talkTitle: "Deconvolution of bulk transcriptomic data reveals immune cell landscape of inflammatory infiltrates in giant cell arteritis"
+    - talkTitle: "Deconvolution of bulk transcriptomic data reveals immune cell landscape of inflammatory infiltrates in giant cell arteritis (withdrawn)"
       startTime: 1420
       endTime: 1430
       speaker: 11
@@ -666,7 +666,7 @@
       description: >
         The use of artificial intelligence to understand human language has gone a long way, especially in English where deep learning models showed near-perfect results on several downstream tasks. However, their performance in classical Arabic texts is largely unexplored. To fill this gap, I evaluate state-of-the-art Transformer-based models on a binary classification task of identifying relatedness between the Quran and the Hadith, which are classical-Arabic religious texts with embedded meanings. Before conducting the experiment, the need for classical Arabic training and testing datasets is identified. Hence, I developed a methodology to automatically collect the training dataset of Quran-verse pairs by relying on existing Quran ontologies. Then to collect the testing dataset, I introduced an approach of automatically identifying related Quran-Hadith pairs from reputable religious websites by following rigorous heuristics. Once the datasets are created, the experiments begin by fine-tuning the models using PyTorch library, Tesla T80 GPU processors, and various hyperparameters of leaning-rate, batch size, number of epochs with early-stopping to avoid overfitting. The results show a ~20 points drop in F1 score across all the models which call for the imminent need to explore avenues for improving the quality of these models to capture the semantics in such complex texts.
 
-    - talkTitle: The NETWORKx and PANDAS tools, and their use in fake news detection
+    - talkTitle: The NETWORKx and PANDAS tools, and their use in fake news detection (withdrawn)
       startTime: 1342
       endTime: 1344
       speaker: 38
@@ -740,7 +740,7 @@
   id: 2705
   title: "Day 2: 10 minute talks session 3"
   sessions:
-    - talkTitle: "Comparative analysis of WEKA and RapidMiner"
+    - talkTitle: "Comparative analysis of WEKA and RapidMine (withdrawn)"
       startTime: 1400
       endTime: 1410
       speaker: 39
