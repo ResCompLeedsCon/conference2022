@@ -749,11 +749,12 @@
   id: 48
   name: "Dustin"
   surname: "Foley"
-#  title: "PhD Student"
-#  company: Faculty of Health and Medicine
-#  bio: 
+  title: Research Data Scientist
+  company: Consumer Data Research Centre
+  bio: >
+    Dustin Foley is a Research Data Scientist for the Consumer Data Research Centre (CDRC) at the University of Leeds. His research interests include transport modelling, diet optimisation, and natural language processing.
 
-#  thumbnailUrl: "michal_zulcinski.png"
+  thumbnailUrl: "dustin_foley.jpg"
   rockstar: false
 #  ribbon:
  #   - {abbr: "RC", title: "Profile", url: "https://patricia-ternes.github.io/"}
