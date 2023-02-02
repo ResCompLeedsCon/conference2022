@@ -1,6 +1,7 @@
 # ResCompLeedsCon2022 website
 
-This is the conference website repository for Research Computing Leeds Conference 2022.It is based on a conference template created by [Sam Kavanagh](https://github.com/Hganavak/resbaz) based largely on the Project Zeppelin / GDG DevFest 2014 site template.
+This is the conference website repository for Research Computing Leeds Conference 2022. 
+It is based on a conference template created by [Sam Kavanagh](https://github.com/Hganavak/resbaz) based largely on the Project Zeppelin / GDG DevFest 2014 site template.
 
 ## Quick-start guide
 1. Fork this repo
@@ -12,7 +13,36 @@ This is the conference website repository for Research Computing Leeds Conferenc
 
 **Note**: By default this template assumes you are going to be using a custom domain with it, and your files will be served from the root folder of this address. In order to deploy this site as a subdirectory, e.g. ```http://[your githubname].github.io/resbaz``` modify the `baseurl` field in `_config.yml` (in this example to `/resbaz`).
 
-## Local development
+## Development
+
+### Devcontainer development
+
+This repository includes a .devcontainer configuration file which if you have [Docker and VSCode installed](https://code.visualstudio.com/docs/devcontainers/containers) you can use to spin up a development environment pre configured with Ruby and Bundler.
+
+### Local development
+
+If you want to develop this repository locally you can use the following steps.
+
+#### Setting up Ruby
+
+To develop locally you will need [Ruby](https://www.ruby-lang.org/en/) installed. 
+I recommend installing Ruby via [`rvm`](https://github.com/rvm/rvm), this can be installed by following the [relevant steps for your operating system](https://rvm.io/rvm/install). 
+Ubuntu users can install from a [dedicated package](https://github.com/rvm/ubuntu_rvm).
+
+Once `rvm` is installed you can install Ruby with the line:
+
+```bash
+$ rvm install ruby-2.7.4
+
+# you may have to configure your shell to be a login shell to run the below
+# bash -l
+$ rvm use default
+
+$ ruby --version
+ruby 2.7.4p191 (2021-07-07 revision a21a3b7d23) [x86_64-linux]
+```
+
+#### Set up Bundler and Jekyll
 
 Check if you have [all requirements for local environment](http://jekyllrb.com/docs/installation/).
 To install all development dependencies install [Bundler](http://bundler.io/).
