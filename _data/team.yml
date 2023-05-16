@@ -24,108 +24,46 @@
 #   social: 
 #     - {name: "google-plus", link: "https://google.com/+ValentynShybanov"}
 #     - {name: "site", link: "http://olostan.name/"}
+
+# Lucy Hobson
+# Tasha Rahanu
+# Elton Rosas de Vasconcelos
+# Giulia Fedrizzi
+# John Hodrien
+# Nazia Ahmed
+# Nick Rhodes
+# Nouran Khallaf
+# Ollie Clark
+# Patricia Ternes Dallagnollo
+# Stephen Stackhouse
+# Yaojun Zhang
+
 -
   id: 0
-  name: "Alex"
-  surname: "Coleman"
-  title: "Conference Chair"
-  thumbnailUrl: "alexcoleman.png"
-  team: true
-  ribbon: 
-    - {abbr: "RC", title: "Research Computing"}
-  social: 
-    - {name: "twitter", link: "https://twitter.com/sparrow0hawk"}
-    - {name: "github", link: "https://github.com/sparrow0hawk"}
-    - {name: "site", link: "https://arc.leeds.ac.uk"}
--
-  id: 1
-  name: "Graham"
-  surname: "Blyth"
-  title: "Organising Committee Member"
-  thumbnailUrl: "graham-blyth.jpg"
-  team: true
-  ribbon: 
-    - {abbr: "LIB", title: "Library"}
-  social: 
-    - {name: "site", link: "https://library.leeds.ac.uk/info/14062/research_data_management/61/research_data_management_explained"}
--
-  id: 2
-  name: "Martin"
-  surname: "Callaghan"
-  title: "Organising Committee Member"
-  thumbnailUrl: 
-  team: true
-  ribbon: 
-    - {abbr: "SoC", title: "School of Computing"}
-  social: 
-    - {name: "twitter", link: "https://twitter.com/callaghanmt"}
-    - {name: "github", link: "https://github.com/callaghanmt"}
-    # - {name: "site", link: "https://arc.leeds.ac.uk"}
--
-  id: 3
-  name: "Sarah"
-  surname: "Harris"
-  title: "Organising Committee Member"
-  thumbnailUrl: sarah_harris.jpg
-  team: true
-  ribbon: 
-    - {abbr: "SoPA", title: "School of Physics and Astronomy"}
-  social: 
-    # - {name: "twitter", link: "https://twitter.com/sparrow0hawk"}
-    # - {name: "github", link: "https://github.com/sparrow0hawk"}
-    - {name: "site", link: "https://astbury.leeds.ac.uk/people/dr-sarah-harris/"}
--
-  id: 4
   name: "Lucy"
   surname: "Hobson"
-  title: "Organising Committee Member"
-  thumbnailUrl: 
+  title: "Conference Chair"
+  thumbnailUrl: "#"
   team: true
   ribbon: 
-    - {abbr: "IT", title: "IT Services"}
+    - {abbr: "#", title: "#"}
   social: 
-    # - {name: "twitter", link: "https://twitter.com/sparrow0hawk"}
-    # - {name: "github", link: "https://github.com/sparrow0hawk"}
-    # - {name: "site", link: "https://arc.leeds.ac.uk"}
+    # - {name: "twitter", link: "https://twitter.com/"}
+    # - {name: "github", link: "https://github.com/"}
+    # - {name: "site", link: "https://"}
 -
-  id: 5
-  name: "Anna-Grace"
-  surname: "Linton"
-  title: "Organising Committee Member"
-  thumbnailUrl: anna-grace-linton.jpeg 
+  id: 1
+  name: "Natasha"
+  surname: "Rahanu"
+  title: "Conference Chair"
+  thumbnailUrl: "natasha_rahanu.jpg"
   team: true
   ribbon: 
-    - {abbr: "SoC", title: "School of Computing"}
+    - {abbr: "IT", title: "Research IT Project Manager"}
   social: 
-    # - {name: "twitter", link: "https://twitter.com/sparrow0hawk"}
-    # - {name: "github", link: "https://github.com/sparrow0hawk"}
-    - {name: "site", link: "https://eps.leeds.ac.uk/computing/pgr/7681/anna-grace-linton"}
--
-  id: 6
-  name: "Viktoria"
-  surname: "Spaiser"
-  title: "Organising Committee Member"
-  thumbnailUrl: viktoria-spaiser.jpg
-  team: true
-  ribbon: 
-    - {abbr: "POLIS", title: "School of Politics and International Studies"}
-  social: 
-    - {name: "twitter", link: "https://twitter.com/viktoria_sp"}
-    # - {name: "github", link: "https://github.com/sparrow0hawk"}
-    - {name: "site", link: "https://www.viktoriaspaiser.com/"}
--
-  id: 7
-  name: "Georgette"
-  surname: "Tanner"
-  title: "Organising Committee Member"
-  thumbnailUrl: 
-  team: true
-  ribbon: 
-    - {abbr: "SoM", title: "School of Medicine"}
-  social: 
-    - {name: "twitter", link: "https://twitter.com/georgettanner"}
-    # - {name: "github", link: "https://github.com/sparrow0hawk"}
-    - {name: "site", link: "https://medicinehealth.leeds.ac.uk/medicine/staff/808/georgette-tanner"}
+    # - {name: "twitter", link: "https://twitter.com/"}
+    # - {name: "github", link: "https://github.com/"}
+    # - {name: "site", link: "https://"}
 -
   id: 2
   name: "Elton"
@@ -137,5 +75,122 @@
     - {abbr: "FBS", title: "Faculty of Biological Sciences"}
   social: 
     - {name: "twitter", link: "https://twitter.com/eltonvasconcel8"}
-    # - {name: "github", link: "https://github.com/sparrow0hawk"}
+    # - {name: "github", link: "https://github.com/"}
     - {name: "site", link: "https://omics.leeds.ac.uk/bioinformatics-support/bioinformatician-team/elton-vasconcelos/"}
+-
+  id: 3
+  name: "Giulia"
+  surname: "Fedrizzi"
+  title: "Organising Committee Member"
+  thumbnailUrl: "giulia_fedrizzi.png"
+  team: true
+  ribbon: 
+    - {abbr: "SoC", title: "PhD student @ CDT in Fluid Dynamics"}
+  social: 
+    - {name: "twitter", link: "https://twitter.com/GiuliaFedrizzi"}
+    - {name: "github", link: "https://github.com/GiuliaFedrizzi"}
+    - {name: "site", link: "https://fluid-dynamics.leeds.ac.uk/profiles/giulia-fedrizzi/"}
+-
+  id: 4
+  name: "John"
+  surname: "Hodrien"
+  title: "Organising Committee Member"
+  thumbnailUrl: "john_hodrien.jpg"
+  team: true
+  ribbon: 
+    - {abbr: "IT", title: "Research Software Engineer"}
+  social: 
+    # - {name: "twitter", link: "https://twitter.com/#"}
+    - {name: "github", link: "https://github.com/jhodrien"}
+    - {name: "site", link: "https://arc.leeds.ac.uk"}
+-
+  id: 5
+  name: "Nazia"
+  surname: "Ahmed"
+  title: "Organising Committee Member"
+  thumbnailUrl: "#"
+  team: true
+  ribbon: 
+    - {abbr: "#", title: "#"}
+  social: 
+    # - {name: "twitter", link: "https://twitter.com/#"}
+    # - {name: "github", link: "https://github.com/#"}
+    # - {name: "site", link: "https://#"}
+-
+  id: 6
+  name: "Nick"
+  surname: "Rhodes"
+  title: "Organising Committee Member"
+  thumbnailUrl: "#"
+  team: true
+  ribbon: 
+    - {abbr: "IT", title: "Research Software Engineer"}
+  social: 
+    # - {name: "twitter", link: "https://twitter.com/#"}
+    - {name: "github", link: "https://github.com/NGRhodes"}
+    - {name: "site", link: "https://arc.leeds.ac.uk"}
+-
+  id: 7
+  name: "Nouran"
+  surname: "Khallaf"
+  title: "Organising Committee Member"
+  thumbnailUrl: "nouran_khallaf.jpg"
+  team: true
+  ribbon: 
+    - {abbr: "#", title: "#"}
+  social: 
+    # - {name: "twitter", link: "https://twitter.com/#"}
+    # - {name: "github", link: "https://github.com/#"}
+    # - {name: "site", link: "https://#"}
+-
+  id: 8
+  name: "Ollie"
+  surname: "Clark"
+  title: "Organising Committee Member"
+  thumbnailUrl: "#"
+  team: true
+  ribbon: 
+    - {abbr: "IT", title: "Research Software Engineer"}
+  social: 
+    # - {name: "twitter", link: "https://twitter.com/#"}
+    - {name: "github", link: "https://github.com/ollie-clark"}
+    - {name: "site", link: "https://arc.leeds.ac.uk"}
+-
+  id: 9
+  name: "Patricia"
+  surname: "Ternes"
+  title: "Organising Committee Member"
+  thumbnailUrl: "patricia_ternes.jpg"
+  team: true
+  ribbon: 
+    - {abbr: "IT", title: "Research Software Engineer"}
+  social: 
+    # - {name: "twitter", link: "https://twitter.com/#"}
+    - {name: "github", link: "https://github.com/patricia-ternes"}
+    - {name: "site", link: "https://arc.leeds.ac.uk"}
+-
+  id: 10
+  name: "Stephen"
+  surname: "Stackhouse"
+  title: "Organising Committee Member"
+  thumbnailUrl: "stephen_stackhouse.jpg"
+  team: true
+  ribbon: 
+    - {abbr: "#", title: "#"}
+  social: 
+    # - {name: "twitter", link: "https://twitter.com/#"}
+    # - {name: "github", link: "https://github.com/#"}
+    # - {name: "site", link: "https://#"}
+-
+  id: 11
+  name: "Yaojun"
+  surname: "Zhang"
+  title: "Organising Committee Member"
+  thumbnailUrl: "#"
+  team: true
+  ribbon: 
+    - {abbr: "#", title: "#"}
+  social: 
+    # - {name: "twitter", link: "https://twitter.com/#"}
+    # - {name: "github", link: "https://github.com/#"}
+    # - {name: "site", link: "https://#"}
