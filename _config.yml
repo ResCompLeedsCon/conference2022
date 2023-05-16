@@ -52,7 +52,7 @@ eventDate: ""
 typeoutTextValues: '""'
 typeoutFallback: ""
 heroButtons:
- - {link: "https://ti.to/university-of-leeds-research-computing/ResCompLeedsCon2023", text: "Register"}
+ - {link: "https://ti.to/research-computing-conference/research-computing-conference", text: "Register"}
  - {link: "/conference2023/schedule/", text: "View schedule"}
 
 # About Block
