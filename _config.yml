@@ -12,7 +12,7 @@ future: true # Enable future posts (date > current date)
 
 # Site Settings
 title: "ResCompLeedsCon23"
-email: "rescompleedscon@gmail.com"
+email: "rescomp@leeds.ac.uk​"
 description: "The biggest conference at the University of Leeds showcasing all the incredible research computing based work at Leeds."
 baseurl: "/conference2023"
 url: "https://rescompleedscon.github.io"
@@ -41,9 +41,9 @@ navigationLinks:
  - {permalink: "/sessions/", text: "Sessions"}
  - {permalink: "/cod/", text: "Code of Conduct"}
 bottomNavigationLinks:
- - {link: "mailto:rescompleedscon@gmail.com", text: "Contact us"}
+ - {link: "mailto:rescomp@leeds.ac.uk​", text: "Contact us"}
 rightNavigationButtons:
- - {link: "mailto:rescompleedscon@gmail.com", text: "Contact us"}
+ - {link: "mailto:rescomp@leeds.ac.uk​", text: "Contact us"}
 
 # Hero Block
 heroImage: "hero.jpg"
@@ -179,7 +179,7 @@ footerBlocks:
  -
   title: "Get in touch"
   links:
-   - {link: "mailto:rescompleedscon@gmail.com", text: "Contact us"}
+   - {link: "mailto:rescomp@leeds.ac.uk​", text: "Contact us"}
  -
   title: "FAQ"
   links:

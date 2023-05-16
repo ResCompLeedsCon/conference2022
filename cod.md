@@ -9,7 +9,8 @@ isStaticPost: true
 We want all attendees to have an enjoyable experience at ResCompLeedsCon. All attendees - delegates, speakers, volunteers, organisers - are expected to abide by this Code of Conduct. If necessary organisers will act to enforce it.
 
 ##### The short version
-If you have a question about the code of conduct or wish to report misconduct, please email [rescompleedscon@gmail.com](rescompleedscon@gmail.com).
+
+If you have a question about the code of conduct or wish to report misconduct, please email [rescomp@leeds.ac.uk​](rescomp@leeds.ac.uk​).
 
 Be kind to others. Do not insult or put down others. Behave professionally. Remember that harassment and sexist, racist, or exclusionary jokes are not appropriate.
 
@@ -27,11 +28,11 @@ The Research Computing Leeds Conference Organisers are committed to creating a w
 
 The Code of Conduct should be honoured by everyone who participates in the conference and across all conference activities. This Code of Conduct applies to all spaces related to the conference including, but not limited to, workshops, email lists, and online forums such as GitHub, Slack and Twitter. Session chairs are expected to assist with the enforcement of the Code of Conduct.
 
-The Research Computing Leeds Conference Organising committee is responsible for enforcing the Code of Conduct. They can be contacted by emailing [rescompleedscon@gmail.com](rescompleedscon@gmail.com). All reports will be reviewed by the Organising committee and will be kept confidential.
+The Research Computing Leeds Conference Organising committee is responsible for enforcing the Code of Conduct. They can be contacted by emailing [rescomp@leeds.ac.uk​](rescomp@leeds.ac.uk​). All reports will be reviewed by the Organising committee and will be kept confidential.
 
 ###### Part 2: Code of Conduct
 
-Behaviours that are disrespectful to our volunteers or events’ attendees, or intimidate, exclude or cause discomfort to others will not be tolerated. We do not tolerate discrimination or harassment based on characteristics that include, but are not limited to, 
+Behaviours that are disrespectful to our volunteers or events’ attendees, or intimidate, exclude or cause discomfort to others will not be tolerated. We do not tolerate discrimination or harassment based on characteristics that include, but are not limited to,
 
 age, disability, gender reassignment, marriage and civil partnership, pregnancy and parenthood, race, religion or belief (or lack thereof), gender identity and expression, sexual orientation, technical choices,  experience level or any other dimension of diversity.
 
@@ -39,7 +40,7 @@ The Research Computing Leeds Conference Organising committee is responsible for 
 
 ###### Part 3: Expected behaviour
 
-All participants in our events and communications are expected to show respect and courtesy to others and all interactions should be professional, both online and in-person. 
+All participants in our events and communications are expected to show respect and courtesy to others and all interactions should be professional, both online and in-person.
 
 The following kinds of behaviours are encouraged:
 
@@ -57,7 +58,7 @@ The following kinds of behaviours are encouraged:
 Examples of unacceptable behaviour include:
 
 - Publication of private communication without consent
-- Excessive Swearing 
+- Excessive Swearing
 - Improper gestures
 - Use of stereotypes
 - Incitement to violence, suicide or self-harm
@@ -74,7 +75,7 @@ Examples of unacceptable behaviour include:
 
 ###### Part 5: Consequences of Unacceptable Behaviour
 
-Participants who are asked to stop any inappropriate behaviour are expected to comply immediately. This applies to any event or platform, either online or in-person. If an event participant engages in behaviour that violates this Code of Conduct, the organizers may warn the offender, ask them to leave the event or platform, or engage the committee to investigate the Code of Conduct violation and impose appropriate sanctions. 
+Participants who are asked to stop any inappropriate behaviour are expected to comply immediately. This applies to any event or platform, either online or in-person. If an event participant engages in behaviour that violates this Code of Conduct, the organizers may warn the offender, ask them to leave the event or platform, or engage the committee to investigate the Code of Conduct violation and impose appropriate sanctions.
 
 Any concerns raised will be heard in confidence, taken seriously and dealt with according to our [documented procedure for incident handling]({{ site.baseurl}}{% link incident-response-handling.md %}).
 
