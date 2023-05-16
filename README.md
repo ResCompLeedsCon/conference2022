@@ -1,6 +1,6 @@
-# ResCompLeedsCon2022 website
+# ResCompLeedsCon2023 website
 
-This is the conference website repository for Research Computing Leeds Conference 2022. 
+This is the conference website repository for Research Computing Leeds Conference 2023. 
 It is based on a conference template created by [Sam Kavanagh](https://github.com/Hganavak/resbaz) based largely on the Project Zeppelin / GDG DevFest 2014 site template.
 
 ## Quick-start guide

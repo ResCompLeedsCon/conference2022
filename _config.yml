@@ -11,10 +11,10 @@ future: true # Enable future posts (date > current date)
 
 
 # Site Settings
-title: "ResCompLeedsCon22"
+title: "ResCompLeedsCon23"
 email: "rescompleedscon@gmail.com"
 description: "The biggest conference at the University of Leeds showcasing all the incredible research computing based work at Leeds."
-baseurl: "/conference2022"
+baseurl: "/conference2023"
 url: "https://rescompleedscon.github.io"
 permalink: "/blog/:title"
 
@@ -47,16 +47,16 @@ rightNavigationButtons:
 
 # Hero Block
 heroImage: "hero.jpg"
-heroTitle: "ResCompLeedsCon2022"
+heroTitle: "ResCompLeedsCon2023"
 eventDate: ""
 typeoutTextValues: '""'
 typeoutFallback: ""
 heroButtons:
- - {link: "https://ti.to/university-of-leeds-research-computing/rescompleedscon2022", text: "Register"}
- - {link: "/conference2022/schedule/", text: "View schedule"}
+ - {link: "https://ti.to/university-of-leeds-research-computing/ResCompLeedsCon2023", text: "Register"}
+ - {link: "/conference2023/schedule/", text: "View schedule"}
 
 # About Block
-aboutTitle: "About ResCompLeedsCon2022"
+aboutTitle: "About ResCompLeedsCon2023"
 aboutSubtitle: ""
 aboutText: "<p>The inaugural Research Computing Leeds Conference is the number 1 conference in Leeds showcasing the fantastic computational research that happens across campus.</p>
 
@@ -90,9 +90,9 @@ eventAddressLocality: "Leeds"
 eventAddressLocalityRegion: "Leeds"
 eventPostalCode: "LS2 9JT"
 eventAddressCountry: "United Kingdom"
-eventStartTime: "2022-07-26T10:00"
+eventStartTime: "2023-07-12T10:00"
 eventDoorTime: "09:00"
-eventEndTime: "2022-07-27T16:00"
+eventEndTime: "2023-07-13T16:00"
 eventPlaceCoordinates: "53.803218691729285, -1.555721286505771"
 mapCenterCoordinates: "53.803218691729285, -1.555721286505771"
 mapMobileCenterCoordinates: "53.803218691729285, -1.555721286505771"
@@ -109,8 +109,8 @@ venueFeatures: ["Recently refurbished lecture rooms.", "Free catering provided d
 # Tweets Feed Block
 tweetsFeedImage: "auckland.jpg"
 tweetsFeedTitle: "What's Up?"
-twitterHashTag: ResCompLeedsCon22
-twitterFeed: "https://twitter.com/search?q=%23ResCompLeedsCon22"
+twitterHashTag: ResCompLeedsCon23
+twitterFeed: "https://twitter.com/search?q=%23ResCompLeedsCon23"
 
 # Partners Block
 organizersTitle: "Organisers"
@@ -195,4 +195,4 @@ showSessions: true
 
 # Team Block
 teamBlockTitle: "About us"
-aboutUs: "Meet the team behind ResCompLeedsCon22. We're very grateful to each of these members of the organising committee for giving up their time to help make this conference possible."
+aboutUs: "Meet the team behind ResCompLeedsCon23. We're very grateful to each of these members of the organising committee for giving up their time to help make this conference possible."

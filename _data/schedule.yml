@@ -1,5 +1,5 @@
 - 
-  date: "2022-07-26"
+  date: "2023-07-12"
   dateReadable: "Tuesday July 26th"
   tracks: 
     - {title: "Stream 1: Worsley 8.43X and Y", color: "#90be4e"}
@@ -81,7 +81,7 @@
     	sessionIds: [050]
     }
 - 
-  date: "2022-07-27"
+  date: "2023-07-13"
   dateReadable: "Wednesday July 27th"
   tracks: 
     - {title: "Stream 1: Worsley 8.43X and Y", color: "#90be4e"}
