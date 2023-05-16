@@ -1,3 +1,11 @@
+<!-- Begin Temporary Sessions Section -->
+<section id="schedule" class="schedule">
+    <div class="content-wrapper">
+        <h5 style="font-weight:bold;">Sessions information  expected to be available at the beginning of July</h5>
+    </div>
+</section>
+<!-- End Temporary Sessions Section -->
+
 {% assign sortedSessions = site.data.sessions | sort: "id" %}
 
 {% capture times %}{% for day in site.data.schedule %}{% for timeslot in day.timeslots %}{% for slot in
@@ -18,7 +26,7 @@ event_EndTimes=iter2item[3] | concat: event_EndTimes %}{% endif %}{% endfor %}{%
 {% assign new_times = new_times | split: "^" | uniq %}
 
 <!-- Begin Schedule Section -->
-<section id="schedule" class="schedule">
+<!-- <section id="schedule" class="schedule">
     <div class="content-wrapper">
         <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 10 }'>
             {% for session in sortedSessions %}
@@ -83,5 +91,5 @@ event_EndTimes=iter2item[3] | concat: event_EndTimes %}{% endif %}{% endfor %}{%
             {% endfor %}
         </div>
     </div>
-</section>
+</section> -->
 <!-- End Schedule Section -->
